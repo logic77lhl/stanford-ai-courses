@@ -1,0 +1,2462 @@
+[
+  {
+    "id": "CS 221",
+    "slug": "cs221-artificial-intelligence",
+    "zh": "人工智能：原理与技术",
+    "cat": "基础核心",
+    "difficulty": 4,
+    "one": "AI 的“总览课”：把搜索、MDP、概率图模型、逻辑和机器学习放进同一个“有限信息 + 有限算力下做决策”的框架里。",
+    "tags": [
+      "AI",
+      "基础",
+      "搜索",
+      "概率"
+    ],
+    "title": "Artificial Intelligence: Principles and Techniques",
+    "description": "Artificial intelligence (AI) has had a huge impact in many areas, including medical diagnosis, speech recognition, robotics, web search, advertising, and scheduling. This course focuses on the foundational concepts that drive these applications. In short, AI is the mathematics of making good decisions given incomplete information (hence the need for probability) and limited computation (hence the need for algorithms). Specific topics include search, constraint satisfaction, game playing,n Markov decision processes, graphical models, machine learning, and logic. Prerequisites: CS 103 or CS 103B/X, CS 106B or CS 106X, CS 109, and CS 161 (algorithms, probability, and object-oriented programming in Python). We highly recommend comfort with these concepts before taking the course, as we will be building on them with little review.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋 / 2027 春",
+    "instructors": "Piech, C.、Liang, P.",
+    "prereq": "CS 103（或 103B/X）、CS 106B（或 106X）、CS 109、CS 161；官方明确要求“不要指望课上补这些基础”。",
+    "topics": [
+      "**搜索与约束满足**：DFS/BFS/A*、启发式、CSP、局部搜索",
+      "**博弈与对抗搜索**：minimax、alpha-beta、期望效用",
+      "**MDP 与强化学习**：值迭代、策略迭代、Q-learning 基础",
+      "**概率图模型**：贝叶斯网络、HMM、变量消元、采样",
+      "**机器学习**：朴素贝叶斯、感知机、逻辑回归、损失函数与正则化",
+      "**逻辑与知识表示**：命题逻辑、一阶逻辑、推理",
+      "**综合项目**：把上述模块组合成一个可运行的 AI 系统"
+    ],
+    "assessment": "通常为 5 次左右书面/编程作业 + 期中 + 期末 + 一个综合项目；工作量在 Stanford 课程里偏大。具体比例以当季官网为准。",
+    "who": "想建立完整 AI 知识地图的本科生/转专业学生；之后准备读 CS 229/224N/234 的人；以及想补“经典 AI”这一块的工程师。",
+    "tips": "先补概率（CS 109）和算法（CS 161），否则作业会很痛苦。作业里的搜索和 MDP 部分建议自己从零写一遍，不要只调库。",
+    "related": [
+      "CS 229",
+      "CS 228",
+      "CS 234"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs221/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs221-artificial-intelligence.md"
+  },
+  {
+    "id": "CS 224N",
+    "slug": "cs224n-nlp-with-deep-learning",
+    "zh": "自然语言处理与深度学习",
+    "cat": "基础核心",
+    "difficulty": 4,
+    "one": "NLP 从 word2vec 到 LLM 的核心课：作业实现 word2vec、RNN、注意力，最后做一个 LLM 项目。",
+    "tags": [
+      "NLP",
+      "LLM",
+      "DL",
+      "基础"
+    ],
+    "title": "Natural Language Processing with Deep Learning (LINGUIST 284, SYMSYS 195N)",
+    "description": "Methods for processing human language information and the underlying computational properties of natural languages. Focus on deep learning approaches: understanding, implementing, training, debugging, visualizing, and extending neural network models for a variety of language understanding tasks. Exploration of natural language tasks ranging from simple word level and syntactic processing to coreference, question answering, and machine translation. Examination of representative papers and systems and completion of a final project applying a complex neural network model to a large-scale NLP problem. Prerequisites: calculus and linear algebra; CS124, CS221, or CS229.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 冬",
+    "instructors": "Hashimoto, T.、Yang, D.",
+    "prereq": "微积分与线性代数；CS 124、CS 221 或 CS 229 之一。",
+    "topics": [
+      "**词表示**：word2vec、GloVe、子词/tokenization",
+      "**语言模型**：n-gram、RNN/LSTM、注意力",
+      "**Transformer**：self-attention、位置编码、架构细节",
+      "**预训练模型**：BERT、GPT、T5、缩放规律",
+      "**适配与对齐**：微调、提示、RLHF、DPO",
+      "**NLP 任务**：句法、语义、问答、机器翻译、信息抽取",
+      "**final project**：通常是 LLM/agent 相关的研究或应用"
+    ],
+    "assessment": "通常为 4–5 次作业 + 期中 + final project；作业包含大量 PyTorch 实现。具体以当季官网为准。",
+    "who": "NLP/LLM 方向必选；想做 agent、RAG、对齐、多模态语言模型的人；想从传统 NLP 转向 LLM 的工程师。",
+    "tips": "先修 CS 229 或至少理解 softmax/交叉熵/反向传播。想深入“从零训练 LLM”，接着上 CS 336。",
+    "related": [
+      "CS 336",
+      "CS 224U",
+      "CS 224V"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs224n/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs224n-nlp-with-deep-learning.md"
+  },
+  {
+    "id": "CS 224W",
+    "slug": "cs224w-machine-learning-with-graphs",
+    "zh": "图机器学习",
+    "cat": "基础核心",
+    "difficulty": 3,
+    "one": "图机器学习：GNN、知识图谱、影响力最大化，把关系数据变成可学习的表示。",
+    "tags": [
+      "图",
+      "GNN",
+      "表示学习"
+    ],
+    "title": "Machine Learning with Graphs",
+    "description": "Many complex data can be represented as a graph of relationships between objects. Such networks are a fundamental tool for modeling complex social, technological, and biological systems. This course focuses on the computational, algorithmic, and modeling challenges specific to the analysis of massive graphs. By means of studying the underlying graph structure and its features, students are introduced to machine learning techniques and data mining tools apt to reveal insights on a variety of networks. Topics include: representation learning and Graph Neural Networks; algorithms for the World Wide Web; reasoning over Knowledge Graphs; influence maximization; disease outbreak detection, social network analysis. Prerequisites: CS109, any introductory course in Machine Learning.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Leskovec, J.",
+    "prereq": "CS 109；一门入门机器学习课程。",
+    "topics": [
+      "**图基础**：中心性、社区发现、幂律、图生成",
+      "**节点嵌入**：DeepWalk、node2vec、矩阵分解",
+      "**GNN**：GCN、GraphSAGE、GAT、消息传递",
+      "**知识图谱**：TransE、RotatE、查询与推理",
+      "**传播与影响力**：独立级联、线性阈值、影响力最大化",
+      "**图生成与自监督**：图对比学习、扩散",
+      "**项目**：通常用真实图数据做预测/分析"
+    ],
+    "assessment": "作业 + 项目；编程以 PyTorch/PyG 为主。具体以当季官网为准。",
+    "who": "社交网络、推荐、风控、生物网络、知识图谱方向；想补“非欧几里得数据”建模的人。",
+    "tips": "先理解消息传递范式，再学各种 GNN 变体。项目可以结合 CS 246 的大规模数据方法。",
+    "related": [
+      "CS 246",
+      "CS 229",
+      "CS 224N"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs224w/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs224w-machine-learning-with-graphs.md"
+  },
+  {
+    "id": "CS 228",
+    "slug": "cs228-probabilistic-graphical-models",
+    "zh": "概率图模型",
+    "cat": "基础核心",
+    "difficulty": 4,
+    "one": "概率图模型的系统课：表示、推断、学习三件套，是理解贝叶斯方法和结构化预测的基础。",
+    "tags": [
+      "概率",
+      "图模型",
+      "贝叶斯"
+    ],
+    "title": "Probabilistic Graphical Models: Principles and Techniques",
+    "description": "Probabilistic graphical modeling languages for representing complex domains, algorithms for reasoning using these representations, and learning these representations from data. Topics include: Bayesian and Markov networks, extensions to temporal modeling such as hidden Markov models and dynamic Bayesian networks, exact and approximate probabilistic inference algorithms, and methods for learning models from data. Also included are sample applications to various domains including speech recognition, biological modeling and discovery, medical diagnosis, message encoding, vision, and robot motion planning. Prerequisites: basic probability theory and algorithm design and analysis.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "基础概率论；算法设计与分析。",
+    "topics": [
+      "**表示**：贝叶斯网络、马尔可夫网络、因子图",
+      "**精确推断**：变量消元、信念传播、junction tree",
+      "**近似推断**：变分推断、MCMC、重要性采样",
+      "**参数学习**：MLE、EM、隐变量模型",
+      "**结构学习**：评分搜索、约束方法",
+      "**时序模型**：HMM、动态贝叶斯网络",
+      "**应用**：语音、生物、医疗诊断、视觉、机器人规划"
+    ],
+    "assessment": "作业 + 期中 + 项目；偏数学与实现结合。具体以当季官网为准。",
+    "who": "想做概率建模、因果、贝叶斯深度学习的人；NLP/计算生物/机器人中需要处理不确定性的研究者。",
+    "tips": "和 CS 229 互补：229 偏预测，228 偏“结构化不确定性”。变量消元和 VI 建议手推一遍。",
+    "related": [
+      "CS 229",
+      "CS 221",
+      "CS 236"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://ermongroup.github.io/cs228/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/cs228-probabilistic-graphical-models.md"
+  },
+  {
+    "id": "CS 229",
+    "slug": "cs229-machine-learning",
+    "zh": "机器学习",
+    "cat": "基础核心",
+    "difficulty": 4,
+    "one": "Stanford ML 旗舰课：用概率和统计把监督学习、无监督学习和学习理论串成一套完整框架。",
+    "tags": [
+      "ML",
+      "基础",
+      "数学",
+      "统计"
+    ],
+    "title": "Machine Learning (STATS 229)",
+    "description": "Topics: statistical pattern recognition, linear and non-linear regression, non-parametric methods, exponential family, GLMs, support vector machines, kernel methods, deep learning, model/feature selection, learning theory, ML advice, clustering, density estimation, EM, dimensionality reduction, ICA, PCA, reinforcement learning and adaptive control, Markov decision processes, approximate dynamic programming, and policy search. Prerequisites: knowledge of basic computer science principles and skills at a level sufficient to write a reasonably non-trivial computer program in Python/NumPy to the equivalency of CS106A, CS106B, or CS106X, familiarity with probability theory to the equivalency of CS 109, MATH151, or STATS 116, and familiarity with multivariable calculus and linear algebra to the equivalency of MATH51 or CS205.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 冬 / 2027 春",
+    "instructors": "Re, C.、Ma, T.、Fox, E.",
+    "prereq": "能写 Python/NumPy 程序（CS 106A/B 级）；概率（CS 109/MATH 151/STATS 116）；多变量微积分与线性代数（MATH 51/CS 205）。",
+    "topics": [
+      "**监督学习**：线性/逻辑回归、广义线性模型、SVM、核方法、树模型与集成",
+      "**学习理论**：偏差-方差、正则化、特征选择、泛化与模型选择",
+      "**无监督学习**：k-means、GMM、EM、PCA、ICA、密度估计",
+      "**深度学习基础**：神经网络、反向传播、训练技巧",
+      "**强化学习**：MDP、值迭代、策略搜索、自适应控制",
+      "**课程项目**：通常是一个开放式的 ML 研究/应用项目"
+    ],
+    "assessment": "通常为 4–5 次 problem sets + 期中 + final project；每周约 10–15 小时。具体比例以当季官网为准。",
+    "who": "想真正理解 ML 数学原理、之后做研究或读博的人；已经会用 sklearn 但想补推导和理论的工程师；准备面试但不想只背题的人。",
+    "tips": "problem set 的推导一定要自己写一遍，尤其是 GLM、SVM 对偶和 EM。配合 CS 229M 或 STATS 315A 可以补齐理论侧。",
+    "related": [
+      "CS 230",
+      "CS 229M",
+      "STATS 315A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs229.stanford.edu/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs229-machine-learning.md"
+  },
+  {
+    "id": "CS 229M",
+    "slug": "cs229m-machine-learning-theory",
+    "zh": "机器学习理论",
+    "cat": "基础核心",
+    "difficulty": 5,
+    "one": "机器学习理论：泛化界、非凸优化、隐式正则，回答“为什么深度学习能工作”。",
+    "tags": [
+      "理论",
+      "数学",
+      "泛化"
+    ],
+    "title": "Machine Learning Theory (STATS 214)",
+    "description": "How do we use mathematical thinking to design better machine learning methods? This course focuses on developing mathematical tools for answering this question. This course will cover fundamental concepts and principled algorithms in machine learning, particularly those that are related to modern large-scale non-linear models. The topics include concentration inequalities, generalization bounds via uniform convergence, non-convex optimization, implicit regularization effect in deep learning, and unsupervised learning and domain adaptations. Prerequisites: MATH 51 and STATS 117 and either CS 229 or STATS 315A. See https://statistics.stanford.edu/course-equiv for equivalent courses in other departments that satisfy these prerequisites.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "MATH 51；STATS 117；CS 229 或 STATS 315A。",
+    "topics": [
+      "**集中不等式**：Hoeffding、Chernoff、McDiarmid",
+      "**泛化理论**：一致收敛、VC 维、Rademacher 复杂度",
+      "**非凸优化**：梯度下降、鞍点、landscape",
+      "**隐式正则**：过参数化、双下降、边缘稳定",
+      "**无监督与域适应**：表示学习理论",
+      "**现代模型分析**：Transformer/深度网络的近似与泛化"
+    ],
+    "assessment": "作业 + 期末/项目，以证明和论文阅读为主。具体以当季官网为准。",
+    "who": "想做 ML theory、读博、或需要严谨分析能力的研究者；也适合数学/统计背景转 ML 的人。",
+    "tips": "先补实分析和概率论。不要指望一次听懂，配合讲义和论文反复推。",
+    "related": [
+      "CS 229",
+      "STATS 315A",
+      "STATS 375"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/stats214/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/cs229m-machine-learning-theory.md"
+  },
+  {
+    "id": "CS 230",
+    "slug": "cs230-deep-learning",
+    "zh": "深度学习",
+    "cat": "基础核心",
+    "difficulty": 3,
+    "one": "Ng 的深度学习实战课：从全连接到 CNN/RNN，重点是“把 DL 项目做成功”，而不只是推公式。",
+    "tags": [
+      "DL",
+      "实战",
+      "项目"
+    ],
+    "title": "Deep Learning",
+    "description": "Deep Learning is one of the most highly sought after skills in AI. We will help you become good at Deep Learning. In this course, you will learn the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects. You will learn about Convolutional networks, RNNs, LSTM, Adam, Dropout, BatchNorm, Xavier/He initialization, and more. You will work on case studies from healthcare, autonomous driving, sign language reading, music generation, and natural language processing. You will master not only the theory, but also see how it is applied in industry. You will practice all these ideas in Python and in TensorFlow, which we will teach. AI is transforming multiple industries. After this course, you will likely find creative ways to apply it to your work. This class is taught in the flipped-classroom format. You will watch videos and complete in-depth programming assignments and online quizzes at home, then come in to class for advanced discussions and work on projects. This class will culminate in an open-ended final project, which the teaching team will help you on. Prerequisites: Familiarity with programming in Python and Linear Algebra (matrix / vector multiplications). CS 229 may be taken concurrently.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Ng, A.、Katanforoosh, K.",
+    "prereq": "Python 编程；线性代数（矩阵/向量运算）；CS 229 可以同时修。",
+    "topics": [
+      "**神经网络基础**：前向/反向传播、激活函数、损失函数",
+      "**CNN**：卷积、池化、经典架构、迁移学习",
+      "**序列模型**：RNN、LSTM、注意力机制",
+      "**训练技巧**：Adam、Dropout、BatchNorm、Xavier/He 初始化",
+      "**ML 项目方法论**：误差分析、偏差-方差、数据划分、迭代策略",
+      "**行业案例**：医疗影像、自动驾驶、音乐生成、NLP",
+      "**开放式 final project**"
+    ],
+    "assessment": "编程作业 + 在线 quiz + 开放式 final project；翻转课堂要求课前投入。具体以当季官网为准。",
+    "who": "想快速上手深度学习工程、做完整项目的人；产品/创业背景但需要技术落地能力的人；比 CS 231N 更偏“广度 + 项目”的路线。",
+    "tips": "如果完全没接触过 DL，先看 CS 229 的 NN 部分或 CS 231N 前几讲。项目比作业更能拉开差距，建议早组队、早定题。",
+    "related": [
+      "CS 229",
+      "CS 231N",
+      "CS 224N"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs230.stanford.edu/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs230-deep-learning.md"
+  },
+  {
+    "id": "CS 231N",
+    "slug": "cs231n-deep-learning-for-computer-vision",
+    "zh": "计算机视觉的深度学习",
+    "cat": "基础核心",
+    "difficulty": 4,
+    "one": "CV 领域最有名的深度学习课：从 kNN 到 Transformer，作业是自己手写反向传播并训练 CNN。",
+    "tags": [
+      "CV",
+      "DL",
+      "视觉",
+      "项目"
+    ],
+    "title": "Deep Learning for Computer Vision",
+    "description": "Computer Vision has become ubiquitous in our society, with applications in search, image understanding, apps, mapping, medicine, drones, and self-driving cars. Core to many of these applications are visual recognition tasks such as image classification and object detection. Recent developments in neural network approaches have greatly advanced the performance of these state-of-the-art visual recognition systems. This course is a deep dive into details of neural-network based deep learning methods for computer vision. During this course, students will learn to implement, train and debug their own neural networks and gain a detailed understanding of cutting-edge research in computer vision. We will cover learning algorithms, neural network architectures, and practical engineering tricks for training and fine-tuning networks for visual recognition tasks.Prerequisites: Proficiency in Python - All class assignments will be in Python (and use numpy) (we provide a tutorial here for those who aren't as familiar with Python). If you have a lot of programming experience but in a different language (e.g. C/C++/Matlab/Javascript) you will probably be fine.College Calculus, Linear Algebra (e.g. MATH 19, MATH 51) -You should be comfortable taking derivatives and understanding matrix vector operations and notation. Basic Probability and Statistics (e.g. CS 109 or other stats course) -You should know basics of probabilities, gaussian distributions, mean, standard deviation, etc.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 春",
+    "instructors": "Li, F.、Adeli, E.",
+    "prereq": "熟练 Python/NumPy；微积分与线性代数（MATH 19/51）；概率统计基础（CS 109 级）。",
+    "topics": [
+      "**图像分类**：kNN、线性分类器、损失函数与优化",
+      "**神经网络**：反向传播、多层网络、激活函数",
+      "**CNN 架构**：AlexNet、VGG、ResNet、高效网络",
+      "**训练工程**：初始化、归一化、正则化、学习率、数据增强",
+      "**可视化与可解释性**：显著图、特征可视化、对抗样本",
+      "**检测/分割**：R-CNN 系列、YOLO、语义/实例分割",
+      "**前沿**：视频、生成模型、多模态、Transformer",
+      "**final project**：通常做真实视觉任务"
+    ],
+    "assessment": "3 个编程作业 + final project；作业量较大但非常值。具体以当季官网为准。",
+    "who": "想做 CV、多模态、机器人感知、自动驾驶的人；想补“深度学习底层实现”能力的工程师；准备读视觉方向博士的人。",
+    "tips": "A2 的 BatchNorm 和 A3 的 Transformer 建议手写，不要抄。final project 不要只刷 SOTA，做一个能讲清楚 error analysis 的小问题更加分。",
+    "related": [
+      "CS 230",
+      "CS 231A",
+      "CS 224N"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs231n.stanford.edu/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs231n-deep-learning-for-computer-vision.md"
+  },
+  {
+    "id": "CS 234",
+    "slug": "cs234-reinforcement-learning",
+    "zh": "强化学习",
+    "cat": "基础核心",
+    "difficulty": 4,
+    "one": "强化学习核心课：MDP、值迭代、策略梯度、探索，作业包含 deep RL。",
+    "tags": [
+      "RL",
+      "决策",
+      "机器人"
+    ],
+    "title": "Reinforcement Learning",
+    "description": "To realize the dreams and impact of AI requires autonomous systems that learn to make good decisions. Reinforcement learning is one powerful paradigm for doing so, and it is relevant to an enormous range of tasks, including robotics, game playing, consumer modeling and healthcare. This class will briefly cover background on Markov decision processes and reinforcement learning, before focusing on some of the central problems, including scaling up to large domains and the exploration challenge. One key tool for tackling complex RL domains is deep learning and this class will include at least one homework on deep reinforcement learning. Prerequisites: proficiency in python, CS 229 or equivalents or permission of the instructor; linear algebra, basic probability.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "熟练 Python；CS 229 或同等 ML 基础；线性代数与概率。",
+    "topics": [
+      "**MDP 基础**：回报、贝尔曼方程、策略评估",
+      "**动态规划**：值迭代、策略迭代",
+      "**无模型方法**：蒙特卡洛、TD、Q-learning、SARSA",
+      "**函数逼近**：线性逼近、深度 Q 网络",
+      "**策略梯度**：REINFORCE、actor-critic、PPO",
+      "**探索**：ε-greedy、UCB、 Thompson sampling",
+      "**深度 RL 与离线 RL**：实践中的稳定性问题",
+      "**项目**：通常训练一个 agent 解决控制/游戏任务"
+    ],
+    "assessment": "通常为 3–4 次作业 + 期中 + 项目；至少一次 deep RL 作业。具体以当季官网为准。",
+    "who": "机器人、RL 研究、游戏 AI、推荐系统方向；想做具身智能的人。",
+    "tips": "先把 MDP 和动态规划吃透，再上深度 RL。作业里的 exploration 部分建议配合 Sutton & Barto 第 2–3 章。",
+    "related": [
+      "CS 224R",
+      "CS 332",
+      "CS 237B"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs234/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课，以最近一次开设的资料整理。",
+    "doc": "courses/cs234-reinforcement-learning.md"
+  },
+  {
+    "id": "CS 236",
+    "slug": "cs236-deep-generative-models",
+    "zh": "深度生成模型",
+    "cat": "基础核心",
+    "difficulty": 4,
+    "one": "深度生成模型的理论课：VAE、GAN、flow、diffusion 的概率基础与训练算法。",
+    "tags": [
+      "生成模型",
+      "Diffusion",
+      "概率"
+    ],
+    "title": "Deep Generative Models",
+    "description": "Generative models are widely used in many subfields of AI and Machine Learning. Recent advances in parameterizing these models using neural networks, combined with progress in stochastic optimization methods, have enabled scalable modeling of complex, high-dimensional data including images, text, and speech. In this course, we will study the probabilistic foundations and learning algorithms for deep generative models, including Variational Autoencoders (VAE), Generative Adversarial Networks (GAN), and flow models. The course will also discuss application areas that have benefitted from deep generative models, including computer vision, speech and natural language processing, and reinforcement learning. Prerequisites: Basic knowledge about machine learning from at least one of CS 221, 228, 229 or 230. Students will work with computational and mathematical models and should have a basic knowledge of probabilities and calculus. Proficiency in some programming language, preferably Python, required.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 春",
+    "instructors": "Ermon, S.",
+    "prereq": "CS 221/228/229/230 至少一门；概率与微积分；Python 编程。",
+    "topics": [
+      "**概率基础**：极大似然、变分推断、ELBO、MCMC",
+      "**VAE**：重参数化、后验坍塌、层次化 VAE",
+      "**GAN**：对抗训练、模式崩溃、Wasserstein GAN",
+      "**Flow 模型**：可逆变换、Jacobian、连续流",
+      "**Energy-based 模型**：对比散度、score matching",
+      "**Diffusion**：DDPM、score-based、classifier-free guidance",
+      "**应用**：图像、文本、语音、RL",
+      "**项目**：生成模型的研究或应用"
+    ],
+    "assessment": "作业 + 期中/期末 + 项目；数学推导和实现并重。具体以当季官网为准。",
+    "who": "想做扩散模型、图像/视频生成、生成式 AI 研究的人；想理解 VAE/GAN 背后概率原理的人。",
+    "tips": "先补变分推断和 score matching，否则 diffusion 部分会很吃力。配合 CS 236G 可以补 GAN 的工程细节。",
+    "related": [
+      "CS 236G",
+      "CS 229",
+      "CS 224N"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://deepgenerativemodels.github.io/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs236-deep-generative-models.md"
+  },
+  {
+    "id": "CS 221M",
+    "slug": "cs221m-mechanistic-interpretability",
+    "zh": "机制可解释性",
+    "cat": "LLM 与 Agent",
+    "difficulty": 4,
+    "one": "机制可解释性：probing、steering、causal abstraction、sparse autoencoders，理解模型内部到底在算什么。",
+    "tags": [
+      "可解释性",
+      "LLM",
+      "Safety",
+      "研究"
+    ],
+    "title": "Mechanistic Interpretability",
+    "description": "What is the internal structure of modern neural networks and how can we study it? This course provides a broad and deep introduction to interpretability, the subfield of machine learning concerned with understanding precisely how models process information and why they produce the outputs they do. We will cover topics such as probing, steering, causal abstraction, and sparse autoencoders, with a particular emphasis on causal methods and large language models. The course will include guest lectures from leading interpretability labs across academia and industry.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 春",
+    "instructors": "Icard, T.",
+    "prereq": "深度学习/LLM 基础；概率与线性代数；最好读过 Transformer。",
+    "topics": [
+      "**Probing**：线性探针、表征分析、局限性",
+      "**Steering**：激活干预、方向向量、因果追踪",
+      "**Causal abstraction**：因果图、干预、抽象映射",
+      "**Sparse autoencoders**：字典学习、特征分解、单义性",
+      "**Circuits**：注意力头、MLP 神经元、组合结构",
+      "**LLM 内部机制**：事实回忆、推理、欺骗",
+      "**可解释性与安全**：如何用于审计和 alignment"
+    ],
+    "assessment": "作业 + 项目/论文复现；偏研究与讨论。具体以当季官网为准。",
+    "who": "想做 interpretability、AI safety、模型审计的人；想理解 LLM 内部机制的研究者。",
+    "tips": "先读 Anthropic 的“Towards Monosemanticity”和“Scaling Monosemanticity”，以及 causal abstraction 相关论文。",
+    "related": [
+      "CS 329A",
+      "CS 224N",
+      "CS 221"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs221m/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs221m-mechanistic-interpretability.md"
+  },
+  {
+    "id": "CS 222",
+    "slug": "cs222-ai-agents-and-simulations",
+    "zh": "AI Agent 与社会模拟",
+    "cat": "LLM 与 Agent",
+    "difficulty": 3,
+    "one": "用 agent-based model 和 generative agents 模拟人类社会，做“what if”实验。",
+    "tags": [
+      "Agent",
+      "社会模拟",
+      "多智能体"
+    ],
+    "title": "AI Agents and Simulations (PSYCH 186)",
+    "description": "How might we craft simulations of human societies that reflect our lives? Many of the greatest challenges of our time, from encouraging healthy public discourse to designing pandemic responses, and building global cooperation for sustainability, must reckon with the complex nature of our world. The power to simulate hypothetical worlds in which we can ask &quot;what if&quot; counterfactual questions, and paint concrete pictures of how a multiverse of different possibilities might unfold, promises an opportunity to navigate this complexity. This course presents a tour of multiple decades of effort in social, behavioral, and computational sciences to simulate individuals and their societies, starting from foundational literature in agent-based modeling to generative agents that leverage the power of the most advanced generative AI to create high-fidelity simulations. Along the way, students will learn about the opportunities, challenges, and ethical considerations in the field of human behavioral simulations. Prerequisites: Team projects and some course assignments will involve programming in Python. Having a background in human-centered design (e.g., CS 147, ME 115A, or a class from the d.school), AI (e.g., CS 221, CS 224), or social psychology may be helpful, although it is not required.",
+    "units": "3–4",
+    "grading": "Letter (ABCD/NP)",
+    "terms": "2027 冬",
+    "instructors": "Bernstein, M.、Goodman, N.",
+    "prereq": "Python 编程；AI（CS 221/224）、人本设计或社会心理学背景有帮助，但不强制。",
+    "topics": [
+      "**Agent-based modeling**：规则、涌现、校准",
+      "**社会模拟**：意见传播、合作、公共政策",
+      "**Generative agents**：LLM 驱动的人格、记忆、规划",
+      "**反事实实验**：what-if 场景设计",
+      "**评估**：模拟保真度、偏差、可复现性",
+      "**伦理**：操纵、隐私、模拟的权力",
+      "**团队项目**：构建一个社会模拟"
+    ],
+    "assessment": "团队项目为主 + 课程作业/讨论。具体以当季官网为准。",
+    "who": "计算社会科学、多 agent 系统、AI 政策/伦理方向；想做社会模拟或生成式 agent 的人。",
+    "tips": "先读 Generative Agents（Park et al., 2023）和经典 Schelling/NetLogo 模型。项目要注意可复现性和伦理边界。",
+    "related": [
+      "CS 224V",
+      "CS 372",
+      "CS 329A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs222/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs222-ai-agents-and-simulations.md"
+  },
+  {
+    "id": "CS 224G",
+    "slug": "cs224g-apps-with-llms-inside",
+    "zh": "LLM 应用开发",
+    "cat": "LLM 与 Agent",
+    "difficulty": 3,
+    "one": "LLM 应用开发课：用 sprint 节奏做 App，理解模型能力边界和新的编程范式。",
+    "tags": [
+      "LLM",
+      "产品",
+      "项目"
+    ],
+    "title": "Apps With LLMs Inside",
+    "description": "With ChatGPT, neural networks have had their Lisp moment. Conversation has become code and the model is the CPU for this ultimate programming language. A new universe of App development has opened up, and there are no guides for it, yet. This is a project course designed to explore the space of Apps built around LLMs, starting by playing with them, learning their limitations, and then applying a set of techniques to program them efficiently and effectively. Assignments are due on a two week &quot;sprint&quot; cadence to mimic a startup style environment. Guest lectures by area experts provide industry perspective.",
+    "units": "3–4",
+    "grading": "Letter (ABCD/NP)",
+    "terms": "2027 冬",
+    "instructors": "Jannink, J.、Whaley, J.",
+    "prereq": "编程能力；基本 ML/LLM 认知；不要求研究背景。",
+    "topics": [
+      "**LLM 能力与局限**：幻觉、上下文、成本",
+      "**Prompting**：结构化提示、few-shot、角色设定",
+      "**工具与检索**：function calling、RAG、外部 API",
+      "**应用架构**：前端、后端、流式输出、状态管理",
+      "**快速迭代**：sprint、用户反馈、指标",
+      "**项目**：做一个 LLM-native App"
+    ],
+    "assessment": "两周一个 sprint 的作业 + 最终项目 + 客座讲座。具体以当季官网为准。",
+    "who": "想快速做 LLM 产品/创业的人；产品经理、设计师、全栈工程师。",
+    "tips": "和 CS 329Z 互补：224G 更偏产品节奏，329Z 更偏系统与 eval。先想清楚用户问题，再选模型。",
+    "related": [
+      "CS 329Z",
+      "MS&E 203",
+      "CS 247A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs224g/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs224g-apps-with-llms-inside.md"
+  },
+  {
+    "id": "CS 224V",
+    "slug": "cs224v-agentic-ai",
+    "zh": "智能体 AI",
+    "cat": "LLM 与 Agent",
+    "difficulty": 4,
+    "one": "把 LLM 变成能查、能推理、能执行长任务的 agent：RAG、工具、知识库、形式化方法、长程规划。",
+    "tags": [
+      "Agent",
+      "RAG",
+      "LLM",
+      "项目"
+    ],
+    "title": "Agentic AI",
+    "description": "AI agents powered by Large Language Models (LLMs) are already transforming how we work, learn, and solve problems - and we are only at the beginning. As these systems grow more capable, they hold extraordinary promise for accelerating scientific discovery and democratizing access to high-quality medical, legal, and educational services worldwide. This is a project course coupled with rigorous lectures on the principles, methodologies, and cutting-edge research underlying agentic AI. Students undertake a substantial quarter-long project in either foundational methodology research or building novel agents in a domain of their choice. Topics covered include: (1) minimizing hallucination in question-answering and task-oriented agents using Retrieval-Augmented Generation (RAG) and formal task descriptions; (2) hybrid knowledge reasoning over databases, knowledge bases, and unstructured text; (3) AI-driven knowledge curation and discovery for scientific research; (4) improving the accuracy and interpretability of decision-making agents through formal methods; and (5) automated techniques for improving the accuracy and efficiency of long-horizon agents. Prerequisites: one of LINGUIST 180/280, CS 124, CS 224N, CS 224S, or CS 224U.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Lam, M.",
+    "prereq": "LINGUIST 180/280、CS 124、CS 224N、CS 224S、CS 224U 之一。",
+    "topics": [
+      "**RAG 与任务形式化**：检索增强、formal task descriptions、减少幻觉",
+      "**混合知识推理**：数据库、知识库、非结构化文本联合推理",
+      "**AI 驱动知识 curation**：科学发现中的知识整理与发现",
+      "**形式化方法**：提高决策 agent 的准确性与可解释性",
+      "**长程 agent**：自动优化长程任务的准确率和效率",
+      "**quarter-long project**：方法研究或领域 agent 构建"
+    ],
+    "assessment": "讲座 + 一个占全年很大比重的 quarter-long project（研究型或应用型）。具体以当季官网为准。",
+    "who": "想做 agent 研究、AI 科学家、领域自动化的人；已经会 LLM 基础、想深入可靠性和形式化保证的人。",
+    "tips": "先熟悉 ReAct、Toolformer、RAG 和 function calling。项目尽量选一个可量化的任务，否则很难做 eval。",
+    "related": [
+      "CS 329Z",
+      "CS 329A",
+      "CS 224N"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs224v/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs224v-agentic-ai.md"
+  },
+  {
+    "id": "CS 25",
+    "slug": "cs25-transformers-united",
+    "zh": "Transformers United",
+    "cat": "LLM 与 Agent",
+    "difficulty": 1,
+    "one": "Transformer 宇宙的公开讲座：每周一位顶级研究者讲 LLM、生成、机器人、科学应用。",
+    "tags": [
+      "Transformer",
+      "讲座",
+      "前沿"
+    ],
+    "title": "Transformers United V6 (SYMSYS 25)",
+    "description": "Since their introduction in 2017, Transformers have revolutionized Deep Learning, powering large language models (LLM) like ChatGPT and DeepSeek, image and video generation (e.g. Dall-E and Sora), and much more. In CS25, one of Stanford's hottest seminar courses, we delve into Transformer architectures and their diverse applications through classroom discussions and instructor and guest lectures. Topics include LLM, creative uses in art and music, healthcare, neuroscience, robotics, and so forth. We host leading researchers, with past speakers like Andrej Karpathy, Geoffrey Hinton, Jim Fan, Ashish Vaswani, and folks from OpenAI, Anthropic, Google DeepMind, NVIDIA, etc. Lectures are livestreamed and recorded, attracting a global audience with over a million total YouTube views. This is a 1-unit S/NC course, where attendance is the only homework! Enroll via Axess or audit through livestreams or in-person, space permitting. Prerequisites: basic Deep Learning and Transformers knowledge (understanding of attention) or completion of CS224N, CS231N, or CS230. Course website: https://web.stanford.edu/class/cs25/",
+    "units": "1",
+    "grading": "Satisfactory/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "基础深度学习和 Transformer 知识（理解 attention），或修过 CS 224N/CS 231N/CS 230。",
+    "topics": [
+      "**Transformer 架构**：注意力、位置编码、变体",
+      "**LLM**：预训练、对齐、推理、agent",
+      "**生成模型**：图像、视频、音频、3D",
+      "**机器人与具身**：VLA、世界模型",
+      "**科学应用**：医疗、神经科学、材料",
+      "**产业视角**：模型、算力、产品"
+    ],
+    "assessment": "1 unit，S/NC，出勤即可；无作业。",
+    "who": "任何人——想低成本跟踪前沿的学生、工程师、研究者；也适合作为组会/课程补充材料。",
+    "tips": "不用注册也能看 YouTube 录像。建议每期记 3 个 takeaway，不然很容易听完就忘。",
+    "related": [
+      "CS 224N",
+      "CS 324",
+      "CS 336"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs25/"
+      ]
+    ],
+    "note": "2026–27 学年 CS 25 未在 ExploreCourses 排课；交叉编号 SYMSYS 25 于 2027 春开设。CS 25 以往多次开设，讲座录像可在 YouTube 找到。",
+    "doc": "courses/cs25-transformers-united.md"
+  },
+  {
+    "id": "CS 324",
+    "slug": "cs324-advances-in-foundation-models",
+    "zh": "基础模型进展",
+    "cat": "LLM 与 Agent",
+    "difficulty": 3,
+    "one": "基础模型的全景课：模型/算法、系统/基础设施、伦理/社会影响，加上手把手项目。",
+    "tags": [
+      "Foundation Model",
+      "LLM",
+      "多模态"
+    ],
+    "title": "Advances in Foundation Models",
+    "description": "Foundation models (FMs) are transforming the landscape of AI in research and industry. Such models (e.g., GPT-3, CLIP, Stable Diffusion) are trained on large amounts of broad data and are adaptable to a wide range of downstream tasks. In this course, students will learn fundamentals behind the models and algorithms, systems and infrastructure, and ethics and societal impacts of foundation models, with an emphasis on gaining hands-on experience and identifying real-world use-cases for FMs. Students will hear from speakers in industry working on foundation models in the wild. The main class assignment will be a quarter-long final project, involving either researching the capabilities of FMs or building an FM-powered application.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "深度学习基础（CS 224N/CS 230/CS 231N 级）。",
+    "topics": [
+      "**FM 基础**：定义、历史、缩放规律",
+      "**模型与算法**：Transformer、多模态、扩散",
+      "**适配**：提示、微调、LoRA、RLHF",
+      "**系统**：分布式训练、推理、成本",
+      "**伦理与社会影响**：偏见、版权、滥用、监管",
+      "**应用**：文本、图像、代码、科学",
+      "**quarter-long project**：研究 FM 能力或构建应用"
+    ],
+    "assessment": "以 quarter-long final project 为主，可能配合作业/阅读。具体以当季官网为准。",
+    "who": "想了解 foundation model 生态的产品/研究/战略人员；想找 FM 应用方向的学生。",
+    "tips": "课程内容偏 2023，注意结合最新论文。项目建议选一个窄而深的问题。",
+    "related": [
+      "CS 224N",
+      "CS 25",
+      "CS 336"
+    ],
+    "links": [
+      [
+        "课程资料",
+        "https://stanford-cs324.github.io/winter2023/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课；链接为 2023 冬季课程资料。",
+    "doc": "courses/cs324-advances-in-foundation-models.md"
+  },
+  {
+    "id": "CS 329A",
+    "slug": "cs329a-self-improving-ai-agents",
+    "zh": "自我改进的 AI Agent",
+    "cat": "LLM 与 Agent",
+    "difficulty": 4,
+    "one": "研究型 seminar：自我改进、verifier、test-time compute、搜索、工具、多模态 web、长程规划。",
+    "tags": [
+      "Agent",
+      "研究",
+      "推理",
+      "Self-improvement"
+    ],
+    "title": "Self Improving AI Agents",
+    "description": "This graduate seminar course covers the latest techniques and applications of AI agents that can continuously improve themselves through interaction with themselves and the environment. The course will start with self-improvement techniques for LLMs, such as constitutional AI, using learned/domain-specific verifiers, scaling test-time compute, and combining search with LLMs. We will then discuss the latest research in augmenting LLMs with tool use and retrieval techniques, and orchestrating AI capabilities with multimodal web interaction. We will next discuss multi-step reasoning and planning problems for agentic workflows, and the challenges in building robust evaluation and orchestration frameworks. Industry applications that will be discussed include coding agents, research assistants in STEM, robotics and more. Students will work on an original research project in this area, discuss the suggested readings in each class, and learn from invited academic and industry speakers. Prerequisites: CS224N or CS229S; Fluency in Python programming and using large language model APIs.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 春",
+    "instructors": "Chowdhery, A.、Mirhoseini, A.",
+    "prereq": "CS 224N 或 CS 229S；熟练 Python 和 LLM API。",
+    "topics": [
+      "**LLM 自我改进**：constitutional AI、self-critique、self-play",
+      "**Verifier 与搜索**：learned verifier、best-of-n、树搜索",
+      "**Test-time compute**：推理时扩展、思维链、并行采样",
+      "**工具与检索**：tool use、retrieval、多模态 web 交互",
+      "**多步推理与规划**：长程任务分解、编排框架",
+      "**评估与 orchestration**：鲁棒 eval、失败模式",
+      "**应用**：coding agent、STEM 研究助手、机器人"
+    ],
+    "assessment": "论文阅读/讨论 + 原创 research project + 讲者讲座。具体以当季官网为准。",
+    "who": "想做 agent 研究、alignment、推理/规划方向的研究生；已经有一定 LLM 经验的人。",
+    "tips": "先读 ReAct、Reflexion、Tree of Thoughts、Self-Rewarding LM 等论文。项目要有清晰的 baseline 和 eval。",
+    "related": [
+      "CS 224V",
+      "CS 329Z",
+      "CS 221M"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs329a.stanford.edu/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs329a-self-improving-ai-agents.md"
+  },
+  {
+    "id": "CS 329H",
+    "slug": "cs329h-machine-learning-from-human-preferences",
+    "zh": "从人类偏好中学习",
+    "cat": "LLM 与 Agent",
+    "difficulty": 4,
+    "one": "RLHF 的理论与实作：从 choice model、偏好学习到 assistance games 和公平性。",
+    "tags": [
+      "RLHF",
+      "偏好",
+      "对齐",
+      "推荐"
+    ],
+    "title": "Machine Learning from Human Preferences",
+    "description": "Machine learning from human preferences (MLHP) provides mechanisms for optimizing systems that are used by humans - with applications in personalization, finetuning, and assistance. MLHP has been important to successes in modern language modeling, but the technical and conceptual underpinnings are spread across fields: psychometrics, discrete choice, reinforcement learning, information retrieval, and normative theory. This course will provide a careful and practical introduction to the main methods and models of MLHP. It will cover: choice modeling and its axiomatic approaches; imitation and static and active learning of choice; reinforcement learning from human feedback; assistance games, bandits, and recommendation; behavioral biases, style control; aggregation and fairness. This is a graduate-level course. By the end of the course, students should be able to build, analyze, and optimize systems that are used by humans.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Koyejo, S.",
+    "prereq": "研究生级 ML 基础（CS 229 级）；概率与优化基础。",
+    "topics": [
+      "**Choice modeling**：随机效用、Plackett-Luce、公理化方法",
+      "**模仿与主动学习**：behavior cloning、偏好查询",
+      "**RLHF**：奖励建模、PPO、DPO、KTO",
+      "**Assistance games**：人机协作、bandit、推荐",
+      "**行为偏差与风格控制**：偏好异质性、prompt/style",
+      "**聚合与公平**：社会选择、群体偏好聚合"
+    ],
+    "assessment": "作业 + 项目/论文复现，偏理论与实验结合。具体以当季官网为准。",
+    "who": "做 alignment、RLHF、推荐系统、人机交互的研究者；想理解“偏好数据为什么难”的工程师。",
+    "tips": "先理解 Bradley-Terry 模型和 PPO。配合 CS 224N 的 RLHF 章节一起学。",
+    "related": [
+      "CS 224N",
+      "CS 234",
+      "CS 329A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs329h/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs329h-machine-learning-from-human-preferences.md"
+  },
+  {
+    "id": "CS 329T",
+    "slug": "cs329t-trustworthy-machine-learning",
+    "zh": "可信机器学习：构建与评估 Agent 系统",
+    "cat": "LLM 与 Agent",
+    "difficulty": 3,
+    "one": "可信 agent 系统：先搭 prototype，再用 eval 把它打磨到可靠。",
+    "tags": [
+      "Agent",
+      "可信",
+      "Eval",
+      "项目"
+    ],
+    "title": "Trustworthy Machine Learning: Building and evaluating agentic systems",
+    "description": "This project-based course will introduce students to building and evaluating agentic AI applications powered by foundation models. The overriding theme of the course is that building an initial prototype AI system can often be completed easily but refining a prototype into something that is useful and reliable requires iterative improvement based on clear evaluation metrics. We will cover background in foundation models, prompting, and retrieval-augmented generation (RAG) before introducing full agentic AI architectures. For each architecture, the course will study methods for evaluation. Students will complete introductory homework assignments to become familiar with retrieval-augmented generation (RAG) and agentic AI. Students will then work in pairs or small teams to develop applications using agentic or other approaches and evaluate them by adapting evaluation methods presented in the class.Prerequisites: CS229 or similar introductory Python-based ML class; knowledge of deep learning such as CS230, CS231N; familiarity with ML frameworks in Python (scikit-learn, Keras) assumed.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "CS 229 或同等 Python ML 课；深度学习（CS 230/CS 231N）；熟悉 scikit-learn/Keras 等框架。",
+    "topics": [
+      "**FM 与 prompting**：能力边界、提示模式",
+      "**RAG**：检索、引用、幻觉控制",
+      "**Agentic 架构**：规划、工具、记忆、多 agent",
+      "**评估**：离线指标、LLM-as-judge、人工评估、红队",
+      "**可靠性**：失败模式、鲁棒性、监控",
+      "**团队项目**：构建并评估一个 agent 应用"
+    ],
+    "assessment": "入门作业（RAG/agent）+ 小组项目 + 评估报告。具体以当季官网为准。",
+    "who": "想做 agent 产品、AI 评测、可信 AI 的人；已经会搭 demo、想补 eval 方法论的人。",
+    "tips": "和 CS 329Z 搭配：329Z 更偏工程全栈，329T 更偏“可信 + 评估”。项目一定要先定义指标再写代码。",
+    "related": [
+      "CS 329Z",
+      "CS 224V",
+      "CS 281"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs329t/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/cs329t-trustworthy-machine-learning.md"
+  },
+  {
+    "id": "CS 329Z",
+    "slug": "cs329z-engineering-ai-agents",
+    "zh": "AI Agent 工程",
+    "cat": "LLM 与 Agent",
+    "difficulty": 4,
+    "one": "从 LLM pipeline 到 compound AI system 再到 autonomous agent 的工程方法论：选问题、拆解、选组件、做 eval。",
+    "tags": [
+      "Agent",
+      "工程",
+      "RAG",
+      "Eval"
+    ],
+    "title": "Engineering AI Agents",
+    "description": "The shift from monolithic language models to compound AI systems - systems with multiple interacting components including LLMs, retrievers, tools, and optimizers -n represents a fundamental change in how AI applications are built for people. This course teaches students how to engineer agentic systems: the full spectrum from simple LLM pipelines to compound AI systems to autonomous agents. Students will learn to pick what types of problems to focus on, decompose problems, select appropriate components, collect and curate data, build evaluations, and reason about the design tradeoffs that arise when building these systems in practice. Students first build core components (RAG, tool use, agent loops) from scratch, then learn how frameworks like DSPy abstract these patterns. Through three fully applied homework assignments and a quarter-long project, students will gain hands-on experience building, optimizing, and evaluating agentic systems.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Yang, D.、Ryan, M.、Yang, J.",
+    "prereq": "编程能力；LLM 基础（prompting、API 使用）；有 ML 基础更好。",
+    "topics": [
+      "**Compound AI systems**：多组件系统的设计范式",
+      "**RAG**：检索、重排、上下文管理、评估",
+      "**Tool use**：函数调用、工具选择、错误处理",
+      "**Agent loop**：规划、执行、反思、终止条件",
+      "**DSPy**：用声明式方式优化 prompt/流程",
+      "**数据 curation 与 evaluation**：构建 eval set、离线/在线指标",
+      "**设计 trade-off**：延迟、成本、质量、可控性",
+      "**三次 applied homework + quarter-long project**"
+    ],
+    "assessment": "3 个 fully applied homework + 一个 quarter-long project，重点是 build、optimize、evaluate。具体以当季官网为准。",
+    "who": "想成为 AI engineer/agent 工程师的人；想从传统后端/ML 转向 LLM 应用的人；创业者。",
+    "tips": "和 CS 224V 互补：224V 偏研究/形式化，329Z 偏工程/eval。作业不要只跑通 demo，重点是把 eval 做扎实。",
+    "related": [
+      "CS 224V",
+      "CS 329T",
+      "CS 224G"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs329z/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs329z-engineering-ai-agents.md"
+  },
+  {
+    "id": "CS 336",
+    "slug": "cs336-language-modeling-from-scratch",
+    "zh": "从零构建语言模型",
+    "cat": "LLM 与 Agent",
+    "difficulty": 5,
+    "one": "从零造一个语言模型：数据清洗、tokenizer、Transformer、训练、scaling、eval、部署。",
+    "tags": [
+      "LLM",
+      "预训练",
+      "系统",
+      "硬核"
+    ],
+    "title": "Language Modeling from Scratch",
+    "description": "Language models serve as the cornerstone of modern natural language processing (NLP) applications and open up a new paradigm of having a single general purpose system address a range of downstream tasks. As the field of artificial intelligence (AI), machine learning (ML), and NLP continues to grow, possessing a deep understanding of language models becomes essential for scientists and engineers alike. This course is designed to provide students with a comprehensive understanding of language models by walking them through the entire process of developing their own. Drawing inspiration from operating systems courses that create an entire operating system from scratch, we will lead students through every aspect of language model creation, including data collection and cleansing for pre-training, transformer model construction, model training, and evaluation before deployment. Application required, apply at http://cs336.stanford.edu/",
+    "units": "3–5",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 春",
+    "instructors": "Liang, P.、Hashimoto, T.",
+    "prereq": "强编程能力；深度学习基础（CS 224N/CS 231N/CS 230 级）；需要申请，且最好有 GPU 资源。",
+    "topics": [
+      "**数据**：采集、清洗、去重、过滤、配比",
+      "**Tokenization**：BPE、词表设计、多语言问题",
+      "**模型**：Transformer 架构、注意力变体、位置编码",
+      "**训练**：初始化、优化器、学习率、混合精度、分布式",
+      "**Scaling**：scaling laws、计算最优配置",
+      "**评估**：困惑度、基准测试、污染、对齐评估",
+      "**部署**：推理、量化、服务化",
+      "**安全与伦理**：数据版权、偏见、滥用"
+    ],
+    "assessment": "通常为 5 个左右的编程作业（逐步构建 LM）+ 一个项目；算力消耗大。具体以当季官网为准。",
+    "who": "想真正理解 LLM 全栈、之后做预训练/推理/系统研究的人；想创业做模型的人。",
+    "tips": "先修 CS 224N 或 CS 231N。没有 GPU 的话可以先跑小模型，但作业体验会受限。",
+    "related": [
+      "CS 224N",
+      "CS 229S",
+      "CS 349E"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs336.stanford.edu/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs336-language-modeling-from-scratch.md"
+  },
+  {
+    "id": "CS 372",
+    "slug": "cs372-agi-reasoning-planning",
+    "zh": "AGI 的推理、规划与决策",
+    "cat": "LLM 与 Agent",
+    "difficulty": 4,
+    "one": "AGI 的推理、规划与决策：从 System 1 到 System 2、多 LLM 协作、时序推理。",
+    "tags": [
+      "AGI",
+      "推理",
+      "规划",
+      "多 Agent"
+    ],
+    "title": "Artificial General Intelligence for Reasoning, Planning, and Decision Making",
+    "description": "Course Description:Large Language Models (LLMs) have revolutionized AI through remarkable pattern matching capabilities. However, the path to Artificial General Intelligence (AGI) requires advancing beyond unconscious (System 1) to conscious (System 2) processing. This research-oriented course explores fundamental approaches to elevate LLMs toward AGI capabilities through conscious reasoning, planning, and decision-making. Core Research Questions: 1. How can we enable LLMs to transition from pattern matching to conscious deliberation? 2. What frameworks support robust reasoning and verifiable decisions? 3. How do we implement planning and temporal awareness in LLM systems? 4. What role does multi-LLM agent collaboration play in advancing toward AGI capabilities? The course examines: 1. Theoretical foundations of consciousness in AI 2. Multi-LLM Agent Collaborative Intelligence (MACI) frameworks 3. Entropy-guided information exchange 4. Constitutional AI principles 5. Temporal reasoning and planning architectures. Through lectures, discussions, and hands-on projects, students will explore practical implementations across various domains. While healthcare provides immediate applications (diagnosis, treatment planning), the principles apply broadly to any field requiring AGI-level reasoning capabilities. Prerequisites: Machine Learning, Deep Learning",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 冬",
+    "instructors": "Chang, E.",
+    "prereq": "机器学习、深度学习基础。",
+    "topics": [
+      "**System 1 vs System 2**：直觉与审慎推理",
+      "**多 LLM 协作**：MACI 框架、角色分工、辩论",
+      "**信息交换**：熵引导、不确定性传播",
+      "**Constitutional AI**：原则约束、自我修正",
+      "**时序推理与规划**：时间感知、长程任务",
+      "**应用**：诊断、治疗规划等",
+      "**项目**：实现一个 AGI 风格的推理系统"
+    ],
+    "assessment": "讲座/讨论 + hands-on project。具体以当季官网为准。",
+    "who": "对 AGI、推理、规划、多 agent 系统感兴趣的研究生；能接受较思辨内容的人。",
+    "tips": "带着批判视角听：部分概念（如“意识”）争议较大。重点抓可验证的推理/规划方法。",
+    "related": [
+      "CS 224V",
+      "CS 329A",
+      "CS 222"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs372.stanford.edu/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课；课程官网暂未找到稳定链接。",
+    "doc": "courses/cs372-agi-reasoning-planning.md"
+  },
+  {
+    "id": "CS 217",
+    "slug": "cs217-hardware-accelerators-for-ml",
+    "zh": "机器学习硬件加速器",
+    "cat": "ML 系统与硬件",
+    "difficulty": 4,
+    "one": "ML 硬件加速器：数据流、张量处理、存储层次、编译，以及 CNN/Transformer 的映射。",
+    "tags": [
+      "硬件",
+      "加速器",
+      "体系结构",
+      "芯片"
+    ],
+    "title": "Hardware Accelerators for Machine Learning (EE 244)",
+    "description": "This course explores the design, programming, and performance of modern AI accelerators. It covers architectural techniques, dataflow, tensor processing, memory hierarchies, compilation for accelerators, and emerging trends in AI computing. This course will cover modern AI/ML algorithms such as convolutional neural nets, and Transformer-based models / LLMs. We will consider both training and inference for these models and discuss the impact of parameters such as batch size, precision, sparsity and compression on the accuracy of these models. Students will become familiar with hardware implementation techniques for using parallelism, locality, and low precision to implement the core computational kernels used in ML. Students will develop intuitions to make system-level trade-offs to design energy-efficient accelerators. Students will read recent research papers and complete a final design project.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 春",
+    "instructors": "Olukotun, O.、Tambe, T.",
+    "prereq": "数字电路/计算机体系结构；VLSI 或 FPGA 经验有帮助。",
+    "topics": [
+      "**AI 计算模式**：CNN、Transformer、训练 vs 推理",
+      "**加速器架构**：脉动阵列、张量核心、数据流",
+      "**存储层次**：片上缓存、HBM、数据复用",
+      "**低精度与稀疏**：量化、剪枝、压缩",
+      "**编译与映射**：算子调度、tiling",
+      "**能效与面积**：系统级 trade-off",
+      "**设计项目**"
+    ],
+    "assessment": "论文阅读 + final design project。具体以当季官网为准。",
+    "who": "想做 AI 芯片、加速器、体系结构的人；硬件背景想理解 ML 负载的人。",
+    "tips": "先理解 roofline 和矩阵乘的分块。配合 CS 149/CS 349E。",
+    "related": [
+      "CS 349E",
+      "EE 244",
+      "CS 149"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs217.stanford.edu/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs217-hardware-accelerators-for-ml.md"
+  },
+  {
+    "id": "CS 229S",
+    "slug": "cs229s-systems-for-machine-learning",
+    "zh": "机器学习系统",
+    "cat": "ML 系统与硬件",
+    "difficulty": 4,
+    "one": "ML 系统：数据准备、训练、部署推理全栈的效率优化，软硬件协同。",
+    "tags": [
+      "MLSys",
+      "系统",
+      "分布式",
+      "性能"
+    ],
+    "title": "Systems for Machine Learning",
+    "description": "Deep learning and neural networks are being increasingly adopted across industries. They are now used to serve billions of users across applications such as search, knowledge discovery, and productivity assistants. As models become more capable and intelligent, this trend of large-scale adoption will continue to grow rapidly. Due to the widespread application, there is an increasing need to achieve high performance for both training and serving deep-learning models. However, performance is hindered by a multitude of infrastructure and lifecycle hurdles - the increasing complexity of the models, massive sizes of training and inference data, heterogeneity of the available accelerators and multi-node platforms, and diverse network properties. The slow adaptation of systems to new algorithms creates a bottleneck for the rapid evolution of deep-learning models and their applications. This course will cover systems approaches for improving the efficiency of machine learning pipelines - comprising data preparation, model training, and model deployment &amp; inference -at each level of the systems stack spanning software and hardware. Pre-req: CS224N or CS229.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "CS 224N 或 CS 229；系统/体系结构基础有帮助。",
+    "topics": [
+      "**数据 pipeline**：采集、清洗、存储、吞吐",
+      "**分布式训练**：数据并行、模型并行、流水线并行",
+      "**加速器**：GPU/TPU、内存层次、互联",
+      "**通信与网络**：all-reduce、RDMA、拓扑",
+      "**推理 serving**：批处理、调度、KV cache、延迟",
+      "**编译与算子**：XLA、TVM、Triton",
+      "**案例与项目**：真实系统的性能分析"
+    ],
+    "assessment": "作业 + 项目，偏系统实现与性能分析。具体以当季官网为准。",
+    "who": "想做 MLSys、推理基础设施、训练平台的人；系统背景想转 ML 的人。",
+    "tips": "配合 CS 149（并行计算）和 CS 217（加速器）。先理解 roofline 模型和通信开销。",
+    "related": [
+      "CS 329S",
+      "CS 349D",
+      "CS 217"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs229s.stanford.edu/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课；课程官网暂未找到稳定链接。",
+    "doc": "courses/cs229s-systems-for-machine-learning.md"
+  },
+  {
+    "id": "CS 329S",
+    "slug": "cs329s-machine-learning-systems-design",
+    "zh": "机器学习系统设计",
+    "cat": "ML 系统与硬件",
+    "difficulty": 3,
+    "one": "ML 系统设计：从数据管理到部署监控，以及隐私、公平、安全等“人”的问题。",
+    "tags": [
+      "MLSys",
+      "工程",
+      "部署",
+      "项目"
+    ],
+    "title": "Machine Learning Systems Design",
+    "description": "This project-based course covers the iterative process for designing, developing, and deploying machine learning systems. It focuses on systems that require massive datasets and compute resources, such as large neural networks. Students will learn about data management, data engineering, approaches to model selection, training, scaling, how to continually monitor and deploy changes to ML systems, as well as the human side of ML projects. In the process, students will learn about important issues including privacy, fairness, and security. Pre-requisites: At least one of the following; CS229, CS230, CS231N, CS224N or equivalent. Students should have a good understanding of machine learning algorithms and should be familiar with at least one framework such as TensorFlow, PyTorch, JAX.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "CS 229/230/231N/224N 至少一门；熟悉至少一个框架（PyTorch/TF/JAX）。",
+    "topics": [
+      "**数据工程**：数据管理、标注、版本、质量",
+      "**模型选择**：baseline、评估、误差分析",
+      "**训练与扩展**：分布式、成本、实验管理",
+      "**部署**：服务化、批/流、延迟与吞吐",
+      "**监控与迭代**：drift、回滚、A/B",
+      "**人与社会**：隐私、公平、安全、团队协作",
+      "**项目**：设计并实现一个 ML 系统"
+    ],
+    "assessment": "项目为主 + 作业/阅读。具体以当季官网为准。",
+    "who": "想从“调模型”走向“做系统”的 ML engineer；想补工程化能力的研究者；技术产品经理。",
+    "tips": "配合《Designing Machine Learning Systems》。项目要包含监控和回滚方案，不要只交模型。",
+    "related": [
+      "CS 229S",
+      "CS 349D",
+      "MS&E 203"
+    ],
+    "links": [
+      [
+        "课程资料",
+        "https://stanford-cs329s.github.io/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课；链接为课程资料站。",
+    "doc": "courses/cs329s-machine-learning-systems-design.md"
+  },
+  {
+    "id": "CS 349D",
+    "slug": "cs349d-ai-inference-infrastructure",
+    "zh": "AI 推理基础设施",
+    "cat": "ML 系统与硬件",
+    "difficulty": 4,
+    "one": "AI 推理基础设施：compound AI systems 在云上如何部署、调度、扩展。",
+    "tags": [
+      "推理",
+      "基础设施",
+      "云",
+      "系统"
+    ],
+    "title": "AI Inference Infrastructure",
+    "description": "The emergence of foundation models has revolutionized AI applications, but the most powerful AI systems today are increasingly compound systems - compositions of multiple models, retrievers, tools, and traditional software components. This research seminar explores the intersection of cloud computing infrastructure and compound AI systems, covering both the infrastructure required to build and deploy these systems at scale and the architectural patterns that make them effective. Students will participate in guest lectures from leading experts across academia and industry, including leaders of companies like Databricks, OpenAI, Foundry, NVIDIA, Microsoft, and more, read and discuss papers, and complete a quarter-long project in groups of 2-3.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 春",
+    "instructors": "Kozyrakis, C.",
+    "prereq": "系统/体系结构/ML 基础；有分布式系统经验更好。",
+    "topics": [
+      "**推理 serving**：批处理、连续批处理、KV cache",
+      "**Compound AI systems**：多组件编排、数据流",
+      "**云基础设施**：弹性、多租户、成本",
+      "**调度与路由**：模型路由、优先级、SLA",
+      "**延迟/吞吐/成本**：权衡与优化",
+      "**工业实践**：Databricks、OpenAI、NVIDIA 等 guest lecture",
+      "**quarter-long project**"
+    ],
+    "assessment": "论文讨论 + guest lectures + 2–3 人小组项目。具体以当季官网为准。",
+    "who": "想做推理平台、AI 基础设施、云系统的人；系统背景的研究生。",
+    "tips": "配合 CS 349E 学单机/集群性能，配合 CS 349F 学网络。项目尽量基于真实 serving 栈。",
+    "related": [
+      "CS 349E",
+      "CS 349F",
+      "CS 229S"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs349d/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs349d-ai-inference-infrastructure.md"
+  },
+  {
+    "id": "CS 349E",
+    "slug": "cs349e-efficient-ml-inference-at-scale",
+    "zh": "大规模高效 ML 推理",
+    "cat": "ML 系统与硬件",
+    "difficulty": 5,
+    "one": "大规模高效推理：模型优化、分布式 serving、AI 硬件、kernel、编译器。",
+    "tags": [
+      "推理",
+      "性能",
+      "硬件",
+      "编译"
+    ],
+    "title": "Efficient ML Inference at Scale (EE 339)",
+    "description": "A graduate-level course focused on principles and techniques for designing and building large-scale disaggregated AI inference systems. The course explores architectural, algorithmic, system-level, and kernel implementation techniques for serving models with low latency, high throughput, and low cost on heterogeneous machines. Topics include model optimization techniques, distributed serving, AI hardware and performance modelling, kernel programming, and AI compilers. Class website: cs349e.github.io",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Asgar, Z.、Raina, P.、Horowitz, M.、Kjoelstad, F.",
+    "prereq": "计算机体系结构、操作系统、ML 基础；强编程能力。",
+    "topics": [
+      "**模型优化**：量化、剪枝、蒸馏、投机解码",
+      "**分布式 serving**：张量并行、流水线、PD 分离",
+      "**AI 硬件**：GPU/TPU/专用加速器、内存墙",
+      "**性能建模**：roofline、带宽/算力/延迟",
+      "**Kernel 编程**：CUDA/Triton、融合、tiling",
+      "**AI 编译器**：图优化、算子选择、代码生成",
+      "**项目**：端到端推理优化"
+    ],
+    "assessment": "作业 + 项目，偏实现与性能测量。具体以当季官网为准。",
+    "who": "想做推理性能、AI 芯片、编译器的研究生/工程师；系统方向想深入 ML 的人。",
+    "tips": "先补 CS 217/CS 149。准备好跑 benchmark，不要只看论文数字。",
+    "related": [
+      "CS 349D",
+      "CS 217",
+      "CS 229S"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs349e.github.io/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs349e-efficient-ml-inference-at-scale.md"
+  },
+  {
+    "id": "CS 349F",
+    "slug": "cs349f-fabric-architectures-for-ai-systems",
+    "zh": "AI 系统的网络 Fabric 架构",
+    "cat": "ML 系统与硬件",
+    "difficulty": 4,
+    "one": "AI 集群的网络 fabric：fat tree、拥塞控制、调度，追求超低延迟和近 100% goodput。",
+    "tags": [
+      "网络",
+      "集群",
+      "数据中心",
+      "系统"
+    ],
+    "title": "Fabric Architectures For AI Systems",
+    "description": "The course is concerned with the design and operation of the network fabrics which interconnect large-scale compute and storage nodes in modern AI GPU clusters, cloud computing systems, and &quot;time-sensitive systems&quot; like financial trading platforms and massive multi-player games. We will consider architectures, protocols and algorithms which enable these network fabrics to deliver deterministic and ultra-low latency at near-100% goodput. Topics include data center fabric architectures - the fat tree topology, transport protocols - congestion control and load balancing, and scheduling algorithms - job scheduling, fabric scheduling and their interaction. A particular focus will be the contrast and synergy between the edge- and network-centric approaches to building high-performance network fabrics. Students will hear from industry experts who design, operate and use large-scale GPU and CPU clusters. Recommended: Knowledge of basic Networking, OS, or Distributed Systems (CS 144, 140, or equivalent), as well as basic EE courses (EE 178) will be useful.",
+    "units": "2",
+    "grading": "Satisfactory/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Prabhakar, B.、Rosenblum, M.",
+    "prereq": "CS 144/CS 140 或分布式系统基础；EE 178 有帮助。",
+    "topics": [
+      "**数据中心 fabric**：fat tree、leaf-spine、拓扑",
+      "**传输协议**：RDMA、RoCE、拥塞控制",
+      "**负载均衡**：ECMP、packet spraying",
+      "**调度**：作业调度、fabric 调度、交互",
+      "**边缘 vs 网络中心**：两种高性能路线",
+      "**工业案例**：GPU 集群、交易系统"
+    ],
+    "assessment": "2 unit S/NC；讨论 + 项目/案例，具体以当季官网为准。",
+    "who": "网络、集群、数据中心方向；想做 AI 基础设施的人。",
+    "tips": "和 CS 349D/E 一起看，形成“单机-集群-网络”的完整视角。",
+    "related": [
+      "CS 349D",
+      "CS 349E",
+      "CS 144"
+    ],
+    "links": [],
+    "note": "2026-27 秋季开设；官网访问受限，暂只提供 ExploreCourses 链接。",
+    "doc": "courses/cs349f-fabric-architectures-for-ai-systems.md"
+  },
+  {
+    "id": "CS 231A",
+    "slug": "cs231a-computer-vision-3d",
+    "zh": "计算机视觉：从 3D 感知到重建",
+    "cat": "视觉、图形与生成",
+    "difficulty": 4,
+    "one": "从相机模型到 3D 重建的计算机视觉：几何为主，深度学习为辅。",
+    "tags": [
+      "CV",
+      "3D",
+      "几何",
+      "重建"
+    ],
+    "title": "Computer Vision: From 3D Perception to 3D Reconstruction and Beyond",
+    "description": "(Formerly 223B) An introduction to the concepts and applications in computer vision. Topics include: cameras and projection models, low-level image processing methods such as filtering and edge detection; mid-level vision topics such as segmentation and clustering; shape reconstruction from stereo, as well as high-level vision tasks such as object recognition, scene recognition, face detection and human motion categorization. Prerequisites: linear algebra, basic probability and statistics.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "线性代数；基础概率统计；编程能力。",
+    "topics": [
+      "**相机与投影**：针孔模型、内参/外参、畸变",
+      "**图像处理**：滤波、边缘、特征点",
+      "**分割与聚类**：传统方法 + 学习式方法",
+      "**立体视觉**：对极几何、深度估计",
+      "**SfM 与 SLAM 基础**：运动恢复结构",
+      "**识别**：物体/场景/人脸/动作",
+      "**项目**：3D 重建或视觉应用"
+    ],
+    "assessment": "作业 + 项目，包含几何推导和实现。具体以当季官网为准。",
+    "who": "3D 视觉、机器人、AR/VR、自动驾驶感知方向；想补几何基础的 CV 学生。",
+    "tips": "先修 CS 231N 或同时修。对极几何和 Bundle Adjustment 建议手推。",
+    "related": [
+      "CS 231N",
+      "CS 223A",
+      "CS 348N"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs231a/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/cs231a-computer-vision-3d.md"
+  },
+  {
+    "id": "CS 236G",
+    "slug": "cs236g-generative-adversarial-networks",
+    "zh": "生成对抗网络",
+    "cat": "视觉、图形与生成",
+    "difficulty": 3,
+    "one": "GAN 专课：从原理到 SOTA，覆盖训练稳定性、评估和偏见。",
+    "tags": [
+      "GAN",
+      "生成模型",
+      "视觉"
+    ],
+    "title": "Generative Adversarial Networks",
+    "description": "Generative Adversarial Networks (GANs) have rapidly emerged as the state-of-the-art technique in realistic image generation. This course presents theoretical intuition and practical knowledge on GANs, from their simplest to their state-of-the-art forms. Their benefits and applications span realistic image editing that is omnipresent in popular app filters, enabling tumor classification under low data schemes in medicine, and visualizing realistic scenarios of climate change destruction. This course also examines key challenges of GANs today, including reliable evaluation, inherent biases, and training stability. After this course, students should be familiar with GANs and the broader generative models and machine learning contexts in which these models are situated. Prerequisites: linear algebra, statistics, CS106B, plus a graduate-level AI course such as: CS230, CS229 (or CS129), or CS221.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "线性代数、统计、CS 106B；研究生级 AI 课（CS 229/230/221）。",
+    "topics": [
+      "**GAN 基础**：生成器/判别器、minimax、损失函数",
+      "**训练技巧**：WGAN、谱归一化、TTUR、正则",
+      "**条件生成**：cGAN、StyleGAN、图像到图像",
+      "**评估**：FID、IS、精确率/召回率",
+      "**偏见与伦理**：数据偏差、深伪",
+      "**应用**：编辑、医学、科学可视化",
+      "**项目**"
+    ],
+    "assessment": "作业 + 项目。具体以当季官网为准。",
+    "who": "图像生成、视觉编辑、生成模型工程；想深入理解 GAN 而不是只会调 diffusion 的人。",
+    "tips": "先修 CS 236 或 CS 231N。GAN 的训练稳定性问题最好亲手复现一次。",
+    "related": [
+      "CS 236",
+      "CS 231N",
+      "CS 348I"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs236g.stanford.edu/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/cs236g-generative-adversarial-networks.md"
+  },
+  {
+    "id": "CS 348I",
+    "slug": "cs348i-computer-graphics-in-the-era-of-ai",
+    "zh": "AI 时代的计算机图形学",
+    "cat": "视觉、图形与生成",
+    "difficulty": 4,
+    "one": "AI 时代的图形学：神经渲染、可微渲染、材质/纹理、动画、物理仿真。",
+    "tags": [
+      "图形",
+      "神经渲染",
+      "3D",
+      "生成"
+    ],
+    "title": "Computer Graphics in the Era of AI",
+    "description": "This course introduces deep learning methods and AI technologies applied to four main areas of Computer Graphics: rendering, geometry, animation, and imaging. We will study a wide range of problems on content creation for images, shapes, and animations, recently advanced by deep learning techniques. For each problem, we will understand its conventional solutions, study the state-of-the-art learning-based approaches, and critically evaluate their results as well as the impacts to researchers and practitioners in Computer Graphics. The topics include differentiable rendering/neural rendering, BRDF estimation, texture synthesis, denoising, procedural modeling, view synthesis, colorization, style transfer, motion synthesis, differentiable physics simulation, and reinforcement learning. Through programming projects and homework, students who successfully complete this course will be able to use neural rendering algorithms for image manipulation, apply neural procedural modeling for shape and scene synthesis, exploit data-driven methods for simulating physical phenomena, and implement policy learning algorithms for creating character animation. Recommended Prerequisites: CS148, CS231N",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "CS 148；CS 231N 推荐。",
+    "topics": [
+      "**可微/神经渲染**：NeRF、Gaussian Splatting、神经渲染",
+      "**材质与光照**：BRDF 估计、逆渲染",
+      "**纹理与图像**：纹理合成、去噪、超分、着色",
+      "**几何**：神经隐式、程序化建模",
+      "**视角合成**：新视角生成、3D 重建",
+      "**动画**：动作合成、可微物理、RL",
+      "**项目**"
+    ],
+    "assessment": "编程作业 + 项目。具体以当季官网为准。",
+    "who": "图形学、渲染、3D 生成、影视/游戏技术方向。",
+    "tips": "先补图形学基础（光线追踪、BRDF、渲染方程）。配合 CS 348N/CS 468。",
+    "related": [
+      "CS 348N",
+      "CS 468",
+      "CS 231N"
+    ],
+    "links": [],
+    "note": "2026-27 学年未在 ExploreCourses 排课；官网暂未找到稳定链接。",
+    "doc": "courses/cs348i-computer-graphics-in-the-era-of-ai.md"
+  },
+  {
+    "id": "CS 348N",
+    "slug": "cs348n-neural-models-for-3d-geometry",
+    "zh": "3D 几何的神经模型",
+    "cat": "视觉、图形与生成",
+    "difficulty": 4,
+    "one": "3D 几何的神经表示：点云、网格、implicit field、3D 生成。",
+    "tags": [
+      "3D",
+      "生成模型",
+      "图形",
+      "NeRF"
+    ],
+    "title": "Neural Models for 3D Geometry",
+    "description": "Course Description: Generation of high-quality 3D models and scenes by leveraging machine learning tools and approaches. Survey of geometry representations. Public 3D object and scene data sets. Neural architectures for geometry, including deep architectures for point clouds and meshes. Generative models for 3D: autoencoders, GANs, neural implicits, neural ODEs, autoregressive models. Conditional generation based on images or partial geometry. Variation generation. Evaluation metrics for content generation. Use of synthetic data in ML training pipelines. Prerequisites: CS148 and the rudiments of deep learning. Recommended: CS229.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "CS 148；深度学习基础；CS 229 推荐。",
+    "topics": [
+      "**几何表示**：点云、网格、体素、SDF、NeRF",
+      "**3D 数据**：ShapeNet、Objaverse、场景数据",
+      "**点云/网格网络**：PointNet、GCN、MeshCNN",
+      "**Neural implicit**：SDF、occupancy、NeRF",
+      "**3D 生成**：VAE/GAN/diffusion/autoregressive",
+      "**条件生成**：文本/图像到 3D",
+      "**评估与合成数据**"
+    ],
+    "assessment": "作业 + 项目。具体以当季官网为准。",
+    "who": "3D 生成、图形学、AR/VR、机器人仿真方向。",
+    "tips": "先学 NeRF 和 diffusion，再回头看 GAN/VAE 的 3D 版本。配合 CS 468。",
+    "related": [
+      "CS 468",
+      "CS 348I",
+      "CS 231A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs348n.stanford.edu/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课；官网暂未找到稳定链接。",
+    "doc": "courses/cs348n-neural-models-for-3d-geometry.md"
+  },
+  {
+    "id": "CS 448I",
+    "slug": "cs448i-computational-imaging",
+    "zh": "计算成像",
+    "cat": "视觉、图形与生成",
+    "difficulty": 4,
+    "one": "计算成像：从卷积/去噪到逆问题、波光学、端到端光学-算法联合优化。",
+    "tags": [
+      "成像",
+      "逆问题",
+      "光学",
+      "CV"
+    ],
+    "title": "Computational Imaging (EE 367)",
+    "description": "Digital photography and basic image processing, convolutional neural networks for image processing, denoising, deconvolution, single pixel imaging, inverse problems in imaging, proximal gradient methods, introduction to wave optics, time-of-flight imaging, end-to-end optimization of optics and imaging processing. Emphasis is on applied image processing and solving inverse problems using classic algorithms, formal optimization, and modern artificial intelligence techniques. Students learn to apply material by implementing and investigating image processing algorithms in Python. Term project.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 冬",
+    "instructors": "Wetzstein, G.",
+    "prereq": "信号处理/图像处理/优化基础；Python 编程。",
+    "topics": [
+      "**图像处理基础**：卷积、滤波、去噪",
+      "**逆问题**：去卷积、正则化、proximal gradient",
+      "**CNN 用于成像**：图像复原、学习式先验",
+      "**单像素成像**：编码孔径、压缩感知",
+      "**波光学**：衍射、全息、相位恢复",
+      "**ToF 成像**：深度测量、多路径",
+      "**端到端优化**：光学 + 算法联合设计",
+      "**项目**"
+    ],
+    "assessment": "作业 + term project，强调实现。具体以当季官网为准。",
+    "who": "计算摄影、成像系统、AR/VR、显微镜/医学成像方向。",
+    "tips": "先补线性代数和信号与系统。配合 EE 367 一起看。",
+    "related": [
+      "CS 231A",
+      "EE 367",
+      "CS 348I"
+    ],
+    "links": [],
+    "note": "2026-27 冬季开设；官网暂未找到稳定链接。",
+    "doc": "courses/cs448i-computational-imaging.md"
+  },
+  {
+    "id": "CS 468",
+    "slug": "cs468-topics-in-geometric-computing",
+    "zh": "几何计算专题：3D/4D 基础模型",
+    "cat": "视觉、图形与生成",
+    "difficulty": 4,
+    "one": "几何计算专题课，近年聚焦 3D/4D 基础模型。",
+    "tags": [
+      "几何",
+      "3D",
+      "图形",
+      "专题"
+    ],
+    "title": "Topics in Geometric Computing - 3D and 4D Foundation Models",
+    "description": "Contents of this course vary with each offering. Past offerings have included geometric matching, surface reconstruction, collision detection, computational topology, differential geometry for computer scientists, computational symmetry and regularity, data-driven shape analysis, and non-Euclidean methods in machine learning.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "图形学/几何/视觉背景；编程与数学成熟度。",
+    "topics": [
+      "**几何匹配**：刚性/非刚性配准",
+      "**表面重建**：点云到网格、隐式表示",
+      "**碰撞检测**：空间数据结构",
+      "**计算拓扑**：持续同调、拓扑数据分析",
+      "**微分几何**：离散曲面、曲率",
+      "**3D/4D 基础模型**：多模态 3D 表示、动态场景",
+      "**论文阅读与项目**"
+    ],
+    "assessment": "论文讨论 + 项目/复现。具体以当季官网为准。",
+    "who": "3D 视觉、图形学、几何处理方向的研究生；想做 3D foundation model 的人。",
+    "tips": "先修 CS 148/CS 231A。专题课内容每年不同，选课前看当季 syllabus。",
+    "related": [
+      "CS 348N",
+      "CS 348I",
+      "CS 231A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs468/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/cs468-topics-in-geometric-computing.md"
+  },
+  {
+    "id": "CS 223A",
+    "slug": "cs223a-introduction-to-robotics",
+    "zh": "机器人学导论",
+    "cat": "机器人、具身智能",
+    "difficulty": 4,
+    "one": "机器人学基础：运动学、静力学、动力学、规划、控制。",
+    "tags": [
+      "机器人",
+      "运动学",
+      "控制",
+      "基础"
+    ],
+    "title": "Introduction to Robotics (ME 320)",
+    "description": "Robotics foundations in modeling, design, planning, and control. Class covers relevant results from geometry, kinematics, statics, dynamics, motion planning, and control, providing the basic methodologies and tools in robotics research and applications. Concepts and models are illustrated through physical robot platforms, interactive robot simulations, and video segments relevant to historical research developments or to emerging application areas in the field. Recommended: matrix algebra.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 冬",
+    "instructors": "Khatib, O.",
+    "prereq": "矩阵代数；编程基础。",
+    "topics": [
+      "**空间变换**：旋转矩阵、齐次变换、四元数",
+      "**正/逆运动学**：DH 参数、解析/数值 IK",
+      "**雅可比与静力学**：速度映射、力传递",
+      "**动力学**：拉格朗日、牛顿-欧拉",
+      "**轨迹与规划**：插值、避障、RRT",
+      "**控制**：PID、计算力矩、阻抗控制",
+      "**项目/实验**"
+    ],
+    "assessment": "作业 + 项目/考试。具体以当季官网为准。",
+    "who": "机器人入门；想做操作、控制、具身智能的人；ME/EE/CS 背景都适合。",
+    "tips": "先补线性代数和刚体变换。配合 CS 225A 动手，效果最好。",
+    "related": [
+      "CS 225A",
+      "CS 237A",
+      "CS 227A"
+    ],
+    "links": [],
+    "note": "2026-27 冬季开设；官网访问异常，暂只提供 ExploreCourses 链接。",
+    "doc": "courses/cs223a-introduction-to-robotics.md"
+  },
+  {
+    "id": "CS 225A",
+    "slug": "cs225a-experimental-robotics",
+    "zh": "实验机器人学",
+    "cat": "机器人、具身智能",
+    "difficulty": 4,
+    "one": "实验机器人：动手做机械臂的运动学、动力学、控制、柔顺和碰撞避免。",
+    "tags": [
+      "机器人",
+      "实验",
+      "控制",
+      "项目"
+    ],
+    "title": "Experimental Robotics",
+    "description": "Hands-on laboratory course experience in robotic manipulation. Topics include robot kinematics, dynamics, control, compliance, sensor-based collision avoidance, and human-robot interfaces. Second half of class is devoted to final projects using various robotic platforms to build and demonstrate new robot task capabilities. Previous projects include the development of autonomous robot behaviors of drawing, painting, playing air hocket, yoyo, basketball, ping-pong or xylophone. Prerequisites: 223A or equivalent.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 春",
+    "instructors": "Khatib, O.",
+    "prereq": "CS 223A 或同等。",
+    "topics": [
+      "**机械臂运动学**：正/逆解、工作空间",
+      "**动力学**：刚体动力学、参数辨识",
+      "**控制**：PID、计算力矩、阻抗/柔顺",
+      "**碰撞避免**：传感器、人工势场",
+      "**人机接口**：遥操作、共享控制",
+      "**开放项目**：绘画、打空气曲棍球、乒乓球等"
+    ],
+    "assessment": "实验/作业 + 最终项目演示。具体以当季官网为准。",
+    "who": "想动手做机器人、做操作/控制的人；准备进机器人实验室的本科生/硕士。",
+    "tips": "先修 CS 223A。项目组队时尽量覆盖控制、感知、软件分工。",
+    "related": [
+      "CS 223A",
+      "CS 237B",
+      "CS 327A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs225a/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs225a-experimental-robotics.md"
+  },
+  {
+    "id": "CS 227A",
+    "slug": "cs227a-robot-perception",
+    "zh": "机器人感知",
+    "cat": "机器人、具身智能",
+    "difficulty": 4,
+    "one": "机器人感知：视觉/触觉/声学传感器 + 算法，在仿真里搭一套 vision-based 机器人系统。",
+    "tags": [
+      "机器人",
+      "感知",
+      "视觉",
+      "仿真"
+    ],
+    "title": "Robot Perception (EE 227)",
+    "description": "Robot Perception is the cornerstone of modern robotics, enabling machines to interpret, understand, and respond to an array of sensory information they encounter. In the course, students will study the basic principles of typical sensor hardware on a robotics system (e.g., vision, tactile, and acoustic sensors), the algorithms that process the raw sensory data, and make actionable decisions from that information. Over the course of the semester, students will incrementally build their own vision-based robotics system in simulation via a series of homework coding assignments. Students enrolling 4 units will be required to submit an additional final written report. Prerequisites: This course requires programming experience in python as well as basic knowledge of linear algebra. Most of the required mathematical concepts will be reviewed, but it will be assumed that students have strong programming skills. All the homework requires extensive programming.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Song, S.",
+    "prereq": "Python 编程；线性代数；数学基础会在课上复习，但编程要求高。",
+    "topics": [
+      "**传感器**：RGB-D、触觉、声学、IMU",
+      "**标定**：相机内参/外参、手眼标定",
+      "**视觉感知**：检测、分割、位姿估计",
+      "**状态估计**：滤波、融合",
+      "**决策**：从感知到动作",
+      "**仿真实践**",
+      "**项目/报告**（4 units 需额外报告）"
+    ],
+    "assessment": "一系列编程作业 + 可选 final report（4 units）。具体以当季官网为准。",
+    "who": "机器人感知、具身智能、3D 视觉方向。",
+    "tips": "先修 CS 231N 或 CS 237A。作业编程量大，建议熟悉 PyTorch 和仿真环境。",
+    "related": [
+      "CS 231N",
+      "CS 237A",
+      "CS 381"
+    ],
+    "links": [],
+    "note": "2026-27 秋季开设；官网暂未找到稳定链接。",
+    "doc": "courses/cs227a-robot-perception.md"
+  },
+  {
+    "id": "CS 237A",
+    "slug": "cs237a-principles-of-robot-autonomy-i",
+    "zh": "机器人自主性原理 I",
+    "cat": "机器人、具身智能",
+    "difficulty": 4,
+    "one": "自主机器人 I：感知、定位、SLAM、非线性控制、运动规划、POMDP。",
+    "tags": [
+      "机器人",
+      "SLAM",
+      "规划",
+      "ROS"
+    ],
+    "title": "Principles of Robot Autonomy I (AA 274A, EE 260A, ME 274A)",
+    "description": "Basic principles for endowing mobile autonomous robots with perception, planning, and decision-making capabilities. Algorithmic approaches for robot perception, localization, and simultaneous localization and mapping; control of non-linear systems, learning-based control, and robot motion planning; introduction to methodologies for reasoning under uncertainty, e.g., (partially observable) Markov decision processes. Extensive use of the Robot Operating System (ROS) for demonstrations and hands-on activities. Prerequisites: CS 106A or equivalent, CME 100 or equivalent (for linear algebra), and CME 106 or equivalent (for probability theory).",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Bansal, S.、Pavone, M.",
+    "prereq": "CS 106A；CME 100（线代）；CME 106（概率）。",
+    "topics": [
+      "**感知**：传感器、特征、视觉/激光",
+      "**定位与 SLAM**：EKF、粒子滤波、图优化",
+      "**非线性控制**：反馈线性化、MPC 基础",
+      "**运动规划**：图搜索、采样规划、轨迹优化",
+      "**不确定性**：POMDP、信念空间",
+      "**ROS 实践**",
+      "**项目**：让机器人自主完成任务"
+    ],
+    "assessment": "作业 + ROS 项目。具体以当季官网为准。",
+    "who": "机器人、自动驾驶、无人机、具身智能方向。",
+    "tips": "先修 CS 223A 或至少有刚体运动学基础。ROS 部分建议提前熟悉。",
+    "related": [
+      "CS 237B",
+      "CS 223A",
+      "CS 227A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs237a/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs237a-principles-of-robot-autonomy-i.md"
+  },
+  {
+    "id": "CS 237B",
+    "slug": "cs237b-principles-of-robot-autonomy-ii",
+    "zh": "机器人自主性原理 II",
+    "cat": "机器人、具身智能",
+    "difficulty": 4,
+    "one": "自主机器人 II：RL/最优控制、操作、模仿学习、人机交互、系统架构。",
+    "tags": [
+      "机器人",
+      "操作",
+      "RL",
+      "模仿学习"
+    ],
+    "title": "Principles of Robot Autonomy II (AA 174B, AA 274B, EE 260B, ME 274B)",
+    "description": "This course teaches advanced principles for endowing mobile autonomous robots with capabilities to autonomously learn new skills and to physically interact with the environment and with humans. It also provides an overview of different robot system architectures. Concepts that will be covered in the course are: Reinforcement Learning and its relationship to optimal control, contact and dynamics models for prehensile and non-prehensile robot manipulation, imitation learning and human intent inference, as well as different system architectures and their verification. Students will earn the theoretical foundations for these concepts and implement them on mobile manipulation platforms. In homeworks, the Robot Operating System (ROS) will be used extensively for demonstrations and hands-on activities. Prerequisites: CS106A or equivalent, CME 100 or equivalent (for linear algebra), CME 106 or equivalent (for probability theory), and AA 171/274.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "CS 106A；CME 100；CME 106；AA 171/274（或 CS 237A）。",
+    "topics": [
+      "**RL 与最优控制**：MDP、LQR、policy gradient",
+      "**接触与操作**：抓取、非抓取操作、力控",
+      "**模仿学习**：behavior cloning、DAgger、逆 RL",
+      "**人类意图推断**：共享 autonomy",
+      "**系统架构**：感知-规划-控制集成、验证",
+      "**ROS 实践**",
+      "**项目**"
+    ],
+    "assessment": "作业 + 项目，移动操作平台实操。具体以当季官网为准。",
+    "who": "机器人操作、具身智能、人机协作方向。",
+    "tips": "先修 CS 237A 和 CS 234。接触动力学部分建议配合物理仿真。",
+    "related": [
+      "CS 237A",
+      "CS 234",
+      "CS 327A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs237b/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/cs237b-principles-of-robot-autonomy-ii.md"
+  },
+  {
+    "id": "CS 381",
+    "slug": "cs381-sensorimotor-learning-for-embodied-agents",
+    "zh": "具身智能的感知运动学习",
+    "cat": "机器人、具身智能",
+    "difficulty": 5,
+    "one": "具身智能的 sensorimotor learning：从原始感知到决策，持续适应物理世界。",
+    "tags": [
+      "具身智能",
+      "机器人",
+      "研究",
+      "VLA"
+    ],
+    "title": "Sensorimotor Learning for Embodied Agents (EE 381)",
+    "description": "This is an advanced course that will focus on modern machine learning algorithms for autonomous robots as an embodied intelligent agent. It covers advanced topics that center around 1. what is embodied AI and how it differs from internet AI, 2. how embodied agents perceive their environment from raw sensory data and make decisions, and 3. continually adapt to the physical world through both hardware and software improvements. By the end of the course, we hope to prepare you for conducting research in this area, knowing how to formulate the problem, design the algorithm, critically validate the idea through experimental designs and finally clearly present and communicate the findings. Students are expected to read, present, and debate the latest research papers on embodied AI, as well as obtain hands-on experience through the course projects.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 冬",
+    "instructors": "Song, S.",
+    "prereq": "深度学习、机器人/RL 基础；研究导向。",
+    "topics": [
+      "**Embodied AI**：定义、与互联网 AI 的差异",
+      "**感知运动学习**：视觉、触觉、本体感觉",
+      "**策略学习**：模仿、RL、world model",
+      "**持续适应**：在线学习、domain shift",
+      "**硬件/软件协同**：传感器、执行器、形态",
+      "**论文阅读与辩论**",
+      "**研究项目**"
+    ],
+    "assessment": "论文阅读/展示/辩论 + 项目。具体以当季官网为准。",
+    "who": "想做具身智能研究、机器人学习、VLA 的人；准备读博的学生。",
+    "tips": "先修 CS 227A/CS 237B/CS 234。项目要有真实的机器人或高保真仿真实验。",
+    "related": [
+      "CS 227A",
+      "CS 237B",
+      "CS 234"
+    ],
+    "links": [],
+    "note": "2026-27 冬季开设；官网暂未找到稳定链接。",
+    "doc": "courses/cs381-sensorimotor-learning-for-embodied-agents.md"
+  },
+  {
+    "id": "CS 273B",
+    "slug": "cs273b-deep-learning-in-genomics",
+    "zh": "基因组与生物医学中的深度学习",
+    "cat": "AI for Science 与医疗",
+    "difficulty": 4,
+    "one": "基因组与生物医学的深度学习：监督/无监督/生成模型 + 可解释性。",
+    "tags": [
+      "AI4Bio",
+      "基因组",
+      "医疗",
+      "深度学习"
+    ],
+    "title": "Deep Learning in Genomics and Biomedicine (BMDS 273, GENE 236)",
+    "description": "Recent breakthroughs in high-throughput genomic and biomedical data are transforming biological sciences into &quot;big data&quot; disciplines. In parallel, progress in deep neural networks are revolutionizing fields such as image recognition, natural language processing and, more broadly, AI. This course explores the exciting intersection between these two advances. The course will start with an introduction to deep learning and overview the relevant background in genomics and high-throughput biotechnology, focusing on the available data and their relevance. It will then cover the ongoing developments in deep learning (supervised, unsupervised and generative models) with the focus on the applications of these methods to biomedical data, which are beginning to produced dramatic results. In addition to predictive modeling, the course emphasizes how to visualize and extract interpretable, biological insights from such models. Recent papers from the literature will be presented and discussed. Experts in the field will present guest lectures. Students will be introduced to and work with popular deep learning software frameworks. Students will work in groups on a final class project using real world datasets. Prerequisites: College calculus, linear algebra, basic probability and statistics such as CS 109, and basic machine learning such as CS 229. No prior knowledge of genomics is necessary.",
+    "units": "3",
+    "grading": "Medical Option (Med-Ltr-CR/NC)",
+    "terms": "2027 春",
+    "instructors": "Zou, J.、Zhang, H.",
+    "prereq": "微积分、线性代数、概率统计（CS 109）；机器学习（CS 229）；不要求基因组学背景。",
+    "topics": [
+      "**DL 基础**：CNN、RNN、Transformer、自监督",
+      "**基因组数据**：测序、表达、变异、单细胞",
+      "**监督预测**：疾病风险、药物反应、调控",
+      "**无监督/生成**：聚类、VAE、扩散、蛋白质设计",
+      "**可解释性**：归因、motif、注意力",
+      "**论文讨论与 guest lectures**",
+      "**真实数据项目**"
+    ],
+    "assessment": "论文讨论 + 小组项目 + 作业。具体以当季官网为准。",
+    "who": "生物信息、计算生物、医疗 AI、AI4Science 方向；生物背景想补 ML 的人。",
+    "tips": "先修 CS 229。项目尽量找有明确生物学问题的数据集，不要只刷准确率。",
+    "related": [
+      "CS 279",
+      "CS 277",
+      "CS 229"
+    ],
+    "links": [],
+    "note": "2026-27 春季开设；官网暂未找到稳定链接。",
+    "doc": "courses/cs273b-deep-learning-in-genomics.md"
+  },
+  {
+    "id": "CS 277",
+    "slug": "cs277-foundation-models-for-healthcare",
+    "zh": "医疗基础模型",
+    "cat": "AI for Science 与医疗",
+    "difficulty": 3,
+    "one": "医疗基础模型：NLP/CV/多模态 FM 的训练、评估、部署。",
+    "tags": [
+      "医疗",
+      "Foundation Model",
+      "多模态"
+    ],
+    "title": "Foundation Models for Healthcare (BMDS 271, RAD 271)",
+    "description": "Generative AI and large-scale self-supervised foundation models are poised to have a profound impact on human decision making across occupations. Healthcare is one such area where such models have the capacity to impact patients, clinicians, and other care providers. In this course, we will explore the training, evaluation, and deployment of generative AI and foundation models, with a focus on addressing current and future medical needs. The course will cover models used in natural language processing, computer vision, and multi-modal applications. We will explore the intersection of models trained on non-healthcare domains and their adaptation to domain-specific problems, as well as healthcare-specific foundation models. Prerequisites: Familiarity with machine learning principles at the level of CS 229, 231N, or 224N",
+    "units": "3",
+    "grading": "Medical Option (Med-Ltr-CR/NC)",
+    "terms": "2027 冬",
+    "instructors": "Syeda-Mahmood, T.、Chaudhari, A.",
+    "prereq": "CS 229/231N/224N 级 ML 基础。",
+    "topics": [
+      "**自监督 FM**：预训练、表征学习",
+      "**医疗 NLP**：临床文本、问答、摘要",
+      "**医疗影像**：分类、分割、报告生成",
+      "**多模态**：影像 + 文本 + 组学",
+      "**评估与部署**：临床指标、监管、偏差",
+      "**伦理与隐私**",
+      "**项目**"
+    ],
+    "assessment": "作业 + 项目/论文讨论。具体以当季官网为准。",
+    "who": "医疗 AI、临床数据科学、医疗影像方向；想进入医疗 FM 的工程师/研究者。",
+    "tips": "先修 CS 231N 或 CS 224N。注意医疗数据的隐私和监管约束。",
+    "related": [
+      "CS 287",
+      "CS 273B",
+      "CS 224N"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs277/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs277-foundation-models-for-healthcare.md"
+  },
+  {
+    "id": "CS 279",
+    "slug": "cs279-computational-biology",
+    "zh": "计算生物学：生物分子与细胞的结构和组织",
+    "cat": "AI for Science 与医疗",
+    "difficulty": 4,
+    "one": "计算生物学：蛋白结构预测/设计、分子模拟、药物筛选、显微图像分析。",
+    "tags": [
+      "AI4Bio",
+      "蛋白",
+      "药物发现",
+      "模拟"
+    ],
+    "title": "Computational Biology: Structure and Organization of Biomolecules and Cells (BIOE 279, BIOPHYS 279, BMDS 245, CME 279)",
+    "description": "Computational techniques for investigating and designing the three-dimensional structure and dynamics of biomolecules and cells. These computational methods play an increasingly important role in drug discovery, medicine, bioengineering, and molecular biology. Course topics include protein structure prediction, protein design, drug screening, molecular simulation, cellular-level simulation, image analysis for microscopy, and methods for solving structures from crystallography and electron microscopy data. Prerequisites: elementary programming background (CS 106A or equivalent) and an introductory course in biology or biochemistry.",
+    "units": "3",
+    "grading": "Medical Option (Med-Ltr-CR/NC)",
+    "terms": "2026 秋",
+    "instructors": "Dror, R.",
+    "prereq": "CS 106A；入门生物/生化。",
+    "topics": [
+      "**蛋白结构预测**：AlphaFold、Rosetta、同源建模",
+      "**蛋白设计**：定向进化、生成式设计",
+      "**药物筛选**：对接、虚拟筛选、ML 打分",
+      "**分子模拟**：MD、自由能、增强采样",
+      "**细胞模拟**：网络、空间建模",
+      "**显微图像分析**：分割、追踪、超分",
+      "**结构解析**：晶体学、冷冻电镜",
+      "**项目**"
+    ],
+    "assessment": "作业 + 项目，可能包含论文讨论。具体以当季官网为准。",
+    "who": "计算生物、药物发现、AI4Science 方向；生物/化学背景想学计算的人。",
+    "tips": "先补一点分子生物学。配合 CS 273B 补机器学习。",
+    "related": [
+      "CS 273B",
+      "CS 277",
+      "CS 224N"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs279/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs279-computational-biology.md"
+  },
+  {
+    "id": "CS 286",
+    "slug": "cs286-advanced-cv-and-biomedicine",
+    "zh": "计算机视觉与生物医学进阶",
+    "cat": "AI for Science 与医疗",
+    "difficulty": 4,
+    "one": "CV + 生物医学进阶：视觉基础模型、扩散/生成、vision-language 在医疗的落地。",
+    "tags": [
+      "医疗",
+      "CV",
+      "Foundation Model",
+      "研究"
+    ],
+    "title": "Advanced Topics in Computer Vision and Biomedicine (BMDS 276)",
+    "description": "This course in artificial intelligence will provide a deep dive into advanced computer vision techniques for reasoning about visual data, and their real-world use in biomedicine. We will cover current cutting-edge models including different families of vision foundation models from representation learners to diffusion and generative models, and both vision-only and vision-language models. We will also cover considerations for real-world use, including model size and computation, training and inference settings, and training data, focusing on applications in biomedicine. Students will be actively engaged in studying and analyzing recent advancements through written analyses, class discussions, and a final project. This course is considered an advanced course and students should be comfortable with deep learning and computer vision at the level of CS231N or BIODS220.",
+    "units": "3",
+    "grading": "Medical Option (Med-Ltr-CR/NC)",
+    "terms": "2026 秋",
+    "instructors": "Yeung, S.",
+    "prereq": "CS 231N 或 BIODS 220 级深度学习/视觉基础。",
+    "topics": [
+      "**视觉 FM**：CLIP、DINO、SAM 等",
+      "**表征学习**：自监督、对比学习",
+      "**生成模型**：扩散、图像翻译",
+      "**Vision-language**：报告生成、VQA",
+      "**计算与数据**：模型规模、训练/推理、数据偏差",
+      "**医疗应用**：病理、放射、手术",
+      "**论文分析与项目**"
+    ],
+    "assessment": "论文分析 + 课堂讨论 + final project。具体以当季官网为准。",
+    "who": "医疗影像、CV 研究、AI4Science 方向的研究生。",
+    "tips": "先修 CS 231N。课程偏研究，选一个窄的临床问题做深。",
+    "related": [
+      "CS 231N",
+      "CS 277",
+      "CS 287"
+    ],
+    "links": [],
+    "note": "2026-27 秋季开设；官网暂未找到稳定链接。",
+    "doc": "courses/cs286-advanced-cv-and-biomedicine.md"
+  },
+  {
+    "id": "CS 287",
+    "slug": "cs287-data-centric-ai-for-healthcare",
+    "zh": "医疗 Data-Centric AI",
+    "cat": "AI for Science 与医疗",
+    "difficulty": 3,
+    "one": "医疗 Data-Centric AI：数据怎么产生、偏见/缺失/泄漏怎么毁掉模型，以及怎么修。",
+    "tags": [
+      "医疗",
+      "数据",
+      "Data-Centric",
+      "鲁棒性"
+    ],
+    "title": "Data Centric AI for Healthcare (BMDS 218)",
+    "description": "This course explores how healthcare data is generated in practice - and how these processes influence the development of robust, trustworthy machine learning models. Students will examine how clinical workflows, documentation habits, and institutional practices introduce bias, noise, missingness, and spurious correlations into datasets. The course emphasizes the often-overlooked reality that many model failures stem not from algorithmic design, but from subtle flaws in how data is collected, labeled, and interpreted. Through lectures, real-world case studies, and observation of clinical data workflows, students will develop practical tools for understanding and improving data quality and model reliability. Topics include assessing data quality, addressing missingness and label leakage, developing scalable and accurate annotation strategies, leveraging synthetic data, and monitoring data and models for drift over time. Students will also learn to evaluate how these data challenges impact model generalization and robustness.",
+    "units": "3",
+    "grading": "Medical Option (Med-Ltr-CR/NC)",
+    "terms": "2027 冬",
+    "instructors": "Alsentzer, E.、Fries, J.",
+    "prereq": "机器学习基础；对医疗数据有兴趣。",
+    "topics": [
+      "**数据生成**：临床工作流、文档、制度",
+      "**数据质量**：偏差、噪声、缺失、虚假相关",
+      "**Label leakage**：泄漏检测与避免",
+      "**标注策略**：可扩展、准确的标注",
+      "**合成数据**：隐私、增广、风险",
+      "**Drift 与监控**：数据/模型漂移",
+      "**泛化与鲁棒性**",
+      "**案例与项目**"
+    ],
+    "assessment": "案例讨论 + 项目/作业。具体以当季官网为准。",
+    "who": "医疗 AI、临床数据科学、数据工程方向；被“模型很好但一上线就崩”困扰的人。",
+    "tips": "和 CS 277 互补：277 讲模型，287 讲数据。项目尽量接触真实临床数据流程。",
+    "related": [
+      "CS 277",
+      "CS 286",
+      "CS 229"
+    ],
+    "links": [],
+    "note": "2026-27 冬季开设；官网暂未找到稳定链接。",
+    "doc": "courses/cs287-data-centric-ai-for-healthcare.md"
+  },
+  {
+    "id": "CS 375",
+    "slug": "cs375-large-scale-neural-network-modeling-for-neuroscience",
+    "zh": "面向神经科学的大规模神经网络建模",
+    "cat": "AI for Science 与医疗",
+    "difficulty": 4,
+    "one": "用大规模神经网络建模大脑：视觉/听觉/运动/语言/决策的“人机收敛进化”。",
+    "tags": [
+      "NeuroAI",
+      "计算神经",
+      "AI4Science"
+    ],
+    "title": "Large-Scale Neural Network Modeling for Neuroscience (PSYCH 249)",
+    "description": "The last ten years has seen a watershed in the development of large-scale neural networks in artificial intelligence. At the same time, computational neuroscientists have discovered a surprisingly robust mapping between the internal components of these networks and real neural structures in the human brain. In this class we will discuss a panoply of examples of such &quot;convergent man-machine evolution&quot;, including: feedforward models of sensory systems (vision, audition, somatosensation); recurrent neural networks for dynamics and motor control; integrated models of attention, memory, and navigation; transformer models of language areas; self-supervised models of learning; and deep RL models of decision and planning. We will also delve into the methods and metrics for comparing such models to real-world neural data, and address how unsolved open problems in AI (that you can work on!) will drive forward novel neural models. Some meaningful background in modern neural networks is highly advised (e.g. CS229, CS230, CS231n, CS234, CS236, CS 330), but formal preparation in cognitive science or neuroscience is not needed (we will provide this).",
+    "units": "3",
+    "grading": "Letter (ABCD/NP)",
+    "terms": "2027 冬",
+    "instructors": "Yamins, D.",
+    "prereq": "现代神经网络背景（CS 229/230/231N/234/236/330 之一）；不要求认知科学/神经科学背景。",
+    "topics": [
+      "**前馈感知模型**：视觉、听觉、体感",
+      "**循环网络**：动力学、运动控制",
+      "**注意力/记忆/导航**：整合模型",
+      "**语言与 Transformer**：语言区建模",
+      "**自监督学习**：与大脑学习机制对比",
+      "**深度 RL**：决策与规划",
+      "**模型-神经数据比较**：RSA、编码模型、指标",
+      "**项目**"
+    ],
+    "assessment": "论文讨论 + 项目。具体以当季官网为准。",
+    "who": "NeuroAI、计算神经科学、AI 可解释性方向；想做“用 AI 理解大脑”的人。",
+    "tips": "先修 CS 231N 或 CS 224N。配合 CS 322/EE 292R 拓宽视野。",
+    "related": [
+      "CS 322",
+      "EE 292R",
+      "CS 231N"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://cs375.stanford.edu/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/cs375-large-scale-neural-network-modeling-for-neuroscience.md"
+  },
+  {
+    "id": "EE 292R",
+    "slug": "ee292r-ai-and-data-for-science",
+    "zh": "AI 与数据驱动的科学",
+    "cat": "AI for Science 与医疗",
+    "difficulty": 1,
+    "one": "AI4Science 前沿讲座：每周一位 Stanford 教授讲 AI/数据如何推进自己的科学领域。",
+    "tags": [
+      "AI4Science",
+      "讲座",
+      "跨学科"
+    ],
+    "title": "AI and Data for Science (CS 292, PSYCH 292R, STATS 282)",
+    "description": "AI4Science is an emerging discipline that leverages machine learning, foundation models, and autonomous agents to accelerate the pace of discovery. By integrating data-driven architectures with physical constraints, the field models complex systems at unprecedented scales. At Stanford, this work is empowered by Marlowe - a specialized GPU-based computational instrument. This seminar series presents research from the Stanford community and beyond, exploring the frontier where Al and scientific inquiry converge.",
+    "units": "1",
+    "grading": "Satisfactory/No Credit",
+    "terms": "2026 秋 / 2027 冬 / 2027 春",
+    "instructors": "Candes, E.、Wetzstein, G.、Narasimhan, B.、Wandell, B.",
+    "prereq": "无硬性先修；对 AI + 科学交叉感兴趣即可。",
+    "topics": [
+      "**神经科学**：视网膜/视觉系统、大脑基础模型、数字孪生",
+      "**医学**：医学影像 FM、精准医疗、多模态组学",
+      "**基因组**：调控 DNA、非编码变异",
+      "**空间智能**：video world models、world agents",
+      "**计算社会科学**：跨加密平台协同行为检测",
+      "**科研基础设施**：Marlowe GPU 集群、PB 级数据"
+    ],
+    "assessment": "出勤 + 任选一个讲座主题写一篇 short write-up；1 unit，S/NC。",
+    "who": "想快速扫 AI4Science 版图、找跨学科选题/合作的人；不适合想系统学 ML 技术的人。",
+    "tips": "讲座线下 only，但 Stanford Online YouTube 会陆续上传录像。建议每期记一个“方法 + 科学问题”的配对。",
+    "related": [
+      "CS 375",
+      "CS 273B",
+      "CS 277"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://aida4sci.stanford.edu/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/ee292r-ai-and-data-for-science.md"
+  },
+  {
+    "id": "CS 139",
+    "slug": "cs139-human-centered-ai",
+    "zh": "人本 AI",
+    "cat": "产品、伦理与设计",
+    "difficulty": 2,
+    "one": "Norvig 的人本 AI：用户心智模型、可信设计、公平与伦理。",
+    "tags": [
+      "人本 AI",
+      "伦理",
+      "产品",
+      "可解释"
+    ],
+    "title": "Human-Centered AI",
+    "description": "Artificial Intelligence technology can and must be guided by human concerns. The course examines how mental models and user models of AI systems are formed, and how that leads to user expectations. This informs a set of design guidelines for building AI systems that are trustworthy, understandable, fair, and beneficial. The course covers the impact of AI systems on the economy and everyday life, and ethical issues of collecting data and running systems, including respect for persons, beneficence, fairness and justice.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 冬",
+    "instructors": "Norvig, P.",
+    "prereq": "无强技术先修；对 AI 产品/政策/伦理有兴趣。",
+    "topics": [
+      "**用户模型**：人如何理解 AI、期望如何形成",
+      "**可信设计**：可解释、可预测、可纠错",
+      "**公平与正义**：偏见、分配正义、程序正义",
+      "**经济与社会影响**：就业、权力、信息生态",
+      "**伦理框架**：尊重人、善行、公平",
+      "**设计准则**：把原则落到产品",
+      "**案例讨论**"
+    ],
+    "assessment": "阅读/讨论 + 论文/项目。具体以当季官网为准。",
+    "who": "产品经理、设计师、政策/法律背景；技术背景想补“人”的维度的人。",
+    "tips": "配合 CS 281 学技术侧的公平/可解释，配合 CS 247A 学设计落地。",
+    "related": [
+      "CS 281",
+      "CS 247A",
+      "MS&E 203"
+    ],
+    "links": [],
+    "note": "2026-27 冬季开设；官网暂未找到稳定链接。",
+    "doc": "courses/cs139-human-centered-ai.md"
+  },
+  {
+    "id": "CS 247A",
+    "slug": "cs247a-design-for-artificial-intelligence",
+    "zh": "为人工智能而设计",
+    "cat": "产品、伦理与设计",
+    "difficulty": 3,
+    "one": "为人本 AI 做设计：studio 制，研究、原型、迭代，做出负责任的 AI 体验。",
+    "tags": [
+      "设计",
+      "HCI",
+      "人本 AI",
+      "Studio"
+    ],
+    "title": "Design for Artificial Intelligence (SYMSYS 195A)",
+    "description": "A project-based course that builds on the introduction to design in CS147 by focusing on advanced methods and tools for research, prototyping, and user interface design. Studio based format with intensive coaching and iteration to prepare students for tackling real world design problems. This course takes place entirely in studios; you must plan on attending every studio to take this class. The focus of CS247A is design for human-centered artificial intelligence experiences. What does it mean to design for AI? What is HAI? How do you create responsible, ethical, human centered experiences? Let us explore what AI actually is and the constraints, opportunities and specialized processes necessary to create AI systems that work effectively for the humans involved. Prerequisites: CS147 or equivalent background in design thinking. In the event of a waitlist, acceptance to class based on an application provided on the first day of class.",
+    "units": "3–4",
+    "grading": "Letter (ABCD/NP)",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "CS 147 或同等设计思维背景；可能需要申请。",
+    "topics": [
+      "**设计研究**：访谈、观察、需求定义",
+      "**AI 能力与约束**：能做什么、不能做什么",
+      "**原型**：低保真到高保真、Wizard-of-Oz",
+      "**交互模式**：对话、推荐、自动化、混合主动",
+      "**信任与透明**：解释、控制、错误恢复",
+      "**伦理与责任**：偏见、隐私、权力",
+      "**studio 项目**"
+    ],
+    "assessment": "studio 出勤 + 迭代 + 最终项目。具体以当季官网为准。",
+    "who": "设计师、产品经理、HCI 学生；想从“做 demo”转向“做体验”的 AI 开发者。",
+    "tips": "不是 ML 技术课。选课前确认自己能投入 studio 时间。",
+    "related": [
+      "CS 139",
+      "CS 147",
+      "MS&E 203"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/cs247a/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/cs247a-design-for-artificial-intelligence.md"
+  },
+  {
+    "id": "CS 281",
+    "slug": "cs281-ethics-of-artificial-intelligence",
+    "zh": "人工智能伦理",
+    "cat": "产品、伦理与设计",
+    "difficulty": 3,
+    "one": "AI 伦理的技术侧：公平、可解释、隐私，以及这些方法的形式化极限。",
+    "tags": [
+      "伦理",
+      "公平",
+      "可解释",
+      "隐私"
+    ],
+    "title": "Ethics of Artificial Intelligence",
+    "description": "Machine learning has become an indispensable tool for creating intelligent applications, accelerating scientific discoveries, and making better data-driven decisions. Yet, the automation and scaling of such tasks can have troubling negative societal impacts. Through practical case studies, you will identify issues of fairness, justice and truth in AI applications. You will then apply recent techniques to detect and mitigate such algorithmic biases, along with methods to provide more transparency and explainability to state-of-the-art ML models. Finally, you will derive fundamental formal results on the limits of such techniques, along with tradeoffs that must be made for their practical application. CS229 or equivalent classes or experience.",
+    "units": "3–4",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "CS 229 或同等 ML 基础。",
+    "topics": [
+      "**公平性**：群体/个体公平、定义与冲突",
+      "**偏见检测**：数据偏差、模型偏差、审计",
+      "**缓解方法**：预处理、正则、后处理",
+      "**可解释性**：归因、反事实、内在可解释",
+      "**隐私**：差分隐私、成员推断",
+      "**形式化极限**：不可能性结果、trade-off",
+      "**案例与项目**"
+    ],
+    "assessment": "作业 + 项目/论文。具体以当季官网为准。",
+    "who": "想做负责任 AI、AI 审计、政策技术的人；需要“能动手”的伦理课的人。",
+    "tips": "配合 CS 139 补人本视角，配合 CS 221M 补模型内部视角。",
+    "related": [
+      "CS 139",
+      "CS 221M",
+      "CS 329T"
+    ],
+    "links": [
+      [
+        "课程资料",
+        "https://stanfordaiethics.github.io/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/cs281-ethics-of-artificial-intelligence.md"
+  },
+  {
+    "id": "MS&E 203",
+    "slug": "mse203-building-and-evaluating-ai-products",
+    "zh": "构建与评估 AI 产品",
+    "cat": "产品、伦理与设计",
+    "difficulty": 3,
+    "one": "从 0 到 1 做 AI 产品和 agent：AI fit、延迟/质量/成本、eval、Demo Day。",
+    "tags": [
+      "产品",
+      "Agent",
+      "Eval",
+      "创业"
+    ],
+    "title": "Building and Evaluating AI Products",
+    "description": "A project-based course on building AI products and agents end-to-end. Students build a real product over the quarter, justifying AI fit, navigating latency, quality, and cost trade-offs, and rigorously evaluating their own system. The course moves from an individual mechanics phase into a team build, ending in a Demo Day. Enrolled students complete a self-paced pre-course module covering git basics, AI coding tool fluency (Cursor, Claude Code, or Antigravity), eval framework basics, and API setup. Designed primarily for upper-division undergraduates and master's students, with target majors including MS&amp;E, CS, Symbolic Systems, and EE; open to all Stanford students. Enrollment is capped at 12 teams of 4 students (48 students total).",
+    "units": "3",
+    "grading": "Letter (ABCD/NP)",
+    "terms": "2026 秋",
+    "instructors": "Nahass, P.、Emrani, D.、Udell, M.",
+    "prereq": "高年级本科/硕士；编程能力；课程容量约 48 人（12 队 × 4 人）。",
+    "topics": [
+      "**AI fit**：什么问题适合用 AI/agent",
+      "**产品定义**：用户、场景、价值",
+      "**延迟/质量/成本**：工程 trade-off",
+      "**Eval**：离线/在线指标、LLM-as-judge",
+      "**团队 build**：从个人机制到团队产品",
+      "**Demo Day**：展示与评审"
+    ],
+    "assessment": "项目为主 + Demo Day；可能有个人/团队作业。具体以当季官网为准。",
+    "who": "想创业/做 AI 产品的人；MS&E、CS、SymSys、EE 背景；需要作品集的人。",
+    "tips": "组队要互补（工程 + 设计 + 商业）。不要选太大的问题，eval 比 demo 更重要。",
+    "related": [
+      "CS 329Z",
+      "CS 224G",
+      "CS 247A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/msande203/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/mse203-building-and-evaluating-ai-products.md"
+  },
+  {
+    "id": "MS&E 318",
+    "slug": "mse318-safe-and-constrained-ai",
+    "zh": "安全与受约束的 AI",
+    "cat": "统计与优化",
+    "difficulty": 5,
+    "one": "安全约束 AI：约束优化、safe RL、投影网络、LLM alignment。",
+    "tags": [
+      "安全",
+      "约束优化",
+      "RL",
+      "对齐"
+    ],
+    "title": "Safe and Constrained AI",
+    "description": "How can we design AI systems that are not only powerful but also provably safe and trustworthy? This advanced PhD seminar surveys algorithmic methods to enforce hard constraints in machine learning, reinforcement learning, and generative AI. Topics include classical constrained optimization (Lagrangian methods, robust and stochastic programming), safe reinforcement learning (trust regions, Lyapunov functions, reachability, shielding), hybrid ML-optimization methods (projection networks, solver-in-the-loop architectures), and alignment strategies for large language models (fine-tuning, model editing, tool use, and interactive alignment). Each week highlights a key theoretical result alongside state-of-the-art research, with applications spanning robotics, finance, healthcare, energy, and language models. Students will critically assess the strengths and limitations of these methods and develop final projects that apply or extend them in real-world domains. Prerequisites: optimization at the level of CME 307 or EE 364a.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026–27 未排课",
+    "instructors": "TBA",
+    "prereq": "优化水平达到 CME 307 或 EE 364A。",
+    "topics": [
+      "**约束优化**：Lagrangian、robust/stochastic programming",
+      "**Safe RL**：trust region、Lyapunov、reachability、shielding",
+      "**混合方法**：projection networks、solver-in-the-loop",
+      "**LLM 对齐**：微调、模型编辑、工具使用、交互式对齐",
+      "**理论结果**：可行性、稳定性、保证",
+      "**应用与项目**"
+    ],
+    "assessment": "论文讨论 + final project。具体以当季官网为准。",
+    "who": "安全 RL、控制、优化、alignment 方向的研究生；想做“有保证的 AI”的人。",
+    "tips": "先补凸优化和控制理论。课程偏理论，项目要选一个能证明/度量安全性的问题。",
+    "related": [
+      "CS 234",
+      "MS&E 319",
+      "CS 329A"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/msande318/"
+      ]
+    ],
+    "note": "2026-27 学年未在 ExploreCourses 排课。",
+    "doc": "courses/mse318-safe-and-constrained-ai.md"
+  },
+  {
+    "id": "MS&E 319",
+    "slug": "mse319-efficient-generative-models",
+    "zh": "高效生成模型",
+    "cat": "统计与优化",
+    "difficulty": 4,
+    "one": "高效生成模型：在推理深度、算力、延迟、内存、数据之间做权衡，重点是 LLM。",
+    "tags": [
+      "生成模型",
+      "效率",
+      "LLM",
+      "系统"
+    ],
+    "title": "Efficient Generative Models",
+    "description": "As generative models become central to computing, their progress increasingly depends on algorithms that trade reasoning depth, computational cost, latency, memory, and data. This course studies those tradeoffs with a primary focus on modern language models. We examine how objectives, architectures, data pipelines, inference procedures, and serving systems are shaped by computational constraints, and how these constraints open new algorithmic questions. Students give one presentation and complete either a survey or a research project. May be repeated for credit.",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2026 秋",
+    "instructors": "Saberi, A.",
+    "prereq": "ML/LLM 基础；算法与系统意识。",
+    "topics": [
+      "**计算约束**：推理深度、算力、延迟、内存、数据",
+      "**目标与架构**：scaling、稀疏、混合专家",
+      "**数据 pipeline**：质量、配比、合成数据",
+      "**推理**：采样、speculative decoding、test-time compute",
+      "**Serving**：批处理、缓存、调度",
+      "**算法问题**：约束下的新问题",
+      "**presentation + survey/project**"
+    ],
+    "assessment": "一次 presentation + survey 或 research project。具体以当季官网为准。",
+    "who": "想做推理效率、生成模型算法、ML 系统的人；研究生。",
+    "tips": "配合 CS 349E 学工程实现，配合 CS 336 学模型训练。",
+    "related": [
+      "CS 349E",
+      "CS 336",
+      "MS&E 318"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/msande319/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/mse319-efficient-generative-models.md"
+  },
+  {
+    "id": "STATS 202",
+    "slug": "stats202-statistical-learning-and-data-science",
+    "zh": "统计学习与数据科学",
+    "cat": "统计与优化",
+    "difficulty": 3,
+    "one": "统计学习入门：回归/分类、正则、树/集成、SVM、神经网络、聚类。",
+    "tags": [
+      "统计学习",
+      "数据科学",
+      "回归"
+    ],
+    "title": "Statistical Learning and Data Science",
+    "description": "Overview of supervised learning, with a focus on regression and classification methods. Syllabus includes: linear and polynomial regression, logistic regression and linear discriminant analysis; cross-validation and the bootstrap, model selection and regularization methods (ridge and lasso); nonlinear models, splines and generalized additive models; tree-based methods, random forests and boosting; support-vector machines; Neural nets and transformers; Some unsupervised learning: principal components and clustering (k-means and hierarchical).",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 冬 / 2027 春",
+    "instructors": "Walther, G.、Tibshirani, R.",
+    "prereq": "概率统计与线性代数基础；编程（R/Python）。",
+    "topics": [
+      "**回归**：线性、多项式、逻辑回归、LDA",
+      "**模型评估**：交叉验证、bootstrap、模型选择",
+      "**正则化**：ridge、lasso、弹性网",
+      "**非线性**：样条、GAM、树、随机森林、boosting",
+      "**SVM**：核方法、margin",
+      "**神经网络与 Transformer**：基础与应用",
+      "**无监督**：PCA、k-means、层次聚类"
+    ],
+    "assessment": "作业 + 考试/项目。具体以当季官网为准。",
+    "who": "数据科学、统计分析、商业分析方向；想补统计视角的 ML 学习者。",
+    "tips": "和 CS 229 互补：202 更重模型评估与统计推断，229 更重算法推导。",
+    "related": [
+      "CS 229",
+      "STATS 315A",
+      "MS&E 226"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/stats202/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/stats202-statistical-learning-and-data-science.md"
+  },
+  {
+    "id": "STATS 315A",
+    "slug": "stats315a-modern-applied-statistics-learning",
+    "zh": "现代应用统计：学习",
+    "cat": "统计与优化",
+    "difficulty": 4,
+    "one": "现代应用统计学习：预测方法、模型评估、优化、生成模型。",
+    "tags": [
+      "统计学习",
+      "生成模型",
+      "评估"
+    ],
+    "title": "Modern Applied Statistics: Learning",
+    "description": "This course covers statistical techniques underlying modern machine learning. Topics include prediction methods (linear models, trees and forests, deep neural networks), model evaluation (cross-validation, calibration, conformal prediction), optimization (convexity, stochastic methods, adaptive metrics), and generative models (language models, diffusion models, variational autoencoders).",
+    "units": "3",
+    "grading": "Letter or Credit/No Credit",
+    "terms": "2027 冬",
+    "instructors": "Trippe, B.",
+    "prereq": "概率统计、线性代数、ML 基础（STATS 202/CS 229 级）。",
+    "topics": [
+      "**预测方法**：线性、树/森林、深度网络",
+      "**模型评估**：CV、校准、conformal prediction",
+      "**优化**：凸优化、SGD、自适应方法",
+      "**生成模型**：语言模型、diffusion、VAE",
+      "**高维与正则**：lasso、稀疏性",
+      "**项目/论文讨论**"
+    ],
+    "assessment": "作业 + 项目/考试。具体以当季官网为准。",
+    "who": "统计/ML 研究生；想做严谨的预测建模和不确定性量化的人。",
+    "tips": "先修 STATS 202 或 CS 229。conformal prediction 部分很值得深入。",
+    "related": [
+      "CS 229",
+      "STATS 202",
+      "CS 229M"
+    ],
+    "links": [
+      [
+        "课程官网",
+        "https://web.stanford.edu/class/stats315a/"
+      ]
+    ],
+    "note": "",
+    "doc": "courses/stats315a-modern-applied-statistics-learning.md"
+  }
+]
