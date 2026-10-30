@@ -249,7 +249,7 @@ def main() -> None:
     COURSES_DIR.mkdir(exist_ok=True)
     for c in courses:
         (COURSES_DIR / f"{c['slug']}.md").write_text(
-            render_doc(c, catalog, slug_to_title), encoding="utf-8"
+            render_doc(c, catalog, slug_to_title), encoding="utf-8", newline="\n"
         )
 
     combined = []
@@ -274,7 +274,7 @@ def main() -> None:
             "doc": f"courses/{c['slug']}.md",
         })
     (DATA_DIR / "courses.json").write_text(
-        json.dumps(combined, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(combined, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n"
     )
 
     more = load_json(DATA_DIR / "more_courses.json") if (DATA_DIR / "more_courses.json").exists() else []
@@ -288,7 +288,7 @@ def main() -> None:
         sections.append(f"### {cat_name}\n\n{table_for(group, catalog)}")
     readme = replace_block(readme, "COURSE_TABLE", "\n\n".join(sections))
     readme = replace_block(readme, "MORE_TABLE", more_table(more, catalog))
-    README.write_text(readme, encoding="utf-8")
+    README.write_text(readme, encoding="utf-8", newline="\n")
 
     print(f"built {len(courses)} course docs")
     print(f"wrote {DATA_DIR / 'courses.json'}")
