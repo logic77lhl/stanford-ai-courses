@@ -34,6 +34,14 @@ for m in re.finditer(r"\]\((?!https?://|#)([^)]+)\)", readme):
     if not target.exists():
         errors.append(f"README broken link: {m.group(1)}")
 
+# Playbook markdown links
+for page in sorted((root / "playbooks").glob("*.md")):
+    text = page.read_text(encoding="utf-8")
+    for m in re.finditer(r"\]\((?!https?://|#)([^)]+)\)", text):
+        target = (page.parent / m.group(1)).resolve()
+        if not target.exists():
+            errors.append(f"{page.relative_to(root)} broken link: {m.group(1)}")
+
 # Site pages and internal links
 site = root / "docs"
 site_pages = [

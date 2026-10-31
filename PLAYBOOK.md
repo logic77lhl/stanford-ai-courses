@@ -724,3 +724,13 @@ python -m http.server 8000 --directory docs
 ---
 
 **最后一句**：这份文档的价值不在「步骤」，而在**数据契约 + 验收标准**。只要这两部分不变，换学校、换领域、换 AI 工具，都能复现出同一水准的项目。
+
+---
+
+## 想扩展到别的领域？
+
+本手册是「课程地图」的完整实现。如果你要做论文、工具、会议、数据集、学者、书单、公司、法规、城市指南等方向，见：
+
+- **[playbooks/README.md](playbooks/README.md)**：10 个领域模板索引 + 20 个具体选题 + 模板选择决策表
+- **[playbooks/00-universal-skeleton.md](playbooks/00-universal-skeleton.md)**：跨领域通用数据模型与流水线
+- **[playbooks/MASTER-PROMPT.md](playbooks/MASTER-PROMPT.md)**：通用主提示词（支持单模板与组合模板）

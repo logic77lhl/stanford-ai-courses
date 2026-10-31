@@ -14,6 +14,8 @@ Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymS
 **适合谁**：准备选课的 Stanford 学生；想按 Stanford 课程体系自学的人；想快速了解某个方向（LLM/Agent、CV、机器人、MLSys、AI4Science）课程版图的人。
 
 > 想把同样的结构复刻到别的学校或领域？见 **[PLAYBOOK.md](PLAYBOOK.md)**：一份可直接交给 AI 的复现手册（数据契约 + 分阶段流程 + Master Prompt + 验收清单）。
+>
+> 想复刻到论文、工具、会议、数据集、学者书单、公司、法规、城市指南等方向？见 **[playbooks/](playbooks/README.md)**：10 个领域模板 + 通用骨架 + 主提示词。
 
 ---
 
@@ -23,6 +25,7 @@ Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymS
 .
 ├── README.md                 # 总表 + 学习路径 + 延伸课程
 ├── PLAYBOOK.md               # 交给 AI 的复现手册（换学校/领域）
+├── playbooks/                # 10 个领域模板 + 通用骨架 + 主提示词
 ├── courses/                  # 55 门核心课程，每门一份速览
 ├── docs/                     # GitHub Pages 站点（index.html + 125 个课程页）
 ├── docs/learning-paths.md    # 六条学习路径的详细说明
