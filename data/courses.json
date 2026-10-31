@@ -19,6 +19,7 @@
     "terms": "2026 秋 / 2027 春",
     "instructors": "Piech, C.、Liang, P.",
     "prereq": "CS 103（或 103B/X）、CS 106B（或 106X）、CS 109、CS 161；官方明确要求“不要指望课上补这些基础”。",
+    "pos": "CS 221 是 Stanford AI 路线的入口课，也是理解“AI 不只是调模型”的最好方式。它用统一的数学语言（概率 + 算法）描述智能体如何在信息不完全、计算有限的情况下做决策，覆盖面从经典符号 AI 一直延伸到现代机器学习。",
     "topics": [
       "**搜索与约束满足**：DFS/BFS/A*、启发式、CSP、局部搜索",
       "**博弈与对抗搜索**：minimax、alpha-beta、期望效用",
@@ -65,6 +66,7 @@
     "terms": "2027 冬",
     "instructors": "Hashimoto, T.、Yang, D.",
     "prereq": "微积分与线性代数；CS 124、CS 221 或 CS 229 之一。",
+    "pos": "CS 224N 是 Stanford NLP 的旗舰课，也是很多人进入 LLM 领域的第一站。课程从词表示和语言模型讲起，逐步过渡到 Transformer、预训练、微调和 RLHF，既有数学推导也有大量工程实现。",
     "topics": [
       "**词表示**：word2vec、GloVe、子词/tokenization",
       "**语言模型**：n-gram、RNN/LSTM、注意力",
@@ -110,6 +112,7 @@
     "terms": "2026 秋",
     "instructors": "Leskovec, J.",
     "prereq": "CS 109；一门入门机器学习课程。",
+    "pos": "CS 224W 由 Jure Leskovec 讲授，是图神经网络方向最受欢迎的课程之一。它覆盖图结构分析、节点/图表示学习、GNN、知识图谱推理、传播与影响力，应用横跨社交网络、推荐、生物网络和欺诈检测。",
     "topics": [
       "**图基础**：中心性、社区发现、幂律、图生成",
       "**节点嵌入**：DeepWalk、node2vec、矩阵分解",
@@ -155,6 +158,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "基础概率论；算法设计与分析。",
+    "pos": "CS 228 是经典的 PGM 课程，覆盖 Bayesian/Markov network、HMM、精确与近似推断、参数/结构学习。它提供的“用图结构编码不确定性”的思维方式，对 NLP、计算生物、因果推断和机器人都有长期价值。",
     "topics": [
       "**表示**：贝叶斯网络、马尔可夫网络、因子图",
       "**精确推断**：变量消元、信念传播、junction tree",
@@ -201,6 +205,7 @@
     "terms": "2027 冬 / 2027 春",
     "instructors": "Re, C.、Ma, T.、Fox, E.",
     "prereq": "能写 Python/NumPy 程序（CS 106A/B 级）；概率（CS 109/MATH 151/STATS 116）；多变量微积分与线性代数（MATH 51/CS 205）。",
+    "pos": "CS 229 是 Stanford 最经典、影响最广的机器学习课程之一，理论深度明显高于 CS 230。它不只教“怎么用模型”，更关心模型背后的假设、损失函数、优化过程和泛化行为，是后续做研究或读博的地基。",
     "topics": [
       "**监督学习**：线性/逻辑回归、广义线性模型、SVM、核方法、树模型与集成",
       "**学习理论**：偏差-方差、正则化、特征选择、泛化与模型选择",
@@ -245,6 +250,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "MATH 51；STATS 117；CS 229 或 STATS 315A。",
+    "pos": "CS 229M（STATS 214）是数学味最重的一门 ML 课程，面向想做 theory 的研究生。它不教你调模型，而是训练你用集中不等式、一致收敛、优化理论去分析现代大规模非线性模型。",
     "topics": [
       "**集中不等式**：Hoeffding、Chernoff、McDiarmid",
       "**泛化理论**：一致收敛、VC 维、Rademacher 复杂度",
@@ -289,6 +295,7 @@
     "terms": "2026 秋",
     "instructors": "Ng, A.、Katanforoosh, K.",
     "prereq": "Python 编程；线性代数（矩阵/向量运算）；CS 229 可以同时修。",
+    "pos": "CS 230 采用翻转课堂：课前看视频、做编程作业和 quiz，课上讨论和做项目。它覆盖深度学习的基础组件和工程方法论，案例横跨医疗、自动驾驶、手语识别、音乐生成和 NLP，比 CS 229 更偏实战。",
     "topics": [
       "**神经网络基础**：前向/反向传播、激活函数、损失函数",
       "**CNN**：卷积、池化、经典架构、迁移学习",
@@ -335,6 +342,7 @@
     "terms": "2027 春",
     "instructors": "Li, F.、Adeli, E.",
     "prereq": "熟练 Python/NumPy；微积分与线性代数（MATH 19/51）；概率统计基础（CS 109 级）。",
+    "pos": "CS 231N 是视觉识别方向的标准入口，强调 implement、train、debug 的完整闭环。它的作业设计（A1–A3 + final project）被大量课程借鉴，也是很多人真正“第一次把神经网络跑起来”的地方。",
     "topics": [
       "**图像分类**：kNN、线性分类器、损失函数与优化",
       "**神经网络**：反向传播、多层网络、激活函数",
@@ -381,6 +389,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "熟练 Python；CS 229 或同等 ML 基础；线性代数与概率。",
+    "pos": "CS 234 覆盖 RL 从表格方法到深度 RL 的主干，强调“自主系统如何通过试错做决策”。它适合机器人、游戏、推荐、医疗等序列决策场景，是 CS 224R/CS 332 的前置课。",
     "topics": [
       "**MDP 基础**：回报、贝尔曼方程、策略评估",
       "**动态规划**：值迭代、策略迭代",
@@ -427,6 +436,7 @@
     "terms": "2027 春",
     "instructors": "Ermon, S.",
     "prereq": "CS 221/228/229/230 至少一门；概率与微积分；Python 编程。",
+    "pos": "CS 236 是生成模型方向最系统的课程之一，由 Stefano Ermon 讲授。它从概率建模和变分推断出发，覆盖 VAE、GAN、normalizing flow、energy-based model、diffusion/score matching，数学要求较高。",
     "topics": [
       "**概率基础**：极大似然、变分推断、ELBO、MCMC",
       "**VAE**：重参数化、后验坍塌、层次化 VAE",
@@ -474,6 +484,7 @@
     "terms": "2027 春",
     "instructors": "Icard, T.",
     "prereq": "深度学习/LLM 基础；概率与线性代数；最好读过 Transformer。",
+    "pos": "CS 221M 由 Thomas Icard 讲授，是少数系统讲 mechanistic interpretability 的课程。它强调因果方法而不是“看图说话”，覆盖 probing、steering、causal abstraction、SAE、circuits，并邀请学术界/工业界可解释性实验室做客座讲座。",
     "topics": [
       "**Probing**：线性探针、表征分析、局限性",
       "**Steering**：激活干预、方向向量、因果追踪",
@@ -519,6 +530,7 @@
     "terms": "2027 冬",
     "instructors": "Bernstein, M.、Goodman, N.",
     "prereq": "Python 编程；AI（CS 221/224）、人本设计或社会心理学背景有帮助，但不强制。",
+    "pos": "CS 222 由 Michael Bernstein 和 Noah Goodman 讲授，跨越社会科学、行为科学与生成式 AI。课程从经典 agent-based modeling 讲到 LLM 驱动的 generative agents，讨论如何模拟个体与社会、如何评估模拟的真实性，以及相关伦理问题。",
     "topics": [
       "**Agent-based modeling**：规则、涌现、校准",
       "**社会模拟**：意见传播、合作、公共政策",
@@ -564,6 +576,7 @@
     "terms": "2027 冬",
     "instructors": "Jannink, J.、Whaley, J.",
     "prereq": "编程能力；基本 ML/LLM 认知；不要求研究背景。",
+    "pos": "CS 224G 是一门项目课，把 LLM 当成新的“CPU”，探索围绕它构建应用的方式。课程以两周一个 sprint 的节奏推进，配工业界 guest lecture，适合想快速做出可演示产品的人。",
     "topics": [
       "**LLM 能力与局限**：幻觉、上下文、成本",
       "**Prompting**：结构化提示、few-shot、角色设定",
@@ -609,6 +622,7 @@
     "terms": "2026 秋",
     "instructors": "Lam, M.",
     "prereq": "LINGUIST 180/280、CS 124、CS 224N、CS 224S、CS 224U 之一。",
+    "pos": "CS 224V 是一门“项目课 + 硬核讲座”的 agentic AI 课程，由 Yuhao He 等人讲授。它不只教怎么调 API，而是系统讨论 agent 的可靠性问题：如何减少幻觉、如何混合结构化/非结构化知识、如何用形式化方法保证决策、如何优化长程任务。",
     "topics": [
       "**RAG 与任务形式化**：检索增强、formal task descriptions、减少幻觉",
       "**混合知识推理**：数据库、知识库、非结构化文本联合推理",
@@ -653,6 +667,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "基础深度学习和 Transformer 知识（理解 attention），或修过 CS 224N/CS 231N/CS 230。",
+    "pos": "CS 25 是 Stanford 最受欢迎的 1 学分 seminar 之一，邀请过来自 OpenAI、Anthropic、Google DeepMind、NVIDIA 等机构的讲者。课程没有作业，出勤即可，讲座会直播和录制，适合用来快速扫前沿。",
     "topics": [
       "**Transformer 架构**：注意力、位置编码、变体",
       "**LLM**：预训练、对齐、推理、agent",
@@ -697,6 +712,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "深度学习基础（CS 224N/CS 230/CS 231N 级）。",
+    "pos": "CS 324 是 2023 年推出的 foundation model 课程，覆盖 GPT-3、CLIP、Stable Diffusion 等模型的原理、系统和社会影响。课程有工业界讲者，重点是项目而不是推导，适合想快速建立 FM 全局认知的人。",
     "topics": [
       "**FM 基础**：定义、历史、缩放规律",
       "**模型与算法**：Transformer、多模态、扩散",
@@ -743,6 +759,7 @@
     "terms": "2027 春",
     "instructors": "Chowdhery, A.、Mirhoseini, A.",
     "prereq": "CS 224N 或 CS 229S；熟练 Python 和 LLM API。",
+    "pos": "CS 329A 由 Anmol Chowdhery 和 Azalia Mirhoseini 讲授，聚焦“agent 如何通过与环境/自身交互持续变强”。课程以论文讨论和原创研究项目为主，还会邀请学术和工业界讲者，适合已经决定做 agent 研究的人。",
     "topics": [
       "**LLM 自我改进**：constitutional AI、self-critique、self-play",
       "**Verifier 与搜索**：learned verifier、best-of-n、树搜索",
@@ -789,6 +806,7 @@
     "terms": "2026 秋",
     "instructors": "Koyejo, S.",
     "prereq": "研究生级 ML 基础（CS 229 级）；概率与优化基础。",
+    "pos": "CS 329H 由 Sanmi Koyejo 讲授，系统讲解“如何优化被人使用的系统”。它把心理测量、离散选择、强化学习、信息检索和规范理论串起来，是理解 RLHF/DPO/推荐系统偏好建模的硬核课程。",
     "topics": [
       "**Choice modeling**：随机效用、Plackett-Luce、公理化方法",
       "**模仿与主动学习**：behavior cloning、偏好查询",
@@ -834,6 +852,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "CS 229 或同等 Python ML 课；深度学习（CS 230/CS 231N）；熟悉 scikit-learn/Keras 等框架。",
+    "pos": "CS 329T 是一门项目制课程，主题是“prototype 很容易，可靠很难”。课程覆盖 foundation model、prompting、RAG、agentic 架构，并为每种架构配套评估方法；学生最终要用评估驱动的方式做一个可信的 agent 应用。",
     "topics": [
       "**FM 与 prompting**：能力边界、提示模式",
       "**RAG**：检索、引用、幻觉控制",
@@ -879,6 +898,7 @@
     "terms": "2026 秋",
     "instructors": "Yang, D.、Ryan, M.、Yang, J.",
     "prereq": "编程能力；LLM 基础（prompting、API 使用）；有 ML 基础更好。",
+    "pos": "CS 329Z 是目前最贴近“AI 工程师”岗位的课程之一，由 Diyi Yang 等人讲授。它强调 agent 不是一个大模型，而是由 LLM、检索器、工具、优化器组成的复合系统；课程从零实现 RAG、tool use、agent loop，再过渡到 DSPy 等框架。",
     "topics": [
       "**Compound AI systems**：多组件系统的设计范式",
       "**RAG**：检索、重排、上下文管理、评估",
@@ -926,6 +946,7 @@
     "terms": "2027 春",
     "instructors": "Liang, P.、Hashimoto, T.",
     "prereq": "强编程能力；深度学习基础（CS 224N/CS 231N/CS 230 级）；需要申请，且最好有 GPU 资源。",
+    "pos": "CS 336 是目前最硬核的 LLM 课程之一，由 Percy Liang 和 Tatsunori Hashimoto 讲授。课程借鉴“操作系统从零实现”的思路，带学生走完语言模型的全生命周期；作业需要大量 GPU 算力，选课需要申请。",
     "topics": [
       "**数据**：采集、清洗、去重、过滤、配比",
       "**Tokenization**：BPE、词表设计、多语言问题",
@@ -973,6 +994,7 @@
     "terms": "2027 冬",
     "instructors": "Chang, E.",
     "prereq": "机器学习、深度学习基础。",
+    "pos": "CS 372 由 Edward Chang 讲授，是一门研究导向的课程，讨论如何让 LLM 从“模式匹配”走向“有意识的推理与规划”。内容包含多 LLM 协作、熵引导的信息交换、constitutional AI、时序推理，并以医疗为应用案例。",
     "topics": [
       "**System 1 vs System 2**：直觉与审慎推理",
       "**多 LLM 协作**：MACI 框架、角色分工、辩论",
@@ -1019,6 +1041,7 @@
     "terms": "2027 春",
     "instructors": "Olukotun, O.、Tambe, T.",
     "prereq": "数字电路/计算机体系结构；VLSI 或 FPGA 经验有帮助。",
+    "pos": "CS 217（EE 244）由 Olukotun 和 Tambe 讲授，是 AI 芯片方向的经典课。课程从 CNN/Transformer 的计算模式出发，讲加速器架构、数据流、存储层次、低精度/稀疏和编译，最终做一个设计项目。",
     "topics": [
       "**AI 计算模式**：CNN、Transformer、训练 vs 推理",
       "**加速器架构**：脉动阵列、张量核心、数据流",
@@ -1065,6 +1088,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "CS 224N 或 CS 229；系统/体系结构基础有帮助。",
+    "pos": "CS 229S 从系统视角讲机器学习：模型越来越大、数据越来越多、硬件越来越异构，性能瓶颈到底在哪。课程覆盖数据 pipeline、分布式训练、GPU/加速器、网络、推理 serving 和编译，适合想去做 MLSys/基础设施的人。",
     "topics": [
       "**数据 pipeline**：采集、清洗、存储、吞吐",
       "**分布式训练**：数据并行、模型并行、流水线并行",
@@ -1111,6 +1135,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "CS 229/230/231N/224N 至少一门；熟悉至少一个框架（PyTorch/TF/JAX）。",
+    "pos": "CS 329S 是一门项目制的 ML 系统课，讲的是“模型之外”的工程：数据怎么管、模型怎么选、训练怎么扩、上线怎么监控、团队怎么协作。它也会讨论隐私、公平、安全等真实系统必须面对的问题。",
     "topics": [
       "**数据工程**：数据管理、标注、版本、质量",
       "**模型选择**：baseline、评估、误差分析",
@@ -1157,6 +1182,7 @@
     "terms": "2027 春",
     "instructors": "Kozyrakis, C.",
     "prereq": "系统/体系结构/ML 基础；有分布式系统经验更好。",
+    "pos": "CS 349D 由 Christos Kozyrakis 讲授，是一门研究型 seminar，聚焦“推理”而不是训练。课程认为未来的 AI 系统是 compound systems（多模型 + 检索 + 工具 + 传统软件），并讨论支撑它们的云基础设施、调度和架构模式。",
     "topics": [
       "**推理 serving**：批处理、连续批处理、KV cache",
       "**Compound AI systems**：多组件编排、数据流",
@@ -1203,6 +1229,7 @@
     "terms": "2026 秋",
     "instructors": "Asgar, Z.、Raina, P.、Horowitz, M.、Kjoelstad, F.",
     "prereq": "计算机体系结构、操作系统、ML 基础；强编程能力。",
+    "pos": "CS 349E（EE 339）由 Mark Horowitz、Fredrik Kjolstad 等讲授，是系统 + 算法 + 硬件的硬核课。它讨论如何在异构机器上以低延迟、高吞吐、低成本服务大模型，覆盖量化、分布式 serving、性能建模、kernel 编程和 AI 编译器。",
     "topics": [
       "**模型优化**：量化、剪枝、蒸馏、投机解码",
       "**分布式 serving**：张量并行、流水线、PD 分离",
@@ -1249,6 +1276,7 @@
     "terms": "2026 秋",
     "instructors": "Prabhakar, B.、Rosenblum, M.",
     "prereq": "CS 144/CS 140 或分布式系统基础；EE 178 有帮助。",
+    "pos": "CS 349F 关注大规模 GPU/CPU 集群的互连网络，以及金融交易、多人游戏等 time-sensitive 系统。课程覆盖数据中心 fabric 架构、传输协议、拥塞控制、负载均衡和调度，并邀请工业界专家讲真实集群的设计与运维。",
     "topics": [
       "**数据中心 fabric**：fat tree、leaf-spine、拓扑",
       "**传输协议**：RDMA、RoCE、拥塞控制",
@@ -1289,6 +1317,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "线性代数；基础概率统计；编程能力。",
+    "pos": "CS 231A 是 3D 视觉/几何方向的经典课，和 CS 231N 形成互补：231N 偏识别与深度学习，231A 偏相机、投影、立体、SfM 和三维理解。课程数学和几何味更重，适合想做 AR/VR、机器人、自动驾驶感知的人。",
     "topics": [
       "**相机与投影**：针孔模型、内参/外参、畸变",
       "**图像处理**：滤波、边缘、特征点",
@@ -1334,6 +1363,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "线性代数、统计、CS 106B；研究生级 AI 课（CS 229/230/221）。",
+    "pos": "CS 236G 是生成模型专题课，聚焦 GAN。课程从最基础的对抗训练讲到 StyleGAN 等 SOTA 形式，讨论模式崩溃、训练稳定性、评估指标和偏见，也覆盖图像编辑、医学低数据、气候可视化等应用。",
     "topics": [
       "**GAN 基础**：生成器/判别器、minimax、损失函数",
       "**训练技巧**：WGAN、谱归一化、TTUR、正则",
@@ -1380,6 +1410,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "CS 148；CS 231N 推荐。",
+    "pos": "CS 348I 讨论深度学习如何改变图形学的四大领域：渲染、几何、动画和成像。课程对每个问题先讲传统解法，再讲 SOTA 学习式方法，并批判性评估结果与影响，适合图形+AI 交叉方向。",
     "topics": [
       "**可微/神经渲染**：NeRF、Gaussian Splatting、神经渲染",
       "**材质与光照**：BRDF 估计、逆渲染",
@@ -1421,6 +1452,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "CS 148；深度学习基础；CS 229 推荐。",
+    "pos": "CS 348N 关注如何用机器学习生成和操作高质量 3D 模型与场景。课程覆盖几何表示、3D 数据集、点云/网格网络、neural implicit、3D 生成模型、条件生成和评估指标，是 3D 生成/图形方向的核心课。",
     "topics": [
       "**几何表示**：点云、网格、体素、SDF、NeRF",
       "**3D 数据**：ShapeNet、Objaverse、场景数据",
@@ -1467,6 +1499,7 @@
     "terms": "2027 冬",
     "instructors": "Wetzstein, G.",
     "prereq": "信号处理/图像处理/优化基础；Python 编程。",
+    "pos": "CS 448I（EE 367）由 Gordon Wetzstein 讲授，是计算摄影/成像方向的核心课。它把经典图像处理、凸优化和现代 AI 结合起来，讨论去噪、反卷积、单像素成像、ToF、波光学，以及光学与算法端到端联合优化。",
     "topics": [
       "**图像处理基础**：卷积、滤波、去噪",
       "**逆问题**：去卷积、正则化、proximal gradient",
@@ -1509,6 +1542,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "图形学/几何/视觉背景；编程与数学成熟度。",
+    "pos": "CS 468 是一门内容随开课变化的专题课，历年覆盖几何匹配、表面重建、碰撞检测、计算拓扑、计算机微分几何、数据驱动形状分析和非欧几里得机器学习。近年主题转向 3D/4D foundation models，适合已有几何/图形背景的研究生。",
     "topics": [
       "**几何匹配**：刚性/非刚性配准",
       "**表面重建**：点云到网格、隐式表示",
@@ -1555,6 +1589,7 @@
     "terms": "2027 冬",
     "instructors": "Khatib, O.",
     "prereq": "矩阵代数；编程基础。",
+    "pos": "CS 223A（ME 320）由 Oussama Khatib 讲授，是机器人方向最经典的入门课。它覆盖空间变换、正/逆运动学、雅可比与静力学、动力学、轨迹规划和经典控制，并用物理机器人平台/仿真做演示。",
     "topics": [
       "**空间变换**：旋转矩阵、齐次变换、四元数",
       "**正/逆运动学**：DH 参数、解析/数值 IK",
@@ -1596,6 +1631,7 @@
     "terms": "2027 春",
     "instructors": "Khatib, O.",
     "prereq": "CS 223A 或同等。",
+    "pos": "CS 225A 是 Khatib 的实验室课，强调“真的让机器人动起来”。课程覆盖机械臂的运动学、动力学、控制、柔顺控制、基于传感器的碰撞避免和人机接口，后半学期是开放项目。",
     "topics": [
       "**机械臂运动学**：正/逆解、工作空间",
       "**动力学**：刚体动力学、参数辨识",
@@ -1641,6 +1677,7 @@
     "terms": "2026 秋",
     "instructors": "Song, S.",
     "prereq": "Python 编程；线性代数；数学基础会在课上复习，但编程要求高。",
+    "pos": "CS 227A（EE 227）由 Shuran Song 讲授，聚焦机器人如何从原始传感器数据中理解环境并做决策。课程覆盖传感器硬件、标定、视觉感知、状态估计和决策，作业会逐步搭建一个基于视觉的机器人系统。",
     "topics": [
       "**传感器**：RGB-D、触觉、声学、IMU",
       "**标定**：相机内参/外参、手眼标定",
@@ -1682,6 +1719,7 @@
     "terms": "2026 秋",
     "instructors": "Bansal, S.、Pavone, M.",
     "prereq": "CS 106A；CME 100（线代）；CME 106（概率）。",
+    "pos": "CS 237A（AA 274A/EE 260A/ME 274A）由 Marco Pavone 讲授，是“机器人 autonomy”的核心课。它把感知、定位、控制、规划和不确定性决策串起来，并用 ROS 做大量动手实践。",
     "topics": [
       "**感知**：传感器、特征、视觉/激光",
       "**定位与 SLAM**：EKF、粒子滤波、图优化",
@@ -1728,6 +1766,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "CS 106A；CME 100；CME 106；AA 171/274（或 CS 237A）。",
+    "pos": "CS 237B 是 CS 237A 的进阶课，重点从“移动”转向“学习新技能 + 物理交互”。课程覆盖 RL 与最优控制、接触动力学、抓取/操作、模仿学习、人类意图推断和系统架构验证，并在移动操作平台上实现。",
     "topics": [
       "**RL 与最优控制**：MDP、LQR、policy gradient",
       "**接触与操作**：抓取、非抓取操作、力控",
@@ -1774,6 +1813,7 @@
     "terms": "2027 冬",
     "instructors": "Song, S.",
     "prereq": "深度学习、机器人/RL 基础；研究导向。",
+    "pos": "CS 381（EE 381）是 Shuran Song 的高级课，面向想做大模型+机器人研究的研究生。课程讨论 embodied AI 与 internet AI 的区别、从原始感知到决策的学习、以及通过硬件/软件持续适应物理世界，重点是读论文、批判性讨论和项目。",
     "topics": [
       "**Embodied AI**：定义、与互联网 AI 的差异",
       "**感知运动学习**：视觉、触觉、本体感觉",
@@ -1815,6 +1855,7 @@
     "terms": "2027 春",
     "instructors": "Zou, J.、Zhang, H.",
     "prereq": "微积分、线性代数、概率统计（CS 109）；机器学习（CS 229）；不要求基因组学背景。",
+    "pos": "CS 273B 由 James Zou 讲授，是 AI4Bio 方向最受欢迎的课程之一。它先补深度学习和基因组学背景，再讲监督、无监督、生成模型在生物医学数据上的应用，强调从模型里提取可解释的生物学洞见，最后用真实数据做小组项目。",
     "topics": [
       "**DL 基础**：CNN、RNN、Transformer、自监督",
       "**基因组数据**：测序、表达、变异、单细胞",
@@ -1855,6 +1896,7 @@
     "terms": "2027 冬",
     "instructors": "Syeda-Mahmood, T.、Chaudhari, A.",
     "prereq": "CS 229/231N/224N 级 ML 基础。",
+    "pos": "CS 277 讨论生成式 AI 和自监督基础模型如何改变医疗。课程覆盖 NLP、CV 和多模态模型，既讲通用模型如何适配医疗，也讲医疗专用 FM，并关注评估、部署和真实临床需求。",
     "topics": [
       "**自监督 FM**：预训练、表征学习",
       "**医疗 NLP**：临床文本、问答、摘要",
@@ -1901,6 +1943,7 @@
     "terms": "2026 秋",
     "instructors": "Dror, R.",
     "prereq": "CS 106A；入门生物/生化。",
+    "pos": "CS 279 由 Ron Dror 讲授，覆盖计算生物学中“结构、动力学、设计”三大主题。课程从蛋白结构预测讲到蛋白设计、药物筛选、分子动力学、细胞模拟和显微图像分析，是 AlphaFold 时代理解 AI4Bio 的核心课。",
     "topics": [
       "**蛋白结构预测**：AlphaFold、Rosetta、同源建模",
       "**蛋白设计**：定向进化、生成式设计",
@@ -1948,6 +1991,7 @@
     "terms": "2026 秋",
     "instructors": "Yeung, S.",
     "prereq": "CS 231N 或 BIODS 220 级深度学习/视觉基础。",
+    "pos": "CS 286 由 Serena Yeung 讲授，深入讨论视觉基础模型在生物医学中的应用。课程覆盖表征学习、扩散/生成模型、vision-language 模型，以及模型大小、计算、训练/推理设置和数据等真实落地问题。",
     "topics": [
       "**视觉 FM**：CLIP、DINO、SAM 等",
       "**表征学习**：自监督、对比学习",
@@ -1989,6 +2033,7 @@
     "terms": "2027 冬",
     "instructors": "Alsentzer, E.、Fries, J.",
     "prereq": "机器学习基础；对医疗数据有兴趣。",
+    "pos": "CS 287 由 Emily Alsentzer、Jason Fries 等讲授，视角和大多数 ML 课相反：不研究模型，而研究数据。课程讨论临床工作流、记录习惯和制度实践如何引入偏差、噪声、缺失和虚假相关，并给出数据质量、标注、合成数据和 drift 监控的实用方法。",
     "topics": [
       "**数据生成**：临床工作流、文档、制度",
       "**数据质量**：偏差、噪声、缺失、虚假相关",
@@ -2030,6 +2075,7 @@
     "terms": "2027 冬",
     "instructors": "Yamins, D.",
     "prereq": "现代神经网络背景（CS 229/230/231N/234/236/330 之一）；不要求认知科学/神经科学背景。",
+    "pos": "CS 375（PSYCH 249）由 Dan Yamins 讲授，是计算神经科学与 AI 交叉的核心课。课程讨论人工网络的内部组件如何与真实大脑结构对应，覆盖前馈感知、循环动力学、注意力/记忆/导航、语言 Transformer、自监督和深度 RL，并教你如何把模型和神经数据做定量比较。",
     "topics": [
       "**前馈感知模型**：视觉、听觉、体感",
       "**循环网络**：动力学、运动控制",
@@ -2076,6 +2122,7 @@
     "terms": "2026 秋 / 2027 冬 / 2027 春",
     "instructors": "Candes, E.、Wetzstein, G.、Narasimhan, B.、Wandell, B.",
     "prereq": "无硬性先修；对 AI + 科学交叉感兴趣即可。",
+    "pos": "EE 292R（CS 292/PSYCH 292R/STATS 282）是 2026 秋首次开设的 1 学分 seminar，由 Candès、Wetzstein、Narasimhan、Wandell 组织。它不教具体技术，而是每周请一位讲者展示 AI4Science 的真实案例，覆盖神经科学、医学、基因组、计算社科、世界模型等。",
     "topics": [
       "**神经科学**：视网膜/视觉系统、大脑基础模型、数字孪生",
       "**医学**：医学影像 FM、精准医疗、多模态组学",
@@ -2121,6 +2168,7 @@
     "terms": "2027 冬",
     "instructors": "Norvig, P.",
     "prereq": "无强技术先修；对 AI 产品/政策/伦理有兴趣。",
+    "pos": "CS 139 由 Peter Norvig 讲授，讨论 AI 系统如何被人类理解和使用。课程关注用户对 AI 的心智模型、信任的形成、可解释性、公平与正义，以及 AI 对经济和日常生活的影响；它不是一门训练模型的课，而是教你“如何把 AI 做得对人有用且可接受”。",
     "topics": [
       "**用户模型**：人如何理解 AI、期望如何形成",
       "**可信设计**：可解释、可预测、可纠错",
@@ -2162,6 +2210,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "CS 147 或同等设计思维背景；可能需要申请。",
+    "pos": "CS 247A（SYMSYS 195A）是 CS 147 的进阶设计课，全部以 studio 形式进行。它聚焦 human-centered AI 体验：AI 到底是什么、有哪些约束和机会、如何设计负责任且符合伦理的 AI 系统。课程强调高强度迭代和真实设计问题。",
     "topics": [
       "**设计研究**：访谈、观察、需求定义",
       "**AI 能力与约束**：能做什么、不能做什么",
@@ -2208,6 +2257,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "CS 229 或同等 ML 基础。",
+    "pos": "CS 281 不是纯哲学讨论，而是用 ML 方法处理公平、偏见、透明和隐私。课程通过案例识别不公平/不真实的问题，再应用检测与缓解技术，最后讨论这些技术的形式化极限和现实 trade-off。",
     "topics": [
       "**公平性**：群体/个体公平、定义与冲突",
       "**偏见检测**：数据偏差、模型偏差、审计",
@@ -2254,6 +2304,7 @@
     "terms": "2026 秋",
     "instructors": "Nahass, P.、Emrani, D.、Udell, M.",
     "prereq": "高年级本科/硕士；编程能力；课程容量约 48 人（12 队 × 4 人）。",
+    "pos": "MS&E 203 是一门项目制课程，学生在一个学期内真正做出一个 AI 产品。课程要求论证“为什么需要 AI”、处理延迟/质量/成本 trade-off、严格评估自己的系统，最后在 Demo Day 展示。选课前有自学的 git、AI 编程工具、eval 框架和 API 模块。",
     "topics": [
       "**AI fit**：什么问题适合用 AI/agent",
       "**产品定义**：用户、场景、价值",
@@ -2299,6 +2350,7 @@
     "terms": "2026–27 未排课",
     "instructors": "TBA",
     "prereq": "优化水平达到 CME 307 或 EE 364A。",
+    "pos": "MS&E 318 是一门博士级 seminar，讨论如何让 AI 系统不仅强大，而且“可证明地安全”。课程覆盖经典约束优化、safe RL（trust region、Lyapunov、reachability、shielding）、ML 与优化混合（projection networks、solver-in-the-loop）以及 LLM alignment，应用横跨机器人、金融、医疗、能源。",
     "topics": [
       "**约束优化**：Lagrangian、robust/stochastic programming",
       "**Safe RL**：trust region、Lyapunov、reachability、shielding",
@@ -2344,6 +2396,7 @@
     "terms": "2026 秋",
     "instructors": "Saberi, A.",
     "prereq": "ML/LLM 基础；算法与系统意识。",
+    "pos": "MS&E 319 研究生成模型在计算约束下的算法问题。课程讨论目标、架构、数据 pipeline、推理过程和服务系统如何被算力/延迟/内存/数据塑造，并以 LLM 为主要案例；学生做一次 presentation，再完成 survey 或研究项目。",
     "topics": [
       "**计算约束**：推理深度、算力、延迟、内存、数据",
       "**目标与架构**：scaling、稀疏、混合专家",
@@ -2389,6 +2442,7 @@
     "terms": "2027 冬 / 2027 春",
     "instructors": "Walther, G.、Tibshirani, R.",
     "prereq": "概率统计与线性代数基础；编程（R/Python）。",
+    "pos": "STATS 202 是统计系的数据科学核心课，由 Robert Tibshirani 等讲授。它用统计视角覆盖监督学习和无监督学习的主要方法，强调模型选择、评估和可解释性，比 CS 229 更偏应用与统计推断，适合想做数据科学的人。",
     "topics": [
       "**回归**：线性、多项式、逻辑回归、LDA",
       "**模型评估**：交叉验证、bootstrap、模型选择",
@@ -2434,6 +2488,7 @@
     "terms": "2027 冬",
     "instructors": "Trippe, B.",
     "prereq": "概率统计、线性代数、ML 基础（STATS 202/CS 229 级）。",
+    "pos": "STATS 315A 是统计系研究生级别的 ML 课程，覆盖预测方法（线性模型、树/森林、深度网络）、模型评估（交叉验证、校准、conformal prediction）、优化（凸性、随机方法）和生成模型（语言模型、扩散、VAE）。它兼顾统计严谨性和现代方法。",
     "topics": [
       "**预测方法**：线性、树/森林、深度网络",
       "**模型评估**：CV、校准、conformal prediction",

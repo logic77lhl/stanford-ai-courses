@@ -34,6 +34,24 @@ for m in re.finditer(r"\]\((?!https?://|#)([^)]+)\)", readme):
     if not target.exists():
         errors.append(f"README broken link: {m.group(1)}")
 
+# Site pages and internal links
+site = root / "docs"
+site_pages = [site / "index.html", site / "paths.html", site / "404.html"] + sorted((site / "courses").glob("*.html"))
+if len(list((site / "courses").glob("*.html"))) != 125:
+    errors.append(f"site course pages: {len(list((site / 'courses').glob('*.html')))} (expected 125)")
+for page in site_pages:
+    if not page.exists():
+        errors.append(f"missing site page: {page}")
+        continue
+    text = page.read_text(encoding="utf-8")
+    for m in re.finditer(r'(?:href|src)="([^"]+)"', text):
+        url = m.group(1)
+        if url.startswith(("http://", "https://", "#", "mailto:", "data:")):
+            continue
+        target = (page.parent / url.split("#")[0]).resolve()
+        if not target.exists():
+            errors.append(f"{page.relative_to(root)} broken link: {url}")
+
 print(f"courses: {len(src)}, docs: {len(list((root / 'courses').glob('*.md')))}")
 print(f"errors: {len(errors)}")
 for e in errors:

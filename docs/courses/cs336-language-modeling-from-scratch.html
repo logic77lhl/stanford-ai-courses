@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS 336 · 从零构建语言模型 | Stanford AI 课程地图</title>
+<meta name="description" content="从零造一个语言模型：数据清洗、tokenizer、Transformer、训练、scaling、eval、部署。">
+<meta name="theme-color" content="#09090b">
+<meta property="og:title" content="CS 336 · 从零构建语言模型 | Stanford AI 课程地图">
+<meta property="og:description" content="从零造一个语言模型：数据清洗、tokenizer、Transformer、训练、scaling、eval、部署。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23d4b176' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4b176'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topin">
+    <a class="brand" href="../index.html">Stanford AI <span>课程地图</span></a>
+    <nav class="nav" id="nav">
+      <a href="../index.html#map">地图</a>
+      <a href="../index.html#courses" class="on">课程</a>
+      <a href="../paths.html">路径</a>
+      <a href="../index.html#about">关于</a>
+    </nav>
+    <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
+    <button class="menu" id="menuBtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+<main>
+<div class="wrap">
+  <a class="back" href="../index.html#courses">← 返回课程地图</a>
+
+  <section class="course-hero">
+    <div class="course-poster">
+      <span class="cp-kicker">Stanford · 2026—27</span>
+      <span class="cp-code">CS 336</span>
+      <span class="cp-cat">LLM 与 Agent</span>
+      <span class="cp-stars">★★★★★</span>
+    </div>
+    <div class="course-head">
+      <p class="kicker">核心课程 · LLM 与 Agent</p>
+      <h1>从零构建语言模型</h1>
+      <p class="course-en">Language Modeling from Scratch</p>
+      <p class="course-one">从零造一个语言模型：数据清洗、tokenizer、Transformer、训练、scaling、eval、部署。</p>
+      <div class="meta-chips">
+        <span>3–5 学分</span>
+        <span>2027 春</span>
+        <span>Letter or Credit/No Credit</span>
+        <span>★★★★★</span>
+      </div>
+      <div class="tagrow"><span>LLM</span><span>预训练</span><span>系统</span><span>硬核</span></div>
+      
+    </div>
+  </section>
+
+  <div class="course-layout">
+    <article class="course-main">
+      <section class="prose">
+        <h2>课程定位</h2>
+        <p>CS 336 是目前最硬核的 LLM 课程之一，由 Percy Liang 和 Tatsunori Hashimoto 讲授。课程借鉴“操作系统从零实现”的思路，带学生走完语言模型的全生命周期；作业需要大量 GPU 算力，选课需要申请。</p>
+      </section>
+
+      <section class="prose">
+        <h2>主要内容</h2>
+        <ol class="topic-list"><li><strong>数据</strong>：采集、清洗、去重、过滤、配比</li><li><strong>Tokenization</strong>：BPE、词表设计、多语言问题</li><li><strong>模型</strong>：Transformer 架构、注意力变体、位置编码</li><li><strong>训练</strong>：初始化、优化器、学习率、混合精度、分布式</li><li><strong>Scaling</strong>：scaling laws、计算最优配置</li><li><strong>评估</strong>：困惑度、基准测试、污染、对齐评估</li><li><strong>部署</strong>：推理、量化、服务化</li><li><strong>安全与伦理</strong>：数据版权、偏见、滥用</li></ol>
+      </section>
+
+      <section class="prose two">
+        <div><h2>先修</h2><p>强编程能力；深度学习基础（CS 224N/CS 231N/CS 230 级）；需要申请，且最好有 GPU 资源。</p></div>
+        <div><h2>考核与工作量</h2><p>通常为 5 个左右的编程作业（逐步构建 LM）+ 一个项目；算力消耗大。具体以当季官网为准。</p></div>
+      </section>
+
+      <section class="prose two">
+        <div><h2>适合谁</h2><p>想真正理解 LLM 全栈、之后做预训练/推理/系统研究的人；想创业做模型的人。</p></div>
+        <div><h2>学习建议</h2><p>先修 CS 224N 或 CS 231N。没有 GPU 的话可以先跑小模型，但作业体验会受限。</p></div>
+      </section>
+
+      <section class="prose">
+        <h2>相关课程</h2>
+        <div class="related-grid"><a class="relcard" href="cs224n-nlp-with-deep-learning.html"><span>CS 224N</span><b>自然语言处理与深度学习</b></a><a class="relcard" href="cs229s-systems-for-machine-learning.html"><span>CS 229S</span><b>机器学习系统</b></a><a class="relcard" href="cs349e-efficient-ml-inference-at-scale.html"><span>CS 349E</span><b>大规模高效 ML 推理</b></a></div>
+      </section>
+
+      <section class="prose">
+        <details class="official">
+          <summary>官方课程描述（英文原文）</summary>
+          <p>Language models serve as the cornerstone of modern natural language processing (NLP) applications and open up a new paradigm of having a single general purpose system address a range of downstream tasks. As the field of artificial intelligence (AI), machine learning (ML), and NLP continues to grow, possessing a deep understanding of language models becomes essential for scientists and engineers alike. This course is designed to provide students with a comprehensive understanding of language models by walking them through the entire process of developing their own. Drawing inspiration from operating systems courses that create an entire operating system from scratch, we will lead students through every aspect of language model creation, including data collection and cleansing for pre-training, transformer model construction, model training, and evaluation before deployment. Application required, apply at http://cs336.stanford.edu/</p>
+        </details>
+      </section>
+    </article>
+
+    <aside class="course-aside">
+      <div class="aside-card">
+        <div class="aside-head"><h3>快速档案</h3></div>
+        <dl class="facts">
+          <div><dt>课程编号</dt><dd>CS 336</dd></div>
+          <div><dt>学期</dt><dd>2027 春</dd></div>
+          <div><dt>学分</dt><dd>3–5</dd></div>
+          <div><dt>评分</dt><dd>Letter or Credit/No Credit</dd></div>
+          <div><dt>授课</dt><dd>Liang, P.、Hashimoto, T.</dd></div>
+          <div><dt>难度</dt><dd>★★★★★</dd></div>
+        </dl>
+      </div>
+      <div class="aside-card">
+  <div class="aside-head"><h3>资源</h3><span class="resbadge on">已核验</span></div>
+  <div class="resgroup"><h4>官方入口</h4><a class="res" href="https://cs336.stanford.edu/" target="_blank" rel="noopener"><span>课程官网</span><b>↗</b></a><a class="res" href="https://explorecourses.stanford.edu/search?view=catalog&amp;academicYear=20262027&amp;q=CS+336" target="_blank" rel="noopener"><span>ExploreCourses</span><b>↗</b></a></div><div class="resgroup"><h4>代码 / 仓库</h4><a class="res" href="https://github.com/stanford-cs336" target="_blank" rel="noopener"><span>stanford-cs336 组织</span><b>↗</b></a><a class="res" href="https://github.com/stanford-cs336/assignment1-basics" target="_blank" rel="noopener"><span>Assignment 1 · Basics</span><b>↗</b></a><a class="res" href="https://github.com/stanford-cs336/lectures" target="_blank" rel="noopener"><span>课程讲义仓库</span><b>↗</b></a></div>
+  <div class="resgroup"><h4>常见工具</h4><div class="tech"><span>Python</span><span>PyTorch</span><span>Triton</span><span>CUDA</span><span>uv</span></div></div>
+</div>
+      <div class="aside-card"><div class="aside-head"><h3>Markdown</h3></div><a class="res" href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/courses/cs336-language-modeling-from-scratch.md" target="_blank" rel="noopener"><span>在 GitHub 查看课程速览</span><b>↗</b></a></div>
+    </aside>
+  </div>
+
+  <div class="pagerrow"><a class="pager prev" href="cs329z-engineering-ai-agents.html"><small>上一门</small><b>CS 329Z · AI Agent 工程</b></a><a class="pager next" href="cs-338-aligning-superintelligence-mse-338.html"><small>下一门</small><b>CS 338 · 对齐超级智能</b></a></div>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap footin">
+    <div>
+      <p class="footbrand">Stanford AI · 课程地图</p>
+      <p>2026–27 学年 · 非官方整理 · 课程信息以 <a href="https://explorecourses.stanford.edu/" target="_blank" rel="noopener">ExploreCourses</a> 为准。</p>
+    </div>
+    <div class="footlinks">
+      <a href="../index.html#map">课程地图</a>
+      <a href="../index.html#courses">全部课程</a>
+      <a href="../paths.html">学习路径</a>
+      <a href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/app.js"></script>
+</body>
+</html>

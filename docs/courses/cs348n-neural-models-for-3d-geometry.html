@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS 348N · 3D 几何的神经模型 | Stanford AI 课程地图</title>
+<meta name="description" content="3D 几何的神经表示：点云、网格、implicit field、3D 生成。">
+<meta name="theme-color" content="#09090b">
+<meta property="og:title" content="CS 348N · 3D 几何的神经模型 | Stanford AI 课程地图">
+<meta property="og:description" content="3D 几何的神经表示：点云、网格、implicit field、3D 生成。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23d4b176' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4b176'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topin">
+    <a class="brand" href="../index.html">Stanford AI <span>课程地图</span></a>
+    <nav class="nav" id="nav">
+      <a href="../index.html#map">地图</a>
+      <a href="../index.html#courses" class="on">课程</a>
+      <a href="../paths.html">路径</a>
+      <a href="../index.html#about">关于</a>
+    </nav>
+    <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
+    <button class="menu" id="menuBtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+<main>
+<div class="wrap">
+  <a class="back" href="../index.html#courses">← 返回课程地图</a>
+
+  <section class="course-hero">
+    <div class="course-poster">
+      <span class="cp-kicker">Stanford · 2026—27</span>
+      <span class="cp-code">CS 348N</span>
+      <span class="cp-cat">视觉、图形与生成</span>
+      <span class="cp-stars">★★★★☆</span>
+    </div>
+    <div class="course-head">
+      <p class="kicker">核心课程 · 视觉、图形与生成</p>
+      <h1>3D 几何的神经模型</h1>
+      <p class="course-en">Neural Models for 3D Geometry</p>
+      <p class="course-one">3D 几何的神经表示：点云、网格、implicit field、3D 生成。</p>
+      <div class="meta-chips">
+        <span>3 学分</span>
+        <span>2026–27 未排课</span>
+        <span>Letter or Credit/No Credit</span>
+        <span>★★★★☆</span>
+      </div>
+      <div class="tagrow"><span>3D</span><span>生成模型</span><span>图形</span><span>NeRF</span></div>
+      <p class="note-inline">2026-27 学年未在 ExploreCourses 排课；官网暂未找到稳定链接。</p>
+    </div>
+  </section>
+
+  <div class="course-layout">
+    <article class="course-main">
+      <section class="prose">
+        <h2>课程定位</h2>
+        <p>CS 348N 关注如何用机器学习生成和操作高质量 3D 模型与场景。课程覆盖几何表示、3D 数据集、点云/网格网络、neural implicit、3D 生成模型、条件生成和评估指标，是 3D 生成/图形方向的核心课。</p>
+      </section>
+
+      <section class="prose">
+        <h2>主要内容</h2>
+        <ol class="topic-list"><li><strong>几何表示</strong>：点云、网格、体素、SDF、NeRF</li><li><strong>3D 数据</strong>：ShapeNet、Objaverse、场景数据</li><li><strong>点云/网格网络</strong>：PointNet、GCN、MeshCNN</li><li><strong>Neural implicit</strong>：SDF、occupancy、NeRF</li><li><strong>3D 生成</strong>：VAE/GAN/diffusion/autoregressive</li><li><strong>条件生成</strong>：文本/图像到 3D</li><li><strong>评估与合成数据</strong></li></ol>
+      </section>
+
+      <section class="prose two">
+        <div><h2>先修</h2><p>CS 148；深度学习基础；CS 229 推荐。</p></div>
+        <div><h2>考核与工作量</h2><p>作业 + 项目。具体以当季官网为准。</p></div>
+      </section>
+
+      <section class="prose two">
+        <div><h2>适合谁</h2><p>3D 生成、图形学、AR/VR、机器人仿真方向。</p></div>
+        <div><h2>学习建议</h2><p>先学 NeRF 和 diffusion，再回头看 GAN/VAE 的 3D 版本。配合 CS 468。</p></div>
+      </section>
+
+      <section class="prose">
+        <h2>相关课程</h2>
+        <div class="related-grid"><a class="relcard" href="cs468-topics-in-geometric-computing.html"><span>CS 468</span><b>几何计算专题：3D/4D 基础模型</b></a><a class="relcard" href="cs348i-computer-graphics-in-the-era-of-ai.html"><span>CS 348I</span><b>AI 时代的计算机图形学</b></a><a class="relcard" href="cs231a-computer-vision-3d.html"><span>CS 231A</span><b>计算机视觉：从 3D 感知到重建</b></a></div>
+      </section>
+
+      <section class="prose">
+        <details class="official">
+          <summary>官方课程描述（英文原文）</summary>
+          <p>Course Description: Generation of high-quality 3D models and scenes by leveraging machine learning tools and approaches. Survey of geometry representations. Public 3D object and scene data sets. Neural architectures for geometry, including deep architectures for point clouds and meshes. Generative models for 3D: autoencoders, GANs, neural implicits, neural ODEs, autoregressive models. Conditional generation based on images or partial geometry. Variation generation. Evaluation metrics for content generation. Use of synthetic data in ML training pipelines. Prerequisites: CS148 and the rudiments of deep learning. Recommended: CS229.</p>
+        </details>
+      </section>
+    </article>
+
+    <aside class="course-aside">
+      <div class="aside-card">
+        <div class="aside-head"><h3>快速档案</h3></div>
+        <dl class="facts">
+          <div><dt>课程编号</dt><dd>CS 348N</dd></div>
+          <div><dt>学期</dt><dd>2026–27 未排课</dd></div>
+          <div><dt>学分</dt><dd>3</dd></div>
+          <div><dt>评分</dt><dd>Letter or Credit/No Credit</dd></div>
+          <div><dt>授课</dt><dd>TBA</dd></div>
+          <div><dt>难度</dt><dd>★★★★☆</dd></div>
+        </dl>
+      </div>
+      <div class="aside-card">
+  <div class="aside-head"><h3>资源</h3><span class="resbadge">官方入口</span></div>
+  <div class="resgroup"><h4>官方入口</h4><a class="res" href="https://cs348n.stanford.edu/" target="_blank" rel="noopener"><span>课程官网</span><b>↗</b></a><a class="res" href="https://explorecourses.stanford.edu/search?view=catalog&amp;academicYear=20262027&amp;q=CS+348N" target="_blank" rel="noopener"><span>ExploreCourses</span><b>↗</b></a></div><div class="resgroup"><h4>搜索入口</h4><a class="res" href="https://www.youtube.com/results?search_query=Stanford+CS+348N+Neural+Models+for+3D+Geometry" target="_blank" rel="noopener"><span>YouTube 搜索</span><b>↗</b></a><a class="res" href="https://github.com/search?q=Stanford+CS+348N&amp;type=repositories" target="_blank" rel="noopener"><span>GitHub 搜索</span><b>↗</b></a></div>
+  <div class="resgroup"><h4>常见工具</h4><div class="tech"><span>Python</span><span>PyTorch</span><span>PyTorch3D</span><span>NeRF</span></div></div>
+</div>
+      <div class="aside-card"><div class="aside-head"><h3>Markdown</h3></div><a class="res" href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/courses/cs348n-neural-models-for-3d-geometry.md" target="_blank" rel="noopener"><span>在 GitHub 查看课程速览</span><b>↗</b></a></div>
+    </aside>
+  </div>
+
+  <div class="pagerrow"><a class="pager prev" href="cs-348k-visual-computing-systems.html"><small>上一门</small><b>CS 348K · 视觉计算系统</b></a><a class="pager next" href="cs448i-computational-imaging.html"><small>下一门</small><b>CS 448I · 计算成像</b></a></div>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap footin">
+    <div>
+      <p class="footbrand">Stanford AI · 课程地图</p>
+      <p>2026–27 学年 · 非官方整理 · 课程信息以 <a href="https://explorecourses.stanford.edu/" target="_blank" rel="noopener">ExploreCourses</a> 为准。</p>
+    </div>
+    <div class="footlinks">
+      <a href="../index.html#map">课程地图</a>
+      <a href="../index.html#courses">全部课程</a>
+      <a href="../paths.html">学习路径</a>
+      <a href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/app.js"></script>
+</body>
+</html>

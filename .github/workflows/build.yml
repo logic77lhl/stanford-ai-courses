@@ -18,6 +18,9 @@ jobs:
       - name: Rebuild docs
         run: python scripts/build.py
 
+      - name: Rebuild site
+        run: python scripts/build_site.py
+
       - name: Validate
         run: python scripts/check.py
 

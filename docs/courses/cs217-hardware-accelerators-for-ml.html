@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS 217 · 机器学习硬件加速器 | Stanford AI 课程地图</title>
+<meta name="description" content="ML 硬件加速器：数据流、张量处理、存储层次、编译，以及 CNN/Transformer 的映射。">
+<meta name="theme-color" content="#09090b">
+<meta property="og:title" content="CS 217 · 机器学习硬件加速器 | Stanford AI 课程地图">
+<meta property="og:description" content="ML 硬件加速器：数据流、张量处理、存储层次、编译，以及 CNN/Transformer 的映射。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23d4b176' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4b176'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topin">
+    <a class="brand" href="../index.html">Stanford AI <span>课程地图</span></a>
+    <nav class="nav" id="nav">
+      <a href="../index.html#map">地图</a>
+      <a href="../index.html#courses" class="on">课程</a>
+      <a href="../paths.html">路径</a>
+      <a href="../index.html#about">关于</a>
+    </nav>
+    <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
+    <button class="menu" id="menuBtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+<main>
+<div class="wrap">
+  <a class="back" href="../index.html#courses">← 返回课程地图</a>
+
+  <section class="course-hero">
+    <div class="course-poster">
+      <span class="cp-kicker">Stanford · 2026—27</span>
+      <span class="cp-code">CS 217</span>
+      <span class="cp-cat">ML 系统与硬件</span>
+      <span class="cp-stars">★★★★☆</span>
+    </div>
+    <div class="course-head">
+      <p class="kicker">核心课程 · ML 系统与硬件</p>
+      <h1>机器学习硬件加速器</h1>
+      <p class="course-en">Hardware Accelerators for Machine Learning (EE 244)</p>
+      <p class="course-one">ML 硬件加速器：数据流、张量处理、存储层次、编译，以及 CNN/Transformer 的映射。</p>
+      <div class="meta-chips">
+        <span>3–4 学分</span>
+        <span>2027 春</span>
+        <span>Letter or Credit/No Credit</span>
+        <span>★★★★☆</span>
+      </div>
+      <div class="tagrow"><span>硬件</span><span>加速器</span><span>体系结构</span><span>芯片</span></div>
+      
+    </div>
+  </section>
+
+  <div class="course-layout">
+    <article class="course-main">
+      <section class="prose">
+        <h2>课程定位</h2>
+        <p>CS 217（EE 244）由 Olukotun 和 Tambe 讲授，是 AI 芯片方向的经典课。课程从 CNN/Transformer 的计算模式出发，讲加速器架构、数据流、存储层次、低精度/稀疏和编译，最终做一个设计项目。</p>
+      </section>
+
+      <section class="prose">
+        <h2>主要内容</h2>
+        <ol class="topic-list"><li><strong>AI 计算模式</strong>：CNN、Transformer、训练 vs 推理</li><li><strong>加速器架构</strong>：脉动阵列、张量核心、数据流</li><li><strong>存储层次</strong>：片上缓存、HBM、数据复用</li><li><strong>低精度与稀疏</strong>：量化、剪枝、压缩</li><li><strong>编译与映射</strong>：算子调度、tiling</li><li><strong>能效与面积</strong>：系统级 trade-off</li><li><strong>设计项目</strong></li></ol>
+      </section>
+
+      <section class="prose two">
+        <div><h2>先修</h2><p>数字电路/计算机体系结构；VLSI 或 FPGA 经验有帮助。</p></div>
+        <div><h2>考核与工作量</h2><p>论文阅读 + final design project。具体以当季官网为准。</p></div>
+      </section>
+
+      <section class="prose two">
+        <div><h2>适合谁</h2><p>想做 AI 芯片、加速器、体系结构的人；硬件背景想理解 ML 负载的人。</p></div>
+        <div><h2>学习建议</h2><p>先理解 roofline 和矩阵乘的分块。配合 CS 149/CS 349E。</p></div>
+      </section>
+
+      <section class="prose">
+        <h2>相关课程</h2>
+        <div class="related-grid"><a class="relcard" href="cs349e-efficient-ml-inference-at-scale.html"><span>CS 349E</span><b>大规模高效 ML 推理</b></a></div>
+      </section>
+
+      <section class="prose">
+        <details class="official">
+          <summary>官方课程描述（英文原文）</summary>
+          <p>This course explores the design, programming, and performance of modern AI accelerators. It covers architectural techniques, dataflow, tensor processing, memory hierarchies, compilation for accelerators, and emerging trends in AI computing. This course will cover modern AI/ML algorithms such as convolutional neural nets, and Transformer-based models / LLMs. We will consider both training and inference for these models and discuss the impact of parameters such as batch size, precision, sparsity and compression on the accuracy of these models. Students will become familiar with hardware implementation techniques for using parallelism, locality, and low precision to implement the core computational kernels used in ML. Students will develop intuitions to make system-level trade-offs to design energy-efficient accelerators. Students will read recent research papers and complete a final design project.</p>
+        </details>
+      </section>
+    </article>
+
+    <aside class="course-aside">
+      <div class="aside-card">
+        <div class="aside-head"><h3>快速档案</h3></div>
+        <dl class="facts">
+          <div><dt>课程编号</dt><dd>CS 217</dd></div>
+          <div><dt>学期</dt><dd>2027 春</dd></div>
+          <div><dt>学分</dt><dd>3–4</dd></div>
+          <div><dt>评分</dt><dd>Letter or Credit/No Credit</dd></div>
+          <div><dt>授课</dt><dd>Olukotun, O.、Tambe, T.</dd></div>
+          <div><dt>难度</dt><dd>★★★★☆</dd></div>
+        </dl>
+      </div>
+      <div class="aside-card">
+  <div class="aside-head"><h3>资源</h3><span class="resbadge">官方入口</span></div>
+  <div class="resgroup"><h4>官方入口</h4><a class="res" href="https://cs217.stanford.edu/" target="_blank" rel="noopener"><span>课程官网</span><b>↗</b></a><a class="res" href="https://explorecourses.stanford.edu/search?view=catalog&amp;academicYear=20262027&amp;q=CS+217" target="_blank" rel="noopener"><span>ExploreCourses</span><b>↗</b></a></div><div class="resgroup"><h4>搜索入口</h4><a class="res" href="https://www.youtube.com/results?search_query=Stanford+CS+217+Hardware+Accelerators+for+Machine+Learning+%28EE+244%29" target="_blank" rel="noopener"><span>YouTube 搜索</span><b>↗</b></a><a class="res" href="https://github.com/search?q=Stanford+CS+217&amp;type=repositories" target="_blank" rel="noopener"><span>GitHub 搜索</span><b>↗</b></a></div>
+  <div class="resgroup"><h4>常见工具</h4><div class="tech"><span>C++</span><span>SystemVerilog</span><span>CUDA</span><span>PyTorch</span></div></div>
+</div>
+      <div class="aside-card"><div class="aside-head"><h3>Markdown</h3></div><a class="res" href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/courses/cs217-hardware-accelerators-for-ml.md" target="_blank" rel="noopener"><span>在 GitHub 查看课程速览</span><b>↗</b></a></div>
+    </aside>
+  </div>
+
+  <div class="pagerrow"><a class="pager prev" href="stats-292-statistical-models-of-text-and-language.html"><small>上一门</small><b>STATS 292 · 文本统计模型</b></a><a class="pager next" href="cs229s-systems-for-machine-learning.html"><small>下一门</small><b>CS 229S · 机器学习系统</b></a></div>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap footin">
+    <div>
+      <p class="footbrand">Stanford AI · 课程地图</p>
+      <p>2026–27 学年 · 非官方整理 · 课程信息以 <a href="https://explorecourses.stanford.edu/" target="_blank" rel="noopener">ExploreCourses</a> 为准。</p>
+    </div>
+    <div class="footlinks">
+      <a href="../index.html#map">课程地图</a>
+      <a href="../index.html#courses">全部课程</a>
+      <a href="../paths.html">学习路径</a>
+      <a href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/app.js"></script>
+</body>
+</html>

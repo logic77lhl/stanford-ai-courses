@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>学习路径 | Stanford AI 课程地图</title>
+<meta name="description" content="六条 Stanford AI/ML/Agent 学习路径：LLM/Agent、ML 研究、CV/生成、机器人、MLSys、AI4Science。">
+<meta name="theme-color" content="#09090b">
+<meta property="og:title" content="学习路径 | Stanford AI 课程地图">
+<meta property="og:description" content="六条 Stanford AI/ML/Agent 学习路径：LLM/Agent、ML 研究、CV/生成、机器人、MLSys、AI4Science。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23d4b176' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4b176'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topin">
+    <a class="brand" href="index.html">Stanford AI <span>课程地图</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html#map">地图</a>
+      <a href="index.html#courses">课程</a>
+      <a href="paths.html" class="on">路径</a>
+      <a href="index.html#about">关于</a>
+    </nav>
+    <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
+    <button class="menu" id="menuBtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+<main>
+<div class="wrap">
+  <a class="back" href="index.html">← 返回首页</a>
+  <section class="page-hero">
+    <p class="kicker">Learning Paths</p>
+    <h1>六条学习路径</h1>
+    <p>按目标而不是按课程编号选课。每条路径给出核心序列和可搭配课程；先修关系与避坑说明见 <a href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/docs/learning-paths.md" target="_blank" rel="noopener">learning-paths.md</a>。</p>
+  </section>
+  <section class="path-detail">
+  <div class="path-detail-head">
+    <span class="path-index">01</span>
+    <div><h2>LLM / Agent 工程</h2><p>从 NLP 地基到 agent 工程，再到从零训练语言模型。重点是 eval，而不是只搭 demo。</p></div>
+  </div>
+  <div class="steps"><a class="step" href="courses/cs224n-nlp-with-deep-learning.html"><span>01</span><b>CS 224N</b><small>自然语言处理与深度学习</small></a><a class="step" href="courses/cs329z-engineering-ai-agents.html"><span>02</span><b>CS 329Z</b><small>AI Agent 工程</small></a><a class="step" href="courses/cs224v-agentic-ai.html"><span>03</span><b>CS 224V</b><small>智能体 AI</small></a><a class="step" href="courses/cs336-language-modeling-from-scratch.html"><span>04</span><b>CS 336</b><small>从零构建语言模型</small></a></div>
+  <div class="also-row"><span>还可以搭配</span><a class="also" href="courses/cs329h-machine-learning-from-human-preferences.html">CS 329H</a><a class="also" href="courses/cs329t-trustworthy-machine-learning.html">CS 329T</a><a class="also" href="courses/cs224g-apps-with-llms-inside.html">CS 224G</a><a class="also" href="courses/cs25-transformers-united.html">CS 25</a><a class="also" href="courses/mse203-building-and-evaluating-ai-products.html">MS&amp;E 203</a></div>
+</section><section class="path-detail">
+  <div class="path-detail-head">
+    <span class="path-index">02</span>
+    <div><h2>ML 研究 / 读博</h2><p>先把监督学习、无监督学习和学习理论打通，再选一个方向做深。</p></div>
+  </div>
+  <div class="steps"><a class="step" href="courses/cs229-machine-learning.html"><span>01</span><b>CS 229</b><small>机器学习</small></a><a class="step" href="courses/cs229m-machine-learning-theory.html"><span>02</span><b>CS 229M</b><small>机器学习理论</small></a><a class="step" href="courses/cs236-deep-generative-models.html"><span>03</span><b>CS 236</b><small>深度生成模型</small></a><a class="step" href="courses/cs234-reinforcement-learning.html"><span>04</span><b>CS 234</b><small>强化学习</small></a></div>
+  <div class="also-row"><span>还可以搭配</span><a class="also" href="courses/stats315a-modern-applied-statistics-learning.html">STATS 315A</a><a class="also" href="courses/cs228-probabilistic-graphical-models.html">CS 228</a><a class="also" href="courses/cs-330-deep-multi-task-and-meta-learning.html">CS 330</a><a class="also" href="courses/cs-332-advanced-survey-of-reinforcement-learning.html">CS 332</a></div>
+</section><section class="path-detail">
+  <div class="path-detail-head">
+    <span class="path-index">03</span>
+    <div><h2>CV / 生成 / 3D</h2><p>识别 → 生成模型 → 3D 表示/渲染，形成完整的视觉与图形栈。</p></div>
+  </div>
+  <div class="steps"><a class="step" href="courses/cs231n-deep-learning-for-computer-vision.html"><span>01</span><b>CS 231N</b><small>计算机视觉的深度学习</small></a><a class="step" href="courses/cs236-deep-generative-models.html"><span>02</span><b>CS 236</b><small>深度生成模型</small></a><a class="step" href="courses/cs348n-neural-models-for-3d-geometry.html"><span>03</span><b>CS 348N</b><small>3D 几何的神经模型</small></a><a class="step" href="courses/cs468-topics-in-geometric-computing.html"><span>04</span><b>CS 468</b><small>几何计算专题：3D/4D 基础模型</small></a></div>
+  <div class="also-row"><span>还可以搭配</span><a class="also" href="courses/cs231a-computer-vision-3d.html">CS 231A</a><a class="also" href="courses/cs236g-generative-adversarial-networks.html">CS 236G</a><a class="also" href="courses/cs348i-computer-graphics-in-the-era-of-ai.html">CS 348I</a><a class="also" href="courses/cs448i-computational-imaging.html">CS 448I</a></div>
+</section><section class="path-detail">
+  <div class="path-detail-head">
+    <span class="path-index">04</span>
+    <div><h2>机器人 / 具身</h2><p>运动学与控制 → 自主系统 → 学习与操作 → 具身研究。</p></div>
+  </div>
+  <div class="steps"><a class="step" href="courses/cs223a-introduction-to-robotics.html"><span>01</span><b>CS 223A</b><small>机器人学导论</small></a><a class="step" href="courses/cs237a-principles-of-robot-autonomy-i.html"><span>02</span><b>CS 237A</b><small>机器人自主性原理 I</small></a><a class="step" href="courses/cs237b-principles-of-robot-autonomy-ii.html"><span>03</span><b>CS 237B</b><small>机器人自主性原理 II</small></a><a class="step" href="courses/cs381-sensorimotor-learning-for-embodied-agents.html"><span>04</span><b>CS 381</b><small>具身智能的感知运动学习</small></a></div>
+  <div class="also-row"><span>还可以搭配</span><a class="also" href="courses/cs225a-experimental-robotics.html">CS 225A</a><a class="also" href="courses/cs227a-robot-perception.html">CS 227A</a><a class="also" href="courses/cs234-reinforcement-learning.html">CS 234</a><a class="also" href="courses/cs231n-deep-learning-for-computer-vision.html">CS 231N</a></div>
+</section><section class="path-detail">
+  <div class="path-detail-head">
+    <span class="path-index">05</span>
+    <div><h2>MLSys / 推理</h2><p>从 ML 系统设计到推理 serving，再到加速器与网络。</p></div>
+  </div>
+  <div class="steps"><a class="step" href="courses/cs229s-systems-for-machine-learning.html"><span>01</span><b>CS 229S</b><small>机器学习系统</small></a><a class="step" href="courses/cs349d-ai-inference-infrastructure.html"><span>02</span><b>CS 349D</b><small>AI 推理基础设施</small></a><a class="step" href="courses/cs349e-efficient-ml-inference-at-scale.html"><span>03</span><b>CS 349E</b><small>大规模高效 ML 推理</small></a><a class="step" href="courses/cs217-hardware-accelerators-for-ml.html"><span>04</span><b>CS 217</b><small>机器学习硬件加速器</small></a></div>
+  <div class="also-row"><span>还可以搭配</span><a class="also" href="courses/cs329s-machine-learning-systems-design.html">CS 329S</a><a class="also" href="courses/cs349f-fabric-architectures-for-ai-systems.html">CS 349F</a><a class="also" href="courses/mse319-efficient-generative-models.html">MS&amp;E 319</a></div>
+</section><section class="path-detail">
+  <div class="path-detail-head">
+    <span class="path-index">06</span>
+    <div><h2>AI4Science / 医疗</h2><p>ML 基础 → 领域数据 → 医疗/生物 FM → 前沿讲座。</p></div>
+  </div>
+  <div class="steps"><a class="step" href="courses/cs229-machine-learning.html"><span>01</span><b>CS 229</b><small>机器学习</small></a><a class="step" href="courses/cs273b-deep-learning-in-genomics.html"><span>02</span><b>CS 273B</b><small>基因组与生物医学中的深度学习</small></a><a class="step" href="courses/cs277-foundation-models-for-healthcare.html"><span>03</span><b>CS 277</b><small>医疗基础模型</small></a><a class="step" href="courses/ee292r-ai-and-data-for-science.html"><span>04</span><b>EE 292R</b><small>AI 与数据驱动的科学</small></a></div>
+  <div class="also-row"><span>还可以搭配</span><a class="also" href="courses/cs279-computational-biology.html">CS 279</a><a class="also" href="courses/cs287-data-centric-ai-for-healthcare.html">CS 287</a><a class="also" href="courses/cs375-large-scale-neural-network-modeling-for-neuroscience.html">CS 375</a><a class="also" href="courses/cs286-advanced-cv-and-biomedicine.html">CS 286</a></div>
+</section>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap footin">
+    <div>
+      <p class="footbrand">Stanford AI · 课程地图</p>
+      <p>2026–27 学年 · 非官方整理 · 课程信息以 <a href="https://explorecourses.stanford.edu/" target="_blank" rel="noopener">ExploreCourses</a> 为准。</p>
+    </div>
+    <div class="footlinks">
+      <a href="index.html#map">课程地图</a>
+      <a href="index.html#courses">全部课程</a>
+      <a href="paths.html">学习路径</a>
+      <a href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

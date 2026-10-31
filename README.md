@@ -2,9 +2,13 @@
 
 [![build](https://github.com/logic77lhl/stanford-ai-courses/actions/workflows/build.yml/badge.svg)](https://github.com/logic77lhl/stanford-ai-courses/actions/workflows/build.yml)
 
-> 2026–27 学年 · 55 门核心课程 · 60+ 门延伸课程 · 每门核心课一份中文速览
+> 2026–27 学年 · 55 门核心课程 · 70 门延伸课程 · 每门核心课一份中文速览
 
-Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymSys 等院系，编号从 CS 25 到 CS 528，还有大量 1 学分 seminar。这个仓库把它们按方向整理成一张地图：**每门核心课一份 Markdown 速览**，另附完整课程总表、学习路径和延伸课程。
+**在线站点**：<https://logic77lhl.github.io/stanford-ai-courses/>
+
+Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymSys 等院系，编号从 CS 25 到 CS 528，还有大量 1 学分 seminar。这个仓库把它们按方向整理成一张地图：**每门核心课一份 Markdown 速览**，另附完整课程总表、学习路径和延伸课程；`docs/` 下是可直接浏览的 GitHub Pages 站点。
+
+[![站点预览](docs/assets/preview.png)](https://logic77lhl.github.io/stanford-ai-courses/)
 
 **适合谁**：准备选课的 Stanford 学生；想按 Stanford 课程体系自学的人；想快速了解某个方向（LLM/Agent、CV、机器人、MLSys、AI4Science）课程版图的人。
 
@@ -16,16 +20,18 @@ Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymS
 .
 ├── README.md                 # 总表 + 学习路径 + 延伸课程
 ├── courses/                  # 55 门核心课程，每门一份速览
-├── docs/
-│   └── learning-paths.md     # 六条学习路径的详细说明
+├── docs/                     # GitHub Pages 站点（index.html + 125 个课程页）
+├── docs/learning-paths.md    # 六条学习路径的详细说明
 ├── data/
 │   ├── courses.json          # 机器可读的课程数据
 │   ├── catalog.json          # ExploreCourses 原始整理
 │   ├── courses/              # 手写源数据（按方向分文件）
+│   ├── resources.json        # 视频 / 代码 / 工具等资源
 │   └── more_courses.json     # 延伸课程清单
 └── scripts/
     ├── fetch_catalog.py      # 从 ExploreCourses 抓取
-    └── build.py              # 生成 courses/*.md 与 README 表格
+    ├── build.py              # 生成 courses/*.md 与 README 表格
+    └── build_site.py         # 生成 docs/ 静态站点
 ```
 
 ## 怎么用
@@ -254,17 +260,21 @@ python scripts/fetch_catalog.py
 
 # 2. 生成课程页和 README 表格
 python scripts/build.py
+
+# 3. 生成 GitHub Pages 站点（docs/）
+python scripts/build_site.py
 ```
 
-要求 Python 3.10+，无第三方依赖。`courses/*.md` 是生成文件，请修改 `data/courses/*.json` 后重新构建。
+要求 Python 3.10+，无第三方依赖。`courses/*.md` 和 `docs/` 是生成文件，请修改 `data/` 后重新构建。
 
 ## 贡献
 
 欢迎提 PR 补充课程、修正信息或改进课程页：
 
 1. 在 `data/courses/` 对应方向文件里新增/修改条目（字段参考现有条目）。
-2. 运行 `python scripts/build.py` 重新生成。
-3. 提交 `data/`、`courses/` 和 `README.md` 的改动。
+2. 在 `data/resources.json` 补充视频、代码仓库或工具（可选）。
+3. 运行 `python scripts/build.py && python scripts/build_site.py` 重新生成。
+4. 提交 `data/`、`courses/`、`docs/` 和 `README.md` 的改动。
 
 新增课程时请尽量附上官方来源（ExploreCourses 或课程官网），并把不确定的信息写进 `note`。
 

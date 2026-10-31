@@ -1,0 +1,177 @@
+{
+  "CS 229": {
+    "videos": [
+      ["Stanford CS229 · Spring 2026", "https://www.youtube.com/playlist?list=PLaqpC4kq8Gpw"],
+      ["Andrew Ng · Autumn 2018", "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"]
+    ],
+    "tech": ["Python", "NumPy", "PyTorch", "statsmodels"]
+  },
+  "CS 230": {
+    "videos": [
+      ["YouTube 搜索 · Stanford CS230", "https://www.youtube.com/results?search_query=Stanford+CS230+deep+learning"]
+    ],
+    "tech": ["Python", "TensorFlow", "Keras", "NumPy"]
+  },
+  "CS 231N": {
+    "videos": [
+      ["Stanford CS231N · Spring 2025", "https://www.youtube.com/playlist?list=PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16"]
+    ],
+    "code": [
+      ["课程 notes 仓库", "https://github.com/cs231n/cs231n.github.io"]
+    ],
+    "extra": [
+      ["课程 notes 站点", "https://cs231n.github.io/"]
+    ],
+    "tech": ["Python", "PyTorch", "NumPy", "OpenCV"]
+  },
+  "CS 224N": {
+    "videos": [
+      ["Stanford CS224N · Spring 2024", "https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D"]
+    ],
+    "tech": ["Python", "PyTorch", "Hugging Face", "NumPy"]
+  },
+  "CS 234": {
+    "videos": [
+      ["Stanford CS234 · Spring 2024", "https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX"]
+    ],
+    "tech": ["Python", "PyTorch", "Gymnasium", "NumPy"]
+  },
+  "CS 236": {
+    "videos": [
+      ["YouTube 搜索 · Stanford CS236", "https://www.youtube.com/results?search_query=Stanford+CS236+deep+generative+models"]
+    ],
+    "tech": ["Python", "PyTorch", "JAX", "NumPy"]
+  },
+  "CS 224W": {
+    "videos": [
+      ["YouTube 搜索 · Stanford CS224W", "https://www.youtube.com/results?search_query=Stanford+CS224W+graph+neural+networks"]
+    ],
+    "tech": ["Python", "PyTorch", "PyG", "NetworkX"]
+  },
+  "CS 221": {
+    "videos": [
+      ["YouTube 搜索 · Stanford CS221", "https://www.youtube.com/results?search_query=Stanford+CS221+artificial+intelligence"]
+    ],
+    "tech": ["Python", "NumPy", "pandas"]
+  },
+  "CS 25": {
+    "videos": [
+      ["Stanford CS25 · Transformers United", "https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM"]
+    ],
+    "extra": [
+      ["课程录像页", "https://web.stanford.edu/class/cs25/recordings/"]
+    ],
+    "tech": ["Python", "PyTorch", "Hugging Face"]
+  },
+  "CS 336": {
+    "code": [
+      ["stanford-cs336 组织", "https://github.com/stanford-cs336"],
+      ["Assignment 1 · Basics", "https://github.com/stanford-cs336/assignment1-basics"],
+      ["课程讲义仓库", "https://github.com/stanford-cs336/lectures"]
+    ],
+    "tech": ["Python", "PyTorch", "Triton", "CUDA", "uv"]
+  },
+  "CS 329Z": {
+    "code": [
+      ["Assignment 1 · Agentic Harness", "https://github.com/cs329z/assignment1-harness"],
+      ["Lecture 5 · Frameworks 代码", "https://github.com/cs329z/lecture5-frameworks"]
+    ],
+    "tech": ["Python", "LLM API", "DSPy", "RAG", "Eval"]
+  },
+  "CS 329A": {
+    "tech": ["Python", "PyTorch", "LLM API", "vLLM"]
+  },
+  "CS 224V": {
+    "tech": ["Python", "LLM API", "RAG", "Formal methods"]
+  },
+  "CS 221M": {
+    "tech": ["Python", "PyTorch", "TransformerLens", "SAE"]
+  },
+  "CS 329H": {
+    "tech": ["Python", "PyTorch", "TRL", "DPO"]
+  },
+  "CS 349D": {
+    "tech": ["Python", "vLLM", "Kubernetes", "CUDA"]
+  },
+  "CS 349E": {
+    "code": [
+      ["课程站点仓库", "https://github.com/cs349e"]
+    ],
+    "extra": [
+      ["Course info / grading", "https://cs349e.github.io/course_info.html"]
+    ],
+    "tech": ["Python", "CUDA", "Triton", "JAX", "vLLM"]
+  },
+  "CS 217": {
+    "tech": ["C++", "SystemVerilog", "CUDA", "PyTorch"]
+  },
+  "CS 231A": {
+    "tech": ["Python", "NumPy", "OpenCV", "PyTorch"]
+  },
+  "CS 236G": {
+    "tech": ["Python", "PyTorch", "CUDA"]
+  },
+  "CS 348N": {
+    "tech": ["Python", "PyTorch", "PyTorch3D", "NeRF"]
+  },
+  "CS 468": {
+    "tech": ["Python", "C++", "PyTorch", "Open3D"]
+  },
+  "CS 223A": {
+    "tech": ["C++", "Python", "ROS", "Eigen"]
+  },
+  "CS 237A": {
+    "tech": ["Python", "C++", "ROS", "Eigen"]
+  },
+  "CS 237B": {
+    "tech": ["Python", "C++", "ROS", "PyTorch"]
+  },
+  "CS 225A": {
+    "tech": ["C++", "Python", "ROS", "Eigen"]
+  },
+  "CS 277": {
+    "tech": ["Python", "PyTorch", "Hugging Face", "MONAI"]
+  },
+  "CS 279": {
+    "tech": ["Python", "PyTorch", "Biopython", "RDKit", "OpenMM"]
+  },
+  "CS 375": {
+    "tech": ["Python", "PyTorch", "JAX", "Neuroimaging tools"]
+  },
+  "EE 292R": {
+    "videos": [
+      ["YouTube 搜索 · Stanford EE292R", "https://www.youtube.com/results?search_query=Stanford+EE292R+AI+and+Data+for+Science"]
+    ],
+    "tech": ["Python", "PyTorch", "Marlowe GPU", "Jupyter"]
+  },
+  "CS 139": {
+    "tech": ["Python", "LLM API", "Figma"]
+  },
+  "CS 247A": {
+    "tech": ["Figma", "Python", "LLM API"]
+  },
+  "CS 281": {
+    "tech": ["Python", "PyTorch", "Fairlearn", "SHAP"]
+  },
+  "MS&E 203": {
+    "tech": ["Python", "LLM API", "Cursor", "Eval"]
+  },
+  "STATS 202": {
+    "tech": ["R", "Python", "scikit-learn", "pandas"]
+  },
+  "STATS 315A": {
+    "tech": ["Python", "R", "PyTorch", "scikit-learn"]
+  },
+  "MS&E 318": {
+    "tech": ["Python", "CVXPY", "PyTorch", "Gurobi"]
+  },
+  "MS&E 319": {
+    "tech": ["Python", "PyTorch", "vLLM", "JAX"]
+  },
+  "CS 329S": {
+    "tech": ["Python", "PyTorch", "Docker", "MLflow"]
+  },
+  "CS 229S": {
+    "tech": ["Python", "C++", "CUDA", "PyTorch", "NCCL"]
+  }
+}

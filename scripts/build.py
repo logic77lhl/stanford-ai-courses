@@ -264,6 +264,7 @@ def main() -> None:
             "terms": terms_cn(cat["terms"]),
             "instructors": instructor_line(cat),
             "prereq": c["prereq"],
+            "pos": c["pos"],
             "topics": c["topics"],
             "assessment": c["assess"],
             "who": c["who"],

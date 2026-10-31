@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS 349F · AI 系统的网络 Fabric 架构 | Stanford AI 课程地图</title>
+<meta name="description" content="AI 集群的网络 fabric：fat tree、拥塞控制、调度，追求超低延迟和近 100% goodput。">
+<meta name="theme-color" content="#09090b">
+<meta property="og:title" content="CS 349F · AI 系统的网络 Fabric 架构 | Stanford AI 课程地图">
+<meta property="og:description" content="AI 集群的网络 fabric：fat tree、拥塞控制、调度，追求超低延迟和近 100% goodput。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23d4b176' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4b176'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topin">
+    <a class="brand" href="../index.html">Stanford AI <span>课程地图</span></a>
+    <nav class="nav" id="nav">
+      <a href="../index.html#map">地图</a>
+      <a href="../index.html#courses" class="on">课程</a>
+      <a href="../paths.html">路径</a>
+      <a href="../index.html#about">关于</a>
+    </nav>
+    <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
+    <button class="menu" id="menuBtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+<main>
+<div class="wrap">
+  <a class="back" href="../index.html#courses">← 返回课程地图</a>
+
+  <section class="course-hero">
+    <div class="course-poster">
+      <span class="cp-kicker">Stanford · 2026—27</span>
+      <span class="cp-code">CS 349F</span>
+      <span class="cp-cat">ML 系统与硬件</span>
+      <span class="cp-stars">★★★★☆</span>
+    </div>
+    <div class="course-head">
+      <p class="kicker">核心课程 · ML 系统与硬件</p>
+      <h1>AI 系统的网络 Fabric 架构</h1>
+      <p class="course-en">Fabric Architectures For AI Systems</p>
+      <p class="course-one">AI 集群的网络 fabric：fat tree、拥塞控制、调度，追求超低延迟和近 100% goodput。</p>
+      <div class="meta-chips">
+        <span>2 学分</span>
+        <span>2026 秋</span>
+        <span>Satisfactory/No Credit</span>
+        <span>★★★★☆</span>
+      </div>
+      <div class="tagrow"><span>网络</span><span>集群</span><span>数据中心</span><span>系统</span></div>
+      <p class="note-inline">2026-27 秋季开设；官网访问受限，暂只提供 ExploreCourses 链接。</p>
+    </div>
+  </section>
+
+  <div class="course-layout">
+    <article class="course-main">
+      <section class="prose">
+        <h2>课程定位</h2>
+        <p>CS 349F 关注大规模 GPU/CPU 集群的互连网络，以及金融交易、多人游戏等 time-sensitive 系统。课程覆盖数据中心 fabric 架构、传输协议、拥塞控制、负载均衡和调度，并邀请工业界专家讲真实集群的设计与运维。</p>
+      </section>
+
+      <section class="prose">
+        <h2>主要内容</h2>
+        <ol class="topic-list"><li><strong>数据中心 fabric</strong>：fat tree、leaf-spine、拓扑</li><li><strong>传输协议</strong>：RDMA、RoCE、拥塞控制</li><li><strong>负载均衡</strong>：ECMP、packet spraying</li><li><strong>调度</strong>：作业调度、fabric 调度、交互</li><li><strong>边缘 vs 网络中心</strong>：两种高性能路线</li><li><strong>工业案例</strong>：GPU 集群、交易系统</li></ol>
+      </section>
+
+      <section class="prose two">
+        <div><h2>先修</h2><p>CS 144/CS 140 或分布式系统基础；EE 178 有帮助。</p></div>
+        <div><h2>考核与工作量</h2><p>2 unit S/NC；讨论 + 项目/案例，具体以当季官网为准。</p></div>
+      </section>
+
+      <section class="prose two">
+        <div><h2>适合谁</h2><p>网络、集群、数据中心方向；想做 AI 基础设施的人。</p></div>
+        <div><h2>学习建议</h2><p>和 CS 349D/E 一起看，形成“单机-集群-网络”的完整视角。</p></div>
+      </section>
+
+      <section class="prose">
+        <h2>相关课程</h2>
+        <div class="related-grid"><a class="relcard" href="cs349d-ai-inference-infrastructure.html"><span>CS 349D</span><b>AI 推理基础设施</b></a><a class="relcard" href="cs349e-efficient-ml-inference-at-scale.html"><span>CS 349E</span><b>大规模高效 ML 推理</b></a></div>
+      </section>
+
+      <section class="prose">
+        <details class="official">
+          <summary>官方课程描述（英文原文）</summary>
+          <p>The course is concerned with the design and operation of the network fabrics which interconnect large-scale compute and storage nodes in modern AI GPU clusters, cloud computing systems, and &amp;quot;time-sensitive systems&amp;quot; like financial trading platforms and massive multi-player games. We will consider architectures, protocols and algorithms which enable these network fabrics to deliver deterministic and ultra-low latency at near-100% goodput. Topics include data center fabric architectures - the fat tree topology, transport protocols - congestion control and load balancing, and scheduling algorithms - job scheduling, fabric scheduling and their interaction. A particular focus will be the contrast and synergy between the edge- and network-centric approaches to building high-performance network fabrics. Students will hear from industry experts who design, operate and use large-scale GPU and CPU clusters. Recommended: Knowledge of basic Networking, OS, or Distributed Systems (CS 144, 140, or equivalent), as well as basic EE courses (EE 178) will be useful.</p>
+        </details>
+      </section>
+    </article>
+
+    <aside class="course-aside">
+      <div class="aside-card">
+        <div class="aside-head"><h3>快速档案</h3></div>
+        <dl class="facts">
+          <div><dt>课程编号</dt><dd>CS 349F</dd></div>
+          <div><dt>学期</dt><dd>2026 秋</dd></div>
+          <div><dt>学分</dt><dd>2</dd></div>
+          <div><dt>评分</dt><dd>Satisfactory/No Credit</dd></div>
+          <div><dt>授课</dt><dd>Prabhakar, B.、Rosenblum, M.</dd></div>
+          <div><dt>难度</dt><dd>★★★★☆</dd></div>
+        </dl>
+      </div>
+      <div class="aside-card">
+  <div class="aside-head"><h3>资源</h3><span class="resbadge">官方入口</span></div>
+  <div class="resgroup"><h4>官方入口</h4><a class="res" href="https://explorecourses.stanford.edu/search?view=catalog&amp;academicYear=20262027&amp;q=CS+349F" target="_blank" rel="noopener"><span>ExploreCourses</span><b>↗</b></a></div><div class="resgroup"><h4>搜索入口</h4><a class="res" href="https://www.youtube.com/results?search_query=Stanford+CS+349F+Fabric+Architectures+For+AI+Systems" target="_blank" rel="noopener"><span>YouTube 搜索</span><b>↗</b></a><a class="res" href="https://github.com/search?q=Stanford+CS+349F&amp;type=repositories" target="_blank" rel="noopener"><span>GitHub 搜索</span><b>↗</b></a></div>
+  <div class="resgroup"><h4>常见工具</h4><div class="tech"><span>Python</span><span>C++</span><span>CUDA</span><span>Triton</span><span>PyTorch</span></div></div>
+</div>
+      <div class="aside-card"><div class="aside-head"><h3>Markdown</h3></div><a class="res" href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/courses/cs349f-fabric-architectures-for-ai-systems.md" target="_blank" rel="noopener"><span>在 GitHub 查看课程速览</span><b>↗</b></a></div>
+    </aside>
+  </div>
+
+  <div class="pagerrow"><a class="pager prev" href="cs349e-efficient-ml-inference-at-scale.html"><small>上一门</small><b>CS 349E · 大规模高效 ML 推理</b></a><a class="pager next" href="cs-349h-software-techniques-for-emerging-hardware-platforms-ee-349.html"><small>下一门</small><b>CS 349H · 新硬件软件技术</b></a></div>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap footin">
+    <div>
+      <p class="footbrand">Stanford AI · 课程地图</p>
+      <p>2026–27 学年 · 非官方整理 · 课程信息以 <a href="https://explorecourses.stanford.edu/" target="_blank" rel="noopener">ExploreCourses</a> 为准。</p>
+    </div>
+    <div class="footlinks">
+      <a href="../index.html#map">课程地图</a>
+      <a href="../index.html#courses">全部课程</a>
+      <a href="../paths.html">学习路径</a>
+      <a href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/app.js"></script>
+</body>
+</html>
