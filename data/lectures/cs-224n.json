@@ -1,0 +1,87 @@
+{
+  "CS 224N": {
+    "schedule": [
+      "课程官网 / schedule",
+      "https://web.stanford.edu/class/cs224n/"
+    ],
+    "slides": [
+      [
+        "课程官网（slides / 作业）",
+        "https://web.stanford.edu/class/cs224n/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Intro and Word Vectors"
+      },
+      {
+        "n": 2,
+        "title": "Word Vectors and Language Models"
+      },
+      {
+        "n": 3,
+        "title": "Backpropagation, Neural Networks"
+      },
+      {
+        "n": 4,
+        "title": "Dependency Parsing"
+      },
+      {
+        "n": 5,
+        "title": "Recurrent Neural Networks"
+      },
+      {
+        "n": 6,
+        "title": "Sequence to Sequence Models"
+      },
+      {
+        "n": 7,
+        "title": "Attention, Final Projects and LLM Intro"
+      },
+      {
+        "n": 8,
+        "title": "Self-Attention and Transformers"
+      },
+      {
+        "n": 9,
+        "title": "Pretraining"
+      },
+      {
+        "n": 10,
+        "title": "Post-training"
+      },
+      {
+        "n": 11,
+        "title": "Benchmarking"
+      },
+      {
+        "n": 12,
+        "title": "Efficient Training"
+      },
+      {
+        "n": 13,
+        "title": "Reasoning and Agents"
+      },
+      {
+        "n": 14,
+        "title": "After DPO"
+      },
+      {
+        "n": 15,
+        "title": "NLP, Linguistics, Philosophy"
+      }
+    ],
+    "bilibili": [
+      [
+        "2024 春 · 中配（第三方）",
+        "https://www.bilibili.com/video/BV163Jc6pENx"
+      ],
+      [
+        "2024 春 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1EMyGBrEcP"
+      ]
+    ],
+    "note": "官方 slides 在课程官网逐讲链接；B 站为第三方搬运。"
+  }
+}

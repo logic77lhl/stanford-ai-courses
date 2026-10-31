@@ -1,0 +1,155 @@
+{
+  "CS 224R": {
+    "schedule": [
+      "课程主页 / timeline",
+      "https://cs224r.stanford.edu/"
+    ],
+    "slides": [
+      [
+        "Lecture 1 · Course Intro + MDPs & Imitation",
+        "https://cs224r.stanford.edu/slides/01_cs224r_intro_2026.pdf"
+      ],
+      [
+        "Lecture 2 · Imitation Learning",
+        "https://cs224r.stanford.edu/slides/02_cs224r_imitation_2026.pdf"
+      ],
+      [
+        "Lecture 3 · Policy Gradients",
+        "https://cs224r.stanford.edu/slides/03_cs224r_policy_gradients_2026.pdf"
+      ],
+      [
+        "Lecture 4 · Actor-Critic Methods",
+        "https://cs224r.stanford.edu/slides/04_cs224r_actor_critic_2026.pdf"
+      ],
+      [
+        "Lecture 5 · Off-Policy Actor-Critic",
+        "https://cs224r.stanford.edu/slides/05_cs224r_offpolicy_actor_critic_2026.pdf"
+      ],
+      [
+        "Lecture 6 · Q-learning",
+        "https://cs224r.stanford.edu/slides/06_cs224r_qlearning_2026.pdf"
+      ],
+      [
+        "Lecture 7 · Offline RL",
+        "https://cs224r.stanford.edu/slides/07_cs224r_offline_rl_2026.pdf"
+      ],
+      [
+        "Lecture 8 · Reward Learning",
+        "https://cs224r.stanford.edu/slides/08_cs224r_reward_learning_2026.pdf"
+      ],
+      [
+        "Lecture 9 · RL for LLMs: Preference Optimization",
+        "https://cs224r.stanford.edu/slides/09_cs224r_rlhf_2026.pdf"
+      ],
+      [
+        "Lecture 10 · RL for LLMs: Reasoning",
+        "https://cs224r.stanford.edu/slides/10_cs224r_rl_for_llms_reasoning_2026.pdf"
+      ],
+      [
+        "Lecture 11 · Model-Based RL",
+        "https://cs224r.stanford.edu/slides/11_cs224r_mbrl_2026.pdf"
+      ],
+      [
+        "Lecture 12 · Multi-Task and Goal-Conditioned RL",
+        "https://cs224r.stanford.edu/slides/12_cs224r_mtrl_gcrl_2026.pdf"
+      ],
+      [
+        "Lecture 13 · Meta-RL",
+        "https://cs224r.stanford.edu/slides/13_cs224r_metarl_2026.pdf"
+      ],
+      [
+        "Lecture 14 · Hierarchical RL and IL",
+        "https://cs224r.stanford.edu/slides/15_cs224r_hierarchy_2026.pdf"
+      ],
+      [
+        "Lecture 15 · Sim-to-Real Transfer",
+        "https://cs224r.stanford.edu/slides/16_cs224r_sim2real_robot_learning_2026.pdf"
+      ],
+      [
+        "Lecture 16 · RL for VLAs",
+        "https://cs224r.stanford.edu/slides/17_cs224r_rl_vlas_2026.pdf"
+      ],
+      [
+        "Lecture 17 · Frontiers",
+        "https://cs224r.stanford.edu/slides/18_cs224r_frontiers_how_to_research_2026.pdf"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Course Intro + Start of MDPs & Imitation"
+      },
+      {
+        "n": 2,
+        "title": "Imitation Learning"
+      },
+      {
+        "n": 3,
+        "title": "Policy Gradients"
+      },
+      {
+        "n": 4,
+        "title": "Actor-Critic Methods"
+      },
+      {
+        "n": 5,
+        "title": "Off-Policy Actor-Critic Methods"
+      },
+      {
+        "n": 6,
+        "title": "Q-learning"
+      },
+      {
+        "n": 7,
+        "title": "Offline RL"
+      },
+      {
+        "n": 8,
+        "title": "Reward Learning"
+      },
+      {
+        "n": 9,
+        "title": "RL for LLMs: Preference Optimization (Archit Sharma)"
+      },
+      {
+        "n": 10,
+        "title": "RL for LLMs: Reasoning (Noam Brown)"
+      },
+      {
+        "n": 11,
+        "title": "Model-Based RL"
+      },
+      {
+        "n": 12,
+        "title": "Multi-Task and Goal-Conditioned RL"
+      },
+      {
+        "n": 13,
+        "title": "Meta-RL"
+      },
+      {
+        "n": 14,
+        "title": "Hierarchical RL and IL"
+      },
+      {
+        "n": 15,
+        "title": "RL for Robots: Sim-to-Real Transfer (Guanya Shi)"
+      },
+      {
+        "n": 16,
+        "title": "RL for Robots: RL for VLAs"
+      },
+      {
+        "n": 17,
+        "title": "Frontiers"
+      }
+    ],
+    "note": "Spring 2026 timeline；17 讲 slides 已直接链接官方 PDF。",
+    "bilibili": [
+      [
+        "2026 春 · 深度强化学习（第三方搬运）",
+        "https://www.bilibili.com/video/BV1znrpBaEJa"
+      ]
+    ]
+  }
+}

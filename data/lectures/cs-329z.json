@@ -1,0 +1,74 @@
+{
+  "CS 329Z": {
+    "schedule": [
+      "课程官网 / schedule",
+      "https://cs329z.stanford.edu/"
+    ],
+    "slides": [
+      [
+        "Lecture 1 · Intro to Agentic Systems",
+        "https://web.stanford.edu/class/cs329z/slides/lecture01.pdf"
+      ],
+      [
+        "Lecture 5 · Frameworks",
+        "https://web.stanford.edu/class/cs329z/slides/lecture05.pdf"
+      ],
+      [
+        "Lecture 8 · Multi-Agent Systems",
+        "https://web.stanford.edu/class/cs329z/slides/lecture08.pdf"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Foundations & Landscape: What Are Agentic Systems?"
+      },
+      {
+        "n": 2,
+        "title": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "n": 3,
+        "title": "Tool Use & Function Calling"
+      },
+      {
+        "n": 4,
+        "title": "Agent Design Patterns & Scaffolds"
+      },
+      {
+        "n": 5,
+        "title": "Frameworks & Orchestration"
+      },
+      {
+        "n": 6,
+        "title": "Agent Memory Architectures"
+      },
+      {
+        "n": 7,
+        "title": "Multi-Agent Systems"
+      },
+      {
+        "n": 8,
+        "title": "Optimization"
+      },
+      {
+        "n": 9,
+        "title": "Data for Agents: Selection & Quality"
+      },
+      {
+        "n": 10,
+        "title": "Evaluation: Fundamentals & Benchmark Design"
+      },
+      {
+        "n": 11,
+        "title": "LLM-as-Judge & Eval Infrastructure"
+      },
+      {
+        "n": 12,
+        "title": "Agent Safety & Guardrails"
+      }
+    ],
+    "bilibili": [],
+    "note": "官方 slides 逐讲发布在课程站；部分 lecture PDF 已直接链接。"
+  }
+}

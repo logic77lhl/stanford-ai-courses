@@ -1,0 +1,58 @@
+{
+  "CS 349E": {
+    "schedule": [
+      "课程官网 / schedule",
+      "https://cs349e.github.io/index.html"
+    ],
+    "slides": [
+      [
+        "Course info / grading",
+        "https://cs349e.github.io/course_info.html"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction / Rooflines"
+      },
+      {
+        "n": 2,
+        "title": "Model Optimization & Quantization"
+      },
+      {
+        "n": 3,
+        "title": "Distributed Serving"
+      },
+      {
+        "n": 4,
+        "title": "Disaggregated Serving"
+      },
+      {
+        "n": 5,
+        "title": "AI Hardware & Performance Modeling"
+      },
+      {
+        "n": 6,
+        "title": "Kernel Development"
+      },
+      {
+        "n": 7,
+        "title": "Kernel Optimization Techniques"
+      },
+      {
+        "n": 8,
+        "title": "ML Compilers: Frontends"
+      },
+      {
+        "n": 9,
+        "title": "ML Compilers: Backends"
+      },
+      {
+        "n": 10,
+        "title": "Agentic Kernel Generation"
+      }
+    ],
+    "bilibili": [],
+    "note": "课程 readings 和 slides 以课程站 schedule 为准。"
+  }
+}

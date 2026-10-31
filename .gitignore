@@ -10,3 +10,4 @@ Thumbs.db
 
 # Local data cache (large, regenerable)
 data/raw/
+data/bilibili_status.json

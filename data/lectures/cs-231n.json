@@ -1,0 +1,99 @@
+{
+  "CS 231N": {
+    "schedule": [
+      "课程 schedule（含 slides）",
+      "https://cs231n.stanford.edu/schedule.html"
+    ],
+    "slides": [
+      [
+        "课程 notes",
+        "https://cs231n.github.io/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction"
+      },
+      {
+        "n": 2,
+        "title": "Image Classification with Linear Classifiers"
+      },
+      {
+        "n": 3,
+        "title": "Regularization and Optimization"
+      },
+      {
+        "n": 4,
+        "title": "Neural Networks and Backpropagation"
+      },
+      {
+        "n": 5,
+        "title": "Image Classification with CNNs"
+      },
+      {
+        "n": 6,
+        "title": "CNN Architectures"
+      },
+      {
+        "n": 7,
+        "title": "Recurrent Neural Networks"
+      },
+      {
+        "n": 8,
+        "title": "Attention and Transformers"
+      },
+      {
+        "n": 9,
+        "title": "Object Detection, Segmentation, Visualization"
+      },
+      {
+        "n": 10,
+        "title": "Video Understanding"
+      },
+      {
+        "n": 11,
+        "title": "Large-Scale Distributed Training"
+      },
+      {
+        "n": 12,
+        "title": "Self-Supervised Learning"
+      },
+      {
+        "n": 13,
+        "title": "Generative Models 1"
+      },
+      {
+        "n": 14,
+        "title": "Generative Models 2"
+      },
+      {
+        "n": 15,
+        "title": "3D Vision"
+      },
+      {
+        "n": 16,
+        "title": "Vision and Language"
+      },
+      {
+        "n": 17,
+        "title": "Robot Learning"
+      },
+      {
+        "n": 18,
+        "title": "Human-Centered AI"
+      }
+    ],
+    "bilibili": [
+      [
+        "2025 春 · 中配（第三方）",
+        "https://www.bilibili.com/video/BV1W1Jc6FErS"
+      ],
+      [
+        "2025 春 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1LVyGBMEmT"
+      ]
+    ],
+    "note": "官方 slides 在 schedule 页逐讲链接；B 站为第三方搬运。"
+  }
+}

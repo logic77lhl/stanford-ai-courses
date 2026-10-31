@@ -1,0 +1,103 @@
+{
+  "CS 221": {
+    "schedule": [
+      "课程主页 / schedule",
+      "https://stanford-cs221.github.io/autumn2026/"
+    ],
+    "slides": [
+      [
+        "Lecture slides 仓库（GitHub）",
+        "https://github.com/stanford-cs221/lectures"
+      ],
+      [
+        "课程主页（Autumn 2026）",
+        "https://stanford-cs221.github.io/autumn2026/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Overview"
+      },
+      {
+        "n": 2,
+        "title": "Learning I"
+      },
+      {
+        "n": 3,
+        "title": "Learning II"
+      },
+      {
+        "n": 4,
+        "title": "Learning III"
+      },
+      {
+        "n": 5,
+        "title": "Search I"
+      },
+      {
+        "n": 6,
+        "title": "Search II"
+      },
+      {
+        "n": 7,
+        "title": "RL I"
+      },
+      {
+        "n": 8,
+        "title": "RL II"
+      },
+      {
+        "n": 9,
+        "title": "RL III"
+      },
+      {
+        "n": 10,
+        "title": "RL IV"
+      },
+      {
+        "n": 11,
+        "title": "Games I"
+      },
+      {
+        "n": 12,
+        "title": "Games II"
+      },
+      {
+        "n": 13,
+        "title": "Bayesian Networks I"
+      },
+      {
+        "n": 14,
+        "title": "Bayesian Networks II"
+      },
+      {
+        "n": 15,
+        "title": "Bayesian Networks III"
+      },
+      {
+        "n": 16,
+        "title": "Logic I"
+      },
+      {
+        "n": 17,
+        "title": "Logic II"
+      },
+      {
+        "n": 18,
+        "title": "AI & Society"
+      },
+      {
+        "n": 19,
+        "title": "Fireside Chat, Conclusion"
+      }
+    ],
+    "note": "Autumn 2026 schedule；slides 和代码在 stanford-cs221/lectures 仓库，录像在 Canvas。",
+    "bilibili": [
+      [
+        "中英字幕（第三方搬运）",
+        "https://www.bilibili.com/video/BV1Ht4y1U75j"
+      ]
+    ]
+  }
+}

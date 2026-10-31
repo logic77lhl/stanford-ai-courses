@@ -73,6 +73,22 @@
     return a.id.localeCompare(b.id, "en", { numeric: true });
   }
 
+  function relevance(c, q) {
+    var id = c.id.toLowerCase();
+    var zh = c.zh.toLowerCase();
+    var hay = c.search.toLowerCase();
+    var score = 0;
+    if (id === q) score += 200;
+    if (id.indexOf(q) === 0) score += 90;
+    if (zh.indexOf(q) !== -1) score += 60;
+    try {
+      var re = new RegExp("(^|[^a-z0-9])" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "([^a-z0-9]|$)");
+      if (re.test(hay)) score += 40;
+    } catch (e) {}
+    score += hay.split(q).length - 1;
+    return score;
+  }
+
   function render() {
     var q = state.q.trim().toLowerCase();
     var list = window.COURSES.filter(function (c) {
@@ -80,7 +96,14 @@
       if (state.cat !== "all" && c.cat !== state.cat) return false;
       if (q && c.search.toLowerCase().indexOf(q) === -1) return false;
       return true;
-    }).sort(compare);
+    });
+    if (q) {
+      list.sort(function (a, b) {
+        return relevance(b, q) - relevance(a, q) || compare(a, b);
+      });
+    } else {
+      list.sort(compare);
+    }
 
     grid.innerHTML = list.map(card).join("");
     if (countEl) countEl.textContent = "共 " + list.length + " 门";

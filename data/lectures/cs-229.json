@@ -1,0 +1,111 @@
+{
+  "CS 229": {
+    "schedule": [
+      "课程官网 / 讲义",
+      "https://cs229.stanford.edu/"
+    ],
+    "slides": [
+      [
+        "Lecture Notes（官方 PDF）",
+        "https://cs229.stanford.edu/main_notes.pdf"
+      ],
+      [
+        "Fall 2018 syllabus（逐讲 notes PDF）",
+        "https://cs229.stanford.edu/syllabus-autumn2018.html"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction and Basic Concepts"
+      },
+      {
+        "n": 2,
+        "title": "Supervised Learning Setup; Linear Regression"
+      },
+      {
+        "n": 3,
+        "title": "Weighted Least Squares; Logistic Regression; Newton's Method; GLMs"
+      },
+      {
+        "n": 4,
+        "title": "Generative Learning Algorithms"
+      },
+      {
+        "n": 5,
+        "title": "Gaussian Discriminant Analysis; Naive Bayes"
+      },
+      {
+        "n": 6,
+        "title": "Laplace Smoothing; Support Vector Machines"
+      },
+      {
+        "n": 7,
+        "title": "Support Vector Machines; Kernels"
+      },
+      {
+        "n": 8,
+        "title": "Bias-Variance Tradeoff; Regularization; Model/Feature Selection"
+      },
+      {
+        "n": 9,
+        "title": "Tree Ensembles"
+      },
+      {
+        "n": 10,
+        "title": "Neural Networks: Basics"
+      },
+      {
+        "n": 11,
+        "title": "Neural Networks: Training"
+      },
+      {
+        "n": 12,
+        "title": "Practical Advice for ML Projects"
+      },
+      {
+        "n": 13,
+        "title": "K-means; Mixture of Gaussians; Expectation Maximization"
+      },
+      {
+        "n": 14,
+        "title": "Factor Analysis"
+      },
+      {
+        "n": 15,
+        "title": "Principal Component Analysis; Independent Component Analysis"
+      },
+      {
+        "n": 16,
+        "title": "MDPs; Bellman Equations"
+      },
+      {
+        "n": 17,
+        "title": "Value Iteration and Policy Iteration; LQR; LQG"
+      },
+      {
+        "n": 18,
+        "title": "Q-Learning; Value Function Approximation"
+      },
+      {
+        "n": 19,
+        "title": "Policy Search; REINFORCE; POMDPs"
+      },
+      {
+        "n": 20,
+        "title": "Optional Topic; Wrap-up"
+      }
+    ],
+    "bilibili": [
+      [
+        "2026 春 · 中英双语（第三方）",
+        "https://www.bilibili.com/video/BV1cD3f6YE5S"
+      ],
+      [
+        "2018 秋 · 中文字幕（第三方）",
+        "https://www.bilibili.com/video/BV1JE411w7Ub"
+      ]
+    ],
+    "note": "逐讲主题以 Fall 2018 公开 syllabus 整理；官方讲义以 main_notes.pdf 为准，B站为第三方搬运。"
+  }
+}

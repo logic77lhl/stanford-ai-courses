@@ -1,0 +1,101 @@
+{
+  "CS 217": {
+    "schedule": [
+      "课程主页",
+      "https://cs217.stanford.edu/"
+    ],
+    "slides": [
+      [
+        "课程主页",
+        "https://cs217.stanford.edu/"
+      ],
+      [
+        "Winter 2026 课程表（Google Sheet）",
+        "https://docs.google.com/spreadsheets/d/1Aqpk1hEZD78bq0WoDe6edSs-tSC58hoEGCSJ6I--6KI/edit"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction"
+      },
+      {
+        "n": 2,
+        "title": "High-Level Synthesis"
+      },
+      {
+        "n": 3,
+        "title": "Data Parallelism and Efficiency Metrics"
+      },
+      {
+        "n": 4,
+        "title": "Quantization"
+      },
+      {
+        "n": 5,
+        "title": "Systolic Arrays"
+      },
+      {
+        "n": 6,
+        "title": "Vector and Scalar Units"
+      },
+      {
+        "n": 7,
+        "title": "Memory Systems"
+      },
+      {
+        "n": 8,
+        "title": "Interconnects and Network-on-Chip"
+      },
+      {
+        "n": 9,
+        "title": "Compilers and Software Stack (Part 1)"
+      },
+      {
+        "n": 10,
+        "title": "Compilers and Software Stack (Part 2)"
+      },
+      {
+        "n": 11,
+        "title": "Review of Project Proposals (I)"
+      },
+      {
+        "n": 12,
+        "title": "Review of Project Proposals (II)"
+      },
+      {
+        "n": 13,
+        "title": "GPU Architectures"
+      },
+      {
+        "n": 14,
+        "title": "Reconfigurable Dataflow Architectures"
+      },
+      {
+        "n": 15,
+        "title": "SambaNova RDA (Raghu Prabhakar)"
+      },
+      {
+        "n": 16,
+        "title": "Memory-Centric Computing (Part 1)"
+      },
+      {
+        "n": 17,
+        "title": "Memory-Centric Computing (Part 2)"
+      },
+      {
+        "n": 18,
+        "title": "AWS Inferentia and Trainium (Nafea Bshara)"
+      },
+      {
+        "n": 19,
+        "title": "NVIDIA GPU Architecture for AI (Ronny Krashinsky)"
+      },
+      {
+        "n": 20,
+        "title": "Poster Sessions"
+      }
+    ],
+    "note": "以 Winter 2026 课程表整理；slides 与 lab 材料在 Canvas，公开页只给主题和 reading。"
+  }
+}

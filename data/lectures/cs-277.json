@@ -1,0 +1,89 @@
+{
+  "CS 277": {
+    "schedule": [
+      "课程 calendar",
+      "https://web.stanford.edu/class/cs277/calendar/"
+    ],
+    "slides": [
+      [
+        "课程 calendar（逐讲 lecture material）",
+        "https://web.stanford.edu/class/cs277/calendar/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Course Introduction & Overview of Foundation Models"
+      },
+      {
+        "n": 2,
+        "title": "Introduction to LLMs"
+      },
+      {
+        "n": 3,
+        "title": "Agentic Systems"
+      },
+      {
+        "n": 4,
+        "title": "Evaluation of LLMs and Agents; MedArena"
+      },
+      {
+        "n": 5,
+        "title": "Evaluation of LLMs (Part 2)"
+      },
+      {
+        "n": 6,
+        "title": "Retrieval Augmented Generation; Mixture of Experts"
+      },
+      {
+        "n": 7,
+        "title": "Inference Scaling and Reasoning"
+      },
+      {
+        "n": 8,
+        "title": "Vision-Language Models"
+      },
+      {
+        "n": 9,
+        "title": "Mechanistic Interpretability of VLMs"
+      },
+      {
+        "n": 10,
+        "title": "Generative VLMs for Vision"
+      },
+      {
+        "n": 11,
+        "title": "Generative VLMs for Text"
+      },
+      {
+        "n": 12,
+        "title": "Foundation Models for Segmentation"
+      },
+      {
+        "n": 13,
+        "title": "Regulation and Deployment: EchoNet Case Study"
+      },
+      {
+        "n": 14,
+        "title": "SleepFM: Multimodal Foundation Model of Sleep"
+      },
+      {
+        "n": 15,
+        "title": "Advanced Architectures"
+      },
+      {
+        "n": 16,
+        "title": "EMR Foundation Models"
+      },
+      {
+        "n": 17,
+        "title": "Ethics of Foundation Models"
+      },
+      {
+        "n": 18,
+        "title": "Final Presentations"
+      }
+    ],
+    "note": "以 Winter 2026 公开 calendar 整理；每讲 lecture material 与 recording 在 calendar 页。"
+  }
+}

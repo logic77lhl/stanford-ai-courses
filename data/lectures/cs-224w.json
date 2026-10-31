@@ -1,0 +1,135 @@
+{
+  "CS 224W": {
+    "schedule": [
+      "课程 schedule",
+      "https://web.stanford.edu/class/cs224w/index.html#schedule"
+    ],
+    "slides": [
+      [
+        "Lecture 1 · Introduction",
+        "https://web.stanford.edu/class/cs224w/slides/01-intro.pdf"
+      ],
+      [
+        "Lecture 2 · Node embeddings",
+        "https://web.stanford.edu/class/cs224w/slides/02-nodeemb.pdf"
+      ],
+      [
+        "Lecture 3 · Graph neural networks",
+        "https://web.stanford.edu/class/cs224w/slides/03-GNN1.pdf"
+      ],
+      [
+        "Lecture 4 · A general perspective on GNNs",
+        "https://web.stanford.edu/class/cs224w/slides/04-GNN2.pdf"
+      ],
+      [
+        "Lecture 5 · GNN augmentation and training",
+        "https://web.stanford.edu/class/cs224w/slides/05-GNN3.pdf"
+      ],
+      [
+        "Lecture 6 · Theory of GNNs",
+        "https://web.stanford.edu/class/cs224w/slides/06-theory.pdf"
+      ],
+      [
+        "Lecture 7 · Designing powerful graph encoders",
+        "https://web.stanford.edu/class/cs224w/slides/07-theory2.pdf"
+      ],
+      [
+        "Lecture 8 · Graph Transformers",
+        "https://web.stanford.edu/class/cs224w/slides/08-graph-transformer1.pdf"
+      ],
+      [
+        "Lecture 9 · Heterogeneous graphs",
+        "https://web.stanford.edu/class/cs224w/slides/09-hetero.pdf"
+      ],
+      [
+        "Lecture 10 · Knowledge graphs",
+        "https://web.stanford.edu/class/cs224w/slides/10-kg.pdf"
+      ],
+      [
+        "Lecture 11 · GNNs for recommender systems",
+        "https://web.stanford.edu/class/cs224w/slides/11-recsys.pdf"
+      ],
+      [
+        "Lecture 12 · Relational Deep Learning",
+        "https://web.stanford.edu/class/cs224w/slides/12-RDL.pdf"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction"
+      },
+      {
+        "n": 2,
+        "title": "Node embeddings"
+      },
+      {
+        "n": 3,
+        "title": "Graph neural networks"
+      },
+      {
+        "n": 4,
+        "title": "A general perspective on GNNs"
+      },
+      {
+        "n": 5,
+        "title": "GNN augmentation and training"
+      },
+      {
+        "n": 6,
+        "title": "Theory of GNNs"
+      },
+      {
+        "n": 7,
+        "title": "Designing powerful graph encoders"
+      },
+      {
+        "n": 8,
+        "title": "Graph Transformers"
+      },
+      {
+        "n": 9,
+        "title": "Heterogeneous graphs"
+      },
+      {
+        "n": 10,
+        "title": "Knowledge graphs"
+      },
+      {
+        "n": 11,
+        "title": "GNNs for recommender systems"
+      },
+      {
+        "n": 12,
+        "title": "Relational Deep Learning"
+      },
+      {
+        "n": 13,
+        "title": "Advanced architectures in RDL"
+      },
+      {
+        "n": 14,
+        "title": "Advanced topics in GNNs"
+      },
+      {
+        "n": 15,
+        "title": "Towards Foundation Models for Knowledge Graphs"
+      },
+      {
+        "n": 16,
+        "title": "Frontiers in Graph AI"
+      },
+      {
+        "n": 17,
+        "title": "Frontiers in Graph AI II"
+      }
+    ],
+    "note": "Fall 2026 schedule；slides 1–12 已直接链接，13–17 见课程 schedule。",
+    "bilibili": [
+      [
+        "2021 秋 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1Cm4y197wx"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "CS 234": {
+    "schedule": [
+      "公开课程材料",
+      "https://web.stanford.edu/class/cs234/modules.html"
+    ],
+    "slides": [
+      [
+        "课程 modules / slides",
+        "https://web.stanford.edu/class/cs234/modules.html"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction"
+      },
+      {
+        "n": 2,
+        "title": "Tabular MDP Planning"
+      },
+      {
+        "n": 3,
+        "title": "Policy Evaluation"
+      },
+      {
+        "n": 4,
+        "title": "Q-Learning and Function Approximation"
+      },
+      {
+        "n": 5,
+        "title": "Policy Search 1"
+      },
+      {
+        "n": 6,
+        "title": "Policy Search 2"
+      },
+      {
+        "n": 7,
+        "title": "Policy Search 3"
+      },
+      {
+        "n": 8,
+        "title": "Offline RL 1"
+      },
+      {
+        "n": 9,
+        "title": "Guest Lecture: DPO"
+      },
+      {
+        "n": 10,
+        "title": "Offline RL 3"
+      },
+      {
+        "n": 11,
+        "title": "Exploration 1"
+      },
+      {
+        "n": 12,
+        "title": "Exploration 2"
+      },
+      {
+        "n": 13,
+        "title": "Exploration 3"
+      },
+      {
+        "n": 14,
+        "title": "Multi-Agent Game Playing"
+      },
+      {
+        "n": 15,
+        "title": "Guest Lecture"
+      },
+      {
+        "n": 16,
+        "title": "Value Alignment"
+      }
+    ],
+    "bilibili": [
+      [
+        "中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1Cc411h7QQ"
+      ]
+    ],
+    "note": "官方 modules 页有 slides 和作业；B 站为第三方搬运。"
+  }
+}

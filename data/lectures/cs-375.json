@@ -1,0 +1,93 @@
+{
+  "CS 375": {
+    "schedule": [
+      "课程 calendar",
+      "https://cs375.stanford.edu/course-calendar.html"
+    ],
+    "slides": [
+      [
+        "课程 calendar（slides 链接）",
+        "https://cs375.stanford.edu/course-calendar.html"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction to NeuroAI"
+      },
+      {
+        "n": 2,
+        "title": "Visual Systems Neuroscience Background"
+      },
+      {
+        "n": 3,
+        "title": "DNN Models of the Visual System — Part 1"
+      },
+      {
+        "n": 4,
+        "title": "Model-Brain Mapping Methods"
+      },
+      {
+        "n": 5,
+        "title": "DNN Models of the Visual System — Part 2"
+      },
+      {
+        "n": 6,
+        "title": "Unsupervised Learning and the Brain"
+      },
+      {
+        "n": 7,
+        "title": "Modeling Infant Development (Cliona O'Doherty)"
+      },
+      {
+        "n": 8,
+        "title": "Recurrent Models of Vision"
+      },
+      {
+        "n": 9,
+        "title": "The Enigma Project (Andreas Tolias)"
+      },
+      {
+        "n": 10,
+        "title": "Auditory and Somatosensory Models"
+      },
+      {
+        "n": 11,
+        "title": "Decision Making (Andrew Saxe)"
+      },
+      {
+        "n": 12,
+        "title": "Navigation, Memory, and the MEC"
+      },
+      {
+        "n": 13,
+        "title": "Models of Agents (Aran Nayebi)"
+      },
+      {
+        "n": 14,
+        "title": "The Motor System"
+      },
+      {
+        "n": 15,
+        "title": "Dynamical Systems in the Brain (Scott Lindermann)"
+      },
+      {
+        "n": 16,
+        "title": "Language, LLMs, and the Brain (Greta Tuckute)"
+      },
+      {
+        "n": 17,
+        "title": "Models of Brain Evolution (Tony Zador)"
+      },
+      {
+        "n": 18,
+        "title": "Functional Organization and Learning Rules in the Brain"
+      },
+      {
+        "n": 19,
+        "title": "Project Presentations"
+      }
+    ],
+    "note": "Winter 2026 calendar；slides 在 calendar 页逐次链接。"
+  }
+}

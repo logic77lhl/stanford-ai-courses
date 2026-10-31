@@ -1,0 +1,65 @@
+{
+  "CS 329S": {
+    "schedule": [
+      "课程 syllabus / slides",
+      "https://stanford-cs329s.github.io/syllabus.html"
+    ],
+    "slides": [
+      [
+        "课程 syllabus（slides / notes）",
+        "https://stanford-cs329s.github.io/syllabus.html"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Understanding machine learning production"
+      },
+      {
+        "n": 2,
+        "title": "ML and Data Systems Fundamentals"
+      },
+      {
+        "n": 3,
+        "title": "Training Data"
+      },
+      {
+        "n": 4,
+        "title": "Feature engineering"
+      },
+      {
+        "n": 5,
+        "title": "Model selection, development, and training"
+      },
+      {
+        "n": 6,
+        "title": "Offline evaluation"
+      },
+      {
+        "n": 7,
+        "title": "Model evaluation"
+      },
+      {
+        "n": 8,
+        "title": "Deployment"
+      },
+      {
+        "n": 9,
+        "title": "Deployment tutorials"
+      },
+      {
+        "n": 10,
+        "title": "Diagnosis of ML system failures, distribution shifts, monitoring"
+      },
+      {
+        "n": 11,
+        "title": "Monitoring & Continual Learning"
+      },
+      {
+        "n": 12,
+        "title": "ML Infrastructure and Platform"
+      }
+    ],
+    "note": "以 Winter 2022 公开 syllabus 整理；slides / notes 在 syllabus 页。"
+  }
+}

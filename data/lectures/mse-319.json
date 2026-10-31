@@ -1,0 +1,81 @@
+{
+  "MS&E 319": {
+    "schedule": [
+      "课程 lecture outline",
+      "https://web.stanford.edu/class/msande319/"
+    ],
+    "slides": [
+      [
+        "课程 lecture outline（slides）",
+        "https://web.stanford.edu/class/msande319/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Overview of the Course and LLMs"
+      },
+      {
+        "n": 2,
+        "title": "A Review of LLM Architecture and Training"
+      },
+      {
+        "n": 3,
+        "title": "Making Compute Go Further"
+      },
+      {
+        "n": 4,
+        "title": "Mixtures of Experts"
+      },
+      {
+        "n": 5,
+        "title": "Efficient Attention: KV Caching, Sparse Attention, Compression"
+      },
+      {
+        "n": 6,
+        "title": "Efficient Attention: Compact KV-Cache Representations"
+      },
+      {
+        "n": 7,
+        "title": "Positional Embeddings and Recurrent Memory"
+      },
+      {
+        "n": 8,
+        "title": "Language Model Quantization I: Quantizing Vectors"
+      },
+      {
+        "n": 9,
+        "title": "Language Model Quantization II: Quantizing Matrices"
+      },
+      {
+        "n": 10,
+        "title": "Speculative Decoding and Efficient Inference"
+      },
+      {
+        "n": 11,
+        "title": "Post-training I: SFT, LoRA, RLHF"
+      },
+      {
+        "n": 12,
+        "title": "Post-training II: RLHF and DPO"
+      },
+      {
+        "n": 13,
+        "title": "Distillation and Recursive Self-Improvement"
+      },
+      {
+        "n": 14,
+        "title": "Risks and Vulnerabilities of Generative AI (I)"
+      },
+      {
+        "n": 15,
+        "title": "Risks and Vulnerabilities of Generative AI (II)"
+      },
+      {
+        "n": 16,
+        "title": "Where Do We Go from Here?"
+      }
+    ],
+    "note": "Autumn 2026 lecture outline；slides 在课程页逐讲链接。"
+  }
+}

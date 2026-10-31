@@ -1,0 +1,91 @@
+{
+  "CS 224V": {
+    "schedule": [
+      "课程 schedule",
+      "https://web.stanford.edu/class/cs224v/schedule.html"
+    ],
+    "slides": [
+      [
+        "课程 schedule（slides 在 Canvas）",
+        "https://web.stanford.edu/class/cs224v/schedule.html"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction: LLMs hallucinate — turning them into dependable agents"
+      },
+      {
+        "n": 2,
+        "title": "Knowledge Curation: STORM / Co-STORM"
+      },
+      {
+        "n": 3,
+        "title": "Research project ideas & AOS architecture"
+      },
+      {
+        "n": 4,
+        "title": "Accountable AI: SMT, SatIR, VERDICT"
+      },
+      {
+        "n": 5,
+        "title": "Student project ideas"
+      },
+      {
+        "n": 6,
+        "title": "Constraint Satisfaction Based Retrievers"
+      },
+      {
+        "n": 7,
+        "title": "Constraint Satisfaction Based Retrievers + Project Proposals"
+      },
+      {
+        "n": 8,
+        "title": "How to RAG without hallucination: WikiChat"
+      },
+      {
+        "n": 9,
+        "title": "Project Proposals"
+      },
+      {
+        "n": 10,
+        "title": "ReAct Agents for Querying Knowledge Bases and Graphs"
+      },
+      {
+        "n": 11,
+        "title": "Agentic Data-Driven Research: DataSTORM"
+      },
+      {
+        "n": 12,
+        "title": "Querying Hybrid (Structured and Unstructured) Data: SUQL"
+      },
+      {
+        "n": 13,
+        "title": "Long-Context Long-Horizon Deep Researcher: SLIDERS"
+      },
+      {
+        "n": 14,
+        "title": "Minimizing hallucination in task-oriented agents: Genie Worksheet"
+      },
+      {
+        "n": 15,
+        "title": "Coding Agents: anatomy of Claude Code / Codex"
+      },
+      {
+        "n": 16,
+        "title": "VLMs for Transcription of historical manuscripts"
+      },
+      {
+        "n": 17,
+        "title": "Training LLMs: instruction following and training data"
+      }
+    ],
+    "note": "Fall 2026 schedule；slides 在 Canvas，公开页只放 schedule 和主题。",
+    "bilibili": [
+      [
+        "Fall 2024 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1pDYJ61EXr"
+      ]
+    ]
+  }
+}

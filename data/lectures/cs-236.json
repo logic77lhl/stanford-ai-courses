@@ -1,0 +1,67 @@
+{
+  "CS 236": {
+    "schedule": [
+      "课程 syllabus",
+      "https://deepgenerativemodels.github.io/syllabus.html"
+    ],
+    "slides": [
+      [
+        "课程 syllabus（逐讲 slides）",
+        "https://deepgenerativemodels.github.io/syllabus.html"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction; Probability and Linear Algebra"
+      },
+      {
+        "n": 2,
+        "title": "Background + Autoregressive Models"
+      },
+      {
+        "n": 3,
+        "title": "Maximum Likelihood Learning + VAEs"
+      },
+      {
+        "n": 4,
+        "title": "VAEs + Normalizing Flows"
+      },
+      {
+        "n": 5,
+        "title": "Normalizing Flows + GANs"
+      },
+      {
+        "n": 6,
+        "title": "GANs + Energy Based Models"
+      },
+      {
+        "n": 7,
+        "title": "Energy Based Models + Score Based Models"
+      },
+      {
+        "n": 8,
+        "title": "Energy Based Models + Evaluation of Generative Models"
+      },
+      {
+        "n": 9,
+        "title": "Score Based Diffusion Models + Discrete Latent Variable Models"
+      },
+      {
+        "n": 10,
+        "title": "Diffusion Models for Discrete Data"
+      }
+    ],
+    "note": "以 Fall 2023 公开 syllabus 整理；当前学期以课程站为准。",
+    "bilibili": [
+      [
+        "2023 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV17RwPezE7A"
+      ],
+      [
+        "2023 · 中配（第三方）",
+        "https://www.bilibili.com/video/BV1CLTM6SE2y"
+      ]
+    ]
+  }
+}

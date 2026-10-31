@@ -1,0 +1,103 @@
+{
+  "CS 329A": {
+    "schedule": [
+      "课程主页 / schedule",
+      "https://stanford-cs329a.github.io/"
+    ],
+    "slides": [
+      [
+        "课程主页（schedule / readings）",
+        "https://stanford-cs329a.github.io/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Course Overview"
+      },
+      {
+        "n": 2,
+        "title": "Test-time Compute Scaling"
+      },
+      {
+        "n": 3,
+        "title": "Robust Verification"
+      },
+      {
+        "n": 4,
+        "title": "Learning from Feedback with Tools / Code"
+      },
+      {
+        "n": 5,
+        "title": "Multi-step Reasoning / Planning"
+      },
+      {
+        "n": 6,
+        "title": "Train-Time Scaling / Scaling RL"
+      },
+      {
+        "n": 7,
+        "title": "Open-Ended Evolution of Self-Improving Agents"
+      },
+      {
+        "n": 8,
+        "title": "Self-Improvement with Search & Deep Research Agents"
+      },
+      {
+        "n": 9,
+        "title": "Guest Lecture: Melvin Johnson — Evolution of Post-training"
+      },
+      {
+        "n": 10,
+        "title": "Midterm Presentations"
+      },
+      {
+        "n": 11,
+        "title": "Midterm Presentations"
+      },
+      {
+        "n": 12,
+        "title": "Midterm Presentations"
+      },
+      {
+        "n": 13,
+        "title": "Agentic Frameworks for Software Engineering"
+      },
+      {
+        "n": 14,
+        "title": "Augmenting Agents with Memory (Junchen Jiang)"
+      },
+      {
+        "n": 15,
+        "title": "Guest Lecture: Denny Zhou — LLM Reasoning"
+      },
+      {
+        "n": 16,
+        "title": "Guest Lecture: Thang Luong — AlphaProof, AlphaGeometry & Gemini IMO"
+      },
+      {
+        "n": 17,
+        "title": "Agentic Evaluations & Long-Horizon Tasks"
+      },
+      {
+        "n": 18,
+        "title": "Guest Lecture: Misha Laskin — Building Agentic Systems for Autonomy"
+      },
+      {
+        "n": 19,
+        "title": "Guest Lecture: Danny Driess — Multimodal AI Agents in Robotics"
+      },
+      {
+        "n": 20,
+        "title": "Future Research Areas"
+      }
+    ],
+    "note": "Autumn 2025 schedule；seminar 以论文阅读和 guest lecture 为主，slides 未公开。",
+    "bilibili": [
+      [
+        "2026 春 · 改进 AI Agents（第三方搬运）",
+        "https://www.bilibili.com/video/BV1R6uF67EYp"
+      ]
+    ]
+  }
+}

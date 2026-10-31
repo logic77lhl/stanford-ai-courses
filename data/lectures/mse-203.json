@@ -1,0 +1,52 @@
+{
+  "MS&E 203": {
+    "schedule": [
+      "课程 syllabus",
+      "https://web.stanford.edu/class/msande203/syllabus/"
+    ],
+    "slides": [],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Why AI Products Are Different"
+      },
+      {
+        "n": 2,
+        "title": "Product Discovery in the Age of AI"
+      },
+      {
+        "n": 3,
+        "title": "Evals Fundamentals"
+      },
+      {
+        "n": 4,
+        "title": "Improving the Product"
+      },
+      {
+        "n": 5,
+        "title": "Multi-Turn Evaluation and Simulation"
+      },
+      {
+        "n": 6,
+        "title": "User Research Beyond the Metrics"
+      },
+      {
+        "n": 7,
+        "title": "When AI Products Fail (Case Study)"
+      },
+      {
+        "n": 8,
+        "title": "Responsible AI"
+      },
+      {
+        "n": 9,
+        "title": "Voice and Multimodal (Case Study)"
+      },
+      {
+        "n": 10,
+        "title": "Demo Day"
+      }
+    ],
+    "note": "Fall 2026 10 周项目制课程；每周主题来自公开 syllabus。"
+  }
+}

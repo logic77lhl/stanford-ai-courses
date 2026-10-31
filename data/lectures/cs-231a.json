@@ -1,0 +1,95 @@
+{
+  "CS 231A": {
+    "schedule": [
+      "课程 syllabus / slides",
+      "https://web.stanford.edu/class/cs231a/syllabus.html"
+    ],
+    "slides": [
+      [
+        "课程 syllabus（逐讲 slides）",
+        "https://web.stanford.edu/class/cs231a/syllabus.html"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction"
+      },
+      {
+        "n": 2,
+        "title": "Camera Models"
+      },
+      {
+        "n": 3,
+        "title": "Camera Models II and Camera Calibration"
+      },
+      {
+        "n": 4,
+        "title": "Single View Metrology"
+      },
+      {
+        "n": 5,
+        "title": "Epipolar Geometry"
+      },
+      {
+        "n": 6,
+        "title": "Stereo Systems"
+      },
+      {
+        "n": 7,
+        "title": "Structure from Motion"
+      },
+      {
+        "n": 8,
+        "title": "Active Stereo & Volumetric Stereo"
+      },
+      {
+        "n": 9,
+        "title": "Fitting and Matching"
+      },
+      {
+        "n": 10,
+        "title": "Representations & Representation Learning"
+      },
+      {
+        "n": 11,
+        "title": "Monocular Depth Estimation & Feature Tracking"
+      },
+      {
+        "n": 12,
+        "title": "Learning-based Stereo & Monocular Depth Estimation"
+      },
+      {
+        "n": 13,
+        "title": "Optical and Scene Flow"
+      },
+      {
+        "n": 14,
+        "title": "Optimal Estimation"
+      },
+      {
+        "n": 15,
+        "title": "Optimal Estimation Cont."
+      },
+      {
+        "n": 16,
+        "title": "Neural Radiance Fields"
+      },
+      {
+        "n": 17,
+        "title": "Gaussian Splatting"
+      },
+      {
+        "n": 18,
+        "title": "Guest Lecture"
+      }
+    ],
+    "note": "以 Spring 2025 syllabus 整理；slides 在 syllabus 页逐讲链接。",
+    "bilibili": [
+      [
+        "中文字幕（第三方）",
+        "https://www.bilibili.com/video/BV1pb421b7RG"
+      ]
+    ]
+  }
+}

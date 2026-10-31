@@ -1,0 +1,53 @@
+{
+  "EE 292R": {
+    "schedule": [
+      "课程 schedule",
+      "https://aida4sci.stanford.edu/schedule.html"
+    ],
+    "slides": [],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Stephen Baccus — Mechanistically interpretable models of computation in the early visual system"
+      },
+      {
+        "n": 2,
+        "title": "Gordon Wetzstein — From World Models to World Agents"
+      },
+      {
+        "n": 3,
+        "title": "Olivier Gevaert — Multimodal modeling for precision medicine"
+      },
+      {
+        "n": 4,
+        "title": "Curtis Langlotz — Training Methods for a Medical Imaging Foundation Model"
+      },
+      {
+        "n": 5,
+        "title": "Anshul Kundaje — Decoding regulatory DNA with deep learning models"
+      },
+      {
+        "n": 6,
+        "title": "Dan Yamins — Large-Scale Computational Models at the Neuroscience-AI Intersection"
+      },
+      {
+        "n": 7,
+        "title": "Ruijiang Li — Multi-Modal Foundation Models for Precision Medicine"
+      },
+      {
+        "n": 8,
+        "title": "Alex Pentland — Detecting coordinated behavior across multiple fully encrypted domains"
+      },
+      {
+        "n": 9,
+        "title": "Andreas Tolias — Decrypting the Brain with AI"
+      },
+      {
+        "n": 10,
+        "title": "Leonidas Guibas — TBA"
+      }
+    ],
+    "bilibili": [],
+    "note": "讲座录像由 Stanford Online 发布；slides 以讲者/课程页为准。"
+  }
+}

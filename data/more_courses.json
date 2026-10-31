@@ -2,351 +2,421 @@
   {
     "id": "CS 120",
     "tag": "AI 安全入门",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "从对齐、鲁棒性到滥用风险，建立 AI 安全的基本问题清单。"
   },
   {
     "id": "CS 121",
     "tag": "AI 公平与治理",
-    "cat": "产品、伦理与设计"
+    "cat": "产品、伦理与设计",
+    "zh_one": "用政策写作与 red-team 实践讨论算法公平、问责与透明。"
   },
   {
     "id": "CS 123",
     "tag": "动手做 AI 机器人",
-    "cat": "机器人、具身智能"
+    "cat": "机器人、具身智能",
+    "zh_one": "从零搭一个能感知、决策、行动的 AI 机器人。"
   },
   {
     "id": "CS 129",
     "tag": "应用机器学习",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "面向应用场景快速过一遍 ML 流程、模型与评估。"
   },
   {
     "id": "CS 131",
     "tag": "计算机视觉基础",
-    "cat": "视觉、图形与生成"
+    "cat": "视觉、图形与生成",
+    "zh_one": "图像形成、特征、几何与识别，CV 的本科入门课。"
   },
   {
     "id": "CS 224C",
     "tag": "NLP × 计算社会科学",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "用 NLP 方法测量文本中的社会现象与因果关系。"
   },
   {
     "id": "CS 224R",
     "tag": "深度强化学习",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "从模仿学习到 RLHF，偏深度与机器人/LLM 应用的强化学习。"
   },
   {
     "id": "CS 224S",
     "tag": "语音处理",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "语音识别、合成与理解，传统信号处理加深度模型。"
   },
   {
     "id": "CS 224U",
     "tag": "自然语言理解",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "语义表示、推理与评测，比 CS 224N 更偏“理解”和实验。"
   },
   {
     "id": "CS 225",
     "tag": "ML × 离散优化",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "用 GNN、RL、LLM 学习启发式，改进组合优化求解。"
   },
   {
     "id": "CS 229B",
     "tag": "序列建模",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "HMM、CRF、RNN 等序列模型及其概率基础。"
   },
   {
     "id": "CS 238",
     "tag": "不确定性下的决策",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "POMDP、动态规划与 RL 在航空航天决策中的应用。"
   },
   {
     "id": "CS 239",
     "tag": "序列决策进阶",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "多智能体、部分可观测与近似动态规划的研究专题。"
   },
   {
     "id": "CS 246",
     "tag": "大规模数据挖掘",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "MapReduce、相似性、推荐、图挖掘与流数据算法。"
   },
   {
     "id": "CS 253",
     "tag": "AI 系统安全",
-    "cat": "ML 系统与硬件"
+    "cat": "ML 系统与硬件",
+    "zh_one": "模型窃取、对抗样本、数据投毒与 LLM 系统攻击面。"
   },
   {
     "id": "CS 256",
     "tag": "算法公平",
-    "cat": "产品、伦理与设计"
+    "cat": "产品、伦理与设计",
+    "zh_one": "公平性定义、法律框架与带约束的算法设计。"
   },
   {
     "id": "CS 270",
     "tag": "生物医学系统建模",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "用微分方程、统计与 ML 建模生理系统。"
   },
   {
     "id": "CS 271",
     "tag": "医疗 AI 算法基础",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "医疗数据、临床预测任务与医疗 AI 的算法和评估。"
   },
   {
     "id": "CS 293",
     "tag": "语言技术 × 教育",
-    "cat": "产品、伦理与设计"
+    "cat": "产品、伦理与设计",
+    "zh_one": "用 NLP 分析教学实践，服务教师与课堂。"
   },
   {
     "id": "CS 312",
     "tag": "深度学习炼金术",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "训练技巧、调试与实验方法，讲清楚“为什么有效”。"
   },
   {
     "id": "CS 321M",
     "tag": "AI 测量科学",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "基准、心理测量与效度理论，系统评估 AI 能力。"
   },
   {
     "id": "CS 322",
     "tag": "神经科学 × AI",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "用神经科学与心理学 triangulate 智能的本质。"
   },
   {
     "id": "CS 323",
     "tag": "AI 经济与社会",
-    "cat": "产品、伦理与设计"
+    "cat": "产品、伦理与设计",
+    "zh_one": "AI 对劳动、创业与政策的影响，含产业 guest lecture。"
   },
   {
     "id": "CS 328",
     "tag": "因果机器学习",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "半参数效率、DML、异质处理效应与 off-policy 评估。"
   },
   {
     "id": "CS 329D",
     "tag": "分布偏移下的 ML",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "协变量/标签/概念漂移下的训练、评估与自适应。"
   },
   {
     "id": "CS 329E",
     "tag": "嵌入式 ML",
-    "cat": "ML 系统与硬件"
+    "cat": "ML 系统与硬件",
+    "zh_one": "在 MCU、手机与边缘设备上部署和压缩模型。"
   },
   {
     "id": "CS 329M",
     "tag": "Machine Programming",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "用 ML 做代码生成、程序合成与软件工程自动化。"
   },
   {
     "id": "CS 329P",
     "tag": "实用机器学习",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "数据、特征、模型选择与部署的工程实践。"
   },
   {
     "id": "CS 329X",
     "tag": "人本 NLP",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "以人为中心的 NLP，关注用户、协作与交互式系统。"
   },
   {
     "id": "CS 330",
     "tag": "多任务与元学习",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "多任务、few-shot、meta-RL 与迁移学习。"
   },
   {
     "id": "CS 331X",
     "tag": "AI × 算法优化",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "用 GNN、扩散模型与 LLM 参与算法设计与调参。"
   },
   {
     "id": "CS 332",
     "tag": "高级强化学习",
-    "cat": "基础核心"
+    "cat": "基础核心",
+    "zh_one": "RL 理论、探索、函数逼近与前沿方向综述。"
   },
   {
     "id": "CS 333",
     "tag": "交互机器人算法",
-    "cat": "机器人、具身智能"
+    "cat": "机器人、具身智能",
+    "zh_one": "运动规划、抓取与人机交互中的算法问题。"
   },
   {
     "id": "CS 338",
     "tag": "对齐超级智能",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "超级智能的对齐、治理与安全策略。"
   },
   {
     "id": "CS 339N",
     "tag": "神经数据 ML",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "spike sorting、行为追踪与神经时间序列建模。"
   },
   {
     "id": "CS 339R",
     "tag": "协作机器人",
-    "cat": "机器人、具身智能"
+    "cat": "机器人、具身智能",
+    "zh_one": "人机协作、共享控制与安全交互。"
   },
   {
     "id": "CS 345",
     "tag": "构建 AI 机器人",
-    "cat": "机器人、具身智能"
+    "cat": "机器人、具身智能",
+    "zh_one": "把感知、规划与控制集成成完整机器人系统。"
   },
   {
     "id": "CS 348K",
     "tag": "视觉计算系统",
-    "cat": "视觉、图形与生成"
+    "cat": "视觉、图形与生成",
+    "zh_one": "图像/视频处理的系统与硬件协同设计。"
   },
   {
     "id": "CS 349H",
     "tag": "新硬件软件技术",
-    "cat": "ML 系统与硬件"
+    "cat": "ML 系统与硬件",
+    "zh_one": "为 FPGA、加速器等新型硬件写高效软件。"
   },
   {
     "id": "CS 362",
     "tag": "AI 对齐研究",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "对齐研究的阅读、复现与项目实践。"
   },
   {
     "id": "CS 384",
     "tag": "NLP 伦理 seminar",
-    "cat": "产品、伦理与设计"
+    "cat": "产品、伦理与设计",
+    "zh_one": "NLP 中的偏见、隐私、毒性、操纵与权力。"
   },
   {
     "id": "CS 470",
     "tag": "音乐与 AI",
-    "cat": "视觉、图形与生成"
+    "cat": "视觉、图形与生成",
+    "zh_one": "生成、检索与音乐理解中的 ML 方法。"
   },
   {
     "id": "CS 521",
     "tag": "AI 安全 seminar",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "AI 安全前沿论文与研究方向讨论。"
   },
   {
     "id": "CS 522",
     "tag": "医疗 AI seminar",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "医院、产业与投资人视角的医疗 AI 前沿。"
   },
   {
     "id": "CS 523",
     "tag": "CV + X seminar",
-    "cat": "视觉、图形与生成"
+    "cat": "视觉、图形与生成",
+    "zh_one": "视觉与其它领域交叉的研究 seminar。"
   },
   {
     "id": "CS 524",
     "tag": "AI for Science",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "AlphaFold、GNoME 等科学发现中的 ML 主题。"
   },
   {
     "id": "CS 525",
     "tag": "Data for AI",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "训练数据的筛选、去重、合成、归因与版权。"
   },
   {
     "id": "CS 528",
     "tag": "ML 系统 seminar",
-    "cat": "ML 系统与硬件"
+    "cat": "ML 系统与硬件",
+    "zh_one": "ML 系统与基础设施前沿论文讨论。"
   },
   {
     "id": "EE 205",
     "tag": "AI 时代产品管理",
-    "cat": "产品、伦理与设计"
+    "cat": "产品、伦理与设计",
+    "zh_one": "从用户问题到 GTM，与企业合作做真实 AI 产品。"
   },
   {
     "id": "EE 292M",
     "tag": "AI 增强研发",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "把 LLM、RAG、agent 纳入科研工作流并做验证。"
   },
   {
     "id": "STATS 220",
     "tag": "神经数据 ML",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "与 CS 339N 交叉的神经数据分析统计方法。"
   },
   {
     "id": "STATS 292",
     "tag": "文本统计模型",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "文本的统计建模、语言模型与统计推断。"
   },
   {
     "id": "STATS 326",
     "tag": "蛋白生成模型",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "AlphaFold、扩散模型与蛋白设计前沿论文。"
   },
   {
     "id": "STATS 357",
     "tag": "AI 可靠性",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "评估、效度、分布偏移与 AI 辅助统计推断。"
   },
   {
     "id": "MS&E 226",
     "tag": "数据科学基础",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "预测、推断与因果三种视角的统一框架。"
   },
   {
     "id": "MS&E 228",
     "tag": "因果推断 × ML",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "高维数据下的因果估计与政策评估。"
   },
   {
     "id": "MS&E 235A",
     "tag": "马尔可夫决策过程",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "MDP、值迭代、策略迭代与 bandit 基础。"
   },
   {
     "id": "MS&E 235B",
     "tag": "强化学习",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "面向应用的 RL 行为设计与可扩展算法。"
   },
   {
     "id": "MS&E 328",
     "tag": "因果 ML 基础",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "与 CS 328 交叉的因果推断理论。"
   },
   {
     "id": "MS&E 330",
     "tag": "AI 可靠性",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "与 STATS 357 交叉的 AI 评估与效度。"
   },
   {
     "id": "MS&E 338",
     "tag": "对齐超级智能",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "与 CS 338 交叉的对齐与治理。"
   },
   {
     "id": "MS&E 346",
     "tag": "RL × 金融",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "把交易、对冲与组合管理建模成 RL 问题。"
   },
   {
     "id": "MS&E 446",
     "tag": "AI × 金融科技",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "金融科技中的 AI 应用与小组项目。"
   },
   {
     "id": "CME 216",
     "tag": "ML × 计算工程",
-    "cat": "统计与优化"
+    "cat": "统计与优化",
+    "zh_one": "核方法、深度学习、自动微分与物理约束 ML。"
   },
   {
     "id": "PSYCH 209",
     "tag": "认知的神经网络模型",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "用神经网络建模认知与发展过程。"
   },
   {
     "id": "PSYCH 239",
     "tag": "LLM 有心理状态吗",
-    "cat": "LLM 与 Agent"
+    "cat": "LLM 与 Agent",
+    "zh_one": "用心理学框架讨论 LLM 的心智归因。"
   },
   {
     "id": "PSYCH 242",
     "tag": "可解释 AI × 理论神经",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "用可解释性工具反向理解生物与人工网络。"
   },
   {
     "id": "SYMSYS 122",
     "tag": "AI 社会经济影响",
-    "cat": "产品、伦理与设计"
+    "cat": "产品、伦理与设计",
+    "zh_one": "非技术视角看 AI 对劳动、医疗、教育与地缘政治的影响。"
   },
   {
     "id": "SYMSYS 123",
     "tag": "神经科学 × AI",
-    "cat": "AI for Science 与医疗"
+    "cat": "AI for Science 与医疗",
+    "zh_one": "从神经科学史看 AI，再用 AI 工具研究大脑。"
   },
   {
     "id": "EDUC 246I",
     "tag": "AI 与教育",
-    "cat": "产品、伦理与设计"
+    "cat": "产品、伦理与设计",
+    "zh_one": "面向教师的 AI/edTech 机会、挑战与伦理。"
   }
 ]

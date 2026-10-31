@@ -1,0 +1,57 @@
+{
+  "CS 228": {
+    "schedule": [
+      "课程 syllabus",
+      "https://ermongroup.github.io/cs228/#syllabus"
+    ],
+    "slides": [
+      [
+        "课程 notes / slides",
+        "https://ermongroup.github.io/cs228/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction, Probability Theory, Bayesian Networks"
+      },
+      {
+        "n": 2,
+        "title": "Undirected models"
+      },
+      {
+        "n": 3,
+        "title": "Learning Bayes Nets"
+      },
+      {
+        "n": 4,
+        "title": "Exact Inference; Message Passing"
+      },
+      {
+        "n": 5,
+        "title": "Sampling"
+      },
+      {
+        "n": 6,
+        "title": "MAP Inference; Structured prediction"
+      },
+      {
+        "n": 7,
+        "title": "Parameter Learning"
+      },
+      {
+        "n": 8,
+        "title": "Bayesian Learning; Structure Learning"
+      },
+      {
+        "n": 9,
+        "title": "Exponential families; variational inference"
+      },
+      {
+        "n": 10,
+        "title": "Advanced topics and conclusions"
+      }
+    ],
+    "note": "以 Winter 2023-24 公开 syllabus 整理；当前学期以课程站为准。"
+  }
+}

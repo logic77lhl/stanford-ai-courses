@@ -1,0 +1,77 @@
+{
+  "CS 279": {
+    "schedule": [
+      "课程 lectures / slides",
+      "https://web.stanford.edu/class/cs279/"
+    ],
+    "slides": [
+      [
+        "课程 lectures 页（逐讲 slides）",
+        "https://web.stanford.edu/class/cs279/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction"
+      },
+      {
+        "n": 2,
+        "title": "Biomolecular structure"
+      },
+      {
+        "n": 3,
+        "title": "Energy functions & their relationship to molecular conformation"
+      },
+      {
+        "n": 4,
+        "title": "Molecular dynamics simulation"
+      },
+      {
+        "n": 5,
+        "title": "Protein structure prediction (AlphaFold etc.)"
+      },
+      {
+        "n": 6,
+        "title": "Fourier transforms and convolution"
+      },
+      {
+        "n": 7,
+        "title": "Image Analysis"
+      },
+      {
+        "n": 8,
+        "title": "Microscopy"
+      },
+      {
+        "n": 9,
+        "title": "Diffusion and cellular-level simulation"
+      },
+      {
+        "n": 10,
+        "title": "Protein design"
+      },
+      {
+        "n": 11,
+        "title": "Project topics"
+      },
+      {
+        "n": 12,
+        "title": "Ligand docking and virtual screening"
+      },
+      {
+        "n": 13,
+        "title": "X-ray crystallography"
+      },
+      {
+        "n": 14,
+        "title": "Cryo-electron microscopy"
+      },
+      {
+        "n": 15,
+        "title": "Review"
+      }
+    ],
+    "note": "以 Fall 2026 lectures 页整理；slides 和 optional reading 在课程页。"
+  }
+}

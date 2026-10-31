@@ -1,0 +1,93 @@
+{
+  "CS 349D": {
+    "schedule": [
+      "课程 schedule",
+      "https://web.stanford.edu/class/cs349d/index.html#schedule"
+    ],
+    "slides": [
+      [
+        "课程 schedule / 逐讲 reading",
+        "https://web.stanford.edu/class/cs349d/index.html#schedule"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction"
+      },
+      {
+        "n": 2,
+        "title": "Parallelism"
+      },
+      {
+        "n": 3,
+        "title": "Serving Engines"
+      },
+      {
+        "n": 4,
+        "title": "Programming Assignment Meeting 1"
+      },
+      {
+        "n": 5,
+        "title": "Batching"
+      },
+      {
+        "n": 6,
+        "title": "Disaggregation"
+      },
+      {
+        "n": 7,
+        "title": "Speculative Decoding"
+      },
+      {
+        "n": 8,
+        "title": "SGLang (Ying Sheng, RadixArk)"
+      },
+      {
+        "n": 9,
+        "title": "Context Management"
+      },
+      {
+        "n": 10,
+        "title": "Efficient Attention"
+      },
+      {
+        "n": 11,
+        "title": "Hybrid LLMs"
+      },
+      {
+        "n": 12,
+        "title": "Mixture of Experts"
+      },
+      {
+        "n": 13,
+        "title": "Programming Assignment Meeting 2"
+      },
+      {
+        "n": 14,
+        "title": "Load Balancing & Routing"
+      },
+      {
+        "n": 15,
+        "title": "Agentic Workflows"
+      },
+      {
+        "n": 16,
+        "title": "Memory"
+      },
+      {
+        "n": 17,
+        "title": "Reinforcement Learning"
+      },
+      {
+        "n": 18,
+        "title": "Multi-tenancy"
+      },
+      {
+        "n": 19,
+        "title": "Project Presentations"
+      }
+    ],
+    "note": "Spring 2026 研究型 seminar；每讲以论文讨论为主，reading 在 schedule 页。"
+  }
+}

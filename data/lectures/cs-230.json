@@ -1,0 +1,67 @@
+{
+  "CS 230": {
+    "schedule": [
+      "课程 lecture 页",
+      "https://cs230.stanford.edu/lecture"
+    ],
+    "slides": [
+      [
+        "课程 lecture 页（视频）",
+        "https://cs230.stanford.edu/lecture"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Class Introduction and Logistics"
+      },
+      {
+        "n": 2,
+        "title": "Deep Learning Intuition"
+      },
+      {
+        "n": 3,
+        "title": "Full-Cycle Deep Learning Projects"
+      },
+      {
+        "n": 4,
+        "title": "Adversarial Attacks / GANs"
+      },
+      {
+        "n": 5,
+        "title": "AI + Healthcare"
+      },
+      {
+        "n": 6,
+        "title": "Deep Learning Project Strategy"
+      },
+      {
+        "n": 7,
+        "title": "Interpretability of Neural Network"
+      },
+      {
+        "n": 8,
+        "title": "Career Advice / Reading Papers"
+      },
+      {
+        "n": 9,
+        "title": "Deep Reinforcement Learning"
+      },
+      {
+        "n": 10,
+        "title": "Chatbots / Closing Remarks"
+      }
+    ],
+    "note": "以 Fall 2018 公开 lecture 主题整理；当前学期以课程站为准。",
+    "bilibili": [
+      [
+        "2025 秋 · 中配（第三方）",
+        "https://www.bilibili.com/video/BV1ytjb6eEk7"
+      ],
+      [
+        "2025 秋 · 原声（第三方）",
+        "https://www.bilibili.com/video/BV1f2H3zKEMt"
+      ]
+    ]
+  }
+}

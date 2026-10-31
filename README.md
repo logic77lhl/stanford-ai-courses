@@ -1,6 +1,7 @@
 # Stanford AI / ML / Agent 课程地图
 
 [![build](https://github.com/logic77lhl/stanford-ai-courses/actions/workflows/build.yml/badge.svg)](https://github.com/logic77lhl/stanford-ai-courses/actions/workflows/build.yml)
+[![bilibili-links](https://github.com/logic77lhl/stanford-ai-courses/actions/workflows/bilibili.yml/badge.svg)](https://github.com/logic77lhl/stanford-ai-courses/actions/workflows/bilibili.yml)
 
 > 2026–27 学年 · 55 门核心课程 · 70 门延伸课程 · 每门核心课一份中文速览
 
@@ -27,12 +28,14 @@ Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymS
 │   ├── catalog.json          # ExploreCourses 原始整理
 │   ├── courses/              # 手写源数据（按方向分文件）
 │   ├── resources.json        # 视频 / 代码 / 工具等资源
-│   ├── lectures.json         # 课程大纲 / 课件 / B站链接
-│   └── more_courses.json     # 延伸课程清单
+│   ├── lectures/             # 每门课一个 JSON：逐讲大纲 / 课件 / B站链接
+│   ├── prereqs.json          # 先修关系图数据
+│   └── more_courses.json     # 延伸课程清单（含中文一句话）
 └── scripts/
     ├── fetch_catalog.py      # 从 ExploreCourses 抓取
     ├── build.py              # 生成 courses/*.md 与 README 表格
-    └── build_site.py         # 生成 docs/ 静态站点
+    ├── build_site.py         # 生成 docs/ 静态站点
+    └── verify_bilibili.py    # 校验 B站链接（每周 CI 自动跑）
 ```
 
 ## 怎么用
@@ -43,9 +46,11 @@ Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymS
 
 站点还提供：
 
-- **125 个课程页**：55 门核心课 + 70 门延伸课，支持方向、核心/延伸、关键词筛选。
+- **125 个课程页**：55 门核心课 + 70 门延伸课，支持方向、核心/延伸、关键词筛选；关键词也能命中逐讲标题（如 PPO、AlphaFold）。
 - **课程大纲 / 课件**：27 门课逐讲主题、官方 slides/notes、B站搬运链接。
-- **B站资源页**：汇总 15 门课、23 个 B 站搬运与中配版本，标注“第三方、可能失效”。
+- **B站资源页**：汇总 15 门课、23 个 B 站搬运与中配版本，标注“第三方、可能失效”，并提供一键失效报告。
+- **按学期选课页**：把 55 门核心课按 2026 秋 / 2027 冬 / 2027 春拆开，列出未排课课程。
+- **先修关系页**：27 门核心/延伸课的关系图 + 核心课先修原文。
 
 ## 收录说明
 
@@ -263,6 +268,9 @@ Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymS
 ## 数据与构建
 
 ```bash
+# 0. 安装构建依赖
+pip install -r requirements.txt
+
 # 1. 抓取 ExploreCourses（带本地缓存，可重复运行）
 python scripts/fetch_catalog.py
 
@@ -271,18 +279,22 @@ python scripts/build.py
 
 # 3. 生成 GitHub Pages 站点（docs/）
 python scripts/build_site.py
+
+# 4. 校验页面数量、站内链接与 README 链接
+python scripts/check.py
 ```
 
-要求 Python 3.10+，无第三方依赖。`courses/*.md` 和 `docs/` 是生成文件，请修改 `data/` 后重新构建。
+要求 Python 3.10+。`courses/*.md` 和 `docs/` 是生成文件，请修改 `data/` 后重新构建。B站链接可用 `python scripts/verify_bilibili.py` 单独巡检。
 
 ## 贡献
 
 欢迎提 PR 补充课程、修正信息或改进课程页：
 
 1. 在 `data/courses/` 对应方向文件里新增/修改条目（字段参考现有条目）。
-2. 在 `data/resources.json` 补充视频、代码仓库或工具（可选）。
-3. 运行 `python scripts/build.py && python scripts/build_site.py` 重新生成。
-4. 提交 `data/`、`courses/`、`docs/` 和 `README.md` 的改动。
+2. 在 `data/lectures/` 新增或修改逐讲大纲、官方 slides 与 B站链接（一门课一个文件）。
+3. 在 `data/resources.json` 补充视频、代码仓库或工具（可选）。
+4. 运行 `python scripts/build.py && python scripts/build_site.py && python scripts/check.py` 重新生成并校验。
+5. 提交 `data/`、`courses/`、`docs/` 和 `README.md` 的改动。
 
 新增课程时请尽量附上官方来源（ExploreCourses 或课程官网），并把不确定的信息写进 `note`。
 

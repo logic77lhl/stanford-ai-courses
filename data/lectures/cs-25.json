@@ -1,0 +1,59 @@
+{
+  "CS 25": {
+    "schedule": [
+      "课程官网 / recordings",
+      "https://web.stanford.edu/class/cs25/recordings/"
+    ],
+    "slides": [
+      [
+        "Recordings 页",
+        "https://web.stanford.edu/class/cs25/recordings/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Overview of Transformers"
+      },
+      {
+        "n": 2,
+        "title": "From Representation Learning to World Modeling"
+      },
+      {
+        "n": 3,
+        "title": "On the Tradeoffs of State Space Models and Transformers"
+      },
+      {
+        "n": 4,
+        "title": "The Ultra-Scale Talk: Scaling Training to Thousands of GPUs"
+      },
+      {
+        "n": 5,
+        "title": "From Next-Token Prediction to Next-Generation Intelligence"
+      },
+      {
+        "n": 6,
+        "title": "Serving Transformers: Lessons from the Trenches"
+      },
+      {
+        "n": 7,
+        "title": "Generalist Agents in Open-Ended Worlds (Jim Fan)"
+      },
+      {
+        "n": 8,
+        "title": "Whole-Part Hierarchies in a Neural Network (Geoffrey Hinton)"
+      }
+    ],
+    "bilibili": [
+      [
+        "V6 2026 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1q5ofBTEcZ"
+      ],
+      [
+        "2023 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1qrcGe4E1G"
+      ]
+    ],
+    "note": "每期录像在 recordings 页和 YouTube 播放列表。"
+  }
+}

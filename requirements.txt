@@ -1,0 +1,5 @@
+# Build-time dependencies (scripts/build.py, scripts/build_site.py, scripts/check.py)
+# and local verification helpers (Playwright screenshots).
+playwright>=1.40
+beautifulsoup4>=4.12
+requests>=2.31

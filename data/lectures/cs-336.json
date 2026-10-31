@@ -1,0 +1,99 @@
+{
+  "CS 336": {
+    "schedule": [
+      "课程官网 / schedule",
+      "https://cs336.stanford.edu/"
+    ],
+    "slides": [
+      [
+        "课程讲义仓库",
+        "https://github.com/stanford-cs336/lectures"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Course Introduction & Tokenization"
+      },
+      {
+        "n": 2,
+        "title": "PyTorch / Building a Transformer"
+      },
+      {
+        "n": 3,
+        "title": "Architecture & Hyperparameters"
+      },
+      {
+        "n": 4,
+        "title": "Attention Alternatives & Mixture of Experts"
+      },
+      {
+        "n": 5,
+        "title": "GPUs, TPUs"
+      },
+      {
+        "n": 6,
+        "title": "Kernels, Triton, XLA"
+      },
+      {
+        "n": 7,
+        "title": "Parallelism 1"
+      },
+      {
+        "n": 8,
+        "title": "Parallelism 2"
+      },
+      {
+        "n": 9,
+        "title": "Scaling Laws"
+      },
+      {
+        "n": 10,
+        "title": "Inference"
+      },
+      {
+        "n": 11,
+        "title": "Scaling Laws 2"
+      },
+      {
+        "n": 12,
+        "title": "Evaluation"
+      },
+      {
+        "n": 13,
+        "title": "Data: Sources, Datasets"
+      },
+      {
+        "n": 14,
+        "title": "Data: Filtering & Deduplication"
+      },
+      {
+        "n": 15,
+        "title": "Mid / Post-Training"
+      },
+      {
+        "n": 16,
+        "title": "Post-Training: RLVR"
+      },
+      {
+        "n": 17,
+        "title": "Alignment & Multimodal"
+      },
+      {
+        "n": 18,
+        "title": "Guest Lecture: Dan Fu"
+      }
+    ],
+    "bilibili": [
+      [
+        "2026 春 · 中配（第三方）",
+        "https://www.bilibili.com/video/BV11LEA6eEuj"
+      ],
+      [
+        "2025 春 · 中文字幕（第三方）",
+        "https://www.bilibili.com/video/BV1Ect2zjEHR"
+      ]
+    ],
+    "note": "官方讲义在 stanford-cs336/lectures；B 站为第三方搬运。"
+  }
+}
