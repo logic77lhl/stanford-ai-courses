@@ -8,9 +8,94 @@
       [
         "Lecture Notes（官方 PDF）",
         "https://cs229.stanford.edu/main_notes.pdf"
+      ],
+      [
+        "Fall 2018 syllabus（逐讲 notes PDF）",
+        "https://cs229.stanford.edu/syllabus-autumn2018.html"
       ]
     ],
-    "lectures": [],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction and Basic Concepts"
+      },
+      {
+        "n": 2,
+        "title": "Supervised Learning Setup; Linear Regression"
+      },
+      {
+        "n": 3,
+        "title": "Weighted Least Squares; Logistic Regression; Newton's Method; GLMs"
+      },
+      {
+        "n": 4,
+        "title": "Generative Learning Algorithms"
+      },
+      {
+        "n": 5,
+        "title": "Gaussian Discriminant Analysis; Naive Bayes"
+      },
+      {
+        "n": 6,
+        "title": "Laplace Smoothing; Support Vector Machines"
+      },
+      {
+        "n": 7,
+        "title": "Support Vector Machines; Kernels"
+      },
+      {
+        "n": 8,
+        "title": "Bias-Variance Tradeoff; Regularization; Model/Feature Selection"
+      },
+      {
+        "n": 9,
+        "title": "Tree Ensembles"
+      },
+      {
+        "n": 10,
+        "title": "Neural Networks: Basics"
+      },
+      {
+        "n": 11,
+        "title": "Neural Networks: Training"
+      },
+      {
+        "n": 12,
+        "title": "Practical Advice for ML Projects"
+      },
+      {
+        "n": 13,
+        "title": "K-means; Mixture of Gaussians; Expectation Maximization"
+      },
+      {
+        "n": 14,
+        "title": "Factor Analysis"
+      },
+      {
+        "n": 15,
+        "title": "Principal Component Analysis; Independent Component Analysis"
+      },
+      {
+        "n": 16,
+        "title": "MDPs; Bellman Equations"
+      },
+      {
+        "n": 17,
+        "title": "Value Iteration and Policy Iteration; LQR; LQG"
+      },
+      {
+        "n": 18,
+        "title": "Q-Learning; Value Function Approximation"
+      },
+      {
+        "n": 19,
+        "title": "Policy Search; REINFORCE; POMDPs"
+      },
+      {
+        "n": 20,
+        "title": "Optional Topic; Wrap-up"
+      }
+    ],
     "bilibili": [
       [
         "2026 春 · 中英双语（第三方）",
@@ -21,7 +106,7 @@
         "https://www.bilibili.com/video/BV1JE411w7Ub"
       ]
     ],
-    "note": "官方讲义、作业和课程安排以 cs229.stanford.edu 为准；B 站为第三方搬运。"
+    "note": "逐讲主题以 Fall 2018 公开 syllabus 整理；官方讲义以 main_notes.pdf 为准，B站为第三方搬运。"
   },
   "CS 231N": {
     "schedule": [
@@ -1553,5 +1638,282 @@
       }
     ],
     "note": "以 Winter 2023-24 公开 syllabus 整理；当前学期以课程站为准。"
+  },
+  "CS 277": {
+    "schedule": [
+      "课程 calendar",
+      "https://web.stanford.edu/class/cs277/calendar/"
+    ],
+    "slides": [
+      [
+        "课程 calendar（逐讲 lecture material）",
+        "https://web.stanford.edu/class/cs277/calendar/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Course Introduction & Overview of Foundation Models"
+      },
+      {
+        "n": 2,
+        "title": "Introduction to LLMs"
+      },
+      {
+        "n": 3,
+        "title": "Agentic Systems"
+      },
+      {
+        "n": 4,
+        "title": "Evaluation of LLMs and Agents; MedArena"
+      },
+      {
+        "n": 5,
+        "title": "Evaluation of LLMs (Part 2)"
+      },
+      {
+        "n": 6,
+        "title": "Retrieval Augmented Generation; Mixture of Experts"
+      },
+      {
+        "n": 7,
+        "title": "Inference Scaling and Reasoning"
+      },
+      {
+        "n": 8,
+        "title": "Vision-Language Models"
+      },
+      {
+        "n": 9,
+        "title": "Mechanistic Interpretability of VLMs"
+      },
+      {
+        "n": 10,
+        "title": "Generative VLMs for Vision"
+      },
+      {
+        "n": 11,
+        "title": "Generative VLMs for Text"
+      },
+      {
+        "n": 12,
+        "title": "Foundation Models for Segmentation"
+      },
+      {
+        "n": 13,
+        "title": "Regulation and Deployment: EchoNet Case Study"
+      },
+      {
+        "n": 14,
+        "title": "SleepFM: Multimodal Foundation Model of Sleep"
+      },
+      {
+        "n": 15,
+        "title": "Advanced Architectures"
+      },
+      {
+        "n": 16,
+        "title": "EMR Foundation Models"
+      },
+      {
+        "n": 17,
+        "title": "Ethics of Foundation Models"
+      },
+      {
+        "n": 18,
+        "title": "Final Presentations"
+      }
+    ],
+    "note": "以 Winter 2026 公开 calendar 整理；每讲 lecture material 与 recording 在 calendar 页。"
+  },
+  "CS 217": {
+    "schedule": [
+      "课程主页",
+      "https://cs217.stanford.edu/"
+    ],
+    "slides": [
+      [
+        "课程主页",
+        "https://cs217.stanford.edu/"
+      ],
+      [
+        "Winter 2026 课程表（Google Sheet）",
+        "https://docs.google.com/spreadsheets/d/1Aqpk1hEZD78bq0WoDe6edSs-tSC58hoEGCSJ6I--6KI/edit"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction"
+      },
+      {
+        "n": 2,
+        "title": "High-Level Synthesis"
+      },
+      {
+        "n": 3,
+        "title": "Data Parallelism and Efficiency Metrics"
+      },
+      {
+        "n": 4,
+        "title": "Quantization"
+      },
+      {
+        "n": 5,
+        "title": "Systolic Arrays"
+      },
+      {
+        "n": 6,
+        "title": "Vector and Scalar Units"
+      },
+      {
+        "n": 7,
+        "title": "Memory Systems"
+      },
+      {
+        "n": 8,
+        "title": "Interconnects and Network-on-Chip"
+      },
+      {
+        "n": 9,
+        "title": "Compilers and Software Stack (Part 1)"
+      },
+      {
+        "n": 10,
+        "title": "Compilers and Software Stack (Part 2)"
+      },
+      {
+        "n": 11,
+        "title": "Review of Project Proposals (I)"
+      },
+      {
+        "n": 12,
+        "title": "Review of Project Proposals (II)"
+      },
+      {
+        "n": 13,
+        "title": "GPU Architectures"
+      },
+      {
+        "n": 14,
+        "title": "Reconfigurable Dataflow Architectures"
+      },
+      {
+        "n": 15,
+        "title": "SambaNova RDA (Raghu Prabhakar)"
+      },
+      {
+        "n": 16,
+        "title": "Memory-Centric Computing (Part 1)"
+      },
+      {
+        "n": 17,
+        "title": "Memory-Centric Computing (Part 2)"
+      },
+      {
+        "n": 18,
+        "title": "AWS Inferentia and Trainium (Nafea Bshara)"
+      },
+      {
+        "n": 19,
+        "title": "NVIDIA GPU Architecture for AI (Ronny Krashinsky)"
+      },
+      {
+        "n": 20,
+        "title": "Poster Sessions"
+      }
+    ],
+    "note": "以 Winter 2026 课程表整理；slides 与 lab 材料在 Canvas，公开页只给主题和 reading。"
+  },
+  "CS 349D": {
+    "schedule": [
+      "课程 schedule",
+      "https://web.stanford.edu/class/cs349d/index.html#schedule"
+    ],
+    "slides": [
+      [
+        "课程 schedule / 逐讲 reading",
+        "https://web.stanford.edu/class/cs349d/index.html#schedule"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Introduction"
+      },
+      {
+        "n": 2,
+        "title": "Parallelism"
+      },
+      {
+        "n": 3,
+        "title": "Serving Engines"
+      },
+      {
+        "n": 4,
+        "title": "Programming Assignment Meeting 1"
+      },
+      {
+        "n": 5,
+        "title": "Batching"
+      },
+      {
+        "n": 6,
+        "title": "Disaggregation"
+      },
+      {
+        "n": 7,
+        "title": "Speculative Decoding"
+      },
+      {
+        "n": 8,
+        "title": "SGLang (Ying Sheng, RadixArk)"
+      },
+      {
+        "n": 9,
+        "title": "Context Management"
+      },
+      {
+        "n": 10,
+        "title": "Efficient Attention"
+      },
+      {
+        "n": 11,
+        "title": "Hybrid LLMs"
+      },
+      {
+        "n": 12,
+        "title": "Mixture of Experts"
+      },
+      {
+        "n": 13,
+        "title": "Programming Assignment Meeting 2"
+      },
+      {
+        "n": 14,
+        "title": "Load Balancing & Routing"
+      },
+      {
+        "n": 15,
+        "title": "Agentic Workflows"
+      },
+      {
+        "n": 16,
+        "title": "Memory"
+      },
+      {
+        "n": 17,
+        "title": "Reinforcement Learning"
+      },
+      {
+        "n": 18,
+        "title": "Multi-tenancy"
+      },
+      {
+        "n": 19,
+        "title": "Project Presentations"
+      }
+    ],
+    "note": "Spring 2026 研究型 seminar；每讲以论文讨论为主，reading 在 schedule 页。"
   }
 }
