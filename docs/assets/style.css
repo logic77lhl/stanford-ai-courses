@@ -322,6 +322,34 @@ details.official p { padding: 0 0 14px; font-size: 12.5px; line-height: 1.85; }
 .pager small { display: block; font-size: 9px; letter-spacing: .14em; color: var(--dim); margin-bottom: 3px; }
 .pager b { font-family: var(--serif); font-size: 14px; font-weight: 500; }
 
+/* lecture / bilibili */
+.lecture-tools { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.ltool { font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 14px; padding: 3px 10px; }
+.ltool:hover { color: var(--gold); border-color: rgba(212, 177, 118, .45); }
+.ltool.bili { color: var(--blue); border-color: rgba(143, 166, 184, .3); }
+.ltool.bili:hover { color: var(--gold); border-color: rgba(212, 177, 118, .45); }
+.lecture-table { border: 1px solid var(--line); border-radius: 5px; overflow: hidden; }
+.lecture-row { display: grid; grid-template-columns: 52px 1fr; gap: 10px; padding: 9px 13px; border-bottom: 1px solid var(--line); font-size: 12.5px; color: var(--muted); }
+.lecture-row:last-child { border-bottom: 0; }
+.lecture-row.head { background: var(--panel); color: var(--dim); font-size: 9px; letter-spacing: .16em; text-transform: uppercase; }
+.lecture-row .ln { color: var(--gold); font-family: var(--serif); font-size: 11px; }
+.lecture-note { margin-top: 12px !important; font-size: 11.5px !important; color: var(--dim) !important; }
+.bili-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.bili-card { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 16px; display: flex; flex-direction: column; gap: 5px; }
+.bili-card:hover { border-color: rgba(143, 166, 184, .4); }
+.bili-code { font-family: var(--serif); color: var(--blue); font-size: 16px; }
+.bili-card b { font-family: var(--serif); font-size: 16px; font-weight: 500; }
+.bili-card p { color: var(--dim); font-size: 10.5px; margin: 0; }
+.bili-go { font-size: 10px; color: var(--gold); margin-top: auto; padding-top: 8px; }
+.bili-group { padding: 30px 0; border-bottom: 1px solid var(--line); }
+.bili-group h2 { font-family: var(--serif); font-size: 22px; font-weight: 500; margin: 0 0 14px; }
+.bili-item { display: grid; grid-template-columns: 240px 1fr; gap: 12px; align-items: start; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.bili-item > div:last-child { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.bili-title { color: var(--muted); font-size: 13px; margin-left: 8px; }
+.bili-title:hover { color: var(--gold); }
+.bili-link { display: inline-flex; align-items: center; gap: 6px; font-size: 10.5px; color: var(--blue); border: 1px solid rgba(143, 166, 184, .25); border-radius: 10px; padding: 2px 8px; margin: 0; }
+.bili-link:hover { color: var(--gold); border-color: rgba(212, 177, 118, .45); }
+
 /* paths page */
 .page-hero { padding: 40px 0 44px; border-bottom: 1px solid var(--line); }
 .page-hero h1 { font-family: var(--serif); font-size: clamp(38px, 5.5vw, 64px); font-weight: 500; margin: 0 0 14px; line-height: 1.1; }
@@ -361,6 +389,7 @@ details.official p { padding: 0 0 14px; font-size: 12.5px; line-height: 1.85; }
   .course-grid { grid-template-columns: repeat(2, 1fr); }
   .track-grid { grid-template-columns: repeat(2, 1fr); }
   .path-grid { grid-template-columns: repeat(2, 1fr); }
+  .bili-grid { grid-template-columns: repeat(2, 1fr); }
   .course-layout { grid-template-columns: minmax(0, 1fr) 280px; gap: 32px; }
 }
 
@@ -408,6 +437,8 @@ details.official p { padding: 0 0 14px; font-size: 12.5px; line-height: 1.85; }
   .poster-grid { grid-template-columns: 1fr; }
   .course-grid { grid-template-columns: 1fr; }
   .path-grid { grid-template-columns: 1fr; }
+  .bili-grid { grid-template-columns: 1fr; }
+  .bili-item { grid-template-columns: 1fr; gap: 6px; }
   .course-hero { grid-template-columns: 1fr; }
   .course-poster { aspect-ratio: 16 / 9; }
   .cp-code { font-size: 46px; }

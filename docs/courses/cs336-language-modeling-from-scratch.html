@@ -20,6 +20,7 @@
       <a href="../index.html#map">地图</a>
       <a href="../index.html#courses" class="on">课程</a>
       <a href="../paths.html">路径</a>
+      <a href="../bilibili.html">B站</a>
       <a href="../index.html#about">关于</a>
     </nav>
     <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
@@ -65,6 +66,13 @@
         <ol class="topic-list"><li><strong>数据</strong>：采集、清洗、去重、过滤、配比</li><li><strong>Tokenization</strong>：BPE、词表设计、多语言问题</li><li><strong>模型</strong>：Transformer 架构、注意力变体、位置编码</li><li><strong>训练</strong>：初始化、优化器、学习率、混合精度、分布式</li><li><strong>Scaling</strong>：scaling laws、计算最优配置</li><li><strong>评估</strong>：困惑度、基准测试、污染、对齐评估</li><li><strong>部署</strong>：推理、量化、服务化</li><li><strong>安全与伦理</strong>：数据版权、偏见、滥用</li></ol>
       </section>
 
+      <section class="prose">
+  <h2>课程大纲 / 课件</h2>
+  <div class="lecture-tools"><a class="ltool" href="https://cs336.stanford.edu/" target="_blank" rel="noopener">课程官网 / schedule ↗</a><a class="ltool" href="https://github.com/stanford-cs336/lectures" target="_blank" rel="noopener">课程讲义仓库 ↗</a><a class="ltool bili" href="https://www.bilibili.com/video/BV11LEA6eEuj" target="_blank" rel="noopener">B站 · 2026 春 · 中配（第三方） ↗</a><a class="ltool bili" href="https://www.bilibili.com/video/BV1Ect2zjEHR" target="_blank" rel="noopener">B站 · 2025 春 · 中文字幕（第三方） ↗</a></div>
+  <div class="lecture-table"><div class="lecture-row head"><span>#</span><span>主题 / 讲者</span></div><div class="lecture-row"><span class="ln">01</span><span>Course Introduction &amp; Tokenization</span></div><div class="lecture-row"><span class="ln">02</span><span>PyTorch / Building a Transformer</span></div><div class="lecture-row"><span class="ln">03</span><span>Architecture &amp; Hyperparameters</span></div><div class="lecture-row"><span class="ln">04</span><span>Attention Alternatives &amp; Mixture of Experts</span></div><div class="lecture-row"><span class="ln">05</span><span>GPUs, TPUs</span></div><div class="lecture-row"><span class="ln">06</span><span>Kernels, Triton, XLA</span></div><div class="lecture-row"><span class="ln">07</span><span>Parallelism 1</span></div><div class="lecture-row"><span class="ln">08</span><span>Parallelism 2</span></div><div class="lecture-row"><span class="ln">09</span><span>Scaling Laws</span></div><div class="lecture-row"><span class="ln">10</span><span>Inference</span></div><div class="lecture-row"><span class="ln">11</span><span>Scaling Laws 2</span></div><div class="lecture-row"><span class="ln">12</span><span>Evaluation</span></div><div class="lecture-row"><span class="ln">13</span><span>Data: Sources, Datasets</span></div><div class="lecture-row"><span class="ln">14</span><span>Data: Filtering &amp; Deduplication</span></div><div class="lecture-row"><span class="ln">15</span><span>Mid / Post-Training</span></div><div class="lecture-row"><span class="ln">16</span><span>Post-Training: RLVR</span></div><div class="lecture-row"><span class="ln">17</span><span>Alignment &amp; Multimodal</span></div><div class="lecture-row"><span class="ln">18</span><span>Guest Lecture: Dan Fu</span></div></div>
+  <p class="lecture-note">官方讲义在 stanford-cs336/lectures；B 站为第三方搬运。</p>
+</section>
+
       <section class="prose two">
         <div><h2>先修</h2><p>强编程能力；深度学习基础（CS 224N/CS 231N/CS 230 级）；需要申请，且最好有 GPU 资源。</p></div>
         <div><h2>考核与工作量</h2><p>通常为 5 个左右的编程作业（逐步构建 LM）+ 一个项目；算力消耗大。具体以当季官网为准。</p></div>
@@ -102,7 +110,7 @@
       </div>
       <div class="aside-card">
   <div class="aside-head"><h3>资源</h3><span class="resbadge on">已核验</span></div>
-  <div class="resgroup"><h4>官方入口</h4><a class="res" href="https://cs336.stanford.edu/" target="_blank" rel="noopener"><span>课程官网</span><b>↗</b></a><a class="res" href="https://explorecourses.stanford.edu/search?view=catalog&amp;academicYear=20262027&amp;q=CS+336" target="_blank" rel="noopener"><span>ExploreCourses</span><b>↗</b></a></div><div class="resgroup"><h4>代码 / 仓库</h4><a class="res" href="https://github.com/stanford-cs336" target="_blank" rel="noopener"><span>stanford-cs336 组织</span><b>↗</b></a><a class="res" href="https://github.com/stanford-cs336/assignment1-basics" target="_blank" rel="noopener"><span>Assignment 1 · Basics</span><b>↗</b></a><a class="res" href="https://github.com/stanford-cs336/lectures" target="_blank" rel="noopener"><span>课程讲义仓库</span><b>↗</b></a></div>
+  <div class="resgroup"><h4>官方入口</h4><a class="res" href="https://cs336.stanford.edu/" target="_blank" rel="noopener"><span>课程官网</span><b>↗</b></a><a class="res" href="https://explorecourses.stanford.edu/search?view=catalog&amp;academicYear=20262027&amp;q=CS+336" target="_blank" rel="noopener"><span>ExploreCourses</span><b>↗</b></a></div><div class="resgroup"><h4>代码 / 仓库</h4><a class="res" href="https://github.com/stanford-cs336" target="_blank" rel="noopener"><span>stanford-cs336 组织</span><b>↗</b></a><a class="res" href="https://github.com/stanford-cs336/assignment1-basics" target="_blank" rel="noopener"><span>Assignment 1 · Basics</span><b>↗</b></a><a class="res" href="https://github.com/stanford-cs336/lectures" target="_blank" rel="noopener"><span>课程讲义仓库</span><b>↗</b></a></div><div class="resgroup"><h4>B站视频</h4><a class="res bili" href="https://www.bilibili.com/video/BV11LEA6eEuj" target="_blank" rel="noopener"><span>2026 春 · 中配（第三方）</span><b>↗</b></a><a class="res bili" href="https://www.bilibili.com/video/BV1Ect2zjEHR" target="_blank" rel="noopener"><span>2025 春 · 中文字幕（第三方）</span><b>↗</b></a></div>
   <div class="resgroup"><h4>常见工具</h4><div class="tech"><span>Python</span><span>PyTorch</span><span>Triton</span><span>CUDA</span><span>uv</span></div></div>
 </div>
       <div class="aside-card"><div class="aside-head"><h3>Markdown</h3></div><a class="res" href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/courses/cs336-language-modeling-from-scratch.md" target="_blank" rel="noopener"><span>在 GitHub 查看课程速览</span><b>↗</b></a></div>

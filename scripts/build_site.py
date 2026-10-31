@@ -228,6 +228,7 @@ def header(base: str = "", active: str = "") -> str:
       <a href="{base}index.html#map"{cls("map")}>地图</a>
       <a href="{base}index.html#courses"{cls("courses")}>课程</a>
       <a href="{base}paths.html"{cls("paths")}>路径</a>
+      <a href="{base}bilibili.html"{cls("bili")}>B站</a>
       <a href="{base}index.html#about"{cls("about")}>关于</a>
     </nav>
     <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
@@ -337,7 +338,45 @@ def resource_items(c: dict, resources: dict) -> tuple[list[str], list[str], list
     return videos, code, extra, tech, curated
 
 
-def resource_block(c: dict, resources: dict) -> str:
+def lecture_section(c: dict, lectures: dict) -> str:
+    data = lectures.get(c["id"], {})
+    schedule = data.get("schedule")
+    slides = data.get("slides", [])
+    rows = data.get("lectures", [])
+    bili = data.get("bilibili", [])
+    if not (schedule or slides or rows or bili):
+        return ""
+
+    tools = []
+    if schedule:
+        tools.append(f'<a class="ltool" href="{esc(schedule[1])}" target="_blank" rel="noopener">{esc(schedule[0])} ↗</a>')
+    for label, url in slides:
+        tools.append(f'<a class="ltool" href="{esc(url)}" target="_blank" rel="noopener">{esc(label)} ↗</a>')
+    for label, url in bili:
+        tools.append(f'<a class="ltool bili" href="{esc(url)}" target="_blank" rel="noopener">B站 · {esc(label)} ↗</a>')
+
+    if rows:
+        head = '<div class="lecture-row head"><span>#</span><span>主题 / 讲者</span></div>'
+        body = "".join(
+            f'<div class="lecture-row"><span class="ln">{int(r.get("n", i + 1)):02d}</span><span>{esc(r.get("title", ""))}</span></div>'
+            for i, r in enumerate(rows)
+        )
+        table = f'<div class="lecture-table">{head}{body}</div>'
+    else:
+        table = '<p class="muted">逐讲大纲暂未整理；官方 schedule / slides 见上方入口。</p>'
+
+    note = data.get("note", "")
+    note_html = f'<p class="lecture-note">{esc(note)}</p>' if note else ""
+
+    return f"""<section class="prose">
+  <h2>课程大纲 / 课件</h2>
+  <div class="lecture-tools">{''.join(tools)}</div>
+  {table}
+  {note_html}
+</section>"""
+
+
+def resource_block(c: dict, resources: dict, lectures: dict) -> str:
     videos, code, extra, tech, curated = resource_items(c, resources)
 
     def links(items, cls="res"):
@@ -360,6 +399,9 @@ def resource_block(c: dict, resources: dict) -> str:
         blocks.append(f'<div class="resgroup"><h4>代码 / 仓库</h4>{links(code)}</div>')
     if extra:
         blocks.append(f'<div class="resgroup"><h4>延伸阅读</h4>{links(extra)}</div>')
+    bili = lectures.get(c["id"], {}).get("bilibili", [])
+    if bili:
+        blocks.append(f'<div class="resgroup"><h4>B站视频</h4>{links(bili, "res bili")}</div>')
 
     if not curated:
         blocks.append(
@@ -379,7 +421,7 @@ def resource_block(c: dict, resources: dict) -> str:
 </div>"""
 
 
-def course_page(c: dict, all_courses: list[dict], resources: dict) -> str:
+def course_page(c: dict, all_courses: list[dict], resources: dict, lectures: dict) -> str:
     idx = all_courses.index(c)
     prev_c = all_courses[idx - 1] if idx > 0 else None
     next_c = all_courses[idx + 1] if idx < len(all_courses) - 1 else None
@@ -457,6 +499,8 @@ def course_page(c: dict, all_courses: list[dict], resources: dict) -> str:
         {topics_html}
       </section>
 
+      {lecture_section(c, lectures)}
+
       <section class="prose two">
         <div><h2>先修</h2><p>{esc(prereq)}</p></div>
         <div><h2>考核与工作量</h2><p>{esc(assessment)}</p></div>
@@ -492,7 +536,7 @@ def course_page(c: dict, all_courses: list[dict], resources: dict) -> str:
           <div><dt>难度</dt><dd>{stars(c.get('difficulty'))}</dd></div>
         </dl>
       </div>
-      {resource_block(c, resources)}
+      {resource_block(c, resources, lectures)}
       {f'<div class="aside-card"><div class="aside-head"><h3>Markdown</h3></div><a class="res" href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/courses/{esc(c["slug"])}.md" target="_blank" rel="noopener"><span>在 GitHub 查看课程速览</span><b>↗</b></a></div>' if c['type'] == 'core' else ''}
     </aside>
   </div>
@@ -502,7 +546,20 @@ def course_page(c: dict, all_courses: list[dict], resources: dict) -> str:
     return shell(f"{c['id']} · {c['zh']} | Stanford AI 课程地图", c["one"], body, base="../", active="courses")
 
 
-def index_page(courses: list[dict], resources: dict) -> str:
+def bili_card(c: dict, lectures: dict) -> str:
+    links = lectures.get(c["id"], {}).get("bilibili", [])
+    if not links:
+        return ""
+    label, url = links[0]
+    return f"""<a class="bili-card" href="courses/{c['slug']}.html">
+  <span class="bili-code">{esc(c['id'])}</span>
+  <b>{esc(c['zh'])}</b>
+  <p>{esc(label)}</p>
+  <span class="bili-go">课程页 · B站链接 →</span>
+</a>"""
+
+
+def index_page(courses: list[dict], resources: dict, lectures: dict) -> str:
     core = [c for c in courses if c["type"] == "core"]
     ext = [c for c in courses if c["type"] == "ext"]
     featured = [next(c for c in courses if c["id"] == fid) for fid in FEATURED if any(x["id"] == fid for x in courses)]
@@ -518,6 +575,9 @@ def index_page(courses: list[dict], resources: dict) -> str:
 </article>"""
         for p in PATHS
     )
+
+    bili_courses = [c for c in courses if lectures.get(c["id"], {}).get("bilibili")]
+    bili_html = "".join(bili_card(c, lectures) for c in bili_courses[:8])
 
     body = f"""<section class="hero">
   <div class="wrap hero-grid">
@@ -593,12 +653,19 @@ def index_page(courses: list[dict], resources: dict) -> str:
   </div>
 </section>
 
+<section class="section" id="bilibili">
+  <div class="wrap">
+    <div class="section-head"><h2>B站资源</h2><small>第三方搬运 · 可能失效</small><span class="line"></span><a href="bilibili.html">全部 →</a></div>
+    <div class="bili-grid">{bili_html}</div>
+  </div>
+</section>
+
 <section class="section about" id="about">
   <div class="wrap about-grid">
     <div>
       <p class="kicker">About</p>
       <h2>这张地图怎么用</h2>
-      <p>先看方向，再选路径，最后点进课程页。每门核心课有定位、主要内容、先修、考核、适合谁、学习建议和资源入口；延伸课保留官方档案与链接。</p>
+      <p>先看方向，再选路径，最后点进课程页。每门核心课有定位、主要内容、课程大纲/课件、先修、考核、适合谁、学习建议和资源入口；延伸课保留官方档案与链接。</p>
     </div>
     <div class="about-note">
       <p><b>信息基准</b>：2026–27 学年，课程数据来自 Stanford ExploreCourses 与课程官网。</p>
@@ -643,6 +710,37 @@ def paths_page(courses: list[dict]) -> str:
     return shell("学习路径 | Stanford AI 课程地图", "六条 Stanford AI/ML/Agent 学习路径：LLM/Agent、ML 研究、CV/生成、机器人、MLSys、AI4Science。", body, active="paths")
 
 
+def bilibili_page(courses: list[dict], lectures: dict) -> str:
+    groups = []
+    for cat in CATEGORY_ORDER:
+        items = [c for c in courses if c["cat"] == cat and lectures.get(c["id"], {}).get("bilibili")]
+        if not items:
+            continue
+        cards = []
+        for c in items:
+            links = "".join(
+                f'<a class="bili-link" href="{esc(url)}" target="_blank" rel="noopener">{esc(label)} ↗</a>'
+                for label, url in lectures[c["id"]]["bilibili"]
+            )
+            cards.append(
+                f'<div class="bili-item"><div><span class="bili-code">{esc(c["id"])}</span>'
+                f'<a class="bili-title" href="courses/{c["slug"]}.html">{esc(c["zh"])}</a></div>'
+                f'<div class="bili-links">{links}</div></div>'
+            )
+        groups.append(f'<section class="bili-group"><h2>{esc(cat)}</h2>{ "".join(cards) }</section>')
+
+    body = f"""<div class="wrap">
+  <a class="back" href="index.html">← 返回首页</a>
+  <section class="page-hero">
+    <p class="kicker">Bilibili</p>
+    <h1>B站课程资源</h1>
+    <p>这里汇总 B 站上可找到的 Stanford AI/ML 课程搬运与中配版本。<b>均为第三方上传</b>，可能失效、缺集或与最新版本不一致；优先看官方课程站和 Stanford Online 的 YouTube 录像。</p>
+  </section>
+  {''.join(groups)}
+</div>"""
+    return shell("B站资源 | Stanford AI 课程地图", "Stanford AI/ML/Agent 课程的 B 站搬运与中配资源汇总。", body, active="bili")
+
+
 def not_found() -> str:
     body = """<div class="wrap"><section class="page-hero"><p class="kicker">404</p><h1>这门课不在地图上</h1><p>链接可能变了。回到 <a href="index.html">课程地图</a> 重新找。</p></section></div>"""
     return shell("404 | Stanford AI 课程地图", "页面不存在", body)
@@ -650,6 +748,8 @@ def not_found() -> str:
 
 def main() -> None:
     courses, resources, _ = load_site_data()
+    lectures_path = ROOT / "data" / "lectures.json"
+    lectures = load_json(lectures_path) if lectures_path.exists() else {}
     COURSES_OUT.mkdir(parents=True, exist_ok=True)
     ASSETS.mkdir(parents=True, exist_ok=True)
 
@@ -657,10 +757,11 @@ def main() -> None:
         stale.unlink()
 
     for c in courses:
-        (COURSES_OUT / f"{c['slug']}.html").write_text(course_page(c, courses, resources), encoding="utf-8", newline="\n")
+        (COURSES_OUT / f"{c['slug']}.html").write_text(course_page(c, courses, resources, lectures), encoding="utf-8", newline="\n")
 
-    (SITE / "index.html").write_text(index_page(courses, resources), encoding="utf-8", newline="\n")
+    (SITE / "index.html").write_text(index_page(courses, resources, lectures), encoding="utf-8", newline="\n")
     (SITE / "paths.html").write_text(paths_page(courses), encoding="utf-8", newline="\n")
+    (SITE / "bilibili.html").write_text(bilibili_page(courses, lectures), encoding="utf-8", newline="\n")
     (SITE / "404.html").write_text(not_found(), encoding="utf-8", newline="\n")
     (SITE / ".nojekyll").write_text("", encoding="utf-8", newline="\n")
 

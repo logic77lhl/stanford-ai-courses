@@ -36,7 +36,7 @@ for m in re.finditer(r"\]\((?!https?://|#)([^)]+)\)", readme):
 
 # Site pages and internal links
 site = root / "docs"
-site_pages = [site / "index.html", site / "paths.html", site / "404.html"] + sorted((site / "courses").glob("*.html"))
+site_pages = [site / "index.html", site / "paths.html", site / "bilibili.html", site / "404.html"] + sorted((site / "courses").glob("*.html"))
 if len(list((site / "courses").glob("*.html"))) != 125:
     errors.append(f"site course pages: {len(list((site / 'courses').glob('*.html')))} (expected 125)")
 for page in site_pages:
