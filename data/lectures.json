@@ -369,7 +369,7 @@
     ],
     "bilibili": [
       [
-        "2024 春 · 中英字幕（第三方）",
+        "中英字幕（第三方）",
         "https://www.bilibili.com/video/BV1Cc411h7QQ"
       ]
     ],
@@ -696,7 +696,16 @@
         "title": "Whole-Part Hierarchies in a Neural Network (Geoffrey Hinton)"
       }
     ],
-    "bilibili": [],
+    "bilibili": [
+      [
+        "V6 2026 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1q5ofBTEcZ"
+      ],
+      [
+        "2023 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1qrcGe4E1G"
+      ]
+    ],
     "note": "每期录像在 recordings 页和 YouTube 播放列表。"
   },
   "CS 224W": {
@@ -833,31 +842,359 @@
     ]
   },
   "CS 221": {
+    "schedule": [
+      "课程主页 / schedule",
+      "https://stanford-cs221.github.io/autumn2026/"
+    ],
+    "slides": [
+      [
+        "Lecture slides 仓库（GitHub）",
+        "https://github.com/stanford-cs221/lectures"
+      ],
+      [
+        "课程主页（Autumn 2026）",
+        "https://stanford-cs221.github.io/autumn2026/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Overview"
+      },
+      {
+        "n": 2,
+        "title": "Learning I"
+      },
+      {
+        "n": 3,
+        "title": "Learning II"
+      },
+      {
+        "n": 4,
+        "title": "Learning III"
+      },
+      {
+        "n": 5,
+        "title": "Search I"
+      },
+      {
+        "n": 6,
+        "title": "Search II"
+      },
+      {
+        "n": 7,
+        "title": "RL I"
+      },
+      {
+        "n": 8,
+        "title": "RL II"
+      },
+      {
+        "n": 9,
+        "title": "RL III"
+      },
+      {
+        "n": 10,
+        "title": "RL IV"
+      },
+      {
+        "n": 11,
+        "title": "Games I"
+      },
+      {
+        "n": 12,
+        "title": "Games II"
+      },
+      {
+        "n": 13,
+        "title": "Bayesian Networks I"
+      },
+      {
+        "n": 14,
+        "title": "Bayesian Networks II"
+      },
+      {
+        "n": 15,
+        "title": "Bayesian Networks III"
+      },
+      {
+        "n": 16,
+        "title": "Logic I"
+      },
+      {
+        "n": 17,
+        "title": "Logic II"
+      },
+      {
+        "n": 18,
+        "title": "AI & Society"
+      },
+      {
+        "n": 19,
+        "title": "Fireside Chat, Conclusion"
+      }
+    ],
+    "note": "Autumn 2026 schedule；slides 和代码在 stanford-cs221/lectures 仓库，录像在 Canvas。",
     "bilibili": [
       [
-        "中英字幕（第三方）",
+        "中英字幕（第三方搬运）",
         "https://www.bilibili.com/video/BV1Ht4y1U75j"
       ]
-    ],
-    "note": "B 站为第三方搬运。"
+    ]
   },
   "CS 329A": {
+    "schedule": [
+      "课程主页 / schedule",
+      "https://stanford-cs329a.github.io/"
+    ],
+    "slides": [
+      [
+        "课程主页（schedule / readings）",
+        "https://stanford-cs329a.github.io/"
+      ]
+    ],
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Course Overview"
+      },
+      {
+        "n": 2,
+        "title": "Test-time Compute Scaling"
+      },
+      {
+        "n": 3,
+        "title": "Robust Verification"
+      },
+      {
+        "n": 4,
+        "title": "Learning from Feedback with Tools / Code"
+      },
+      {
+        "n": 5,
+        "title": "Multi-step Reasoning / Planning"
+      },
+      {
+        "n": 6,
+        "title": "Train-Time Scaling / Scaling RL"
+      },
+      {
+        "n": 7,
+        "title": "Open-Ended Evolution of Self-Improving Agents"
+      },
+      {
+        "n": 8,
+        "title": "Self-Improvement with Search & Deep Research Agents"
+      },
+      {
+        "n": 9,
+        "title": "Guest Lecture: Melvin Johnson — Evolution of Post-training"
+      },
+      {
+        "n": 10,
+        "title": "Midterm Presentations"
+      },
+      {
+        "n": 11,
+        "title": "Midterm Presentations"
+      },
+      {
+        "n": 12,
+        "title": "Midterm Presentations"
+      },
+      {
+        "n": 13,
+        "title": "Agentic Frameworks for Software Engineering"
+      },
+      {
+        "n": 14,
+        "title": "Augmenting Agents with Memory (Junchen Jiang)"
+      },
+      {
+        "n": 15,
+        "title": "Guest Lecture: Denny Zhou — LLM Reasoning"
+      },
+      {
+        "n": 16,
+        "title": "Guest Lecture: Thang Luong — AlphaProof, AlphaGeometry & Gemini IMO"
+      },
+      {
+        "n": 17,
+        "title": "Agentic Evaluations & Long-Horizon Tasks"
+      },
+      {
+        "n": 18,
+        "title": "Guest Lecture: Misha Laskin — Building Agentic Systems for Autonomy"
+      },
+      {
+        "n": 19,
+        "title": "Guest Lecture: Danny Driess — Multimodal AI Agents in Robotics"
+      },
+      {
+        "n": 20,
+        "title": "Future Research Areas"
+      }
+    ],
+    "note": "Autumn 2025 schedule；seminar 以论文阅读和 guest lecture 为主，slides 未公开。",
     "bilibili": [
       [
-        "2026 版 · 自改进 AI Agents（第三方）",
+        "2026 春 · 改进 AI Agents（第三方搬运）",
         "https://www.bilibili.com/video/BV1R6uF67EYp"
       ]
-    ],
-    "note": "B 站为第三方搬运。"
+    ]
   },
   "CS 224R": {
-    "bilibili": [
+    "schedule": [
+      "课程主页 / timeline",
+      "https://cs224r.stanford.edu/"
+    ],
+    "slides": [
       [
-        "2026 版 · 深度强化学习（第三方）",
-        "https://www.bilibili.com/video/BV1znrpBaEJa"
+        "Lecture 1 · Course Intro + MDPs & Imitation",
+        "https://cs224r.stanford.edu/slides/01_cs224r_intro_2026.pdf"
+      ],
+      [
+        "Lecture 2 · Imitation Learning",
+        "https://cs224r.stanford.edu/slides/02_cs224r_imitation_2026.pdf"
+      ],
+      [
+        "Lecture 3 · Policy Gradients",
+        "https://cs224r.stanford.edu/slides/03_cs224r_policy_gradients_2026.pdf"
+      ],
+      [
+        "Lecture 4 · Actor-Critic Methods",
+        "https://cs224r.stanford.edu/slides/04_cs224r_actor_critic_2026.pdf"
+      ],
+      [
+        "Lecture 5 · Off-Policy Actor-Critic",
+        "https://cs224r.stanford.edu/slides/05_cs224r_offpolicy_actor_critic_2026.pdf"
+      ],
+      [
+        "Lecture 6 · Q-learning",
+        "https://cs224r.stanford.edu/slides/06_cs224r_qlearning_2026.pdf"
+      ],
+      [
+        "Lecture 7 · Offline RL",
+        "https://cs224r.stanford.edu/slides/07_cs224r_offline_rl_2026.pdf"
+      ],
+      [
+        "Lecture 8 · Reward Learning",
+        "https://cs224r.stanford.edu/slides/08_cs224r_reward_learning_2026.pdf"
+      ],
+      [
+        "Lecture 9 · RL for LLMs: Preference Optimization",
+        "https://cs224r.stanford.edu/slides/09_cs224r_rlhf_2026.pdf"
+      ],
+      [
+        "Lecture 10 · RL for LLMs: Reasoning",
+        "https://cs224r.stanford.edu/slides/10_cs224r_rl_for_llms_reasoning_2026.pdf"
+      ],
+      [
+        "Lecture 11 · Model-Based RL",
+        "https://cs224r.stanford.edu/slides/11_cs224r_mbrl_2026.pdf"
+      ],
+      [
+        "Lecture 12 · Multi-Task and Goal-Conditioned RL",
+        "https://cs224r.stanford.edu/slides/12_cs224r_mtrl_gcrl_2026.pdf"
+      ],
+      [
+        "Lecture 13 · Meta-RL",
+        "https://cs224r.stanford.edu/slides/13_cs224r_metarl_2026.pdf"
+      ],
+      [
+        "Lecture 14 · Hierarchical RL and IL",
+        "https://cs224r.stanford.edu/slides/15_cs224r_hierarchy_2026.pdf"
+      ],
+      [
+        "Lecture 15 · Sim-to-Real Transfer",
+        "https://cs224r.stanford.edu/slides/16_cs224r_sim2real_robot_learning_2026.pdf"
+      ],
+      [
+        "Lecture 16 · RL for VLAs",
+        "https://cs224r.stanford.edu/slides/17_cs224r_rl_vlas_2026.pdf"
+      ],
+      [
+        "Lecture 17 · Frontiers",
+        "https://cs224r.stanford.edu/slides/18_cs224r_frontiers_how_to_research_2026.pdf"
       ]
     ],
-    "note": "B 站为第三方搬运。"
+    "lectures": [
+      {
+        "n": 1,
+        "title": "Course Intro + Start of MDPs & Imitation"
+      },
+      {
+        "n": 2,
+        "title": "Imitation Learning"
+      },
+      {
+        "n": 3,
+        "title": "Policy Gradients"
+      },
+      {
+        "n": 4,
+        "title": "Actor-Critic Methods"
+      },
+      {
+        "n": 5,
+        "title": "Off-Policy Actor-Critic Methods"
+      },
+      {
+        "n": 6,
+        "title": "Q-learning"
+      },
+      {
+        "n": 7,
+        "title": "Offline RL"
+      },
+      {
+        "n": 8,
+        "title": "Reward Learning"
+      },
+      {
+        "n": 9,
+        "title": "RL for LLMs: Preference Optimization (Archit Sharma)"
+      },
+      {
+        "n": 10,
+        "title": "RL for LLMs: Reasoning (Noam Brown)"
+      },
+      {
+        "n": 11,
+        "title": "Model-Based RL"
+      },
+      {
+        "n": 12,
+        "title": "Multi-Task and Goal-Conditioned RL"
+      },
+      {
+        "n": 13,
+        "title": "Meta-RL"
+      },
+      {
+        "n": 14,
+        "title": "Hierarchical RL and IL"
+      },
+      {
+        "n": 15,
+        "title": "RL for Robots: Sim-to-Real Transfer (Guanya Shi)"
+      },
+      {
+        "n": 16,
+        "title": "RL for Robots: RL for VLAs"
+      },
+      {
+        "n": 17,
+        "title": "Frontiers"
+      }
+    ],
+    "note": "Spring 2026 timeline；17 讲 slides 已直接链接官方 PDF。",
+    "bilibili": [
+      [
+        "2026 春 · 深度强化学习（第三方搬运）",
+        "https://www.bilibili.com/video/BV1znrpBaEJa"
+      ]
+    ]
   },
   "CS 224V": {
     "schedule": [
@@ -940,7 +1277,13 @@
         "title": "Training LLMs: instruction following and training data"
       }
     ],
-    "note": "Fall 2026 schedule；slides 在 Canvas，公开页只放 schedule 和主题。"
+    "note": "Fall 2026 schedule；slides 在 Canvas，公开页只放 schedule 和主题。",
+    "bilibili": [
+      [
+        "Fall 2024 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1pDYJ61EXr"
+      ]
+    ]
   },
   "CS 231A": {
     "schedule": [
@@ -1027,7 +1370,13 @@
         "title": "Guest Lecture"
       }
     ],
-    "note": "以 Spring 2025 syllabus 整理；slides 在 syllabus 页逐讲链接。"
+    "note": "以 Spring 2025 syllabus 整理；slides 在 syllabus 页逐讲链接。",
+    "bilibili": [
+      [
+        "中文字幕（第三方）",
+        "https://www.bilibili.com/video/BV1pb421b7RG"
+      ]
+    ]
   },
   "CS 279": {
     "schedule": [
@@ -1157,7 +1506,17 @@
         "title": "Diffusion Models for Discrete Data"
       }
     ],
-    "note": "以 Fall 2023 公开 syllabus 整理；当前学期以课程站为准。"
+    "note": "以 Fall 2023 公开 syllabus 整理；当前学期以课程站为准。",
+    "bilibili": [
+      [
+        "2023 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV17RwPezE7A"
+      ],
+      [
+        "2023 · 中配（第三方）",
+        "https://www.bilibili.com/video/BV1CLTM6SE2y"
+      ]
+    ]
   },
   "CS 329S": {
     "schedule": [
@@ -1495,7 +1854,17 @@
         "title": "Chatbots / Closing Remarks"
       }
     ],
-    "note": "以 Fall 2018 公开 lecture 主题整理；当前学期以课程站为准。"
+    "note": "以 Fall 2018 公开 lecture 主题整理；当前学期以课程站为准。",
+    "bilibili": [
+      [
+        "2025 秋 · 中配（第三方）",
+        "https://www.bilibili.com/video/BV1ytjb6eEk7"
+      ],
+      [
+        "2025 秋 · 原声（第三方）",
+        "https://www.bilibili.com/video/BV1f2H3zKEMt"
+      ]
+    ]
   },
   "CS 329H": {
     "schedule": [
@@ -1582,7 +1951,17 @@
         "title": "Summary and practical tips"
       }
     ],
-    "note": "Autumn 2026 18 sessions；slides 随课程发布。"
+    "note": "Autumn 2026 18 sessions；slides 随课程发布。",
+    "bilibili": [
+      [
+        "2024 秋 · 中英字幕（第三方）",
+        "https://www.bilibili.com/video/BV1vrJ1zDETs"
+      ],
+      [
+        "2024 秋 · 中英字幕（另一版本）",
+        "https://www.bilibili.com/video/BV1n2Hfz6EGR"
+      ]
+    ]
   },
   "CS 228": {
     "schedule": [
