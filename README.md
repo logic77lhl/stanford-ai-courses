@@ -1,3 +1,7 @@
+**中文** | [English](README.en.md)
+
+---
+
 # Stanford AI / ML / Agent 课程地图
 
 [![build](https://github.com/logic77lhl/stanford-ai-courses/actions/workflows/build.yml/badge.svg)](https://github.com/logic77lhl/stanford-ai-courses/actions/workflows/build.yml)
