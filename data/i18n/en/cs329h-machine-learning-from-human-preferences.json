@@ -1,0 +1,21 @@
+{
+  "slug": "cs329h-machine-learning-from-human-preferences",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "The theory and practice of RLHF: from choice models and preference learning to assistance games and fairness.",
+  "pos": "Taught by Sanmi Koyejo, CS 329H systematically explains how to optimize systems that are used by people. It connects psychometrics, discrete choice, reinforcement learning, information retrieval, and normative theory — a rigorous course for understanding RLHF/DPO and preference modeling in recommender systems.",
+  "topics": [
+    "**Choice modeling**: random utility, Plackett-Luce, axiomatic approaches",
+    "**Imitation and active learning**: behavior cloning, preference queries",
+    "**RLHF**: reward modeling, PPO, DPO, KTO",
+    "**Assistance games**: human-AI collaboration, bandits, recommendation",
+    "**Behavioral biases and style control**: preference heterogeneity, prompt/style",
+    "**Aggregation and fairness**: social choice, aggregating group preferences"
+  ],
+  "prereq": "Graduate-level ML (CS 229 level); probability and optimization.",
+  "assess": "Assignments plus a project/paper reproduction, combining theory and experiments. Check the current syllabus for details.",
+  "who": "Researchers in alignment, RLHF, recommendation, or HCI; engineers who want to understand why preference data is hard.",
+  "tips": "Understand Bradley-Terry and PPO first. Pair it with the RLHF chapter of CS 224N.",
+  "tags": ["RLHF", "Preferences", "Alignment", "Recommendation"],
+  "note": ""
+}

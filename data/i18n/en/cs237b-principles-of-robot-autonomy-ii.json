@@ -1,0 +1,22 @@
+{
+  "slug": "cs237b-principles-of-robot-autonomy-ii",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Autonomous robots II: RL/optimal control, manipulation, imitation learning, human-robot interaction, and system architecture.",
+  "pos": "CS 237B is the advanced follow-up to CS 237A, shifting from mobility to learning new skills and physical interaction. It covers RL and optimal control, contact dynamics, grasping/manipulation, imitation learning, human intent inference, and system architecture validation, implemented on a mobile manipulation platform.",
+  "topics": [
+    "**RL and optimal control**: MDPs, LQR, policy gradients",
+    "**Contact and manipulation**: grasping, non-prehensile manipulation, force control",
+    "**Imitation learning**: behavior cloning, DAgger, inverse RL",
+    "**Human intent inference**: shared autonomy",
+    "**System architecture**: perception-planning-control integration, validation",
+    "**ROS practice**",
+    "**Project**"
+  ],
+  "prereq": "CS 106A; CME 100; CME 106; AA 171/274 (or CS 237A).",
+  "assess": "Assignments plus a project on a mobile manipulation platform. Check the current syllabus for details.",
+  "who": "Robot manipulation, embodied AI, and human-robot collaboration.",
+  "tips": "Take CS 237A and CS 234 first. Pair contact dynamics with physics simulation.",
+  "tags": ["Robotics", "Manipulation", "RL", "Imitation learning"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

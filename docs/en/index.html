@@ -1,0 +1,882 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stanford AI Course Map · English</title>
+<meta name="description" content="Stanford&#x27;s AI courses are scattered across CS, EE, STATS, MS&amp;E, CME, AA, PSYCH, and SymSys. This map turns them into one browsable path: in-depth overviews of the core courses, a full course table, and six learning paths.">
+<meta name="theme-color" content="#09090b">
+<meta property="og:title" content="Stanford AI Course Map · English">
+<meta property="og:description" content="Stanford&#x27;s AI courses are scattered across CS, EE, STATS, MS&amp;E, CME, AA, PSYCH, and SymSys. This map turns them into one browsable path: in-depth overviews of the core courses, a full course table, and six learning paths.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="en" href="https://logic77lhl.github.io/stanford-ai-courses/en/">
+<link rel="alternate" hreflang="zh-CN" href="https://logic77lhl.github.io/stanford-ai-courses/">
+<link rel="alternate" hreflang="x-default" href="https://logic77lhl.github.io/stanford-ai-courses/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23d4b176' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4b176'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topin">
+    <a class="brand" href="index.html">Stanford AI <span>Course Map</span></a>
+    <nav class="nav" id="nav"><a href="index.html#map" class="on">Map</a><a href="index.html#courses">Courses</a><a href="paths.html">Paths</a><a href="semester.html">Semester</a><a href="prereqs.html">Prereqs</a><a href="bilibili.html">Bilibili</a><a href="index.html#about">About</a></nav>
+    <a class="lang" href="../index.html">中文</a>
+    <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
+    <button class="menu" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<main>
+<div class="wrap">
+  <section class="hero" id="map">
+    <p class="kicker">Stanford · 2026–27</p>
+    <h1>Stanford AI / ML / Agent<br><em>course map</em></h1>
+    <p class="hero-lede">Stanford&#x27;s AI courses are scattered across CS, EE, STATS, MS&amp;E, CME, AA, PSYCH, and SymSys. This map turns them into one browsable path: in-depth overviews of the core courses, a full course table, and six learning paths.</p>
+    <p class="hero-lede" style="color:var(--gold)">Full English edition: 55 core + 70 related courses, plus paths, semester, prerequisites, and Bilibili.</p>
+    <div class="hero-actions">
+      <a class="btn gold" href="#courses">Browse all courses</a>
+      <a class="btn" href="../index.html">Browse the Chinese site →</a>
+    </div>
+    <div class="stats" style="grid-template-columns:repeat(3,1fr)">
+      <div class="stat gold"><b>55</b><span>Core courses</span></div>
+      <div class="stat"><b>70</b><span>Related courses</span></div>
+      <div class="stat"><b>125</b><span>Total course pages</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="courses">
+    <div class="section-head"><h2>All courses</h2><small>Search / filter / sort</small><span class="line"></span><span class="count" id="courseCount"></span></div>
+    <div class="toolbar">
+      <input type="search" id="courseSearch" placeholder="Search course code, title, tag…" autocomplete="off">
+      <div class="seg" id="typeSeg">
+        <button class="on" data-type="all">All</button>
+        <button data-type="core">Core</button>
+        <button data-type="ext">Related</button>
+      </div>
+      <select id="courseSort">
+        <option value="code">By course code</option>
+        <option value="name">By title</option>
+        <option value="diff">By difficulty</option>
+      </select>
+    </div>
+    <div class="chips" id="catChips"><button class="chip on" data-cat="all">All</button><button class="chip" data-cat="基础核心">Foundations</button><button class="chip" data-cat="LLM 与 Agent">LLMs &amp; Agents</button><button class="chip" data-cat="ML 系统与硬件">ML Systems &amp; Hardware</button><button class="chip" data-cat="视觉、图形与生成">Vision, Graphics &amp; Generative Models</button><button class="chip" data-cat="机器人、具身智能">Robotics &amp; Embodied AI</button><button class="chip" data-cat="AI for Science 与医疗">AI for Science &amp; Health</button><button class="chip" data-cat="产品、伦理与设计">Product, Ethics &amp; Design</button><button class="chip" data-cat="统计与优化">Statistics &amp; Optimization</button></div>
+    <div class="course-grid" id="courseGrid"><a class="ccard" href="courses/cs221-artificial-intelligence.html" data-type="core" data-cat="基础核心" data-code="CS 221" data-diff="4" data-search="cs 221 artificial intelligence: principles and techniques 人工智能：原理与技术 the overview course for ai: search, mdps, graphical models, logic, and machine learning under one frame — making good decisions with incomplete information and limited compute. ai foundations search probability">
+  <div class="ccard-top"><span class="ccard-code">CS 221</span><span class="ccard-badge ">Core</span></div>
+  <h3>Artificial Intelligence: Principles and Techniques</h3>
+  <p>The overview course for AI: search, MDPs, graphical models, logic, and machine learning under one frame — making good decisions with incomplete information and limited compute.</p>
+  <div class="ccard-meta"><span>Autumn 2026, Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>AI</span><span>Foundations</span><span>Search</span></div>
+</a><a class="ccard" href="courses/cs224n-nlp-with-deep-learning.html" data-type="core" data-cat="基础核心" data-code="CS 224N" data-diff="4" data-search="cs 224n natural language processing with deep learning (linguist 284, symsys 195n) 自然语言处理与深度学习 the core nlp course from word2vec to llms: implement word2vec, rnns, and attention, then build an llm project. nlp llm dl foundations">
+  <div class="ccard-top"><span class="ccard-code">CS 224N</span><span class="ccard-badge ">Core</span></div>
+  <h3>Natural Language Processing with Deep Learning (LINGUIST 284, SYMSYS 195N)</h3>
+  <p>The core NLP course from word2vec to LLMs: implement word2vec, RNNs, and attention, then build an LLM project.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>NLP</span><span>LLM</span><span>DL</span></div>
+</a><a class="ccard" href="courses/cs224w-machine-learning-with-graphs.html" data-type="core" data-cat="基础核心" data-code="CS 224W" data-diff="3" data-search="cs 224w machine learning with graphs 图机器学习 graph machine learning: gnns, knowledge graphs, and influence maximization — turning relational data into learnable representations. graphs gnn representation learning">
+  <div class="ccard-top"><span class="ccard-code">CS 224W</span><span class="ccard-badge ">Core</span></div>
+  <h3>Machine Learning with Graphs</h3>
+  <p>Graph machine learning: GNNs, knowledge graphs, and influence maximization — turning relational data into learnable representations.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Graphs</span><span>GNN</span><span>Representation learning</span></div>
+</a><a class="ccard" href="courses/cs228-probabilistic-graphical-models.html" data-type="core" data-cat="基础核心" data-code="CS 228" data-diff="4" data-search="cs 228 probabilistic graphical models: principles and techniques 概率图模型 a systematic course on probabilistic graphical models: representation, inference, and learning — the foundation for bayesian methods and structured prediction. probability graphical models bayesian">
+  <div class="ccard-top"><span class="ccard-code">CS 228</span><span class="ccard-badge ">Core</span></div>
+  <h3>Probabilistic Graphical Models: Principles and Techniques</h3>
+  <p>A systematic course on probabilistic graphical models: representation, inference, and learning — the foundation for Bayesian methods and structured prediction.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Probability</span><span>Graphical models</span><span>Bayesian</span></div>
+</a><a class="ccard" href="courses/cs229-machine-learning.html" data-type="core" data-cat="基础核心" data-code="CS 229" data-diff="4" data-search="cs 229 machine learning (stats 229) 机器学习 stanford&#x27;s flagship ml course: a single probabilistic and statistical frame that connects supervised learning, unsupervised learning, and learning theory. ml foundations math statistics">
+  <div class="ccard-top"><span class="ccard-code">CS 229</span><span class="ccard-badge ">Core</span></div>
+  <h3>Machine Learning (STATS 229)</h3>
+  <p>Stanford&#x27;s flagship ML course: a single probabilistic and statistical frame that connects supervised learning, unsupervised learning, and learning theory.</p>
+  <div class="ccard-meta"><span>Winter 2027, Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>ML</span><span>Foundations</span><span>Math</span></div>
+</a><a class="ccard" href="courses/cs229m-machine-learning-theory.html" data-type="core" data-cat="基础核心" data-code="CS 229M" data-diff="5" data-search="cs 229m machine learning theory (stats 214) 机器学习理论 machine learning theory: generalization bounds, non-convex optimization, and implicit regularization — why deep learning works. theory math generalization">
+  <div class="ccard-top"><span class="ccard-code">CS 229M</span><span class="ccard-badge ">Core</span></div>
+  <h3>Machine Learning Theory (STATS 214)</h3>
+  <p>Machine learning theory: generalization bounds, non-convex optimization, and implicit regularization — why deep learning works.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★★</span></div>
+  <div class="ccard-tags"><span>Theory</span><span>Math</span><span>Generalization</span></div>
+</a><a class="ccard" href="courses/cs230-deep-learning.html" data-type="core" data-cat="基础核心" data-code="CS 230" data-diff="3" data-search="cs 230 deep learning 深度学习 ng&#x27;s hands-on deep learning course: from fully connected networks to cnns/rnns, focused on making dl projects succeed, not just deriving formulas. dl hands-on project">
+  <div class="ccard-top"><span class="ccard-code">CS 230</span><span class="ccard-badge ">Core</span></div>
+  <h3>Deep Learning</h3>
+  <p>Ng&#x27;s hands-on deep learning course: from fully connected networks to CNNs/RNNs, focused on making DL projects succeed, not just deriving formulas.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>DL</span><span>Hands-on</span><span>Project</span></div>
+</a><a class="ccard" href="courses/cs231n-deep-learning-for-computer-vision.html" data-type="core" data-cat="基础核心" data-code="CS 231N" data-diff="4" data-search="cs 231n deep learning for computer vision 计算机视觉的深度学习 the best-known deep-learning course in computer vision: from knn to transformers, with assignments that make you hand-write backpropagation and train cnns. cv dl vision project">
+  <div class="ccard-top"><span class="ccard-code">CS 231N</span><span class="ccard-badge ">Core</span></div>
+  <h3>Deep Learning for Computer Vision</h3>
+  <p>The best-known deep-learning course in computer vision: from kNN to Transformers, with assignments that make you hand-write backpropagation and train CNNs.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>CV</span><span>DL</span><span>Vision</span></div>
+</a><a class="ccard" href="courses/cs234-reinforcement-learning.html" data-type="core" data-cat="基础核心" data-code="CS 234" data-diff="4" data-search="cs 234 reinforcement learning 强化学习 the core reinforcement learning course: mdps, value iteration, policy gradients, exploration, with deep rl in the assignments. rl decision-making robotics">
+  <div class="ccard-top"><span class="ccard-code">CS 234</span><span class="ccard-badge ">Core</span></div>
+  <h3>Reinforcement Learning</h3>
+  <p>The core reinforcement learning course: MDPs, value iteration, policy gradients, exploration, with deep RL in the assignments.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>RL</span><span>Decision-making</span><span>Robotics</span></div>
+</a><a class="ccard" href="courses/cs236-deep-generative-models.html" data-type="core" data-cat="基础核心" data-code="CS 236" data-diff="4" data-search="cs 236 deep generative models 深度生成模型 a theory course on deep generative models: the probabilistic foundations and training algorithms behind vaes, gans, flows, and diffusion. generative models diffusion probability">
+  <div class="ccard-top"><span class="ccard-code">CS 236</span><span class="ccard-badge ">Core</span></div>
+  <h3>Deep Generative Models</h3>
+  <p>A theory course on deep generative models: the probabilistic foundations and training algorithms behind VAEs, GANs, flows, and diffusion.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Generative models</span><span>Diffusion</span><span>Probability</span></div>
+</a><a class="ccard" href="courses/cs-129-applied-machine-learning.html" data-type="ext" data-cat="基础核心" data-code="CS 129" data-diff="0" data-search="cs 129 applied machine learning 应用机器学习 a fast pass through the ml workflow, models, and evaluation for applied settings. applied machine learning">
+  <div class="ccard-top"><span class="ccard-code">CS 129</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Applied Machine Learning</h3>
+  <p>A fast pass through the ML workflow, models, and evaluation for applied settings.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Applied Machine Learning</span></div>
+</a><a class="ccard" href="courses/cs-224r-deep-reinforcement-learning.html" data-type="ext" data-cat="基础核心" data-code="CS 224R" data-diff="0" data-search="cs 224r deep reinforcement learning 深度强化学习 rl from imitation learning to rlhf, with an emphasis on deep methods and robotics/llm applications. deep reinforcement learning">
+  <div class="ccard-top"><span class="ccard-code">CS 224R</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Deep Reinforcement Learning</h3>
+  <p>RL from imitation learning to RLHF, with an emphasis on deep methods and robotics/LLM applications.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Deep Reinforcement Learning</span></div>
+</a><a class="ccard" href="courses/cs-224u-natural-language-understanding-linguist-188-linguist-288-symsys-195u.html" data-type="ext" data-cat="基础核心" data-code="CS 224U" data-diff="0" data-search="cs 224u natural language understanding (linguist 188, linguist 288, symsys 195u) 自然语言理解 semantic representation, reasoning, and evaluation — more understanding and experiments than cs 224n. natural language understanding">
+  <div class="ccard-top"><span class="ccard-code">CS 224U</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Natural Language Understanding (LINGUIST 188, LINGUIST 288, SYMSYS 195U)</h3>
+  <p>Semantic representation, reasoning, and evaluation — more understanding and experiments than CS 224N.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Natural Language Understanding</span></div>
+</a><a class="ccard" href="courses/cs-229b-machine-learning-for-sequence-modeling-stats-232.html" data-type="ext" data-cat="基础核心" data-code="CS 229B" data-diff="0" data-search="cs 229b machine learning for sequence modeling (stats 232) 序列建模 sequence models such as hmms, crfs, and rnns, plus their probabilistic foundations. sequence modeling">
+  <div class="ccard-top"><span class="ccard-code">CS 229B</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Machine Learning for Sequence Modeling (STATS 232)</h3>
+  <p>Sequence models such as HMMs, CRFs, and RNNs, plus their probabilistic foundations.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Sequence Modeling</span></div>
+</a><a class="ccard" href="courses/cs-246-mining-massive-data-sets.html" data-type="ext" data-cat="基础核心" data-code="CS 246" data-diff="0" data-search="cs 246 mining massive data sets 大规模数据挖掘 mapreduce, similarity, recommendation, graph mining, and streaming algorithms. mining massive datasets">
+  <div class="ccard-top"><span class="ccard-code">CS 246</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Mining Massive Data Sets</h3>
+  <p>MapReduce, similarity, recommendation, graph mining, and streaming algorithms.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Mining Massive Datasets</span></div>
+</a><a class="ccard" href="courses/cs-312-deep-learning-alchemy.html" data-type="ext" data-cat="基础核心" data-code="CS 312" data-diff="0" data-search="cs 312 deep learning alchemy 深度学习炼金术 training tricks, debugging, and experimental methods — explaining why things work. deep learning alchemy">
+  <div class="ccard-top"><span class="ccard-code">CS 312</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Deep Learning Alchemy</h3>
+  <p>Training tricks, debugging, and experimental methods — explaining why things work.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Deep Learning Alchemy</span></div>
+</a><a class="ccard" href="courses/cs-329d-machine-learning-under-distributional-shifts.html" data-type="ext" data-cat="基础核心" data-code="CS 329D" data-diff="0" data-search="cs 329d machine learning under distributional shifts 分布偏移下的 ml training, evaluation, and adaptation under covariate, label, and concept shift. ml under distribution shift">
+  <div class="ccard-top"><span class="ccard-code">CS 329D</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Machine Learning Under Distributional Shifts</h3>
+  <p>Training, evaluation, and adaptation under covariate, label, and concept shift.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>ML under Distribution Shift</span></div>
+</a><a class="ccard" href="courses/cs-329p-practical-machine-learning.html" data-type="ext" data-cat="基础核心" data-code="CS 329P" data-diff="0" data-search="cs 329p practical machine learning 实用机器学习 engineering practice for data, features, model selection, and deployment. practical machine learning">
+  <div class="ccard-top"><span class="ccard-code">CS 329P</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Practical Machine Learning</h3>
+  <p>Engineering practice for data, features, model selection, and deployment.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Practical Machine Learning</span></div>
+</a><a class="ccard" href="courses/cs-330-deep-multi-task-and-meta-learning.html" data-type="ext" data-cat="基础核心" data-code="CS 330" data-diff="0" data-search="cs 330 deep multi-task and meta learning 多任务与元学习 multi-task learning, few-shot learning, meta-rl, and transfer learning. multi-task and meta-learning">
+  <div class="ccard-top"><span class="ccard-code">CS 330</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Deep Multi-task and Meta Learning</h3>
+  <p>Multi-task learning, few-shot learning, meta-RL, and transfer learning.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Multi-Task and Meta-Learning</span></div>
+</a><a class="ccard" href="courses/cs-332-advanced-survey-of-reinforcement-learning.html" data-type="ext" data-cat="基础核心" data-code="CS 332" data-diff="0" data-search="cs 332 advanced survey of reinforcement learning 高级强化学习 rl theory, exploration, function approximation, and a survey of frontier directions. advanced reinforcement learning">
+  <div class="ccard-top"><span class="ccard-code">CS 332</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Advanced Survey of Reinforcement Learning</h3>
+  <p>RL theory, exploration, function approximation, and a survey of frontier directions.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Advanced Reinforcement Learning</span></div>
+</a><a class="ccard" href="courses/cs221m-mechanistic-interpretability.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 221M" data-diff="4" data-search="cs 221m mechanistic interpretability 机制可解释性 mechanistic interpretability: probing, steering, causal abstraction, and sparse autoencoders — understanding what a model is actually computing. interpretability llm safety research">
+  <div class="ccard-top"><span class="ccard-code">CS 221M</span><span class="ccard-badge ">Core</span></div>
+  <h3>Mechanistic Interpretability</h3>
+  <p>Mechanistic interpretability: probing, steering, causal abstraction, and sparse autoencoders — understanding what a model is actually computing.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Interpretability</span><span>LLM</span><span>Safety</span></div>
+</a><a class="ccard" href="courses/cs222-ai-agents-and-simulations.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 222" data-diff="3" data-search="cs 222 ai agents and simulations (psych 186) ai agent 与社会模拟 simulate human society with agent-based models and generative agents, and run &#x27;what if&#x27; experiments. agent social simulation multi-agent">
+  <div class="ccard-top"><span class="ccard-code">CS 222</span><span class="ccard-badge ">Core</span></div>
+  <h3>AI Agents and Simulations (PSYCH 186)</h3>
+  <p>Simulate human society with agent-based models and generative agents, and run &#x27;what if&#x27; experiments.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Agent</span><span>Social simulation</span><span>Multi-agent</span></div>
+</a><a class="ccard" href="courses/cs224g-apps-with-llms-inside.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 224G" data-diff="3" data-search="cs 224g apps with llms inside llm 应用开发 llm application development: ship apps in sprints and understand model capability boundaries and the new programming paradigm. llm product project">
+  <div class="ccard-top"><span class="ccard-code">CS 224G</span><span class="ccard-badge ">Core</span></div>
+  <h3>Apps With LLMs Inside</h3>
+  <p>LLM application development: ship apps in sprints and understand model capability boundaries and the new programming paradigm.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>LLM</span><span>Product</span><span>Project</span></div>
+</a><a class="ccard" href="courses/cs224v-agentic-ai.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 224V" data-diff="4" data-search="cs 224v agentic ai 智能体 ai turn llms into agents that can retrieve, reason, and execute long-horizon tasks: rag, tools, knowledge bases, formal methods, and long-range planning. agent rag llm project">
+  <div class="ccard-top"><span class="ccard-code">CS 224V</span><span class="ccard-badge ">Core</span></div>
+  <h3>Agentic AI</h3>
+  <p>Turn LLMs into agents that can retrieve, reason, and execute long-horizon tasks: RAG, tools, knowledge bases, formal methods, and long-range planning.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Agent</span><span>RAG</span><span>LLM</span></div>
+</a><a class="ccard" href="courses/cs25-transformers-united.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 25" data-diff="1" data-search="cs 25 transformers united v6 (symsys 25) transformers united the public lecture series of the transformer universe: one top researcher each week on llms, generation, robotics, and science. transformer lectures frontier">
+  <div class="ccard-top"><span class="ccard-code">CS 25</span><span class="ccard-badge ">Core</span></div>
+  <h3>Transformers United V6 (SYMSYS 25)</h3>
+  <p>The public lecture series of the Transformer universe: one top researcher each week on LLMs, generation, robotics, and science.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★☆☆☆☆</span></div>
+  <div class="ccard-tags"><span>Transformer</span><span>Lectures</span><span>Frontier</span></div>
+</a><a class="ccard" href="courses/cs324-advances-in-foundation-models.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 324" data-diff="3" data-search="cs 324 advances in foundation models 基础模型进展 a panorama of foundation models: models/algorithms, systems/infrastructure, ethics/social impact, plus a hands-on project. foundation models llm multimodality">
+  <div class="ccard-top"><span class="ccard-code">CS 324</span><span class="ccard-badge ">Core</span></div>
+  <h3>Advances in Foundation Models</h3>
+  <p>A panorama of foundation models: models/algorithms, systems/infrastructure, ethics/social impact, plus a hands-on project.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Foundation models</span><span>LLM</span><span>Multimodality</span></div>
+</a><a class="ccard" href="courses/cs329a-self-improving-ai-agents.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 329A" data-diff="4" data-search="cs 329a self improving ai agents 自我改进的 ai agent a research seminar on self-improvement, verifiers, test-time compute, search, tools, multimodal web, and long-horizon planning. agent research reasoning self-improvement">
+  <div class="ccard-top"><span class="ccard-code">CS 329A</span><span class="ccard-badge ">Core</span></div>
+  <h3>Self Improving AI Agents</h3>
+  <p>A research seminar on self-improvement, verifiers, test-time compute, search, tools, multimodal web, and long-horizon planning.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Agent</span><span>Research</span><span>Reasoning</span></div>
+</a><a class="ccard" href="courses/cs329h-machine-learning-from-human-preferences.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 329H" data-diff="4" data-search="cs 329h machine learning from human preferences 从人类偏好中学习 the theory and practice of rlhf: from choice models and preference learning to assistance games and fairness. rlhf preferences alignment recommendation">
+  <div class="ccard-top"><span class="ccard-code">CS 329H</span><span class="ccard-badge ">Core</span></div>
+  <h3>Machine Learning from Human Preferences</h3>
+  <p>The theory and practice of RLHF: from choice models and preference learning to assistance games and fairness.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>RLHF</span><span>Preferences</span><span>Alignment</span></div>
+</a><a class="ccard" href="courses/cs329t-trustworthy-machine-learning.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 329T" data-diff="3" data-search="cs 329t trustworthy machine learning: building and evaluating agentic systems 可信机器学习：构建与评估 agent 系统 trustworthy agent systems: build a prototype, then use evaluation to make it reliable. agent trustworthy eval project">
+  <div class="ccard-top"><span class="ccard-code">CS 329T</span><span class="ccard-badge ">Core</span></div>
+  <h3>Trustworthy Machine Learning: Building and evaluating agentic systems</h3>
+  <p>Trustworthy agent systems: build a prototype, then use evaluation to make it reliable.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Agent</span><span>Trustworthy</span><span>Eval</span></div>
+</a><a class="ccard" href="courses/cs329z-engineering-ai-agents.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 329Z" data-diff="4" data-search="cs 329z engineering ai agents ai agent 工程 engineering methodology from llm pipelines to compound ai systems to autonomous agents: choose the problem, decompose it, pick components, and evaluate. agent engineering rag eval">
+  <div class="ccard-top"><span class="ccard-code">CS 329Z</span><span class="ccard-badge ">Core</span></div>
+  <h3>Engineering AI Agents</h3>
+  <p>Engineering methodology from LLM pipelines to compound AI systems to autonomous agents: choose the problem, decompose it, pick components, and evaluate.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Agent</span><span>Engineering</span><span>RAG</span></div>
+</a><a class="ccard" href="courses/cs336-language-modeling-from-scratch.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 336" data-diff="5" data-search="cs 336 language modeling from scratch 从零构建语言模型 build a language model from scratch: data cleaning, tokenizer, transformer, training, scaling, evaluation, and deployment. llm pre-training systems hard-core">
+  <div class="ccard-top"><span class="ccard-code">CS 336</span><span class="ccard-badge ">Core</span></div>
+  <h3>Language Modeling from Scratch</h3>
+  <p>Build a language model from scratch: data cleaning, tokenizer, Transformer, training, scaling, evaluation, and deployment.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">★★★★★</span></div>
+  <div class="ccard-tags"><span>LLM</span><span>Pre-training</span><span>Systems</span></div>
+</a><a class="ccard" href="courses/cs372-agi-reasoning-planning.html" data-type="core" data-cat="LLM 与 Agent" data-code="CS 372" data-diff="4" data-search="cs 372 artificial general intelligence for reasoning, planning, and decision making agi 的推理、规划与决策 reasoning, planning, and decision-making for agi: from system 1 to system 2, multi-llm collaboration, and temporal reasoning. agi reasoning planning multi-agent">
+  <div class="ccard-top"><span class="ccard-code">CS 372</span><span class="ccard-badge ">Core</span></div>
+  <h3>Artificial General Intelligence for Reasoning, Planning, and Decision Making</h3>
+  <p>Reasoning, planning, and decision-making for AGI: from System 1 to System 2, multi-LLM collaboration, and temporal reasoning.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>AGI</span><span>Reasoning</span><span>Planning</span></div>
+</a><a class="ccard" href="courses/cs-120-introduction-to-ai-safety.html" data-type="ext" data-cat="LLM 与 Agent" data-code="CS 120" data-diff="0" data-search="cs 120 introduction to ai safety ai 安全入门 from alignment and robustness to misuse risk — a basic checklist of ai safety problems. intro to ai safety">
+  <div class="ccard-top"><span class="ccard-code">CS 120</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Introduction to AI Safety</h3>
+  <p>From alignment and robustness to misuse risk — a basic checklist of AI safety problems.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Intro to AI Safety</span></div>
+</a><a class="ccard" href="courses/cs-224c-nlp-for-computational-social-science.html" data-type="ext" data-cat="LLM 与 Agent" data-code="CS 224C" data-diff="0" data-search="cs 224c nlp for computational social science nlp × 计算社会科学 use nlp to measure social phenomena and causal relationships in text. nlp × computational social science">
+  <div class="ccard-top"><span class="ccard-code">CS 224C</span><span class="ccard-badge ext">Related</span></div>
+  <h3>NLP for Computational Social Science</h3>
+  <p>Use NLP to measure social phenomena and causal relationships in text.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>NLP × Computational Social Science</span></div>
+</a><a class="ccard" href="courses/cs-224s-spoken-language-processing-linguist-285.html" data-type="ext" data-cat="LLM 与 Agent" data-code="CS 224S" data-diff="0" data-search="cs 224s spoken language processing (linguist 285) 语音处理 speech recognition, synthesis, and understanding, combining signal processing and deep models. speech processing">
+  <div class="ccard-top"><span class="ccard-code">CS 224S</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Spoken Language Processing (LINGUIST 285)</h3>
+  <p>Speech recognition, synthesis, and understanding, combining signal processing and deep models.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Speech Processing</span></div>
+</a><a class="ccard" href="courses/cs-329m-machine-programming.html" data-type="ext" data-cat="LLM 与 Agent" data-code="CS 329M" data-diff="0" data-search="cs 329m machine programming machine programming use ml for code generation, program synthesis, and software-engineering automation. machine programming">
+  <div class="ccard-top"><span class="ccard-code">CS 329M</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Machine Programming</h3>
+  <p>Use ML for code generation, program synthesis, and software-engineering automation.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Machine Programming</span></div>
+</a><a class="ccard" href="courses/cs-329x-human-centered-nlp-cs-129x.html" data-type="ext" data-cat="LLM 与 Agent" data-code="CS 329X" data-diff="0" data-search="cs 329x human centered nlp (cs 129x) 人本 nlp nlp centered on users, collaboration, and interactive systems. human-centered nlp">
+  <div class="ccard-top"><span class="ccard-code">CS 329X</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Human Centered NLP (CS 129X)</h3>
+  <p>NLP centered on users, collaboration, and interactive systems.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Human-Centered NLP</span></div>
+</a><a class="ccard" href="courses/cs-338-aligning-superintelligence-mse-338.html" data-type="ext" data-cat="LLM 与 Agent" data-code="CS 338" data-diff="0" data-search="cs 338 aligning superintelligence (ms&amp;e 338) 对齐超级智能 alignment, governance, and safety strategies for superintelligence. aligning superintelligence">
+  <div class="ccard-top"><span class="ccard-code">CS 338</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Aligning Superintelligence (MS&amp;E 338)</h3>
+  <p>Alignment, governance, and safety strategies for superintelligence.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Aligning Superintelligence</span></div>
+</a><a class="ccard" href="courses/cs-362-research-in-ai-alignment.html" data-type="ext" data-cat="LLM 与 Agent" data-code="CS 362" data-diff="0" data-search="cs 362 research in ai alignment ai 对齐研究 reading, reproduction, and project work in alignment research. ai alignment research">
+  <div class="ccard-top"><span class="ccard-code">CS 362</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Research in AI Alignment</h3>
+  <p>Reading, reproduction, and project work in alignment research.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI Alignment Research</span></div>
+</a><a class="ccard" href="courses/cs-521-seminar-on-ai-safety.html" data-type="ext" data-cat="LLM 与 Agent" data-code="CS 521" data-diff="0" data-search="cs 521 seminar on ai safety ai 安全 seminar discussion of frontier papers and research directions in ai safety. ai safety seminar">
+  <div class="ccard-top"><span class="ccard-code">CS 521</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Seminar on AI Safety</h3>
+  <p>Discussion of frontier papers and research directions in AI safety.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI Safety Seminar</span></div>
+</a><a class="ccard" href="courses/mse-338-aligning-superintelligence-cs-338.html" data-type="ext" data-cat="LLM 与 Agent" data-code="MS&amp;E 338" data-diff="0" data-search="ms&amp;e 338 aligning superintelligence (cs 338) 对齐超级智能 alignment and governance, cross-listed with cs 338. aligning superintelligence">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 338</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Aligning Superintelligence (CS 338)</h3>
+  <p>Alignment and governance, cross-listed with CS 338.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Aligning Superintelligence</span></div>
+</a><a class="ccard" href="courses/psych-239-do-language-models-have-mental-states.html" data-type="ext" data-cat="LLM 与 Agent" data-code="PSYCH 239" data-diff="0" data-search="psych 239 do language models have mental states llm 有心理状态吗 discuss mind attribution to llms through psychological frameworks. do llms have mental states?">
+  <div class="ccard-top"><span class="ccard-code">PSYCH 239</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Do Language Models Have Mental States</h3>
+  <p>Discuss mind attribution to LLMs through psychological frameworks.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Do LLMs Have Mental States?</span></div>
+</a><a class="ccard" href="courses/stats-292-statistical-models-of-text-and-language.html" data-type="ext" data-cat="LLM 与 Agent" data-code="STATS 292" data-diff="0" data-search="stats 292 statistical models of text and language 文本统计模型 statistical modeling of text, language models, and statistical inference. statistical models of text">
+  <div class="ccard-top"><span class="ccard-code">STATS 292</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Statistical Models of Text and Language</h3>
+  <p>Statistical modeling of text, language models, and statistical inference.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Statistical Models of Text</span></div>
+</a><a class="ccard" href="courses/cs217-hardware-accelerators-for-ml.html" data-type="core" data-cat="ML 系统与硬件" data-code="CS 217" data-diff="4" data-search="cs 217 hardware accelerators for machine learning (ee 244) 机器学习硬件加速器 ml hardware accelerators: dataflow, tensor processing, memory hierarchy, compilation, and mapping cnns/transformers. hardware accelerators architecture chips">
+  <div class="ccard-top"><span class="ccard-code">CS 217</span><span class="ccard-badge ">Core</span></div>
+  <h3>Hardware Accelerators for Machine Learning (EE 244)</h3>
+  <p>ML hardware accelerators: dataflow, tensor processing, memory hierarchy, compilation, and mapping CNNs/Transformers.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Hardware</span><span>Accelerators</span><span>Architecture</span></div>
+</a><a class="ccard" href="courses/cs229s-systems-for-machine-learning.html" data-type="core" data-cat="ML 系统与硬件" data-code="CS 229S" data-diff="4" data-search="cs 229s systems for machine learning 机器学习系统 ml systems: efficiency across the data, training, and inference stack, with hardware-software co-design. mlsys systems distributed performance">
+  <div class="ccard-top"><span class="ccard-code">CS 229S</span><span class="ccard-badge ">Core</span></div>
+  <h3>Systems for Machine Learning</h3>
+  <p>ML systems: efficiency across the data, training, and inference stack, with hardware-software co-design.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>MLSys</span><span>Systems</span><span>Distributed</span></div>
+</a><a class="ccard" href="courses/cs329s-machine-learning-systems-design.html" data-type="core" data-cat="ML 系统与硬件" data-code="CS 329S" data-diff="3" data-search="cs 329s machine learning systems design 机器学习系统设计 ml systems design: from data management to deployment and monitoring, plus privacy, fairness, and security. mlsys engineering deployment project">
+  <div class="ccard-top"><span class="ccard-code">CS 329S</span><span class="ccard-badge ">Core</span></div>
+  <h3>Machine Learning Systems Design</h3>
+  <p>ML systems design: from data management to deployment and monitoring, plus privacy, fairness, and security.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>MLSys</span><span>Engineering</span><span>Deployment</span></div>
+</a><a class="ccard" href="courses/cs349d-ai-inference-infrastructure.html" data-type="core" data-cat="ML 系统与硬件" data-code="CS 349D" data-diff="4" data-search="cs 349d ai inference infrastructure ai 推理基础设施 ai inference infrastructure: how compound ai systems are deployed, scheduled, and scaled in the cloud. inference infrastructure cloud systems">
+  <div class="ccard-top"><span class="ccard-code">CS 349D</span><span class="ccard-badge ">Core</span></div>
+  <h3>AI Inference Infrastructure</h3>
+  <p>AI inference infrastructure: how compound AI systems are deployed, scheduled, and scaled in the cloud.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Inference</span><span>Infrastructure</span><span>Cloud</span></div>
+</a><a class="ccard" href="courses/cs349e-efficient-ml-inference-at-scale.html" data-type="core" data-cat="ML 系统与硬件" data-code="CS 349E" data-diff="5" data-search="cs 349e efficient ml inference at scale (ee 339) 大规模高效 ml 推理 efficient inference at scale: model optimization, distributed serving, ai hardware, kernels, and compilers. inference performance hardware compilers">
+  <div class="ccard-top"><span class="ccard-code">CS 349E</span><span class="ccard-badge ">Core</span></div>
+  <h3>Efficient ML Inference at Scale (EE 339)</h3>
+  <p>Efficient inference at scale: model optimization, distributed serving, AI hardware, kernels, and compilers.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★★</span></div>
+  <div class="ccard-tags"><span>Inference</span><span>Performance</span><span>Hardware</span></div>
+</a><a class="ccard" href="courses/cs349f-fabric-architectures-for-ai-systems.html" data-type="core" data-cat="ML 系统与硬件" data-code="CS 349F" data-diff="4" data-search="cs 349f fabric architectures for ai systems ai 系统的网络 fabric 架构 the network fabric of ai clusters: fat trees, congestion control, and scheduling, aiming for ultra-low latency and near-100% goodput. networking clusters data centers systems">
+  <div class="ccard-top"><span class="ccard-code">CS 349F</span><span class="ccard-badge ">Core</span></div>
+  <h3>Fabric Architectures For AI Systems</h3>
+  <p>The network fabric of AI clusters: fat trees, congestion control, and scheduling, aiming for ultra-low latency and near-100% goodput.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Networking</span><span>Clusters</span><span>Data centers</span></div>
+</a><a class="ccard" href="courses/cs-253-securing-ai-systems.html" data-type="ext" data-cat="ML 系统与硬件" data-code="CS 253" data-diff="0" data-search="cs 253 securing ai systems ai 系统安全 model stealing, adversarial examples, data poisoning, and the llm system attack surface. ai systems security">
+  <div class="ccard-top"><span class="ccard-code">CS 253</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Securing AI Systems</h3>
+  <p>Model stealing, adversarial examples, data poisoning, and the LLM system attack surface.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI Systems Security</span></div>
+</a><a class="ccard" href="courses/cs-329e-machine-learning-on-embedded-systems-ee-292d.html" data-type="ext" data-cat="ML 系统与硬件" data-code="CS 329E" data-diff="0" data-search="cs 329e machine learning on embedded systems (ee 292d) 嵌入式 ml deploy and compress models on mcus, phones, and edge devices. embedded ml">
+  <div class="ccard-top"><span class="ccard-code">CS 329E</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Machine Learning on Embedded Systems (EE 292D)</h3>
+  <p>Deploy and compress models on MCUs, phones, and edge devices.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Embedded ML</span></div>
+</a><a class="ccard" href="courses/cs-349h-software-techniques-for-emerging-hardware-platforms-ee-349.html" data-type="ext" data-cat="ML 系统与硬件" data-code="CS 349H" data-diff="0" data-search="cs 349h software techniques for emerging hardware platforms (ee 349) 新硬件软件技术 write efficient software for fpgas, accelerators, and other new hardware. software for new hardware">
+  <div class="ccard-top"><span class="ccard-code">CS 349H</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Software Techniques for Emerging Hardware Platforms (EE 349)</h3>
+  <p>Write efficient software for FPGAs, accelerators, and other new hardware.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Software for New Hardware</span></div>
+</a><a class="ccard" href="courses/cs-528-machine-learning-systems-seminar.html" data-type="ext" data-cat="ML 系统与硬件" data-code="CS 528" data-diff="0" data-search="cs 528 machine learning systems seminar ml 系统 seminar discussion of frontier papers in ml systems and infrastructure. ml systems seminar">
+  <div class="ccard-top"><span class="ccard-code">CS 528</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Machine Learning Systems Seminar</h3>
+  <p>Discussion of frontier papers in ML systems and infrastructure.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>ML Systems Seminar</span></div>
+</a><a class="ccard" href="courses/cs231a-computer-vision-3d.html" data-type="core" data-cat="视觉、图形与生成" data-code="CS 231A" data-diff="4" data-search="cs 231a computer vision: from 3d perception to 3d reconstruction and beyond 计算机视觉：从 3d 感知到重建 computer vision from camera models to 3d reconstruction: geometry first, deep learning second. cv 3d geometry reconstruction">
+  <div class="ccard-top"><span class="ccard-code">CS 231A</span><span class="ccard-badge ">Core</span></div>
+  <h3>Computer Vision: From 3D Perception to 3D Reconstruction and Beyond</h3>
+  <p>Computer vision from camera models to 3D reconstruction: geometry first, deep learning second.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>CV</span><span>3D</span><span>Geometry</span></div>
+</a><a class="ccard" href="courses/cs236g-generative-adversarial-networks.html" data-type="core" data-cat="视觉、图形与生成" data-code="CS 236G" data-diff="3" data-search="cs 236g generative adversarial networks 生成对抗网络 a dedicated gan course: from principles to sota, covering training stability, evaluation, and bias. gan generative models vision">
+  <div class="ccard-top"><span class="ccard-code">CS 236G</span><span class="ccard-badge ">Core</span></div>
+  <h3>Generative Adversarial Networks</h3>
+  <p>A dedicated GAN course: from principles to SOTA, covering training stability, evaluation, and bias.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>GAN</span><span>Generative models</span><span>Vision</span></div>
+</a><a class="ccard" href="courses/cs348i-computer-graphics-in-the-era-of-ai.html" data-type="core" data-cat="视觉、图形与生成" data-code="CS 348I" data-diff="4" data-search="cs 348i computer graphics in the era of ai ai 时代的计算机图形学 computer graphics in the ai era: neural rendering, differentiable rendering, materials/textures, animation, and physics simulation. graphics neural rendering 3d generation">
+  <div class="ccard-top"><span class="ccard-code">CS 348I</span><span class="ccard-badge ">Core</span></div>
+  <h3>Computer Graphics in the Era of AI</h3>
+  <p>Computer graphics in the AI era: neural rendering, differentiable rendering, materials/textures, animation, and physics simulation.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Graphics</span><span>Neural rendering</span><span>3D</span></div>
+</a><a class="ccard" href="courses/cs348n-neural-models-for-3d-geometry.html" data-type="core" data-cat="视觉、图形与生成" data-code="CS 348N" data-diff="4" data-search="cs 348n neural models for 3d geometry 3d 几何的神经模型 neural representations for 3d geometry: point clouds, meshes, implicit fields, and 3d generation. 3d generative models graphics nerf">
+  <div class="ccard-top"><span class="ccard-code">CS 348N</span><span class="ccard-badge ">Core</span></div>
+  <h3>Neural Models for 3D Geometry</h3>
+  <p>Neural representations for 3D geometry: point clouds, meshes, implicit fields, and 3D generation.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>3D</span><span>Generative models</span><span>Graphics</span></div>
+</a><a class="ccard" href="courses/cs448i-computational-imaging.html" data-type="core" data-cat="视觉、图形与生成" data-code="CS 448I" data-diff="4" data-search="cs 448i computational imaging (ee 367) 计算成像 computational imaging: from convolution/denoising to inverse problems, wave optics, and end-to-end optics-algorithm co-design. imaging inverse problems optics cv">
+  <div class="ccard-top"><span class="ccard-code">CS 448I</span><span class="ccard-badge ">Core</span></div>
+  <h3>Computational Imaging (EE 367)</h3>
+  <p>Computational imaging: from convolution/denoising to inverse problems, wave optics, and end-to-end optics-algorithm co-design.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Imaging</span><span>Inverse problems</span><span>Optics</span></div>
+</a><a class="ccard" href="courses/cs468-topics-in-geometric-computing.html" data-type="core" data-cat="视觉、图形与生成" data-code="CS 468" data-diff="4" data-search="cs 468 topics in geometric computing - 3d and 4d foundation models 几何计算专题：3d/4d 基础模型 a special-topics course in geometric computing, recently focused on 3d/4d foundation models. geometry 3d graphics topics">
+  <div class="ccard-top"><span class="ccard-code">CS 468</span><span class="ccard-badge ">Core</span></div>
+  <h3>Topics in Geometric Computing - 3D and 4D Foundation Models</h3>
+  <p>A special-topics course in geometric computing, recently focused on 3D/4D foundation models.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Geometry</span><span>3D</span><span>Graphics</span></div>
+</a><a class="ccard" href="courses/cs-131-computer-vision-foundations-and-applications.html" data-type="ext" data-cat="视觉、图形与生成" data-code="CS 131" data-diff="0" data-search="cs 131 computer vision: foundations and applications 计算机视觉基础 image formation, features, geometry, and recognition — the undergraduate intro to cv. computer vision foundations">
+  <div class="ccard-top"><span class="ccard-code">CS 131</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Computer Vision: Foundations and Applications</h3>
+  <p>Image formation, features, geometry, and recognition — the undergraduate intro to CV.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Computer Vision Foundations</span></div>
+</a><a class="ccard" href="courses/cs-348k-visual-computing-systems.html" data-type="ext" data-cat="视觉、图形与生成" data-code="CS 348K" data-diff="0" data-search="cs 348k visual computing systems 视觉计算系统 systems and hardware co-design for image and video processing. visual computing systems">
+  <div class="ccard-top"><span class="ccard-code">CS 348K</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Visual Computing Systems</h3>
+  <p>Systems and hardware co-design for image and video processing.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Visual Computing Systems</span></div>
+</a><a class="ccard" href="courses/cs-470-music-and-ai-music-356.html" data-type="ext" data-cat="视觉、图形与生成" data-code="CS 470" data-diff="0" data-search="cs 470 music and ai (music 356) 音乐与 ai ml methods for generation, retrieval, and music understanding. music and ai">
+  <div class="ccard-top"><span class="ccard-code">CS 470</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Music and AI (MUSIC 356)</h3>
+  <p>ML methods for generation, retrieval, and music understanding.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Music and AI</span></div>
+</a><a class="ccard" href="courses/cs-523-research-seminar-in-computer-vision-x.html" data-type="ext" data-cat="视觉、图形与生成" data-code="CS 523" data-diff="0" data-search="cs 523 research seminar in computer vision + x cv + x seminar a research seminar at the intersection of vision and other fields. cv + x seminar">
+  <div class="ccard-top"><span class="ccard-code">CS 523</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Research Seminar in Computer Vision + X</h3>
+  <p>A research seminar at the intersection of vision and other fields.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>CV + X Seminar</span></div>
+</a><a class="ccard" href="courses/cs223a-introduction-to-robotics.html" data-type="core" data-cat="机器人、具身智能" data-code="CS 223A" data-diff="4" data-search="cs 223a introduction to robotics (me 320) 机器人学导论 robotics fundamentals: kinematics, statics, dynamics, planning, and control. robotics kinematics control foundations">
+  <div class="ccard-top"><span class="ccard-code">CS 223A</span><span class="ccard-badge ">Core</span></div>
+  <h3>Introduction to Robotics (ME 320)</h3>
+  <p>Robotics fundamentals: kinematics, statics, dynamics, planning, and control.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Robotics</span><span>Kinematics</span><span>Control</span></div>
+</a><a class="ccard" href="courses/cs225a-experimental-robotics.html" data-type="core" data-cat="机器人、具身智能" data-code="CS 225A" data-diff="4" data-search="cs 225a experimental robotics 实验机器人学 experimental robotics: hands-on kinematics, dynamics, control, compliance, and collision avoidance for robot arms. robotics lab control project">
+  <div class="ccard-top"><span class="ccard-code">CS 225A</span><span class="ccard-badge ">Core</span></div>
+  <h3>Experimental Robotics</h3>
+  <p>Experimental robotics: hands-on kinematics, dynamics, control, compliance, and collision avoidance for robot arms.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Robotics</span><span>Lab</span><span>Control</span></div>
+</a><a class="ccard" href="courses/cs227a-robot-perception.html" data-type="core" data-cat="机器人、具身智能" data-code="CS 227A" data-diff="4" data-search="cs 227a robot perception (ee 227) 机器人感知 robot perception: vision/tactile/acoustic sensors plus algorithms, building a vision-based robot system in simulation. robotics perception vision simulation">
+  <div class="ccard-top"><span class="ccard-code">CS 227A</span><span class="ccard-badge ">Core</span></div>
+  <h3>Robot Perception (EE 227)</h3>
+  <p>Robot perception: vision/tactile/acoustic sensors plus algorithms, building a vision-based robot system in simulation.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Robotics</span><span>Perception</span><span>Vision</span></div>
+</a><a class="ccard" href="courses/cs237a-principles-of-robot-autonomy-i.html" data-type="core" data-cat="机器人、具身智能" data-code="CS 237A" data-diff="4" data-search="cs 237a principles of robot autonomy i (aa 274a, ee 260a, me 274a) 机器人自主性原理 i autonomous robots i: perception, localization, slam, nonlinear control, motion planning, and pomdps. robotics slam planning ros">
+  <div class="ccard-top"><span class="ccard-code">CS 237A</span><span class="ccard-badge ">Core</span></div>
+  <h3>Principles of Robot Autonomy I (AA 274A, EE 260A, ME 274A)</h3>
+  <p>Autonomous robots I: perception, localization, SLAM, nonlinear control, motion planning, and POMDPs.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Robotics</span><span>SLAM</span><span>Planning</span></div>
+</a><a class="ccard" href="courses/cs237b-principles-of-robot-autonomy-ii.html" data-type="core" data-cat="机器人、具身智能" data-code="CS 237B" data-diff="4" data-search="cs 237b principles of robot autonomy ii (aa 174b, aa 274b, ee 260b, me 274b) 机器人自主性原理 ii autonomous robots ii: rl/optimal control, manipulation, imitation learning, human-robot interaction, and system architecture. robotics manipulation rl imitation learning">
+  <div class="ccard-top"><span class="ccard-code">CS 237B</span><span class="ccard-badge ">Core</span></div>
+  <h3>Principles of Robot Autonomy II (AA 174B, AA 274B, EE 260B, ME 274B)</h3>
+  <p>Autonomous robots II: RL/optimal control, manipulation, imitation learning, human-robot interaction, and system architecture.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Robotics</span><span>Manipulation</span><span>RL</span></div>
+</a><a class="ccard" href="courses/cs381-sensorimotor-learning-for-embodied-agents.html" data-type="core" data-cat="机器人、具身智能" data-code="CS 381" data-diff="5" data-search="cs 381 sensorimotor learning for embodied agents (ee 381) 具身智能的感知运动学习 sensorimotor learning for embodied agents: from raw perception to decisions, continuously adapting to the physical world. embodied ai robotics research vla">
+  <div class="ccard-top"><span class="ccard-code">CS 381</span><span class="ccard-badge ">Core</span></div>
+  <h3>Sensorimotor Learning for Embodied Agents (EE 381)</h3>
+  <p>Sensorimotor learning for embodied agents: from raw perception to decisions, continuously adapting to the physical world.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★★★</span></div>
+  <div class="ccard-tags"><span>Embodied AI</span><span>Robotics</span><span>Research</span></div>
+</a><a class="ccard" href="courses/cs-123-a-hands-on-introduction-to-building-ai-enabled-robots.html" data-type="ext" data-cat="机器人、具身智能" data-code="CS 123" data-diff="0" data-search="cs 123 a hands-on introduction to building ai-enabled robots 动手做 ai 机器人 build an ai robot that perceives, decides, and acts from scratch. hands-on ai robots">
+  <div class="ccard-top"><span class="ccard-code">CS 123</span><span class="ccard-badge ext">Related</span></div>
+  <h3>A Hands-On Introduction to Building AI-Enabled Robots</h3>
+  <p>Build an AI robot that perceives, decides, and acts from scratch.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Hands-on AI Robots</span></div>
+</a><a class="ccard" href="courses/cs-333-algorithms-for-interactive-robotics.html" data-type="ext" data-cat="机器人、具身智能" data-code="CS 333" data-diff="0" data-search="cs 333 algorithms for interactive robotics 交互机器人算法 algorithmic problems in motion planning, grasping, and human-robot interaction. algorithms for interactive robotics">
+  <div class="ccard-top"><span class="ccard-code">CS 333</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Algorithms for Interactive Robotics</h3>
+  <p>Algorithmic problems in motion planning, grasping, and human-robot interaction.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Algorithms for Interactive Robotics</span></div>
+</a><a class="ccard" href="courses/cs-339r-collaborative-robotics-me-326.html" data-type="ext" data-cat="机器人、具身智能" data-code="CS 339R" data-diff="0" data-search="cs 339r collaborative robotics (me 326) 协作机器人 human-robot collaboration, shared control, and safe interaction. collaborative robotics">
+  <div class="ccard-top"><span class="ccard-code">CS 339R</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Collaborative Robotics (ME 326)</h3>
+  <p>Human-robot collaboration, shared control, and safe interaction.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Collaborative Robotics</span></div>
+</a><a class="ccard" href="courses/cs-345-building-ai-enabled-robots.html" data-type="ext" data-cat="机器人、具身智能" data-code="CS 345" data-diff="0" data-search="cs 345 building ai-enabled robots 构建 ai 机器人 integrate perception, planning, and control into a complete robot system. building ai robots">
+  <div class="ccard-top"><span class="ccard-code">CS 345</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Building AI-Enabled Robots</h3>
+  <p>Integrate perception, planning, and control into a complete robot system.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Building AI Robots</span></div>
+</a><a class="ccard" href="courses/cs273b-deep-learning-in-genomics.html" data-type="core" data-cat="AI for Science 与医疗" data-code="CS 273B" data-diff="4" data-search="cs 273b deep learning in genomics and biomedicine (bmds 273, gene 236) 基因组与生物医学中的深度学习 deep learning in genomics and biomedicine: supervised, unsupervised, and generative models plus interpretability. ai4bio genomics healthcare deep learning">
+  <div class="ccard-top"><span class="ccard-code">CS 273B</span><span class="ccard-badge ">Core</span></div>
+  <h3>Deep Learning in Genomics and Biomedicine (BMDS 273, GENE 236)</h3>
+  <p>Deep learning in genomics and biomedicine: supervised, unsupervised, and generative models plus interpretability.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>AI4Bio</span><span>Genomics</span><span>Healthcare</span></div>
+</a><a class="ccard" href="courses/cs277-foundation-models-for-healthcare.html" data-type="core" data-cat="AI for Science 与医疗" data-code="CS 277" data-diff="3" data-search="cs 277 foundation models for healthcare (bmds 271, rad 271) 医疗基础模型 foundation models for healthcare: training, evaluating, and deploying nlp/cv/multimodal fms. healthcare foundation models multimodality">
+  <div class="ccard-top"><span class="ccard-code">CS 277</span><span class="ccard-badge ">Core</span></div>
+  <h3>Foundation Models for Healthcare (BMDS 271, RAD 271)</h3>
+  <p>Foundation models for healthcare: training, evaluating, and deploying NLP/CV/multimodal FMs.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Healthcare</span><span>Foundation models</span><span>Multimodality</span></div>
+</a><a class="ccard" href="courses/cs279-computational-biology.html" data-type="core" data-cat="AI for Science 与医疗" data-code="CS 279" data-diff="4" data-search="cs 279 computational biology: structure and organization of biomolecules and cells (bioe 279, biophys 279, bmds 245, cme 279) 计算生物学：生物分子与细胞的结构和组织 computational biology: protein structure prediction/design, molecular simulation, drug screening, and microscopy image analysis. ai4bio proteins drug discovery simulation">
+  <div class="ccard-top"><span class="ccard-code">CS 279</span><span class="ccard-badge ">Core</span></div>
+  <h3>Computational Biology: Structure and Organization of Biomolecules and Cells (BIOE 279, BIOPHYS 279, BMDS 245, CME 279)</h3>
+  <p>Computational biology: protein structure prediction/design, molecular simulation, drug screening, and microscopy image analysis.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>AI4Bio</span><span>Proteins</span><span>Drug discovery</span></div>
+</a><a class="ccard" href="courses/cs286-advanced-cv-and-biomedicine.html" data-type="core" data-cat="AI for Science 与医疗" data-code="CS 286" data-diff="4" data-search="cs 286 advanced topics in computer vision and biomedicine (bmds 276) 计算机视觉与生物医学进阶 advanced cv + biomedicine: visual foundation models, diffusion/generation, and vision-language deployment in healthcare. healthcare cv foundation models research">
+  <div class="ccard-top"><span class="ccard-code">CS 286</span><span class="ccard-badge ">Core</span></div>
+  <h3>Advanced Topics in Computer Vision and Biomedicine (BMDS 276)</h3>
+  <p>Advanced CV + biomedicine: visual foundation models, diffusion/generation, and vision-language deployment in healthcare.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Healthcare</span><span>CV</span><span>Foundation models</span></div>
+</a><a class="ccard" href="courses/cs287-data-centric-ai-for-healthcare.html" data-type="core" data-cat="AI for Science 与医疗" data-code="CS 287" data-diff="3" data-search="cs 287 data centric ai for healthcare (bmds 218) 医疗 data-centric ai data-centric ai for healthcare: how data is generated, how bias/missingness/leakage break models, and how to fix it. healthcare data data-centric robustness">
+  <div class="ccard-top"><span class="ccard-code">CS 287</span><span class="ccard-badge ">Core</span></div>
+  <h3>Data Centric AI for Healthcare (BMDS 218)</h3>
+  <p>Data-centric AI for healthcare: how data is generated, how bias/missingness/leakage break models, and how to fix it.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Healthcare</span><span>Data</span><span>Data-centric</span></div>
+</a><a class="ccard" href="courses/cs375-large-scale-neural-network-modeling-for-neuroscience.html" data-type="core" data-cat="AI for Science 与医疗" data-code="CS 375" data-diff="4" data-search="cs 375 large-scale neural network modeling for neuroscience (psych 249) 面向神经科学的大规模神经网络建模 model the brain with large-scale neural networks: vision, audition, motor control, language, and decision-making as convergent evolution. neuroai computational neuroscience ai4science">
+  <div class="ccard-top"><span class="ccard-code">CS 375</span><span class="ccard-badge ">Core</span></div>
+  <h3>Large-Scale Neural Network Modeling for Neuroscience (PSYCH 249)</h3>
+  <p>Model the brain with large-scale neural networks: vision, audition, motor control, language, and decision-making as convergent evolution.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>NeuroAI</span><span>Computational neuroscience</span><span>AI4Science</span></div>
+</a><a class="ccard" href="courses/ee292r-ai-and-data-for-science.html" data-type="core" data-cat="AI for Science 与医疗" data-code="EE 292R" data-diff="1" data-search="ee 292r ai and data for science (cs 292, psych 292r, stats 282) ai 与数据驱动的科学 ai4science frontier lectures: one stanford professor each week on how ai/data advances their scientific field. ai4science lectures interdisciplinary">
+  <div class="ccard-top"><span class="ccard-code">EE 292R</span><span class="ccard-badge ">Core</span></div>
+  <h3>AI and Data for Science (CS 292, PSYCH 292R, STATS 282)</h3>
+  <p>AI4Science frontier lectures: one Stanford professor each week on how AI/data advances their scientific field.</p>
+  <div class="ccard-meta"><span>Autumn 2026, Winter 2027, Spring 2027</span><span class="stars">★☆☆☆☆</span></div>
+  <div class="ccard-tags"><span>AI4Science</span><span>Lectures</span><span>Interdisciplinary</span></div>
+</a><a class="ccard" href="courses/cs-270-modeling-biomedical-systems-bmds-210.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="CS 270" data-diff="0" data-search="cs 270 modeling biomedical systems (bmds 210) 生物医学系统建模 model physiological systems with differential equations, statistics, and ml. biomedical systems modeling">
+  <div class="ccard-top"><span class="ccard-code">CS 270</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Modeling Biomedical Systems (BMDS 210)</h3>
+  <p>Model physiological systems with differential equations, statistics, and ML.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Biomedical Systems Modeling</span></div>
+</a><a class="ccard" href="courses/cs-271-algorithmic-foundations-for-artificial-intelligence-in-healthcare-bmds-270.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="CS 271" data-diff="0" data-search="cs 271 algorithmic foundations for artificial intelligence in healthcare (bmds 270) 医疗 ai 算法基础 healthcare data, clinical prediction tasks, and the algorithms and evaluation of medical ai. foundations of healthcare ai">
+  <div class="ccard-top"><span class="ccard-code">CS 271</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Algorithmic Foundations for Artificial Intelligence in Healthcare (BMDS 270)</h3>
+  <p>Healthcare data, clinical prediction tasks, and the algorithms and evaluation of medical AI.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Foundations of Healthcare AI</span></div>
+</a><a class="ccard" href="courses/cs-322-triangulating-intelligence-melding-neuroscience-psychology-and-ai-psych-225.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="CS 322" data-diff="0" data-search="cs 322 triangulating intelligence: melding neuroscience, psychology, and ai (psych 225) 神经科学 × ai triangulate the nature of intelligence with neuroscience and psychology. neuroscience × ai">
+  <div class="ccard-top"><span class="ccard-code">CS 322</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Triangulating Intelligence: Melding Neuroscience, Psychology, and AI (PSYCH 225)</h3>
+  <p>Triangulate the nature of intelligence with neuroscience and psychology.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Neuroscience × AI</span></div>
+</a><a class="ccard" href="courses/cs-339n-machine-learning-methods-for-neural-data-analysis-nbio-220-stats-220-stats-320.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="CS 339N" data-diff="0" data-search="cs 339n machine learning methods for neural data analysis (nbio 220, stats 220, stats 320) 神经数据 ml spike sorting, behavior tracking, and neural time-series modeling. ml for neural data">
+  <div class="ccard-top"><span class="ccard-code">CS 339N</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Machine Learning Methods for Neural Data Analysis (NBIO 220, STATS 220, STATS 320)</h3>
+  <p>Spike sorting, behavior tracking, and neural time-series modeling.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>ML for Neural Data</span></div>
+</a><a class="ccard" href="courses/cs-522-seminar-in-artificial-intelligence-in-healthcare.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="CS 522" data-diff="0" data-search="cs 522 seminar in artificial intelligence in healthcare 医疗 ai seminar frontiers of healthcare ai from hospital, industry, and investor perspectives. healthcare ai seminar">
+  <div class="ccard-top"><span class="ccard-code">CS 522</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Seminar in Artificial Intelligence in Healthcare</h3>
+  <p>Frontiers of healthcare AI from hospital, industry, and investor perspectives.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Healthcare AI Seminar</span></div>
+</a><a class="ccard" href="courses/cs-524-ai-for-science.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="CS 524" data-diff="0" data-search="cs 524 ai for science ai for science ml topics in scientific discovery such as alphafold and gnome. ai for science">
+  <div class="ccard-top"><span class="ccard-code">CS 524</span><span class="ccard-badge ext">Related</span></div>
+  <h3>AI for Science</h3>
+  <p>ML topics in scientific discovery such as AlphaFold and GNoME.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI for Science</span></div>
+</a><a class="ccard" href="courses/cs-525-data-for-ai.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="CS 525" data-diff="0" data-search="cs 525 data for ai data for ai selection, deduplication, synthesis, attribution, and copyright of training data. data for ai">
+  <div class="ccard-top"><span class="ccard-code">CS 525</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Data for AI</h3>
+  <p>Selection, deduplication, synthesis, attribution, and copyright of training data.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Data for AI</span></div>
+</a><a class="ccard" href="courses/ee-292m-ai-augmented-research-and-development-foundations-and-practice.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="EE 292M" data-diff="0" data-search="ee 292m ai-augmented research and development: foundations and practice ai 增强研发 bring llms, rag, and agents into research workflows and validate them. ai-augmented r&amp;d">
+  <div class="ccard-top"><span class="ccard-code">EE 292M</span><span class="ccard-badge ext">Related</span></div>
+  <h3>AI-Augmented Research and Development: Foundations and Practice</h3>
+  <p>Bring LLMs, RAG, and agents into research workflows and validate them.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI-Augmented R&amp;D</span></div>
+</a><a class="ccard" href="courses/psych-209-neural-network-models-of-cognition.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="PSYCH 209" data-diff="0" data-search="psych 209 neural network models of cognition 认知的神经网络模型 model cognition and development with neural networks. neural network models of cognition">
+  <div class="ccard-top"><span class="ccard-code">PSYCH 209</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Neural Network Models of Cognition</h3>
+  <p>Model cognition and development with neural networks.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Neural Network Models of Cognition</span></div>
+</a><a class="ccard" href="courses/psych-242-a-modern-explainable-ai-approach-to-theoretical-neuroscience-appphys-293.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="PSYCH 242" data-diff="0" data-search="psych 242 a modern explainable ai approach to theoretical neuroscience (appphys 293) 可解释 ai × 理论神经 use interpretability tools to reverse-engineer biological and artificial networks. explainable ai × theoretical neuroscience">
+  <div class="ccard-top"><span class="ccard-code">PSYCH 242</span><span class="ccard-badge ext">Related</span></div>
+  <h3>A modern explainable AI approach to Theoretical Neuroscience (APPPHYS 293)</h3>
+  <p>Use interpretability tools to reverse-engineer biological and artificial networks.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Explainable AI × Theoretical Neuroscience</span></div>
+</a><a class="ccard" href="courses/stats-220-machine-learning-methods-for-neural-data-analysis-cs-339n-nbio-220-stats-320.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="STATS 220" data-diff="0" data-search="stats 220 machine learning methods for neural data analysis (cs 339n, nbio 220, stats 320) 神经数据 ml statistical methods for neural data analysis, cross-listed with cs 339n. ml for neural data">
+  <div class="ccard-top"><span class="ccard-code">STATS 220</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Machine Learning Methods for Neural Data Analysis (CS 339N, NBIO 220, STATS 320)</h3>
+  <p>Statistical methods for neural data analysis, cross-listed with CS 339N.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>ML for Neural Data</span></div>
+</a><a class="ccard" href="courses/stats-326-topics-in-generative-modeling-methods-in-protein-modeling-and-design.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="STATS 326" data-diff="0" data-search="stats 326 topics in generative modeling methods in protein modeling and design 蛋白生成模型 frontier papers on alphafold, diffusion models, and protein design. protein generative models">
+  <div class="ccard-top"><span class="ccard-code">STATS 326</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Topics in Generative Modeling Methods in Protein Modeling and Design</h3>
+  <p>Frontier papers on AlphaFold, diffusion models, and protein design.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Protein Generative Models</span></div>
+</a><a class="ccard" href="courses/symsys-123-neuroscience-and-artificial-intelligence.html" data-type="ext" data-cat="AI for Science 与医疗" data-code="SYMSYS 123" data-diff="0" data-search="symsys 123 neuroscience and artificial intelligence 神经科学 × ai view ai through the history of neuroscience, then use ai tools to study the brain. neuroscience × ai">
+  <div class="ccard-top"><span class="ccard-code">SYMSYS 123</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Neuroscience and Artificial Intelligence</h3>
+  <p>View AI through the history of neuroscience, then use AI tools to study the brain.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Neuroscience × AI</span></div>
+</a><a class="ccard" href="courses/cs139-human-centered-ai.html" data-type="core" data-cat="产品、伦理与设计" data-code="CS 139" data-diff="2" data-search="cs 139 human-centered ai 人本 ai norvig&#x27;s human-centered ai: user mental models, trustworthy design, fairness, and ethics. human-centered ai ethics product interpretability">
+  <div class="ccard-top"><span class="ccard-code">CS 139</span><span class="ccard-badge ">Core</span></div>
+  <h3>Human-Centered AI</h3>
+  <p>Norvig&#x27;s human-centered AI: user mental models, trustworthy design, fairness, and ethics.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★☆☆☆</span></div>
+  <div class="ccard-tags"><span>Human-centered AI</span><span>Ethics</span><span>Product</span></div>
+</a><a class="ccard" href="courses/cs247a-design-for-artificial-intelligence.html" data-type="core" data-cat="产品、伦理与设计" data-code="CS 247A" data-diff="3" data-search="cs 247a design for artificial intelligence (symsys 195a) 为人工智能而设计 design for human-centered ai: a studio course of research, prototyping, and iteration toward responsible ai experiences. design hci human-centered ai studio">
+  <div class="ccard-top"><span class="ccard-code">CS 247A</span><span class="ccard-badge ">Core</span></div>
+  <h3>Design for Artificial Intelligence (SYMSYS 195A)</h3>
+  <p>Design for human-centered AI: a studio course of research, prototyping, and iteration toward responsible AI experiences.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Design</span><span>HCI</span><span>Human-centered AI</span></div>
+</a><a class="ccard" href="courses/cs281-ethics-of-artificial-intelligence.html" data-type="core" data-cat="产品、伦理与设计" data-code="CS 281" data-diff="3" data-search="cs 281 ethics of artificial intelligence 人工智能伦理 the technical side of ai ethics: fairness, interpretability, privacy, and the formal limits of these methods. ethics fairness interpretability privacy">
+  <div class="ccard-top"><span class="ccard-code">CS 281</span><span class="ccard-badge ">Core</span></div>
+  <h3>Ethics of Artificial Intelligence</h3>
+  <p>The technical side of AI ethics: fairness, interpretability, privacy, and the formal limits of these methods.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Ethics</span><span>Fairness</span><span>Interpretability</span></div>
+</a><a class="ccard" href="courses/mse203-building-and-evaluating-ai-products.html" data-type="core" data-cat="产品、伦理与设计" data-code="MS&amp;E 203" data-diff="3" data-search="ms&amp;e 203 building and evaluating ai products 构建与评估 ai 产品 build an ai product and agent from 0 to 1: ai fit, latency/quality/cost, evaluation, and demo day. product agent eval startups">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 203</span><span class="ccard-badge ">Core</span></div>
+  <h3>Building and Evaluating AI Products</h3>
+  <p>Build an AI product and agent from 0 to 1: AI fit, latency/quality/cost, evaluation, and Demo Day.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Product</span><span>Agent</span><span>Eval</span></div>
+</a><a class="ccard" href="courses/cs-121-equity-and-governance-for-artificial-intelligence.html" data-type="ext" data-cat="产品、伦理与设计" data-code="CS 121" data-diff="0" data-search="cs 121 equity and governance for artificial intelligence ai 公平与治理 policy writing and red-team practice on algorithmic fairness, accountability, and transparency. ai fairness and governance">
+  <div class="ccard-top"><span class="ccard-code">CS 121</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Equity and Governance for Artificial Intelligence</h3>
+  <p>Policy writing and red-team practice on algorithmic fairness, accountability, and transparency.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI Fairness and Governance</span></div>
+</a><a class="ccard" href="courses/cs-256-algorithmic-fairness.html" data-type="ext" data-cat="产品、伦理与设计" data-code="CS 256" data-diff="0" data-search="cs 256 algorithmic fairness 算法公平 definitions of fairness, legal frameworks, and constrained algorithm design. algorithmic fairness">
+  <div class="ccard-top"><span class="ccard-code">CS 256</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Algorithmic Fairness</h3>
+  <p>Definitions of fairness, legal frameworks, and constrained algorithm design.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Algorithmic Fairness</span></div>
+</a><a class="ccard" href="courses/cs-293-empowering-educators-via-language-technology-educ-473.html" data-type="ext" data-cat="产品、伦理与设计" data-code="CS 293" data-diff="0" data-search="cs 293 empowering educators via language technology (educ 473) 语言技术 × 教育 use nlp to analyze teaching practice and support teachers and classrooms. language technology × education">
+  <div class="ccard-top"><span class="ccard-code">CS 293</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Empowering Educators via Language Technology (EDUC 473)</h3>
+  <p>Use NLP to analyze teaching practice and support teachers and classrooms.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Language Technology × Education</span></div>
+</a><a class="ccard" href="courses/cs-323-the-ai-awakening-implications-for-the-economy-and-society.html" data-type="ext" data-cat="产品、伦理与设计" data-code="CS 323" data-diff="0" data-search="cs 323 the ai awakening: implications for the economy and society ai 经济与社会 ai&#x27;s impact on labor, entrepreneurship, and policy, with industry guest lectures. ai economy and society">
+  <div class="ccard-top"><span class="ccard-code">CS 323</span><span class="ccard-badge ext">Related</span></div>
+  <h3>The AI Awakening: Implications for the Economy and Society</h3>
+  <p>AI&#x27;s impact on labor, entrepreneurship, and policy, with industry guest lectures.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI Economy and Society</span></div>
+</a><a class="ccard" href="courses/cs-384-seminar-on-ethical-and-social-issues-in-natural-language-processing-linguist-287.html" data-type="ext" data-cat="产品、伦理与设计" data-code="CS 384" data-diff="0" data-search="cs 384 seminar on ethical and social issues in natural language processing (linguist 287) nlp 伦理 seminar bias, privacy, toxicity, manipulation, and power in nlp. nlp ethics seminar">
+  <div class="ccard-top"><span class="ccard-code">CS 384</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Seminar on Ethical and Social Issues in Natural Language Processing (LINGUIST 287)</h3>
+  <p>Bias, privacy, toxicity, manipulation, and power in NLP.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>NLP Ethics Seminar</span></div>
+</a><a class="ccard" href="courses/educ-246i-ai-and-education-foundations-opportunities-challenges-and-considerations.html" data-type="ext" data-cat="产品、伦理与设计" data-code="EDUC 246I" data-diff="0" data-search="educ 246i ai and education: foundations, opportunities, challenges, and considerations ai 与教育 ai/edtech opportunities, challenges, and ethics for teachers. ai and education">
+  <div class="ccard-top"><span class="ccard-code">EDUC 246I</span><span class="ccard-badge ext">Related</span></div>
+  <h3>AI and Education: Foundations, Opportunities, Challenges, and Considerations</h3>
+  <p>AI/edTech opportunities, challenges, and ethics for teachers.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI and Education</span></div>
+</a><a class="ccard" href="courses/ee-205-product-management-for-engineers-in-the-ai-age.html" data-type="ext" data-cat="产品、伦理与设计" data-code="EE 205" data-diff="0" data-search="ee 205 product management for engineers in the ai age ai 时代产品管理 from user problems to gtm, building a real ai product with a company partner. product management in the ai era">
+  <div class="ccard-top"><span class="ccard-code">EE 205</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Product Management for Engineers in the AI Age</h3>
+  <p>From user problems to GTM, building a real AI product with a company partner.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Product Management in the AI Era</span></div>
+</a><a class="ccard" href="courses/symsys-122-the-social-economic-impact-of-artificial-intelligence-cs-22a-intlpol-200.html" data-type="ext" data-cat="产品、伦理与设计" data-code="SYMSYS 122" data-diff="0" data-search="symsys 122 the social &amp; economic impact of artificial intelligence (cs 22a, intlpol 200) ai 社会经济影响 a non-technical view of ai&#x27;s impact on labor, healthcare, education, and geopolitics. social and economic impact of ai">
+  <div class="ccard-top"><span class="ccard-code">SYMSYS 122</span><span class="ccard-badge ext">Related</span></div>
+  <h3>The Social &amp; Economic Impact of Artificial Intelligence (CS 22A, INTLPOL 200)</h3>
+  <p>A non-technical view of AI&#x27;s impact on labor, healthcare, education, and geopolitics.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Social and Economic Impact of AI</span></div>
+</a><a class="ccard" href="courses/mse318-safe-and-constrained-ai.html" data-type="core" data-cat="统计与优化" data-code="MS&amp;E 318" data-diff="5" data-search="ms&amp;e 318 safe and constrained ai 安全与受约束的 ai safe and constrained ai: constrained optimization, safe rl, projection networks, and llm alignment. safety constrained optimization rl alignment">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 318</span><span class="ccard-badge ">Core</span></div>
+  <h3>Safe and Constrained AI</h3>
+  <p>Safe and constrained AI: constrained optimization, safe RL, projection networks, and LLM alignment.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">★★★★★</span></div>
+  <div class="ccard-tags"><span>Safety</span><span>Constrained optimization</span><span>RL</span></div>
+</a><a class="ccard" href="courses/mse319-efficient-generative-models.html" data-type="core" data-cat="统计与优化" data-code="MS&amp;E 319" data-diff="4" data-search="ms&amp;e 319 efficient generative models 高效生成模型 efficient generative models: trade-offs among inference depth, compute, latency, memory, and data, with llms as the main case. generative models efficiency llm systems">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 319</span><span class="ccard-badge ">Core</span></div>
+  <h3>Efficient Generative Models</h3>
+  <p>Efficient generative models: trade-offs among inference depth, compute, latency, memory, and data, with LLMs as the main case.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Generative models</span><span>Efficiency</span><span>LLM</span></div>
+</a><a class="ccard" href="courses/stats202-statistical-learning-and-data-science.html" data-type="core" data-cat="统计与优化" data-code="STATS 202" data-diff="3" data-search="stats 202 statistical learning and data science 统计学习与数据科学 an introduction to statistical learning: regression/classification, regularization, trees/ensembles, svms, neural networks, and clustering. statistical learning data science regression">
+  <div class="ccard-top"><span class="ccard-code">STATS 202</span><span class="ccard-badge ">Core</span></div>
+  <h3>Statistical Learning and Data Science</h3>
+  <p>An introduction to statistical learning: regression/classification, regularization, trees/ensembles, SVMs, neural networks, and clustering.</p>
+  <div class="ccard-meta"><span>Winter 2027, Spring 2027</span><span class="stars">★★★☆☆</span></div>
+  <div class="ccard-tags"><span>Statistical learning</span><span>Data science</span><span>Regression</span></div>
+</a><a class="ccard" href="courses/stats315a-modern-applied-statistics-learning.html" data-type="core" data-cat="统计与优化" data-code="STATS 315A" data-diff="4" data-search="stats 315a modern applied statistics: learning 现代应用统计：学习 modern applied statistical learning: prediction methods, model evaluation, optimization, and generative models. statistical learning generative models evaluation">
+  <div class="ccard-top"><span class="ccard-code">STATS 315A</span><span class="ccard-badge ">Core</span></div>
+  <h3>Modern Applied Statistics: Learning</h3>
+  <p>Modern applied statistical learning: prediction methods, model evaluation, optimization, and generative models.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">★★★★☆</span></div>
+  <div class="ccard-tags"><span>Statistical learning</span><span>Generative models</span><span>Evaluation</span></div>
+</a><a class="ccard" href="courses/cme-216-machine-learning-for-computational-engineering-me-343.html" data-type="ext" data-cat="统计与优化" data-code="CME 216" data-diff="0" data-search="cme 216 machine learning for computational engineering. (me 343) ml × 计算工程 kernel methods, deep learning, automatic differentiation, and physics-constrained ml. ml × computational engineering">
+  <div class="ccard-top"><span class="ccard-code">CME 216</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Machine Learning for Computational Engineering. (ME 343)</h3>
+  <p>Kernel methods, deep learning, automatic differentiation, and physics-constrained ML.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>ML × Computational Engineering</span></div>
+</a><a class="ccard" href="courses/cs-225-machine-learning-for-discrete-optimization-mse-236.html" data-type="ext" data-cat="统计与优化" data-code="CS 225" data-diff="0" data-search="cs 225 machine learning for discrete optimization (ms&amp;e 236) ml × 离散优化 learn heuristics with gnns, rl, and llms to improve combinatorial optimization solvers. ml × discrete optimization">
+  <div class="ccard-top"><span class="ccard-code">CS 225</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Machine Learning for Discrete Optimization (MS&amp;E 236)</h3>
+  <p>Learn heuristics with GNNs, RL, and LLMs to improve combinatorial optimization solvers.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>ML × Discrete Optimization</span></div>
+</a><a class="ccard" href="courses/cs-238-decision-making-under-uncertainty-aa-228.html" data-type="ext" data-cat="统计与优化" data-code="CS 238" data-diff="0" data-search="cs 238 decision making under uncertainty (aa 228) 不确定性下的决策 pomdps, dynamic programming, and rl for aerospace decision-making. decision under uncertainty">
+  <div class="ccard-top"><span class="ccard-code">CS 238</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Decision Making under Uncertainty (AA 228)</h3>
+  <p>POMDPs, dynamic programming, and RL for aerospace decision-making.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Decision under Uncertainty</span></div>
+</a><a class="ccard" href="courses/cs-239-advanced-topics-in-sequential-decision-making-aa-229.html" data-type="ext" data-cat="统计与优化" data-code="CS 239" data-diff="0" data-search="cs 239 advanced topics in sequential decision making (aa 229) 序列决策进阶 research topics in multi-agent, partially observable, and approximate dynamic programming. advanced sequential decision-making">
+  <div class="ccard-top"><span class="ccard-code">CS 239</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Advanced Topics in Sequential Decision Making (AA 229)</h3>
+  <p>Research topics in multi-agent, partially observable, and approximate dynamic programming.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Advanced Sequential Decision-Making</span></div>
+</a><a class="ccard" href="courses/cs-321m-ai-measurement-science.html" data-type="ext" data-cat="统计与优化" data-code="CS 321M" data-diff="0" data-search="cs 321m ai measurement science ai 测量科学 benchmarks, psychometrics, and validity theory for systematically evaluating ai capabilities. ai measurement science">
+  <div class="ccard-top"><span class="ccard-code">CS 321M</span><span class="ccard-badge ext">Related</span></div>
+  <h3>AI Measurement Science</h3>
+  <p>Benchmarks, psychometrics, and validity theory for systematically evaluating AI capabilities.</p>
+  <div class="ccard-meta"><span>Spring 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI Measurement Science</span></div>
+</a><a class="ccard" href="courses/cs-328-foundations-of-causal-machine-learning.html" data-type="ext" data-cat="统计与优化" data-code="CS 328" data-diff="0" data-search="cs 328 foundations of causal machine learning 因果机器学习 semiparametric efficiency, dml, heterogeneous treatment effects, and off-policy evaluation. causal machine learning">
+  <div class="ccard-top"><span class="ccard-code">CS 328</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Foundations of Causal Machine Learning</h3>
+  <p>Semiparametric efficiency, DML, heterogeneous treatment effects, and off-policy evaluation.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Causal Machine Learning</span></div>
+</a><a class="ccard" href="courses/cs-331x-ai-for-algorithmic-reasoning-and-optimization-mse-331.html" data-type="ext" data-cat="统计与优化" data-code="CS 331X" data-diff="0" data-search="cs 331x ai for algorithmic reasoning and optimization (ms&amp;e 331) ai × 算法优化 use gnns, diffusion models, and llms in algorithm design and tuning. ai × algorithm optimization">
+  <div class="ccard-top"><span class="ccard-code">CS 331X</span><span class="ccard-badge ext">Related</span></div>
+  <h3>AI for Algorithmic Reasoning and Optimization (MS&amp;E 331)</h3>
+  <p>Use GNNs, diffusion models, and LLMs in algorithm design and tuning.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI × Algorithm Optimization</span></div>
+</a><a class="ccard" href="courses/mse-226-fundamentals-of-data-science-prediction-inference-causality.html" data-type="ext" data-cat="统计与优化" data-code="MS&amp;E 226" data-diff="0" data-search="ms&amp;e 226 fundamentals of data science: prediction, inference, causality 数据科学基础 a unified frame for prediction, inference, and causality. foundations of data science">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 226</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Fundamentals of Data Science: Prediction, Inference, Causality</h3>
+  <p>A unified frame for prediction, inference, and causality.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Foundations of Data Science</span></div>
+</a><a class="ccard" href="courses/mse-228-applied-causal-inference-with-machine-learning-and-ai-cs-288.html" data-type="ext" data-cat="统计与优化" data-code="MS&amp;E 228" data-diff="0" data-search="ms&amp;e 228 applied causal inference with machine learning and ai (cs 288) 因果推断 × ml causal estimation and policy evaluation with high-dimensional data. causal inference × ml">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 228</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Applied Causal Inference with Machine Learning and AI (CS 288)</h3>
+  <p>Causal estimation and policy evaluation with high-dimensional data.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Causal Inference × ML</span></div>
+</a><a class="ccard" href="courses/mse-235a-markov-decision-processes-ee-283.html" data-type="ext" data-cat="统计与优化" data-code="MS&amp;E 235A" data-diff="0" data-search="ms&amp;e 235a markov decision processes (ee 283) 马尔可夫决策过程 mdps, value iteration, policy iteration, and bandit basics. markov decision processes">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 235A</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Markov Decision Processes (EE 283)</h3>
+  <p>MDPs, value iteration, policy iteration, and bandit basics.</p>
+  <div class="ccard-meta"><span>Autumn 2026</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Markov Decision Processes</span></div>
+</a><a class="ccard" href="courses/mse-235b-reinforcement-learning-behaviors-and-applications-ee-383.html" data-type="ext" data-cat="统计与优化" data-code="MS&amp;E 235B" data-diff="0" data-search="ms&amp;e 235b reinforcement learning: behaviors and applications (ee 383) 强化学习 applied rl behavior design and scalable algorithms. reinforcement learning">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 235B</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Reinforcement Learning: Behaviors and Applications (EE 383)</h3>
+  <p>Applied RL behavior design and scalable algorithms.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Reinforcement Learning</span></div>
+</a><a class="ccard" href="courses/mse-328-foundations-of-causal-machine-learning.html" data-type="ext" data-cat="统计与优化" data-code="MS&amp;E 328" data-diff="0" data-search="ms&amp;e 328 foundations of causal machine learning 因果 ml 基础 causal inference theory cross-listed with cs 328. foundations of causal ml">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 328</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Foundations of Causal Machine Learning</h3>
+  <p>Causal inference theory cross-listed with CS 328.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>Foundations of Causal ML</span></div>
+</a><a class="ccard" href="courses/mse-330-reliability-and-validity-in-artificial-intelligence-stats-357.html" data-type="ext" data-cat="统计与优化" data-code="MS&amp;E 330" data-diff="0" data-search="ms&amp;e 330 reliability and validity in artificial intelligence (stats 357) ai 可靠性 ai evaluation and validity, cross-listed with stats 357. ai reliability">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 330</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Reliability and Validity in Artificial Intelligence (STATS 357)</h3>
+  <p>AI evaluation and validity, cross-listed with STATS 357.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI Reliability</span></div>
+</a><a class="ccard" href="courses/mse-346-foundations-of-reinforcement-learning-with-applications-in-finance-cme-241.html" data-type="ext" data-cat="统计与优化" data-code="MS&amp;E 346" data-diff="0" data-search="ms&amp;e 346 foundations of reinforcement learning with applications in finance (cme 241) rl × 金融 model trading, hedging, and portfolio management as rl problems. rl × finance">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 346</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Foundations of Reinforcement Learning with Applications in Finance (CME 241)</h3>
+  <p>Model trading, hedging, and portfolio management as RL problems.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>RL × Finance</span></div>
+</a><a class="ccard" href="courses/mse-446-artificial-intelligence-in-financial-technology.html" data-type="ext" data-cat="统计与优化" data-code="MS&amp;E 446" data-diff="0" data-search="ms&amp;e 446 artificial intelligence in financial technology ai × 金融科技 ai applications in fintech with a team project. ai × fintech">
+  <div class="ccard-top"><span class="ccard-code">MS&amp;E 446</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Artificial Intelligence in Financial Technology</h3>
+  <p>AI applications in fintech with a team project.</p>
+  <div class="ccard-meta"><span>Not scheduled in 2026–27</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI × Fintech</span></div>
+</a><a class="ccard" href="courses/stats-357-reliability-and-validity-in-artificial-intelligence-mse-330.html" data-type="ext" data-cat="统计与优化" data-code="STATS 357" data-diff="0" data-search="stats 357 reliability and validity in artificial intelligence (ms&amp;e 330) ai 可靠性 evaluation, validity, distribution shift, and ai-assisted statistical inference. ai reliability">
+  <div class="ccard-top"><span class="ccard-code">STATS 357</span><span class="ccard-badge ext">Related</span></div>
+  <h3>Reliability and Validity in Artificial Intelligence (MS&amp;E 330)</h3>
+  <p>Evaluation, validity, distribution shift, and AI-assisted statistical inference.</p>
+  <div class="ccard-meta"><span>Winter 2027</span><span class="stars">—</span></div>
+  <div class="ccard-tags"><span>AI Reliability</span></div>
+</a></div>
+    <p class="empty" id="courseEmpty" hidden>No matching courses.</p>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-head"><h2>About this edition</h2><span class="line"></span></div>
+    <p class="muted">All 125 course pages have an English version, translated from the Chinese notes in this repo. Official course titles, descriptions, units, terms, and instructors come from Stanford ExploreCourses. Related-course pages keep the official record and a short English one-liner.</p>
+    <p class="muted">Unofficial map. Course information is based on Stanford ExploreCourses (2026–27) and course sites; always check the official syllabus.</p>
+  </section>
+</div>
+<script>
+(function () {
+  var grid = document.getElementById('courseGrid');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.ccard'));
+  var q = document.getElementById('courseSearch');
+  var sort = document.getElementById('courseSort');
+  var count = document.getElementById('courseCount');
+  var empty = document.getElementById('courseEmpty');
+  var chips = Array.prototype.slice.call(document.querySelectorAll('#catChips .chip'));
+  var types = Array.prototype.slice.call(document.querySelectorAll('#typeSeg button'));
+  var state = { cat: 'all', type: 'all', text: '' };
+  function apply() {
+    var list = cards.filter(function (c) {
+      if (state.type !== 'all' && c.dataset.type !== state.type) return false;
+      if (state.cat !== 'all' && c.dataset.cat !== state.cat) return false;
+      if (state.text && c.dataset.search.indexOf(state.text) === -1) return false;
+      return true;
+    });
+    if (sort.value === 'name') {
+      list.sort(function (a, b) { return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent, 'en'); });
+    } else if (sort.value === 'diff') {
+      list.sort(function (a, b) { return Number(b.dataset.diff) - Number(a.dataset.diff) || a.dataset.code.localeCompare(b.dataset.code, 'en', { numeric: true }); });
+    } else {
+      list.sort(function (a, b) { return a.dataset.code.localeCompare(b.dataset.code, 'en', { numeric: true }); });
+    }
+    grid.innerHTML = '';
+    list.forEach(function (c) { grid.appendChild(c); });
+    count.textContent = list.length + ' courses';
+    empty.hidden = list.length !== 0;
+  }
+  q.addEventListener('input', function () { state.text = q.value.trim().toLowerCase(); apply(); });
+  sort.addEventListener('change', apply);
+  chips.forEach(function (ch) {
+    ch.addEventListener('click', function () {
+      state.cat = ch.dataset.cat;
+      chips.forEach(function (x) { x.classList.toggle('on', x === ch); });
+      apply();
+    });
+  });
+  types.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      state.type = btn.dataset.type;
+      types.forEach(function (x) { x.classList.toggle('on', x === btn); });
+      apply();
+    });
+  });
+  apply();
+})();
+</script>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p class="footbrand">Stanford AI · Course Map</p>
+    <p>2026–27 · Unofficial. Course information is based on <a href="https://explorecourses.stanford.edu/" target="_blank" rel="noopener">ExploreCourses</a>; always check the official syllabus.</p>
+    <p><a href="index.html#about">About this edition</a> · <a href="../index.html">中文完整版</a></p>
+  </div>
+</footer>
+<script src="../assets/app.js"></script>
+
+</body>
+</html>

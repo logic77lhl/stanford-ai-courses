@@ -1,0 +1,22 @@
+{
+  "slug": "cs227a-robot-perception",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Robot perception: vision/tactile/acoustic sensors plus algorithms, building a vision-based robot system in simulation.",
+  "pos": "CS 227A (EE 227) is taught by Shuran Song and focuses on how robots understand the environment from raw sensor data and make decisions. It covers sensor hardware, calibration, visual perception, state estimation, and decision-making; assignments build a vision-based robot system step by step.",
+  "topics": [
+    "**Sensors**: RGB-D, tactile, acoustic, IMU",
+    "**Calibration**: camera intrinsics/extrinsics, hand-eye calibration",
+    "**Visual perception**: detection, segmentation, pose estimation",
+    "**State estimation**: filtering, fusion",
+    "**Decision-making**: from perception to action",
+    "**Simulation practice**",
+    "**Project/report** (4 units require an extra report)"
+  ],
+  "prereq": "Python programming; linear algebra; math basics are reviewed in class, but programming demands are high.",
+  "assess": "A series of programming assignments plus an optional final report (4 units). Check the current syllabus for details.",
+  "who": "Robot perception, embodied AI, and 3D vision.",
+  "tips": "Take CS 231N or CS 237A first. The assignments are programming-heavy; get comfortable with PyTorch and simulation.",
+  "tags": ["Robotics", "Perception", "Vision", "Simulation"],
+  "note": "Offered in Autumn 2026–27; no stable course-site link found."
+}

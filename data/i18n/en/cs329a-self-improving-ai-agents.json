@@ -1,0 +1,22 @@
+{
+  "slug": "cs329a-self-improving-ai-agents",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "A research seminar on self-improvement, verifiers, test-time compute, search, tools, multimodal web, and long-horizon planning.",
+  "pos": "CS 329A is taught by Anmol Chowdhery and Azalia Mirhoseini and focuses on how agents keep improving through interaction with the environment and themselves. The course is mainly paper discussion and an original research project, with academic and industry speakers; it suits people who have already decided to do agent research.",
+  "topics": [
+    "**LLM self-improvement**: constitutional AI, self-critique, self-play",
+    "**Verifiers and search**: learned verifiers, best-of-n, tree search",
+    "**Test-time compute**: inference-time scaling, chain-of-thought, parallel sampling",
+    "**Tools and retrieval**: tool use, retrieval, multimodal web interaction",
+    "**Multi-step reasoning and planning**: long-horizon decomposition, orchestration frameworks",
+    "**Evaluation and orchestration**: robust eval, failure modes",
+    "**Applications**: coding agents, STEM research assistants, robotics"
+  ],
+  "prereq": "CS 224N or CS 229S; fluent Python and LLM APIs.",
+  "assess": "Paper reading/discussion plus an original research project and speaker lectures. Check the current syllabus for details.",
+  "who": "Graduate students interested in agent research, alignment, or reasoning/planning; people with some LLM experience.",
+  "tips": "Read ReAct, Reflexion, Tree of Thoughts, and Self-Rewarding LM first. The project needs a clear baseline and evaluation.",
+  "tags": ["Agent", "Research", "Reasoning", "Self-improvement"],
+  "note": ""
+}

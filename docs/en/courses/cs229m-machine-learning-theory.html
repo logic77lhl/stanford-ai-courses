@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS 229M · Machine Learning Theory (STATS 214) | Stanford AI Course Map</title>
+<meta name="description" content="Machine learning theory: generalization bounds, non-convex optimization, and implicit regularization — why deep learning works.">
+<meta name="theme-color" content="#09090b">
+<meta property="og:title" content="CS 229M · Machine Learning Theory (STATS 214) | Stanford AI Course Map">
+<meta property="og:description" content="Machine learning theory: generalization bounds, non-convex optimization, and implicit regularization — why deep learning works.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="en" href="https://logic77lhl.github.io/stanford-ai-courses/en/courses/cs229m-machine-learning-theory.html">
+<link rel="alternate" hreflang="zh-CN" href="https://logic77lhl.github.io/stanford-ai-courses/courses/cs229m-machine-learning-theory.html">
+<link rel="alternate" hreflang="x-default" href="https://logic77lhl.github.io/stanford-ai-courses/courses/cs229m-machine-learning-theory.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23d4b176' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4b176'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topin">
+    <a class="brand" href="../index.html">Stanford AI <span>Course Map</span></a>
+    <nav class="nav" id="nav"><a href="../index.html#map">Map</a><a href="../index.html#courses" class="on">Courses</a><a href="../paths.html">Paths</a><a href="../semester.html">Semester</a><a href="../prereqs.html">Prereqs</a><a href="../bilibili.html">Bilibili</a><a href="../index.html#about">About</a></nav>
+    <a class="lang" href="../../courses/cs229m-machine-learning-theory.html">中文</a>
+    <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
+    <button class="menu" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<main>
+<div class="wrap">
+  <a class="back" href="../index.html#courses">← Back to the course map</a>
+
+  <section class="course-hero">
+    <div class="course-poster">
+      <span class="cp-kicker">Stanford · 2026—27</span>
+      <span class="cp-code">CS 229M</span>
+      <span class="cp-cat">Foundations</span>
+      <span class="cp-stars">★★★★★</span>
+    </div>
+    <div class="course-head">
+      <p class="kicker">Core course · Foundations</p>
+      <h1>Machine Learning Theory (STATS 214)</h1>
+      <p class="course-en">中文：机器学习理论</p>
+      <p class="course-one">Machine learning theory: generalization bounds, non-convex optimization, and implicit regularization — why deep learning works.</p>
+      <p class="note-inline">Draft translation: official facts are checked; wording may change after native review.</p>
+      <p class="note-inline">Not offered in the 2026–27 ExploreCourses listing.</p>
+      <div class="meta-chips">
+        <span>3 units</span>
+        <span>Not scheduled in 2026–27</span>
+        <span>Letter or Credit/No Credit</span>
+        <span>★★★★★</span>
+      </div>
+      <div class="tagrow"><span>Theory</span><span>Math</span><span>Generalization</span></div>
+    </div>
+  </section>
+
+  <div class="course-layout">
+    <article class="course-main">
+      <section class="prose">
+        <h2>Course positioning</h2>
+        <p>CS 229M (STATS 214) is the most mathematically demanding ML course, aimed at graduate students who want to do theory. It does not teach model tuning; it trains you to analyze modern large-scale nonlinear models with concentration inequalities, uniform convergence, and optimization theory.</p>
+      </section>
+
+      <section class="prose">
+        <h2>What it covers</h2>
+        <ol class="topic-list"><li><strong>Concentration inequalities</strong>: Hoeffding, Chernoff, McDiarmid</li><li><strong>Generalization theory</strong>: uniform convergence, VC dimension, Rademacher complexity</li><li><strong>Non-convex optimization</strong>: gradient descent, saddle points, landscape</li><li><strong>Implicit regularization</strong>: overparameterization, double descent, margin stability</li><li><strong>Unsupervised learning and domain adaptation</strong>: representation learning theory</li><li><strong>Modern model analysis</strong>: approximation and generalization of Transformers/deep networks</li></ol>
+      </section>
+
+      <section class="prose two">
+        <div><h2>Prerequisites</h2><p>MATH 51; STATS 117; CS 229 or STATS 315A.</p></div>
+        <div><h2>Assessment &amp; workload</h2><p>Assignments plus a final/project, mostly proofs and paper reading. Check the current syllabus for details.</p></div>
+      </section>
+
+      <section class="prose two">
+        <div><h2>Who it&#x27;s for</h2><p>People who want to do ML theory, a PhD, or rigorous analysis; also suitable for math/statistics backgrounds moving into ML.</p></div>
+        <div><h2>Study advice</h2><p>Brush up on real analysis and probability first. Don&#x27;t expect to understand it in one pass — work through the notes and papers repeatedly.</p></div>
+      </section>
+
+      <section class="prose">
+        <h2>Related courses</h2>
+        <div class="related-grid"><a class="relcard" href="cs229-machine-learning.html"><span>CS 229</span><b>Machine Learning (STATS 229)</b></a><a class="relcard" href="stats315a-modern-applied-statistics-learning.html"><span>STATS 315A</span><b>Modern Applied Statistics: Learning</b></a></div>
+      </section>
+
+      <section class="prose">
+        <details class="official">
+          <summary>Official course description</summary>
+          <p>How do we use mathematical thinking to design better machine learning methods? This course focuses on developing mathematical tools for answering this question. This course will cover fundamental concepts and principled algorithms in machine learning, particularly those that are related to modern large-scale non-linear models. The topics include concentration inequalities, generalization bounds via uniform convergence, non-convex optimization, implicit regularization effect in deep learning, and unsupervised learning and domain adaptations. Prerequisites: MATH 51 and STATS 117 and either CS 229 or STATS 315A. See https://statistics.stanford.edu/course-equiv for equivalent courses in other departments that satisfy these prerequisites.</p>
+        </details>
+      </section>
+    </article>
+
+    <aside class="course-aside">
+      <div class="aside-card">
+        <div class="aside-head"><h3>Quick facts</h3></div>
+        <dl class="facts">
+          <div><dt>Course</dt><dd>CS 229M</dd></div>
+          <div><dt>Term</dt><dd>Not scheduled in 2026–27</dd></div>
+          <div><dt>Units</dt><dd>3</dd></div>
+          <div><dt>Grading</dt><dd>Letter or Credit/No Credit</dd></div>
+          <div><dt>Instructors</dt><dd>TBA</dd></div>
+          <div><dt>Difficulty</dt><dd>★★★★★</dd></div>
+        </dl>
+      </div>
+      <div class="aside-card">
+        <div class="aside-head"><h3>Resources</h3></div>
+        <a class="res" href="https://explorecourses.stanford.edu/search?view=catalog&academicYear=20262027&q=CS+229M" target="_blank" rel="noopener"><span>ExploreCourses</span><b>↗</b></a><a class="res" href="https://web.stanford.edu/class/stats214/" target="_blank" rel="noopener"><span>Course site</span><b>↗</b></a>
+        <a class="res" href="../../courses/cs229m-machine-learning-theory.html"><span>Read this page in Chinese</span><b>↗</b></a>
+        <a class="res" href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/courses/en/cs229m-machine-learning-theory.md" target="_blank" rel="noopener"><span>Markdown on GitHub</span><b>↗</b></a>
+      </div>
+    </aside>
+  </div>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p class="footbrand">Stanford AI · Course Map</p>
+    <p>2026–27 · Unofficial. Course information is based on <a href="https://explorecourses.stanford.edu/" target="_blank" rel="noopener">ExploreCourses</a>; always check the official syllabus.</p>
+    <p><a href="../index.html#about">About this edition</a> · <a href="../../courses/cs229m-machine-learning-theory.html">中文完整版</a></p>
+  </div>
+</footer>
+<script src="../../assets/app.js"></script>
+
+</body>
+</html>

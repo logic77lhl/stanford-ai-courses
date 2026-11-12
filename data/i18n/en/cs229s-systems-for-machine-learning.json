@@ -1,0 +1,22 @@
+{
+  "slug": "cs229s-systems-for-machine-learning",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "ML systems: efficiency across the data, training, and inference stack, with hardware-software co-design.",
+  "pos": "CS 229S looks at machine learning from a systems perspective: models are bigger, data is larger, hardware is more heterogeneous — where is the performance bottleneck? It covers data pipelines, distributed training, GPUs/accelerators, networking, inference serving, and compilation, for people who want to work on MLSys/infrastructure.",
+  "topics": [
+    "**Data pipelines**: collection, cleaning, storage, throughput",
+    "**Distributed training**: data, model, and pipeline parallelism",
+    "**Accelerators**: GPUs/TPUs, memory hierarchy, interconnects",
+    "**Communication and networking**: all-reduce, RDMA, topology",
+    "**Inference serving**: batching, scheduling, KV cache, latency",
+    "**Compilation and kernels**: XLA, TVM, Triton",
+    "**Cases and project**: performance analysis of real systems"
+  ],
+  "prereq": "CS 224N or CS 229; systems/architecture background helps.",
+  "assess": "Assignments plus a project, focused on systems implementation and performance analysis. Check the current syllabus for details.",
+  "who": "People who want to work on MLSys, inference infrastructure, or training platforms; systems people moving into ML.",
+  "tips": "Pair with CS 149 (parallel computing) and CS 217 (accelerators). Understand the roofline model and communication costs first.",
+  "tags": ["MLSys", "Systems", "Distributed", "Performance"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing; no stable course-site link found."
+}

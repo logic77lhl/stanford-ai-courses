@@ -1,0 +1,22 @@
+{
+  "slug": "cs348n-neural-models-for-3d-geometry",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Neural representations for 3D geometry: point clouds, meshes, implicit fields, and 3D generation.",
+  "pos": "CS 348N studies how to generate and manipulate high-quality 3D models and scenes with machine learning. It covers geometry representations, 3D datasets, point-cloud/mesh networks, neural implicits, 3D generative models, conditional generation, and evaluation — a core course for 3D generation/graphics.",
+  "topics": [
+    "**Geometry representations**: point clouds, meshes, voxels, SDFs, NeRF",
+    "**3D data**: ShapeNet, Objaverse, scene datasets",
+    "**Point-cloud/mesh networks**: PointNet, GCN, MeshCNN",
+    "**Neural implicits**: SDFs, occupancy, NeRF",
+    "**3D generation**: VAE/GAN/diffusion/autoregressive",
+    "**Conditional generation**: text/image to 3D",
+    "**Evaluation and synthetic data**"
+  ],
+  "prereq": "CS 148; deep learning basics; CS 229 recommended.",
+  "assess": "Assignments plus a project. Check the current syllabus for details.",
+  "who": "3D generation, graphics, AR/VR, and robot simulation.",
+  "tips": "Learn NeRF and diffusion first, then revisit 3D versions of GAN/VAE. Pair with CS 468.",
+  "tags": ["3D", "Generative models", "Graphics", "NeRF"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing; no stable course-site link found."
+}

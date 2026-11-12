@@ -1,0 +1,22 @@
+{
+  "slug": "cs247a-design-for-artificial-intelligence",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Design for human-centered AI: a studio course of research, prototyping, and iteration toward responsible AI experiences.",
+  "pos": "CS 247A (SYMSYS 195A) is the advanced design follow-up to CS 147, run entirely as a studio. It focuses on human-centered AI experiences: what AI is, what constraints and opportunities it has, and how to design responsible, ethical AI systems. The course emphasizes intense iteration and real design problems.",
+  "topics": [
+    "**Design research**: interviews, observation, defining needs",
+    "**AI capabilities and constraints**: what it can and cannot do",
+    "**Prototyping**: low- to high-fidelity, Wizard-of-Oz",
+    "**Interaction patterns**: conversation, recommendation, automation, mixed-initiative",
+    "**Trust and transparency**: explanations, control, error recovery",
+    "**Ethics and responsibility**: bias, privacy, power",
+    "**Studio project**"
+  ],
+  "prereq": "CS 147 or equivalent design-thinking background; application may be required.",
+  "assess": "Studio attendance plus iteration and a final project. Check the current syllabus for details.",
+  "who": "Designers, product managers, HCI students; AI developers moving from demos to experiences.",
+  "tips": "This is not an ML technique course. Confirm you can commit studio time before enrolling.",
+  "tags": ["Design", "HCI", "Human-centered AI", "Studio"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

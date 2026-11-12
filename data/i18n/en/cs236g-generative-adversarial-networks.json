@@ -1,0 +1,22 @@
+{
+  "slug": "cs236g-generative-adversarial-networks",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "A dedicated GAN course: from principles to SOTA, covering training stability, evaluation, and bias.",
+  "pos": "CS 236G is a special-topics course on generative models focused on GANs. It goes from basic adversarial training to SOTA variants such as StyleGAN, discusses mode collapse, training stability, evaluation metrics, and bias, and covers applications in image editing, medical low-data settings, and climate visualization.",
+  "topics": [
+    "**GAN basics**: generator/discriminator, minimax, losses",
+    "**Training techniques**: WGAN, spectral normalization, TTUR, regularization",
+    "**Conditional generation**: cGAN, StyleGAN, image-to-image",
+    "**Evaluation**: FID, IS, precision/recall",
+    "**Bias and ethics**: data bias, deepfakes",
+    "**Applications**: editing, medicine, scientific visualization",
+    "**Project**"
+  ],
+  "prereq": "Linear algebra, statistics, CS 106B; a graduate AI course (CS 229/230/221).",
+  "assess": "Assignments plus a project. Check the current syllabus for details.",
+  "who": "Image generation, visual editing, and generative-model engineering; people who want to understand GANs rather than only calling diffusion.",
+  "tips": "Take CS 236 or CS 231N first. Reproduce a GAN training-stability failure once by hand.",
+  "tags": ["GAN", "Generative models", "Vision"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

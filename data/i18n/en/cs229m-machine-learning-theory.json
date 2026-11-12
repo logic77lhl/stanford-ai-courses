@@ -1,0 +1,21 @@
+{
+  "slug": "cs229m-machine-learning-theory",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Machine learning theory: generalization bounds, non-convex optimization, and implicit regularization — why deep learning works.",
+  "pos": "CS 229M (STATS 214) is the most mathematically demanding ML course, aimed at graduate students who want to do theory. It does not teach model tuning; it trains you to analyze modern large-scale nonlinear models with concentration inequalities, uniform convergence, and optimization theory.",
+  "topics": [
+    "**Concentration inequalities**: Hoeffding, Chernoff, McDiarmid",
+    "**Generalization theory**: uniform convergence, VC dimension, Rademacher complexity",
+    "**Non-convex optimization**: gradient descent, saddle points, landscape",
+    "**Implicit regularization**: overparameterization, double descent, margin stability",
+    "**Unsupervised learning and domain adaptation**: representation learning theory",
+    "**Modern model analysis**: approximation and generalization of Transformers/deep networks"
+  ],
+  "prereq": "MATH 51; STATS 117; CS 229 or STATS 315A.",
+  "assess": "Assignments plus a final/project, mostly proofs and paper reading. Check the current syllabus for details.",
+  "who": "People who want to do ML theory, a PhD, or rigorous analysis; also suitable for math/statistics backgrounds moving into ML.",
+  "tips": "Brush up on real analysis and probability first. Don't expect to understand it in one pass — work through the notes and papers repeatedly.",
+  "tags": ["Theory", "Math", "Generalization"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

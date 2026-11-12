@@ -1,0 +1,22 @@
+{
+  "slug": "cs348i-computer-graphics-in-the-era-of-ai",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Computer graphics in the AI era: neural rendering, differentiable rendering, materials/textures, animation, and physics simulation.",
+  "pos": "CS 348I discusses how deep learning is changing four areas of graphics: rendering, geometry, animation, and imaging. For each problem it presents the classical solution first, then SOTA learned methods, and critically evaluates results and impact — a good fit for graphics + AI.",
+  "topics": [
+    "**Differentiable/neural rendering**: NeRF, Gaussian Splatting, neural rendering",
+    "**Materials and lighting**: BRDF estimation, inverse rendering",
+    "**Textures and images**: texture synthesis, denoising, super-resolution, shading",
+    "**Geometry**: neural implicits, procedural modeling",
+    "**View synthesis**: novel-view generation, 3D reconstruction",
+    "**Animation**: motion synthesis, differentiable physics, RL",
+    "**Project**"
+  ],
+  "prereq": "CS 148; CS 231N recommended.",
+  "assess": "Programming assignments plus a project. Check the current syllabus for details.",
+  "who": "Graphics, rendering, 3D generation, and film/game technology.",
+  "tips": "Brush up on graphics fundamentals (ray tracing, BRDF, rendering equation) first. Pair with CS 348N/CS 468.",
+  "tags": ["Graphics", "Neural rendering", "3D", "Generation"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing; no stable course-site link found."
+}

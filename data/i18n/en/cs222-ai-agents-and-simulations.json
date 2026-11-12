@@ -1,0 +1,22 @@
+{
+  "slug": "cs222-ai-agents-and-simulations",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Simulate human society with agent-based models and generative agents, and run 'what if' experiments.",
+  "pos": "Taught by Michael Bernstein and Noah Goodman, CS 222 spans social science, behavioral science, and generative AI. It moves from classical agent-based modeling to LLM-driven generative agents, discussing how to simulate individuals and societies, how to evaluate simulation fidelity, and the ethical issues involved.",
+  "topics": [
+    "**Agent-based modeling**: rules, emergence, calibration",
+    "**Social simulation**: opinion spread, cooperation, public policy",
+    "**Generative agents**: LLM-driven personas, memory, planning",
+    "**Counterfactual experiments**: designing what-if scenarios",
+    "**Evaluation**: simulation fidelity, bias, reproducibility",
+    "**Ethics**: manipulation, privacy, the power of simulation",
+    "**Team project**: build a social simulation"
+  ],
+  "prereq": "Python programming; AI (CS 221/224), human-centered design, or social psychology helps but is not required.",
+  "assess": "Mainly a team project plus assignments/discussion. Check the current syllabus for details.",
+  "who": "Computational social science, multi-agent systems, AI policy/ethics; anyone who wants to build social simulations or generative agents.",
+  "tips": "Read Generative Agents (Park et al., 2023) and classic Schelling/NetLogo models first. Pay attention to reproducibility and ethical boundaries.",
+  "tags": ["Agent", "Social simulation", "Multi-agent"],
+  "note": ""
+}

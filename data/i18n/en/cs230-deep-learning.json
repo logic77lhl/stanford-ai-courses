@@ -1,0 +1,22 @@
+{
+  "slug": "cs230-deep-learning",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Ng's hands-on deep learning course: from fully connected networks to CNNs/RNNs, focused on making DL projects succeed, not just deriving formulas.",
+  "pos": "CS 230 uses a flipped classroom: watch videos and do programming assignments and quizzes before class, then discuss and work on projects in class. It covers the building blocks and engineering methodology of deep learning, with case studies across healthcare, autonomous driving, sign language, music generation, and NLP. It is more hands-on than CS 229.",
+  "topics": [
+    "**Neural network basics**: forward/backward propagation, activations, losses",
+    "**CNNs**: convolution, pooling, classic architectures, transfer learning",
+    "**Sequence models**: RNNs, LSTMs, attention",
+    "**Training techniques**: Adam, dropout, BatchNorm, Xavier/He initialization",
+    "**ML project methodology**: error analysis, bias-variance, data splits, iteration strategy",
+    "**Industry case studies**: medical imaging, autonomous driving, music generation, NLP",
+    "**Open-ended final project**"
+  ],
+  "prereq": "Python programming; linear algebra (matrix/vector operations). CS 229 may be taken concurrently.",
+  "assess": "Programming assignments, online quizzes, and an open-ended final project; the flipped classroom requires preparation before class. Check the current syllabus for details.",
+  "who": "People who want to get hands-on with deep learning and ship a complete project; product or startup backgrounds that need technical execution; a broader, project-oriented route than CS 231N.",
+  "tips": "If you have never touched DL, start with the NN part of CS 229 or the first few CS 231N lectures. The project separates people more than the assignments do — form a team and pick a topic early.",
+  "tags": ["DL", "Hands-on", "Project"],
+  "note": ""
+}

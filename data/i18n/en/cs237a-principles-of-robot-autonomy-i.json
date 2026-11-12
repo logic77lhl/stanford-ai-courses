@@ -1,0 +1,22 @@
+{
+  "slug": "cs237a-principles-of-robot-autonomy-i",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Autonomous robots I: perception, localization, SLAM, nonlinear control, motion planning, and POMDPs.",
+  "pos": "CS 237A (AA 274A/EE 260A/ME 274A) is taught by Marco Pavone and is the core course on robot autonomy. It connects perception, localization, control, planning, and decision-making under uncertainty, with extensive hands-on ROS work.",
+  "topics": [
+    "**Perception**: sensors, features, vision/lidar",
+    "**Localization and SLAM**: EKF, particle filters, graph optimization",
+    "**Nonlinear control**: feedback linearization, MPC basics",
+    "**Motion planning**: graph search, sampling-based planning, trajectory optimization",
+    "**Uncertainty**: POMDPs, belief space",
+    "**ROS practice**",
+    "**Project**: make a robot complete a task autonomously"
+  ],
+  "prereq": "CS 106A; CME 100 (linear algebra); CME 106 (probability).",
+  "assess": "Assignments plus a ROS project. Check the current syllabus for details.",
+  "who": "Robotics, autonomous driving, drones, and embodied AI.",
+  "tips": "Take CS 223A first or have rigid-body kinematics basics. Get familiar with ROS early.",
+  "tags": ["Robotics", "SLAM", "Planning", "ROS"],
+  "note": ""
+}

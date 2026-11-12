@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS 336 · Language Modeling from Scratch | Stanford AI Course Map</title>
+<meta name="description" content="Build a language model from scratch: data cleaning, tokenizer, Transformer, training, scaling, evaluation, and deployment.">
+<meta name="theme-color" content="#09090b">
+<meta property="og:title" content="CS 336 · Language Modeling from Scratch | Stanford AI Course Map">
+<meta property="og:description" content="Build a language model from scratch: data cleaning, tokenizer, Transformer, training, scaling, evaluation, and deployment.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="en" href="https://logic77lhl.github.io/stanford-ai-courses/en/courses/cs336-language-modeling-from-scratch.html">
+<link rel="alternate" hreflang="zh-CN" href="https://logic77lhl.github.io/stanford-ai-courses/courses/cs336-language-modeling-from-scratch.html">
+<link rel="alternate" hreflang="x-default" href="https://logic77lhl.github.io/stanford-ai-courses/courses/cs336-language-modeling-from-scratch.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23d4b176' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4b176'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topin">
+    <a class="brand" href="../index.html">Stanford AI <span>Course Map</span></a>
+    <nav class="nav" id="nav"><a href="../index.html#map">Map</a><a href="../index.html#courses" class="on">Courses</a><a href="../paths.html">Paths</a><a href="../semester.html">Semester</a><a href="../prereqs.html">Prereqs</a><a href="../bilibili.html">Bilibili</a><a href="../index.html#about">About</a></nav>
+    <a class="lang" href="../../courses/cs336-language-modeling-from-scratch.html">中文</a>
+    <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
+    <button class="menu" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<main>
+<div class="wrap">
+  <a class="back" href="../index.html#courses">← Back to the course map</a>
+
+  <section class="course-hero">
+    <div class="course-poster">
+      <span class="cp-kicker">Stanford · 2026—27</span>
+      <span class="cp-code">CS 336</span>
+      <span class="cp-cat">LLMs &amp; Agents</span>
+      <span class="cp-stars">★★★★★</span>
+    </div>
+    <div class="course-head">
+      <p class="kicker">Core course · LLMs &amp; Agents</p>
+      <h1>Language Modeling from Scratch</h1>
+      <p class="course-en">中文：从零构建语言模型</p>
+      <p class="course-one">Build a language model from scratch: data cleaning, tokenizer, Transformer, training, scaling, evaluation, and deployment.</p>
+      <p class="note-inline">Draft translation: official facts are checked; wording may change after native review.</p>
+
+      <div class="meta-chips">
+        <span>3–5 units</span>
+        <span>Spring 2027</span>
+        <span>Letter or Credit/No Credit</span>
+        <span>★★★★★</span>
+      </div>
+      <div class="tagrow"><span>LLM</span><span>Pre-training</span><span>Systems</span><span>Hard-core</span></div>
+    </div>
+  </section>
+
+  <div class="course-layout">
+    <article class="course-main">
+      <section class="prose">
+        <h2>Course positioning</h2>
+        <p>CS 336 is one of the most hard-core LLM courses, taught by Percy Liang and Tatsunori Hashimoto. Inspired by &#x27;build an OS from scratch&#x27;, it walks through the full language-model lifecycle; the assignments need substantial GPU compute, and enrollment requires an application.</p>
+      </section>
+
+      <section class="prose">
+        <h2>What it covers</h2>
+        <ol class="topic-list"><li><strong>Data</strong>: collection, cleaning, deduplication, filtering, mixing</li><li><strong>Tokenization</strong>: BPE, vocabulary design, multilingual issues</li><li><strong>Model</strong>: Transformer architecture, attention variants, positional encoding</li><li><strong>Training</strong>: initialization, optimizers, learning rates, mixed precision, distributed training</li><li><strong>Scaling</strong>: scaling laws, compute-optimal configurations</li><li><strong>Evaluation</strong>: perplexity, benchmarks, contamination, alignment evaluation</li><li><strong>Deployment</strong>: inference, quantization, serving</li><li><strong>Safety and ethics</strong>: data copyright, bias, misuse</li></ol>
+      </section>
+
+      <section class="prose two">
+        <div><h2>Prerequisites</h2><p>Strong programming; deep learning background (CS 224N/CS 231N/CS 230 level); application required, GPU resources recommended.</p></div>
+        <div><h2>Assessment &amp; workload</h2><p>Typically about five programming assignments that build the LM step by step, plus a project; compute-heavy. Check the current syllabus for details.</p></div>
+      </section>
+
+      <section class="prose two">
+        <div><h2>Who it&#x27;s for</h2><p>People who want to understand the full LLM stack and later work on pre-training/inference/systems; founders building models.</p></div>
+        <div><h2>Study advice</h2><p>Take CS 224N or CS 231N first. Without GPUs you can run small models, but the assignment experience will be limited.</p></div>
+      </section>
+
+      <section class="prose">
+        <h2>Related courses</h2>
+        <div class="related-grid"><a class="relcard" href="cs224n-nlp-with-deep-learning.html"><span>CS 224N</span><b>Natural Language Processing with Deep Learning (LINGUIST 284, SYMSYS 195N)</b></a><a class="relcard" href="cs229s-systems-for-machine-learning.html"><span>CS 229S</span><b>Systems for Machine Learning</b></a><a class="relcard" href="cs349e-efficient-ml-inference-at-scale.html"><span>CS 349E</span><b>Efficient ML Inference at Scale (EE 339)</b></a></div>
+      </section>
+
+      <section class="prose">
+        <details class="official">
+          <summary>Official course description</summary>
+          <p>Language models serve as the cornerstone of modern natural language processing (NLP) applications and open up a new paradigm of having a single general purpose system address a range of downstream tasks. As the field of artificial intelligence (AI), machine learning (ML), and NLP continues to grow, possessing a deep understanding of language models becomes essential for scientists and engineers alike. This course is designed to provide students with a comprehensive understanding of language models by walking them through the entire process of developing their own. Drawing inspiration from operating systems courses that create an entire operating system from scratch, we will lead students through every aspect of language model creation, including data collection and cleansing for pre-training, transformer model construction, model training, and evaluation before deployment. Application required, apply at http://cs336.stanford.edu/</p>
+        </details>
+      </section>
+    </article>
+
+    <aside class="course-aside">
+      <div class="aside-card">
+        <div class="aside-head"><h3>Quick facts</h3></div>
+        <dl class="facts">
+          <div><dt>Course</dt><dd>CS 336</dd></div>
+          <div><dt>Term</dt><dd>Spring 2027</dd></div>
+          <div><dt>Units</dt><dd>3–5</dd></div>
+          <div><dt>Grading</dt><dd>Letter or Credit/No Credit</dd></div>
+          <div><dt>Instructors</dt><dd>Liang, P.; Hashimoto, T.</dd></div>
+          <div><dt>Difficulty</dt><dd>★★★★★</dd></div>
+        </dl>
+      </div>
+      <div class="aside-card">
+        <div class="aside-head"><h3>Resources</h3></div>
+        <a class="res" href="https://explorecourses.stanford.edu/search?view=catalog&academicYear=20262027&q=CS+336" target="_blank" rel="noopener"><span>ExploreCourses</span><b>↗</b></a><a class="res" href="https://cs336.stanford.edu/" target="_blank" rel="noopener"><span>Course site</span><b>↗</b></a>
+        <a class="res" href="../../courses/cs336-language-modeling-from-scratch.html"><span>Read this page in Chinese</span><b>↗</b></a>
+        <a class="res" href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/courses/en/cs336-language-modeling-from-scratch.md" target="_blank" rel="noopener"><span>Markdown on GitHub</span><b>↗</b></a>
+      </div>
+    </aside>
+  </div>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p class="footbrand">Stanford AI · Course Map</p>
+    <p>2026–27 · Unofficial. Course information is based on <a href="https://explorecourses.stanford.edu/" target="_blank" rel="noopener">ExploreCourses</a>; always check the official syllabus.</p>
+    <p><a href="../index.html#about">About this edition</a> · <a href="../../courses/cs336-language-modeling-from-scratch.html">中文完整版</a></p>
+  </div>
+</footer>
+<script src="../../assets/app.js"></script>
+
+</body>
+</html>

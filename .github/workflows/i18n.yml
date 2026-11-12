@@ -1,0 +1,38 @@
+name: i18n
+
+on:
+  push:
+    paths:
+      - "data/i18n/**"
+      - "data/courses/**"
+      - "data/catalog.json"
+      - "scripts/build_i18n.py"
+      - "scripts/i18n_check.py"
+      - "scripts/build_site_en.py"
+      - "courses/en/**"
+      - "docs/en/**"
+  pull_request:
+    paths:
+      - "data/i18n/**"
+      - "data/courses/**"
+      - "data/catalog.json"
+      - "scripts/build_i18n.py"
+      - "scripts/i18n_check.py"
+      - "scripts/build_site_en.py"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build English Markdown + JSON
+        run: python scripts/build_i18n.py
+      - name: Validate translations
+        run: python scripts/i18n_check.py --strict
+      - name: Build English site
+        run: python scripts/build_site_en.py
+      - name: Generated files must be committed
+        run: git diff --exit-code

@@ -1,0 +1,21 @@
+{
+  "slug": "cs221-artificial-intelligence",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "The overview course for AI: search, MDPs, graphical models, logic, and machine learning under one frame — making good decisions with incomplete information and limited compute.",
+  "pos": "CS 221 is the entry point to Stanford's AI track, and the best way to see that AI is more than model tuning. It uses one mathematical language (probability + algorithms) to describe how agents make decisions with incomplete information and limited computation, spanning classical symbolic AI through modern machine learning.",
+  "topics": [
+    "**Search and constraint satisfaction**: DFS/BFS/A*, heuristics, CSPs, local search",
+    "**Games and adversarial search**: minimax, alpha-beta, expected utility",
+    "**MDPs and reinforcement learning**: value iteration, policy iteration, Q-learning basics",
+    "**Probabilistic graphical models**: Bayesian networks, HMMs, variable elimination, sampling",
+    "**Machine learning**: naive Bayes, perceptron, logistic regression, losses and regularization",
+    "**Logic and knowledge representation**: propositional logic, first-order logic, inference",
+    "**Capstone project**: combine the modules into a working AI system"
+  ],
+  "prereq": "CS 103 (or 103B/X), CS 106B (or 106X), CS 109, and CS 161. The course explicitly says it will not reteach these foundations.",
+  "assess": "Typically about five written/programming assignments plus a midterm, a final, and a capstone project; the workload is on the heavy side for a Stanford course. Check the current syllabus for exact weights.",
+  "who": "Undergrads or students switching majors who want a complete AI map; anyone planning to take CS 229/224N/234 next; engineers who want to fill the classical-AI gap.",
+  "tips": "Brush up on probability (CS 109) and algorithms (CS 161) first, or the assignments will hurt. Write the search and MDP parts from scratch rather than only calling libraries.",
+  "tags": ["AI", "Foundations", "Search", "Probability"]
+}

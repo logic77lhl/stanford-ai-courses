@@ -6,6 +6,8 @@
 
 **Live site**: <https://logic77lhl.github.io/stanford-ai-courses/>
 
+**Full English site**: 125 course pages + paths / semester / prerequisites / Bilibili · [English site](https://logic77lhl.github.io/stanford-ai-courses/en/)
+
 Stanford's AI courses are spread across CS, EE, STATS, MS&E, CME, AA, PSYCH, and SymSys, numbered from CS 25 to CS 528, plus a pile of 1-unit seminars. This repo turns them into a map: **one Markdown overview per core course**, plus a full course table, learning paths, and related courses. `docs/` is a browsable GitHub Pages site.
 
 [![Site preview](docs/assets/preview.png)](https://logic77lhl.github.io/stanford-ai-courses/)
@@ -26,12 +28,15 @@ Stanford's AI courses are spread across CS, EE, STATS, MS&E, CME, AA, PSYCH, and
 ├── PLAYBOOK.md               # AI-facing reproduction manual
 ├── playbooks/                # 10 domain templates + skeleton + master prompt
 ├── courses/                  # 55 core courses, one overview each
+├── courses/en/               # English overviews (55 core courses)
 ├── docs/                     # GitHub Pages site (index + 125 course pages)
+├── docs/en/                  # English site (125 course pages + 5 top-level pages)
 ├── docs/learning-paths.md    # the six learning paths in detail
 ├── data/
 │   ├── courses.json          # machine-readable course data
 │   ├── catalog.json          # normalised ExploreCourses dump
 │   ├── courses/              # hand-written source data, split by area
+│   ├── i18n/                 # English translation layer (ui.en.json / glossary.json / en/*.json)
 │   ├── resources.json        # videos / code / tools
 │   ├── lectures/             # per-course JSON: lecture outline / slides / Bilibili link
 │   ├── prereqs.json          # prerequisite graph
@@ -73,6 +78,19 @@ The full table (course number, title, units, quarter, difficulty, overview link)
 
 Browse the site: <https://logic77lhl.github.io/stanford-ai-courses/>
 
+## English edition
+
+The English site is a full mirror: **125 course pages** (55 core + 70 related) plus **paths, semester, prerequisites, and Bilibili** pages. Every Chinese page has a language link to its English counterpart.
+
+- The Chinese notes in `data/courses/*.json` remain the source of truth.
+- Core translations live in `data/i18n/en/<slug>.json`; related-course one-liners in `data/i18n/more_courses.en.json`.
+- Page copy is in `data/i18n/ui.en.json`, `pages.en.json`, `paths.en.json`, and `prereqs.en.json`.
+- Official facts (title, description, units, terms, instructors) are read from `data/catalog.json`, never retyped.
+- `scripts/i18n_check.py --strict` fails on missing courses, dropped topic bullets, or Chinese characters leaking into English.
+- All English pages are `draft`: structurally checked, awaiting native review.
+
+The full course table is intentionally not duplicated in English — it would drift. Use the Chinese table or the filterable English site.
+
 ## Learning paths
 
 Six routes — foundations, LLM/agents, CV, robotics, MLSys, AI4Science — each with an ordered course list and a note on what the route leaves out. Details in [docs/learning-paths.md](docs/learning-paths.md).
@@ -83,6 +101,9 @@ Six routes — foundations, LLM/agents, CV, robotics, MLSys, AI4Science — each
 python scripts/fetch_catalog.py     # refresh from ExploreCourses
 python scripts/build.py             # regenerate course pages and tables
 python scripts/build_site.py        # regenerate docs/
+python scripts/build_i18n.py        # build English Markdown + data/courses.en.json
+python scripts/build_site_en.py     # regenerate docs/en/
+python scripts/i18n_check.py        # validate the translation layer
 python scripts/verify_bilibili.py   # check third-party video links
 ```
 

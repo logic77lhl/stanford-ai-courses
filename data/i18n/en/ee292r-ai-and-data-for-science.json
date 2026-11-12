@@ -1,0 +1,21 @@
+{
+  "slug": "ee292r-ai-and-data-for-science",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "AI4Science frontier lectures: one Stanford professor each week on how AI/data advances their scientific field.",
+  "pos": "EE 292R (CS 292/PSYCH 292R/STATS 282) is a 1-unit seminar first offered in Autumn 2026, organized by Candès, Wetzstein, Narasimhan, and Wandell. It does not teach specific techniques; each week a speaker presents a real AI4Science case, covering neuroscience, medicine, genomics, computational social science, world models, and more.",
+  "topics": [
+    "**Neuroscience**: retina/visual system, brain foundation models, digital twins",
+    "**Medicine**: medical imaging FMs, precision medicine, multimodal omics",
+    "**Genomics**: regulatory DNA, non-coding variants",
+    "**Spatial intelligence**: video world models, world agents",
+    "**Computational social science**: coordinated behavior detection across encrypted platforms",
+    "**Research infrastructure**: Marlowe GPU cluster, petabyte-scale data"
+  ],
+  "prereq": "No hard prerequisites; interest in AI + science is enough.",
+  "assess": "Attendance plus a short write-up on one lecture topic; 1 unit, S/NC.",
+  "who": "People who want a fast map of AI4Science and to find interdisciplinary topics/collaborators; not for people who want systematic ML technique training.",
+  "tips": "Lectures are in person only, but Stanford Online will upload recordings to YouTube. Write down one 'method + scientific question' pair per talk.",
+  "tags": ["AI4Science", "Lectures", "Interdisciplinary"],
+  "note": ""
+}

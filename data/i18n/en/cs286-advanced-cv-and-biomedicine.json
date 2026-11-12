@@ -1,0 +1,22 @@
+{
+  "slug": "cs286-advanced-cv-and-biomedicine",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Advanced CV + biomedicine: visual foundation models, diffusion/generation, and vision-language deployment in healthcare.",
+  "pos": "Taught by Serena Yeung, CS 286 discusses visual foundation models in biomedicine in depth. It covers representation learning, diffusion/generative models, and vision-language models, as well as real deployment issues such as model size, compute, training/inference settings, and data.",
+  "topics": [
+    "**Visual FMs**: CLIP, DINO, SAM, etc.",
+    "**Representation learning**: self-supervision, contrastive learning",
+    "**Generative models**: diffusion, image translation",
+    "**Vision-language**: report generation, VQA",
+    "**Compute and data**: model scale, training/inference, data bias",
+    "**Medical applications**: pathology, radiology, surgery",
+    "**Paper analysis and project**"
+  ],
+  "prereq": "CS 231N or BIODS 220-level deep learning/vision background.",
+  "assess": "Paper analysis plus class discussion and a final project. Check the current syllabus for details.",
+  "who": "Graduate students in medical imaging, CV research, or AI4Science.",
+  "tips": "Take CS 231N first. The course is research-oriented; pick a narrow clinical problem and go deep.",
+  "tags": ["Healthcare", "CV", "Foundation models", "Research"],
+  "note": "Offered in Autumn 2026–27; no stable course-site link found."
+}

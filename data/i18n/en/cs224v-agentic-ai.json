@@ -1,0 +1,21 @@
+{
+  "slug": "cs224v-agentic-ai",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Turn LLMs into agents that can retrieve, reason, and execute long-horizon tasks: RAG, tools, knowledge bases, formal methods, and long-range planning.",
+  "pos": "CS 224V is a project-based agentic AI course with hard-core lectures, taught by Yuhao He and others. It is not about calling APIs; it systematically discusses agent reliability: reducing hallucination, mixing structured and unstructured knowledge, using formal methods to guarantee decisions, and optimizing long-horizon tasks.",
+  "topics": [
+    "**RAG and task formalization**: retrieval augmentation, formal task descriptions, reducing hallucination",
+    "**Hybrid knowledge reasoning**: joint reasoning over databases, knowledge bases, and unstructured text",
+    "**AI-driven knowledge curation**: organizing and discovering knowledge in scientific discovery",
+    "**Formal methods**: improving the accuracy and interpretability of decision-making agents",
+    "**Long-horizon agents**: automatically optimizing accuracy and efficiency on long tasks",
+    "**Quarter-long project**: method research or a domain agent"
+  ],
+  "prereq": "One of LINGUIST 180/280, CS 124, CS 224N, CS 224S, or CS 224U.",
+  "assess": "Lectures plus a quarter-long project that carries most of the grade (research or application). Check the current syllabus for details.",
+  "who": "People who want to do agent research, AI scientists, or domain automation; anyone who knows LLM basics and wants to go deeper on reliability and formal guarantees.",
+  "tips": "Get familiar with ReAct, Toolformer, RAG, and function calling first. Pick a quantifiable task for the project, or evaluation will be hard.",
+  "tags": ["Agent", "RAG", "LLM", "Project"],
+  "note": ""
+}

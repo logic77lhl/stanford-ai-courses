@@ -1,0 +1,39 @@
+{
+  "paths": {
+    "kicker": "Learning Paths",
+    "title": "Six learning paths",
+    "lede": "Choose by goal, not by course number. Each path gives a core sequence and optional courses.",
+    "also": "Also pairs with"
+  },
+  "semester": {
+    "kicker": "By Term",
+    "title": "Courses by term",
+    "lede": "The 55 core courses split across the 2026–27 terms. A course may be offered in multiple terms; term data comes from ExploreCourses, so verify before enrolling.",
+    "core": "core",
+    "ext": "related",
+    "notOffered": "Not offered in 2026–27",
+    "notOfferedNote": "These courses are not in the current year's catalogue; the pages keep the official record so they are easy to find when they return."
+  },
+  "prereqs": {
+    "kicker": "Prerequisites",
+    "title": "Prerequisite graph",
+    "legendCore": "Core course",
+    "legendExt": "Related course",
+    "legendArrow": "Arrow: take first → then",
+    "listTitle": "Core-course prerequisite text",
+    "listNote": "From the course pages"
+  },
+  "bilibili": {
+    "kicker": "Bilibili",
+    "title": "Bilibili course resources",
+    "lede": "A collection of third-party Stanford AI/ML course mirrors and Chinese-dubbed versions on Bilibili. They may break, miss episodes, or lag the current version; prefer the official course site and Stanford Online YouTube recordings.",
+    "report": "Dead-link report"
+  },
+  "common": {
+    "backHome": "← Back to the map",
+    "core": "Core course",
+    "ext": "Related course",
+    "units": "units",
+    "notScheduled": "Not scheduled in 2026–27"
+  }
+}

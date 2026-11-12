@@ -64,6 +64,8 @@ img { display: block; max-width: 100%; }
 .nav a.on { color: var(--gold); }
 .gh { font-size: 11px; color: var(--muted); border: 1px solid var(--line2); border-radius: 16px; padding: 5px 12px; white-space: nowrap; }
 .gh:hover { color: var(--gold); border-color: rgba(212, 177, 118, .5); }
+.lang { font-size: 11px; color: var(--muted); border: 1px solid var(--line2); border-radius: 16px; padding: 5px 10px; white-space: nowrap; }
+.lang:hover { color: var(--gold); border-color: rgba(212, 177, 118, .5); }
 .menu { display: none; background: none; border: 0; font-size: 20px; color: var(--muted); padding: 4px 8px; }
 
 /* shared */

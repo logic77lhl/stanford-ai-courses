@@ -1,0 +1,22 @@
+{
+  "slug": "cs224n-nlp-with-deep-learning",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "The core NLP course from word2vec to LLMs: implement word2vec, RNNs, and attention, then build an LLM project.",
+  "pos": "CS 224N is Stanford's flagship NLP course and the first stop into LLMs for many people. It starts with word representations and language models, then moves to Transformers, pre-training, fine-tuning, and RLHF, combining mathematical derivations with substantial implementation.",
+  "topics": [
+    "**Word representations**: word2vec, GloVe, subwords/tokenization",
+    "**Language models**: n-grams, RNNs/LSTMs, attention",
+    "**Transformers**: self-attention, positional encoding, architecture details",
+    "**Pre-trained models**: BERT, GPT, T5, scaling laws",
+    "**Adaptation and alignment**: fine-tuning, prompting, RLHF, DPO",
+    "**NLP tasks**: syntax, semantics, QA, machine translation, information extraction",
+    "**Final project**: usually an LLM/agent research or application project"
+  ],
+  "prereq": "Calculus and linear algebra; one of CS 124, CS 221, or CS 229.",
+  "assess": "Typically 4–5 assignments plus a midterm and a final project; the assignments involve substantial PyTorch implementation. Check the current syllabus for details.",
+  "who": "Required for NLP/LLM; people working on agents, RAG, alignment, or multimodal language models; engineers moving from classical NLP to LLMs.",
+  "tips": "Take CS 229 first, or at least understand softmax, cross-entropy, and backpropagation. If you want to train LLMs from scratch, follow this with CS 336.",
+  "tags": ["NLP", "LLM", "DL", "Foundations"],
+  "note": ""
+}

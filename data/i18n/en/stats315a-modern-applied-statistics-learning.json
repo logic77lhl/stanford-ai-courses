@@ -1,0 +1,21 @@
+{
+  "slug": "stats315a-modern-applied-statistics-learning",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Modern applied statistical learning: prediction methods, model evaluation, optimization, and generative models.",
+  "pos": "STATS 315A is a graduate-level ML course in the statistics department, covering prediction methods (linear models, trees/forests, deep networks), model evaluation (cross-validation, calibration, conformal prediction), optimization (convexity, stochastic methods), and generative models (language models, diffusion, VAEs). It balances statistical rigor with modern methods.",
+  "topics": [
+    "**Prediction methods**: linear, trees/forests, deep networks",
+    "**Model evaluation**: CV, calibration, conformal prediction",
+    "**Optimization**: convex optimization, SGD, adaptive methods",
+    "**Generative models**: language models, diffusion, VAEs",
+    "**High dimensions and regularization**: lasso, sparsity",
+    "**Project/paper discussion**"
+  ],
+  "prereq": "Probability/statistics, linear algebra, ML basics (STATS 202/CS 229 level).",
+  "assess": "Assignments plus a project/exam. Check the current syllabus for details.",
+  "who": "Statistics/ML graduate students; people who want rigorous predictive modeling and uncertainty quantification.",
+  "tips": "Take STATS 202 or CS 229 first. The conformal prediction part is worth going deep on.",
+  "tags": ["Statistical learning", "Generative models", "Evaluation"],
+  "note": ""
+}

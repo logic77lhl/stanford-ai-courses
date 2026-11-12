@@ -1,0 +1,22 @@
+{
+  "slug": "cs324-advances-in-foundation-models",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "A panorama of foundation models: models/algorithms, systems/infrastructure, ethics/social impact, plus a hands-on project.",
+  "pos": "CS 324 is a foundation-model course launched in 2023, covering the principles, systems, and social impact of models such as GPT-3, CLIP, and Stable Diffusion. It has industry speakers and emphasizes projects over derivations; it suits people who want a fast, broad view of FMs.",
+  "topics": [
+    "**FM basics**: definitions, history, scaling laws",
+    "**Models and algorithms**: Transformers, multimodality, diffusion",
+    "**Adaptation**: prompting, fine-tuning, LoRA, RLHF",
+    "**Systems**: distributed training, inference, cost",
+    "**Ethics and social impact**: bias, copyright, misuse, regulation",
+    "**Applications**: text, images, code, science",
+    "**Quarter-long project**: study FM capabilities or build an application"
+  ],
+  "prereq": "Deep learning background (CS 224N/CS 230/CS 231N level).",
+  "assess": "Mainly a quarter-long final project, possibly with assignments/reading. Check the current syllabus for details.",
+  "who": "Product/research/strategy people who want to understand the FM ecosystem; students looking for FM application directions.",
+  "tips": "The content leans 2023; combine it with recent papers. Pick a narrow, deep problem for the project.",
+  "tags": ["Foundation models", "LLM", "Multimodality"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing; the link points to the 2023 winter course materials."
+}

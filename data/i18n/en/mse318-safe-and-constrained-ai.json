@@ -1,0 +1,21 @@
+{
+  "slug": "mse318-safe-and-constrained-ai",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Safe and constrained AI: constrained optimization, safe RL, projection networks, and LLM alignment.",
+  "pos": "MS&E 318 is a PhD-level seminar on making AI systems not only powerful but provably safe. It covers classical constrained optimization, safe RL (trust regions, Lyapunov, reachability, shielding), hybrid ML/optimization (projection networks, solver-in-the-loop), and LLM alignment, with applications in robotics, finance, healthcare, and energy.",
+  "topics": [
+    "**Constrained optimization**: Lagrangians, robust/stochastic programming",
+    "**Safe RL**: trust regions, Lyapunov, reachability, shielding",
+    "**Hybrid methods**: projection networks, solver-in-the-loop",
+    "**LLM alignment**: fine-tuning, model editing, tool use, interactive alignment",
+    "**Theoretical results**: feasibility, stability, guarantees",
+    "**Applications and project**"
+  ],
+  "prereq": "Optimization at the CME 307 or EE 364A level.",
+  "assess": "Paper discussion plus a final project. Check the current syllabus for details.",
+  "who": "Graduate students in safe RL, control, optimization, or alignment; people who want AI with guarantees.",
+  "tips": "Brush up on convex optimization and control theory first. The course is theoretical; pick a project where safety can be proven or measured.",
+  "tags": ["Safety", "Constrained optimization", "RL", "Alignment"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

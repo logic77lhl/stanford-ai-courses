@@ -1,0 +1,22 @@
+{
+  "slug": "cs273b-deep-learning-in-genomics",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Deep learning in genomics and biomedicine: supervised, unsupervised, and generative models plus interpretability.",
+  "pos": "Taught by James Zou, CS 273B is one of the most popular AI4Bio courses. It first covers deep learning and genomics background, then applies supervised, unsupervised, and generative models to biomedical data, emphasizing biological insights extracted from models, and ends with a team project on real data.",
+  "topics": [
+    "**DL basics**: CNNs, RNNs, Transformers, self-supervision",
+    "**Genomic data**: sequencing, expression, variants, single-cell",
+    "**Supervised prediction**: disease risk, drug response, regulation",
+    "**Unsupervised/generative**: clustering, VAEs, diffusion, protein design",
+    "**Interpretability**: attribution, motifs, attention",
+    "**Paper discussion and guest lectures**",
+    "**Real-data project**"
+  ],
+  "prereq": "Calculus, linear algebra, probability/statistics (CS 109); machine learning (CS 229); no genomics background required.",
+  "assess": "Paper discussion plus a team project and assignments. Check the current syllabus for details.",
+  "who": "Bioinformatics, computational biology, medical AI, and AI4Science; biology backgrounds moving into ML.",
+  "tips": "Take CS 229 first. Pick a dataset with a clear biological question; don't just chase accuracy.",
+  "tags": ["AI4Bio", "Genomics", "Healthcare", "Deep learning"],
+  "note": "Offered in Spring 2026–27; no stable course-site link found."
+}

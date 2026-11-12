@@ -1,0 +1,23 @@
+{
+  "slug": "cs287-data-centric-ai-for-healthcare",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Data-centric AI for healthcare: how data is generated, how bias/missingness/leakage break models, and how to fix it.",
+  "pos": "Taught by Emily Alsentzer, Jason Fries, and others, CS 287 takes the opposite view from most ML courses: it studies data, not models. It discusses how clinical workflows, documentation habits, and institutional practices introduce bias, noise, missingness, and spurious correlations, and gives practical methods for data quality, labeling, synthetic data, and drift monitoring.",
+  "topics": [
+    "**Data generation**: clinical workflows, documentation, institutions",
+    "**Data quality**: bias, noise, missingness, spurious correlations",
+    "**Label leakage**: detection and avoidance",
+    "**Labeling strategies**: scalable, accurate annotation",
+    "**Synthetic data**: privacy, augmentation, risks",
+    "**Drift and monitoring**: data/model drift",
+    "**Generalization and robustness**",
+    "**Cases and project**"
+  ],
+  "prereq": "Machine learning basics; interest in healthcare data.",
+  "assess": "Case discussion plus a project/assignment. Check the current syllabus for details.",
+  "who": "Medical AI, clinical data science, and data engineering; anyone frustrated by 'the model is great but breaks in production'.",
+  "tips": "It complements CS 277: 277 is models, 287 is data. Try to touch a real clinical data workflow for the project.",
+  "tags": ["Healthcare", "Data", "Data-centric", "Robustness"],
+  "note": "Offered in Winter 2026–27; no stable course-site link found."
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "cs329z-engineering-ai-agents",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Engineering methodology from LLM pipelines to compound AI systems to autonomous agents: choose the problem, decompose it, pick components, and evaluate.",
+  "pos": "CS 329Z is one of the closest courses to the AI engineer role, taught by Diyi Yang and others. It emphasizes that an agent is not one model but a compound system of LLMs, retrievers, tools, and optimizers; students build RAG, tool use, and an agent loop from scratch, then move to frameworks such as DSPy.",
+  "topics": [
+    "**Compound AI systems**: design patterns for multi-component systems",
+    "**RAG**: retrieval, reranking, context management, evaluation",
+    "**Tool use**: function calling, tool selection, error handling",
+    "**Agent loop**: planning, execution, reflection, termination conditions",
+    "**DSPy**: declarative optimization of prompts and pipelines",
+    "**Data curation and evaluation**: building eval sets, offline/online metrics",
+    "**Design trade-offs**: latency, cost, quality, controllability",
+    "**Three applied homework assignments + a quarter-long project**"
+  ],
+  "prereq": "Programming ability; LLM basics (prompting, API use); ML background is a plus.",
+  "assess": "Three fully applied homework assignments plus a quarter-long project, focused on building, optimizing, and evaluating. Check the current syllabus for details.",
+  "who": "Aspiring AI engineers/agent engineers; people moving from backend/ML to LLM applications; founders.",
+  "tips": "It complements CS 224V: 224V is research/formal, 329Z is engineering/eval. Don't just get the demo running — make the evaluation solid.",
+  "tags": ["Agent", "Engineering", "RAG", "Eval"],
+  "note": ""
+}

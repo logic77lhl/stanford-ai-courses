@@ -1,0 +1,22 @@
+{
+  "slug": "cs372-agi-reasoning-planning",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Reasoning, planning, and decision-making for AGI: from System 1 to System 2, multi-LLM collaboration, and temporal reasoning.",
+  "pos": "Taught by Edward Chang, CS 372 is a research-oriented course on moving LLMs from pattern matching to deliberate reasoning and planning. It covers multi-LLM collaboration, entropy-guided information exchange, constitutional AI, and temporal reasoning, with healthcare as an application case.",
+  "topics": [
+    "**System 1 vs System 2**: intuition and deliberate reasoning",
+    "**Multi-LLM collaboration**: the MACI framework, role division, debate",
+    "**Information exchange**: entropy guidance, uncertainty propagation",
+    "**Constitutional AI**: principle constraints, self-correction",
+    "**Temporal reasoning and planning**: time awareness, long-horizon tasks",
+    "**Applications**: diagnosis, treatment planning, and more",
+    "**Project**: implement an AGI-style reasoning system"
+  ],
+  "prereq": "Machine learning and deep learning basics.",
+  "assess": "Lectures/discussion plus a hands-on project. Check the current syllabus for details.",
+  "who": "Graduate students interested in AGI, reasoning, planning, and multi-agent systems; people comfortable with speculative material.",
+  "tips": "Listen critically: some concepts (such as 'consciousness') are contested. Focus on verifiable reasoning and planning methods.",
+  "tags": ["AGI", "Reasoning", "Planning", "Multi-agent"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing; no stable course-site link found."
+}

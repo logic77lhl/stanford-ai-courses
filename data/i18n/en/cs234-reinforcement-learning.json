@@ -1,0 +1,23 @@
+{
+  "slug": "cs234-reinforcement-learning",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "The core reinforcement learning course: MDPs, value iteration, policy gradients, exploration, with deep RL in the assignments.",
+  "pos": "CS 234 covers the main line of RL from tabular methods to deep RL, with an emphasis on how autonomous systems make decisions through trial and error. It fits sequential decision-making in robotics, games, recommendation, and healthcare, and is a prerequisite for CS 224R/CS 332.",
+  "topics": [
+    "**MDP basics**: returns, Bellman equations, policy evaluation",
+    "**Dynamic programming**: value iteration, policy iteration",
+    "**Model-free methods**: Monte Carlo, TD, Q-learning, SARSA",
+    "**Function approximation**: linear approximation, deep Q-networks",
+    "**Policy gradients**: REINFORCE, actor-critic, PPO",
+    "**Exploration**: ε-greedy, UCB, Thompson sampling",
+    "**Deep RL and offline RL**: stability issues in practice",
+    "**Project**: usually train an agent on a control or game task"
+  ],
+  "prereq": "Fluent Python; CS 229 or equivalent ML background; linear algebra and probability.",
+  "assess": "Typically 3–4 assignments plus a midterm and a project; at least one deep RL assignment. Check the current syllabus for details.",
+  "who": "Robotics, RL research, game AI, and recommender systems; anyone working on embodied AI.",
+  "tips": "Master MDPs and dynamic programming before deep RL. For the exploration part, read Chapters 2–3 of Sutton & Barto.",
+  "tags": ["RL", "Decision-making", "Robotics"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing; this page is based on the most recent offering."
+}

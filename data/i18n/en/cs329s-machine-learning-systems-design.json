@@ -1,0 +1,22 @@
+{
+  "slug": "cs329s-machine-learning-systems-design",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "ML systems design: from data management to deployment and monitoring, plus privacy, fairness, and security.",
+  "pos": "CS 329S is a project-based ML systems course about the engineering beyond the model: managing data, choosing models, scaling training, monitoring production, and coordinating teams. It also covers privacy, fairness, and security — the real-world issues every system faces.",
+  "topics": [
+    "**Data engineering**: data management, labeling, versioning, quality",
+    "**Model selection**: baselines, evaluation, error analysis",
+    "**Training and scaling**: distributed systems, cost, experiment management",
+    "**Deployment**: serving, batch/stream, latency and throughput",
+    "**Monitoring and iteration**: drift, rollback, A/B",
+    "**People and society**: privacy, fairness, security, teamwork",
+    "**Project**: design and implement an ML system"
+  ],
+  "prereq": "At least one of CS 229/230/231N/224N; familiarity with one framework (PyTorch/TF/JAX).",
+  "assess": "Mainly a project plus assignments/reading. Check the current syllabus for details.",
+  "who": "ML engineers moving from model tuning to systems; researchers who want engineering skills; technical product managers.",
+  "tips": "Pair with 'Designing Machine Learning Systems'. The project should include monitoring and rollback, not just a model.",
+  "tags": ["MLSys", "Engineering", "Deployment", "Project"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing; the link points to the course materials site."
+}

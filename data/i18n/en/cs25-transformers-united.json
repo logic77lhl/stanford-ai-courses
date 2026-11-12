@@ -1,0 +1,21 @@
+{
+  "slug": "cs25-transformers-united",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "The public lecture series of the Transformer universe: one top researcher each week on LLMs, generation, robotics, and science.",
+  "pos": "CS 25 is one of Stanford's most popular 1-unit seminars, with speakers from OpenAI, Anthropic, Google DeepMind, NVIDIA, and elsewhere. There are no assignments — attendance is enough — and lectures are streamed and recorded, making it a fast way to scan the frontier.",
+  "topics": [
+    "**Transformer architecture**: attention, positional encoding, variants",
+    "**LLMs**: pre-training, alignment, reasoning, agents",
+    "**Generative models**: images, video, audio, 3D",
+    "**Robotics and embodiment**: VLAs, world models",
+    "**Scientific applications**: medicine, neuroscience, materials",
+    "**Industry perspective**: models, compute, products"
+  ],
+  "prereq": "Basic deep learning and Transformer knowledge (understand attention), or CS 224N/CS 231N/CS 230.",
+  "assess": "1 unit, S/NC, attendance only; no assignments.",
+  "who": "Anyone — students, engineers, and researchers who want a low-cost way to track the frontier; also useful as group-meeting or course supplementary material.",
+  "tips": "You can watch the YouTube recordings without enrolling. Write down three takeaways per talk, or you will forget them.",
+  "tags": ["Transformer", "Lectures", "Frontier"],
+  "note": "CS 25 is not offered in the 2026–27 ExploreCourses listing; the cross-listed SYMSYS 25 is offered in Spring 2027. CS 25 has run many times before, and lecture recordings are on YouTube."
+}

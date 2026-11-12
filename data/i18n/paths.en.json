@@ -1,0 +1,44 @@
+[
+  {
+    "name": "LLM / Agent Engineering",
+    "short": "AI engineer, agent products, LLM applications",
+    "desc": "From NLP foundations to agent engineering and training language models from scratch. The focus is evaluation, not just demos.",
+    "steps": ["CS 224N", "CS 329Z", "CS 224V", "CS 336"],
+    "also": ["CS 329H", "CS 329T", "CS 224G", "CS 25", "MS&E 203"]
+  },
+  {
+    "name": "ML Research / PhD",
+    "short": "PhD, ML theory / generative models / RL",
+    "desc": "Build supervised learning, unsupervised learning, and learning theory first, then go deep in one direction.",
+    "steps": ["CS 229", "CS 229M", "CS 236", "CS 234"],
+    "also": ["STATS 315A", "CS 228", "CS 330", "CS 332"]
+  },
+  {
+    "name": "CV / Generation / 3D",
+    "short": "Vision, 3D generation, graphics",
+    "desc": "Recognition → generative models → 3D representation and rendering, forming a complete vision and graphics stack.",
+    "steps": ["CS 231N", "CS 236", "CS 348N", "CS 468"],
+    "also": ["CS 231A", "CS 236G", "CS 348I", "CS 448I"]
+  },
+  {
+    "name": "Robotics / Embodied AI",
+    "short": "Robotics, embodied AI, autonomous driving",
+    "desc": "Kinematics and control → autonomous systems → learning and manipulation → embodied research.",
+    "steps": ["CS 223A", "CS 237A", "CS 237B", "CS 381"],
+    "also": ["CS 225A", "CS 227A", "CS 234", "CS 231N"]
+  },
+  {
+    "name": "MLSys / Inference",
+    "short": "Training/inference infrastructure, AI chips",
+    "desc": "From ML system design to inference serving, then accelerators and networking.",
+    "steps": ["CS 229S", "CS 349D", "CS 349E", "CS 217"],
+    "also": ["CS 329S", "CS 349F", "CS 149", "MS&E 319"]
+  },
+  {
+    "name": "AI4Science / Health",
+    "short": "Computational biology, medical AI, scientific discovery",
+    "desc": "ML foundations → domain data → medical/biological FMs → frontier lectures.",
+    "steps": ["CS 229", "CS 273B", "CS 277", "EE 292R"],
+    "also": ["CS 279", "CS 287", "CS 375", "CS 286"]
+  }
+]

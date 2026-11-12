@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS 349F · Fabric Architectures For AI Systems | Stanford AI Course Map</title>
+<meta name="description" content="The network fabric of AI clusters: fat trees, congestion control, and scheduling, aiming for ultra-low latency and near-100% goodput.">
+<meta name="theme-color" content="#09090b">
+<meta property="og:title" content="CS 349F · Fabric Architectures For AI Systems | Stanford AI Course Map">
+<meta property="og:description" content="The network fabric of AI clusters: fat trees, congestion control, and scheduling, aiming for ultra-low latency and near-100% goodput.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="en" href="https://logic77lhl.github.io/stanford-ai-courses/en/courses/cs349f-fabric-architectures-for-ai-systems.html">
+<link rel="alternate" hreflang="zh-CN" href="https://logic77lhl.github.io/stanford-ai-courses/courses/cs349f-fabric-architectures-for-ai-systems.html">
+<link rel="alternate" hreflang="x-default" href="https://logic77lhl.github.io/stanford-ai-courses/courses/cs349f-fabric-architectures-for-ai-systems.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23d4b176' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4b176'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topin">
+    <a class="brand" href="../index.html">Stanford AI <span>Course Map</span></a>
+    <nav class="nav" id="nav"><a href="../index.html#map">Map</a><a href="../index.html#courses" class="on">Courses</a><a href="../paths.html">Paths</a><a href="../semester.html">Semester</a><a href="../prereqs.html">Prereqs</a><a href="../bilibili.html">Bilibili</a><a href="../index.html#about">About</a></nav>
+    <a class="lang" href="../../courses/cs349f-fabric-architectures-for-ai-systems.html">中文</a>
+    <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
+    <button class="menu" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<main>
+<div class="wrap">
+  <a class="back" href="../index.html#courses">← Back to the course map</a>
+
+  <section class="course-hero">
+    <div class="course-poster">
+      <span class="cp-kicker">Stanford · 2026—27</span>
+      <span class="cp-code">CS 349F</span>
+      <span class="cp-cat">ML Systems &amp; Hardware</span>
+      <span class="cp-stars">★★★★☆</span>
+    </div>
+    <div class="course-head">
+      <p class="kicker">Core course · ML Systems &amp; Hardware</p>
+      <h1>Fabric Architectures For AI Systems</h1>
+      <p class="course-en">中文：AI 系统的网络 Fabric 架构</p>
+      <p class="course-one">The network fabric of AI clusters: fat trees, congestion control, and scheduling, aiming for ultra-low latency and near-100% goodput.</p>
+      <p class="note-inline">Draft translation: official facts are checked; wording may change after native review.</p>
+      <p class="note-inline">Offered in Autumn 2026–27; the official site is restricted, so only the ExploreCourses link is provided.</p>
+      <div class="meta-chips">
+        <span>2 units</span>
+        <span>Autumn 2026</span>
+        <span>Satisfactory/No Credit</span>
+        <span>★★★★☆</span>
+      </div>
+      <div class="tagrow"><span>Networking</span><span>Clusters</span><span>Data centers</span><span>Systems</span></div>
+    </div>
+  </section>
+
+  <div class="course-layout">
+    <article class="course-main">
+      <section class="prose">
+        <h2>Course positioning</h2>
+        <p>CS 349F focuses on the interconnect networks of large GPU/CPU clusters and on time-sensitive systems such as financial trading and multiplayer games. It covers data-center fabric architectures, transport protocols, congestion control, load balancing, and scheduling, with industry experts discussing real cluster design and operations.</p>
+      </section>
+
+      <section class="prose">
+        <h2>What it covers</h2>
+        <ol class="topic-list"><li><strong>Data-center fabric</strong>: fat trees, leaf-spine, topologies</li><li><strong>Transport protocols</strong>: RDMA, RoCE, congestion control</li><li><strong>Load balancing</strong>: ECMP, packet spraying</li><li><strong>Scheduling</strong>: job scheduling, fabric scheduling, interaction</li><li><strong>Edge vs network-centric</strong>: two high-performance paths</li><li><strong>Industry cases</strong>: GPU clusters, trading systems</li></ol>
+      </section>
+
+      <section class="prose two">
+        <div><h2>Prerequisites</h2><p>CS 144/CS 140 or distributed-systems basics; EE 178 helps.</p></div>
+        <div><h2>Assessment &amp; workload</h2><p>2 units, S/NC; discussion plus a project/case study. Check the current syllabus for details.</p></div>
+      </section>
+
+      <section class="prose two">
+        <div><h2>Who it&#x27;s for</h2><p>Networking, clusters, and data centers; anyone working on AI infrastructure.</p></div>
+        <div><h2>Study advice</h2><p>Read it with CS 349D/E to get the full single-machine, cluster, and network picture.</p></div>
+      </section>
+
+      <section class="prose">
+        <h2>Related courses</h2>
+        <div class="related-grid"><a class="relcard" href="cs349d-ai-inference-infrastructure.html"><span>CS 349D</span><b>AI Inference Infrastructure</b></a><a class="relcard" href="cs349e-efficient-ml-inference-at-scale.html"><span>CS 349E</span><b>Efficient ML Inference at Scale (EE 339)</b></a></div>
+      </section>
+
+      <section class="prose">
+        <details class="official">
+          <summary>Official course description</summary>
+          <p>The course is concerned with the design and operation of the network fabrics which interconnect large-scale compute and storage nodes in modern AI GPU clusters, cloud computing systems, and &amp;quot;time-sensitive systems&amp;quot; like financial trading platforms and massive multi-player games. We will consider architectures, protocols and algorithms which enable these network fabrics to deliver deterministic and ultra-low latency at near-100% goodput. Topics include data center fabric architectures - the fat tree topology, transport protocols - congestion control and load balancing, and scheduling algorithms - job scheduling, fabric scheduling and their interaction. A particular focus will be the contrast and synergy between the edge- and network-centric approaches to building high-performance network fabrics. Students will hear from industry experts who design, operate and use large-scale GPU and CPU clusters. Recommended: Knowledge of basic Networking, OS, or Distributed Systems (CS 144, 140, or equivalent), as well as basic EE courses (EE 178) will be useful.</p>
+        </details>
+      </section>
+    </article>
+
+    <aside class="course-aside">
+      <div class="aside-card">
+        <div class="aside-head"><h3>Quick facts</h3></div>
+        <dl class="facts">
+          <div><dt>Course</dt><dd>CS 349F</dd></div>
+          <div><dt>Term</dt><dd>Autumn 2026</dd></div>
+          <div><dt>Units</dt><dd>2</dd></div>
+          <div><dt>Grading</dt><dd>Satisfactory/No Credit</dd></div>
+          <div><dt>Instructors</dt><dd>Prabhakar, B.; Rosenblum, M.</dd></div>
+          <div><dt>Difficulty</dt><dd>★★★★☆</dd></div>
+        </dl>
+      </div>
+      <div class="aside-card">
+        <div class="aside-head"><h3>Resources</h3></div>
+        <a class="res" href="https://explorecourses.stanford.edu/search?view=catalog&academicYear=20262027&q=CS+349F" target="_blank" rel="noopener"><span>ExploreCourses</span><b>↗</b></a>
+        <a class="res" href="../../courses/cs349f-fabric-architectures-for-ai-systems.html"><span>Read this page in Chinese</span><b>↗</b></a>
+        <a class="res" href="https://github.com/logic77lhl/stanford-ai-courses/blob/main/courses/en/cs349f-fabric-architectures-for-ai-systems.md" target="_blank" rel="noopener"><span>Markdown on GitHub</span><b>↗</b></a>
+      </div>
+    </aside>
+  </div>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p class="footbrand">Stanford AI · Course Map</p>
+    <p>2026–27 · Unofficial. Course information is based on <a href="https://explorecourses.stanford.edu/" target="_blank" rel="noopener">ExploreCourses</a>; always check the official syllabus.</p>
+    <p><a href="../index.html#about">About this edition</a> · <a href="../../courses/cs349f-fabric-architectures-for-ai-systems.html">中文完整版</a></p>
+  </div>
+</footer>
+<script src="../../assets/app.js"></script>
+
+</body>
+</html>

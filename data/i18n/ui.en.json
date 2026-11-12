@@ -1,0 +1,70 @@
+{
+  "lang": "en",
+  "site": "Stanford AI Course Map",
+  "brand": "Stanford AI",
+  "brand_sub": "Course Map",
+  "nav": {
+    "map": "Map",
+    "courses": "Courses",
+    "paths": "Paths",
+    "semester": "Semester",
+    "prereqs": "Prerequisites",
+    "bilibili": "Bilibili",
+    "about": "About"
+  },
+  "categories": {
+    "基础核心": "Foundations",
+    "LLM 与 Agent": "LLMs & Agents",
+    "ML 系统与硬件": "ML Systems & Hardware",
+    "视觉、图形与生成": "Vision, Graphics & Generative Models",
+    "机器人、具身智能": "Robotics & Embodied AI",
+    "AI for Science 与医疗": "AI for Science & Health",
+    "产品、伦理与设计": "Product, Ethics & Design",
+    "统计与优化": "Statistics & Optimization"
+  },
+  "sections": {
+    "positioning": "Course positioning",
+    "topics": "What it covers",
+    "prereq": "Prerequisites",
+    "assessment": "Assessment & workload",
+    "who": "Who it's for",
+    "tips": "Study advice",
+    "related": "Related courses",
+    "resources": "Resources",
+    "official": "Official course description",
+    "facts": "Quick facts",
+    "markdown": "Markdown",
+    "core": "Core course",
+    "ext": "Related course"
+  },
+  "table": {
+    "course": "Course",
+    "units": "Units",
+    "terms": "Terms",
+    "grading": "Grading",
+    "instructors": "Instructors",
+    "prereq": "Prerequisites",
+    "difficulty": "Difficulty",
+    "tags": "Tags",
+    "item": "Item",
+    "detail": "Detail"
+  },
+  "terms": {
+    "2026-2027 Autumn": "Autumn 2026",
+    "2026-2027 Winter": "Winter 2027",
+    "2026-2027 Spring": "Spring 2027",
+    "2026-2027 Summer": "Summer 2027",
+    "none": "Not scheduled in 2026–27"
+  },
+  "index": {
+    "kicker": "Stanford · 2026–27",
+    "title": "Stanford AI / ML / Agent<br><em>course map</em>",
+    "lede": "Stanford's AI courses are scattered across CS, EE, STATS, MS&E, CME, AA, PSYCH, and SymSys. This map turns them into one browsable path: in-depth overviews of the core courses, a full course table, and six learning paths.",
+    "pilot": "Full English edition: {total} core + 70 related courses, plus paths, semester, prerequisites, and Bilibili.",
+    "browse": "Browse the Chinese site →",
+    "courses": "Translated courses",
+    "about": "About this translation",
+    "about_body": "All 125 course pages have an English version, translated from the Chinese notes in this repo. Official course titles, descriptions, units, terms, and instructors come from Stanford ExploreCourses. Related-course pages keep the official record and a short English one-liner.",
+    "footnote": "Unofficial map. Course information is based on Stanford ExploreCourses (2026–27) and course sites; always check the official syllabus."
+  }
+}

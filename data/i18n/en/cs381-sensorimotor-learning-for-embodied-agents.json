@@ -1,0 +1,22 @@
+{
+  "slug": "cs381-sensorimotor-learning-for-embodied-agents",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Sensorimotor learning for embodied agents: from raw perception to decisions, continuously adapting to the physical world.",
+  "pos": "CS 381 (EE 381) is Shuran Song's advanced course for graduate students who want to do research on large models + robotics. It discusses the difference between embodied AI and internet AI, learning from raw perception to decisions, and continuous adaptation through hardware/software, with an emphasis on paper reading, critical discussion, and projects.",
+  "topics": [
+    "**Embodied AI**: definitions, differences from internet AI",
+    "**Sensorimotor learning**: vision, touch, proprioception",
+    "**Policy learning**: imitation, RL, world models",
+    "**Continual adaptation**: online learning, domain shift",
+    "**Hardware/software co-design**: sensors, actuators, morphology",
+    "**Paper reading and debate**",
+    "**Research project**"
+  ],
+  "prereq": "Deep learning, robotics/RL basics; research-oriented.",
+  "assess": "Paper reading/presentation/debate plus a project. Check the current syllabus for details.",
+  "who": "People who want to do embodied AI research, robot learning, or VLA; students preparing for a PhD.",
+  "tips": "Take CS 227A/CS 237B/CS 234 first. The project needs a real robot or a high-fidelity simulation.",
+  "tags": ["Embodied AI", "Robotics", "Research", "VLA"],
+  "note": "Offered in Winter 2026–27; no stable course-site link found."
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cs224w-machine-learning-with-graphs",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Graph machine learning: GNNs, knowledge graphs, and influence maximization — turning relational data into learnable representations.",
+  "pos": "Taught by Jure Leskovec, CS 224W is one of the most popular courses on graph neural networks. It covers graph structure analysis, node/graph representation learning, GNNs, knowledge-graph reasoning, propagation and influence, with applications in social networks, recommendation, biological networks, and fraud detection.",
+  "topics": [
+    "**Graph basics**: centrality, community detection, power laws, graph generation",
+    "**Node embeddings**: DeepWalk, node2vec, matrix factorization",
+    "**GNNs**: GCN, GraphSAGE, GAT, message passing",
+    "**Knowledge graphs**: TransE, RotatE, querying and reasoning",
+    "**Propagation and influence**: independent cascade, linear threshold, influence maximization",
+    "**Graph generation and self-supervision**: graph contrastive learning, diffusion",
+    "**Project**: usually prediction/analysis on real graph data"
+  ],
+  "prereq": "CS 109; one introductory machine learning course.",
+  "assess": "Assignments plus a project; programming is mainly PyTorch/PyG. Check the current syllabus for details.",
+  "who": "Social networks, recommendation, risk control, biological networks, and knowledge graphs; anyone who wants to model non-Euclidean data.",
+  "tips": "Understand the message-passing paradigm before learning GNN variants. The project can build on CS 246's large-scale data methods.",
+  "tags": ["Graphs", "GNN", "Representation learning"],
+  "note": ""
+}

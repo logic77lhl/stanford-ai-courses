@@ -1,0 +1,21 @@
+{
+  "slug": "cs224g-apps-with-llms-inside",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "LLM application development: ship apps in sprints and understand model capability boundaries and the new programming paradigm.",
+  "pos": "CS 224G is a project course that treats the LLM as a new CPU and explores how to build applications around it. It runs in two-week sprints with industry guest lectures, and suits people who want to ship a demo quickly.",
+  "topics": [
+    "**LLM capabilities and limits**: hallucination, context, cost",
+    "**Prompting**: structured prompts, few-shot, role setting",
+    "**Tools and retrieval**: function calling, RAG, external APIs",
+    "**Application architecture**: frontend, backend, streaming, state management",
+    "**Fast iteration**: sprints, user feedback, metrics",
+    "**Project**: build an LLM-native app"
+  ],
+  "prereq": "Programming ability; basic ML/LLM awareness; no research background required.",
+  "assess": "Two-week sprint assignments plus a final project and guest lectures. Check the current syllabus for details.",
+  "who": "People who want to build LLM products or startups; product managers, designers, full-stack engineers.",
+  "tips": "It complements CS 329Z: 224G is product cadence, 329Z is systems and eval. Define the user problem before choosing a model.",
+  "tags": ["LLM", "Product", "Project"],
+  "note": ""
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cs223a-introduction-to-robotics",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Robotics fundamentals: kinematics, statics, dynamics, planning, and control.",
+  "pos": "CS 223A (ME 320) is taught by Oussama Khatib and is the classic introduction to robotics. It covers spatial transformations, forward/inverse kinematics, Jacobians and statics, dynamics, trajectory planning, and classical control, with demos on physical robot platforms/simulation.",
+  "topics": [
+    "**Spatial transformations**: rotation matrices, homogeneous transforms, quaternions",
+    "**Forward/inverse kinematics**: DH parameters, analytical/numerical IK",
+    "**Jacobians and statics**: velocity mapping, force transmission",
+    "**Dynamics**: Lagrangian, Newton-Euler",
+    "**Trajectories and planning**: interpolation, obstacle avoidance, RRT",
+    "**Control**: PID, computed torque, impedance control",
+    "**Project/lab**"
+  ],
+  "prereq": "Matrix algebra; programming basics.",
+  "assess": "Assignments plus a project/exam. Check the current syllabus for details.",
+  "who": "Robotics beginners; people interested in manipulation, control, or embodied AI; ME/EE/CS backgrounds all fit.",
+  "tips": "Brush up on linear algebra and rigid-body transforms first. Pair with CS 225A for hands-on work.",
+  "tags": ["Robotics", "Kinematics", "Control", "Foundations"],
+  "note": "Offered in Winter 2026–27; the official site is unavailable, so only the ExploreCourses link is provided."
+}

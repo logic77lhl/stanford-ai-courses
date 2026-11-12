@@ -1,0 +1,21 @@
+{
+  "slug": "cs329t-trustworthy-machine-learning",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Trustworthy agent systems: build a prototype, then use evaluation to make it reliable.",
+  "pos": "CS 329T is a project-based course on the theme 'prototypes are easy, reliability is hard'. It covers foundation models, prompting, RAG, and agentic architectures, with an evaluation method for each; students finish with an evaluation-driven trustworthy agent application.",
+  "topics": [
+    "**FMs and prompting**: capability boundaries, prompt patterns",
+    "**RAG**: retrieval, citations, hallucination control",
+    "**Agentic architectures**: planning, tools, memory, multi-agent",
+    "**Evaluation**: offline metrics, LLM-as-judge, human evaluation, red teaming",
+    "**Reliability**: failure modes, robustness, monitoring",
+    "**Team project**: build and evaluate an agent application"
+  ],
+  "prereq": "CS 229 or an equivalent Python ML course; deep learning (CS 230/CS 231N); familiarity with scikit-learn/Keras.",
+  "assess": "Intro assignments (RAG/agent) plus a team project and an evaluation report. Check the current syllabus for details.",
+  "who": "People who want to build agent products, AI evaluation, or trustworthy AI; anyone who can build a demo and wants evaluation methodology.",
+  "tips": "Pair with CS 329Z: 329Z is more full-stack engineering, 329T is more trust + evaluation. Define metrics before writing code.",
+  "tags": ["Agent", "Trustworthy", "Eval", "Project"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

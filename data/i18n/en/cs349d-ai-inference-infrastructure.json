@@ -1,0 +1,22 @@
+{
+  "slug": "cs349d-ai-inference-infrastructure",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "AI inference infrastructure: how compound AI systems are deployed, scheduled, and scaled in the cloud.",
+  "pos": "Taught by Christos Kozyrakis, CS 349D is a research seminar focused on inference rather than training. It argues that future AI systems are compound systems (multiple models + retrieval + tools + traditional software) and discusses the cloud infrastructure, scheduling, and architecture patterns that support them.",
+  "topics": [
+    "**Inference serving**: batching, continuous batching, KV cache",
+    "**Compound AI systems**: multi-component orchestration, dataflow",
+    "**Cloud infrastructure**: elasticity, multi-tenancy, cost",
+    "**Scheduling and routing**: model routing, priorities, SLAs",
+    "**Latency/throughput/cost**: trade-offs and optimization",
+    "**Industry practice**: guest lectures from Databricks, OpenAI, NVIDIA, etc.",
+    "**Quarter-long project**"
+  ],
+  "prereq": "Systems/architecture/ML basics; distributed-systems experience helps.",
+  "assess": "Paper discussion plus guest lectures and a 2–3 person team project. Check the current syllabus for details.",
+  "who": "People who want to work on inference platforms, AI infrastructure, or cloud systems; systems-oriented graduate students.",
+  "tips": "Pair with CS 349E for single-machine/cluster performance and CS 349F for networking. Base the project on a real serving stack.",
+  "tags": ["Inference", "Infrastructure", "Cloud", "Systems"],
+  "note": ""
+}

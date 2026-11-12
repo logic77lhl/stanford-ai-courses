@@ -1,0 +1,22 @@
+{
+  "slug": "stats202-statistical-learning-and-data-science",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "An introduction to statistical learning: regression/classification, regularization, trees/ensembles, SVMs, neural networks, and clustering.",
+  "pos": "STATS 202 is the core data-science course in the statistics department, taught by Robert Tibshirani and others. It covers the main supervised and unsupervised methods from a statistical perspective, emphasizing model selection, evaluation, and interpretability. It is more applied and inference-oriented than CS 229, and suits people interested in data science.",
+  "topics": [
+    "**Regression**: linear, polynomial, logistic, LDA",
+    "**Model evaluation**: cross-validation, bootstrap, model selection",
+    "**Regularization**: ridge, lasso, elastic net",
+    "**Nonlinear methods**: splines, GAMs, trees, random forests, boosting",
+    "**SVMs**: kernels, margins",
+    "**Neural networks and Transformers**: basics and applications",
+    "**Unsupervised**: PCA, k-means, hierarchical clustering"
+  ],
+  "prereq": "Probability/statistics and linear algebra; programming (R/Python).",
+  "assess": "Assignments plus an exam/project. Check the current syllabus for details.",
+  "who": "Data science, statistical analysis, and business analytics; ML learners who want a statistical perspective.",
+  "tips": "It complements CS 229: 202 emphasizes model evaluation and statistical inference, 229 emphasizes algorithm derivations.",
+  "tags": ["Statistical learning", "Data science", "Regression"],
+  "note": ""
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cs231a-computer-vision-3d",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Computer vision from camera models to 3D reconstruction: geometry first, deep learning second.",
+  "pos": "CS 231A is the classic course on 3D vision and geometry, complementing CS 231N: 231N leans recognition and deep learning, while 231A leans cameras, projection, stereo, SfM, and 3D understanding. It is more mathematical and geometric, and suits people interested in AR/VR, robotics, and autonomous-driving perception.",
+  "topics": [
+    "**Cameras and projection**: pinhole model, intrinsics/extrinsics, distortion",
+    "**Image processing**: filtering, edges, feature points",
+    "**Segmentation and clustering**: classical and learned methods",
+    "**Stereo vision**: epipolar geometry, depth estimation",
+    "**SfM and SLAM basics**: structure from motion",
+    "**Recognition**: objects, scenes, faces, actions",
+    "**Project**: 3D reconstruction or a vision application"
+  ],
+  "prereq": "Linear algebra; basic probability and statistics; programming.",
+  "assess": "Assignments plus a project, including geometric derivations and implementation. Check the current syllabus for details.",
+  "who": "3D vision, robotics, AR/VR, and autonomous-driving perception; CV students who want geometry foundations.",
+  "tips": "Take CS 231N first or concurrently. Derive epipolar geometry and bundle adjustment by hand.",
+  "tags": ["CV", "3D", "Geometry", "Reconstruction"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cs217-hardware-accelerators-for-ml",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "ML hardware accelerators: dataflow, tensor processing, memory hierarchy, compilation, and mapping CNNs/Transformers.",
+  "pos": "CS 217 (EE 244) is taught by Olukotun and Tambe and is a classic course on AI chips. It starts from the compute patterns of CNNs/Transformers and covers accelerator architecture, dataflow, memory hierarchy, low precision/sparsity, and compilation, ending with a design project.",
+  "topics": [
+    "**AI compute patterns**: CNNs, Transformers, training vs inference",
+    "**Accelerator architecture**: systolic arrays, tensor cores, dataflow",
+    "**Memory hierarchy**: on-chip buffers, HBM, data reuse",
+    "**Low precision and sparsity**: quantization, pruning, compression",
+    "**Compilation and mapping**: operator scheduling, tiling",
+    "**Energy and area**: system-level trade-offs",
+    "**Design project**"
+  ],
+  "prereq": "Digital circuits/computer architecture; VLSI or FPGA experience helps.",
+  "assess": "Paper reading plus a final design project. Check the current syllabus for details.",
+  "who": "People who want to work on AI chips, accelerators, or architecture; hardware people who want to understand ML workloads.",
+  "tips": "Understand roofline and matrix-multiply tiling first. Pair with CS 149/CS 349E.",
+  "tags": ["Hardware", "Accelerators", "Architecture", "Chips"],
+  "note": ""
+}

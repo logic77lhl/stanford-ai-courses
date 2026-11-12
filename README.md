@@ -11,6 +11,8 @@
 
 **在线站点**：<https://logic77lhl.github.io/stanford-ai-courses/>
 
+**English**：全站双语（125 门课程页 + 路径 / 学期 / 先修 / B站页）：<https://logic77lhl.github.io/stanford-ai-courses/en/>；中文站：<https://logic77lhl.github.io/stanford-ai-courses/>
+
 Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymSys 等院系，编号从 CS 25 到 CS 528，还有大量 1 学分 seminar。这个仓库把它们按方向整理成一张地图：**每门核心课一份 Markdown 速览**，另附完整课程总表、学习路径和延伸课程；`docs/` 下是可直接浏览的 GitHub Pages 站点。
 
 [![站点预览](docs/assets/preview.png)](https://logic77lhl.github.io/stanford-ai-courses/)
@@ -31,12 +33,15 @@ Stanford 的 AI 课程分散在 CS、EE、STATS、MS&E、CME、AA、PSYCH、SymS
 ├── PLAYBOOK.md               # 交给 AI 的复现手册（换学校/领域）
 ├── playbooks/                # 10 个领域模板 + 通用骨架 + 主提示词
 ├── courses/                  # 55 门核心课程，每门一份速览
+├── courses/en/               # 英文速览（55 门核心课）
 ├── docs/                     # GitHub Pages 站点（index.html + 125 个课程页）
+├── docs/en/                  # 英文站（125 个课程页 + 5 个导航页）
 ├── docs/learning-paths.md    # 六条学习路径的详细说明
 ├── data/
 │   ├── courses.json          # 机器可读的课程数据
 │   ├── catalog.json          # ExploreCourses 原始整理
 │   ├── courses/              # 手写源数据（按方向分文件）
+│   ├── i18n/                 # 英文翻译层（ui.en.json / glossary.json / en/*.json）
 │   ├── resources.json        # 视频 / 代码 / 工具等资源
 │   ├── lectures/             # 每门课一个 JSON：逐讲大纲 / 课件 / B站链接
 │   ├── prereqs.json          # 先修关系图数据

@@ -1,0 +1,21 @@
+{
+  "slug": "cs225a-experimental-robotics",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Experimental robotics: hands-on kinematics, dynamics, control, compliance, and collision avoidance for robot arms.",
+  "pos": "CS 225A is Khatib's lab course, emphasizing making robots actually move. It covers robot-arm kinematics, dynamics, control, compliant control, sensor-based collision avoidance, and human interfaces; the second half is an open project.",
+  "topics": [
+    "**Robot-arm kinematics**: forward/inverse solutions, workspace",
+    "**Dynamics**: rigid-body dynamics, parameter identification",
+    "**Control**: PID, computed torque, impedance/compliance",
+    "**Collision avoidance**: sensors, artificial potential fields",
+    "**Human interfaces**: teleoperation, shared control",
+    "**Open project**: drawing, air hockey, table tennis, etc."
+  ],
+  "prereq": "CS 223A or equivalent.",
+  "assess": "Labs/assignments plus a final project demo. Check the current syllabus for details.",
+  "who": "People who want hands-on robotics, manipulation, or control; undergraduates/master's students preparing for a robotics lab.",
+  "tips": "Take CS 223A first. When forming teams, cover control, perception, and software.",
+  "tags": ["Robotics", "Lab", "Control", "Project"],
+  "note": ""
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "cs279-computational-biology",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Computational biology: protein structure prediction/design, molecular simulation, drug screening, and microscopy image analysis.",
+  "pos": "Taught by Ron Dror, CS 279 covers the three themes of structure, dynamics, and design in computational biology. It goes from protein structure prediction to protein design, drug screening, molecular dynamics, cell simulation, and microscopy image analysis — a core course for understanding AI4Bio in the AlphaFold era.",
+  "topics": [
+    "**Protein structure prediction**: AlphaFold, Rosetta, homology modeling",
+    "**Protein design**: directed evolution, generative design",
+    "**Drug screening**: docking, virtual screening, ML scoring",
+    "**Molecular simulation**: MD, free energy, enhanced sampling",
+    "**Cell simulation**: networks, spatial modeling",
+    "**Microscopy image analysis**: segmentation, tracking, super-resolution",
+    "**Structure determination**: crystallography, cryo-EM",
+    "**Project**"
+  ],
+  "prereq": "CS 106A; introductory biology/biochemistry.",
+  "assess": "Assignments plus a project, possibly with paper discussion. Check the current syllabus for details.",
+  "who": "Computational biology, drug discovery, and AI4Science; biology/chemistry backgrounds moving into computing.",
+  "tips": "Brush up on molecular biology first. Pair with CS 273B for machine learning.",
+  "tags": ["AI4Bio", "Proteins", "Drug discovery", "Simulation"],
+  "note": ""
+}

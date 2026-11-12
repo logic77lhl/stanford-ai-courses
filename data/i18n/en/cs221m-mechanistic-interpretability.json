@@ -1,0 +1,22 @@
+{
+  "slug": "cs221m-mechanistic-interpretability",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Mechanistic interpretability: probing, steering, causal abstraction, and sparse autoencoders — understanding what a model is actually computing.",
+  "pos": "Taught by Thomas Icard, CS 221M is one of the few courses that systematically teaches mechanistic interpretability. It emphasizes causal methods rather than 'looking at pictures', covering probing, steering, causal abstraction, SAEs, and circuits, with guest lectures from academic and industry interpretability labs.",
+  "topics": [
+    "**Probing**: linear probes, representation analysis, limitations",
+    "**Steering**: activation interventions, direction vectors, causal tracing",
+    "**Causal abstraction**: causal graphs, interventions, abstraction mappings",
+    "**Sparse autoencoders**: dictionary learning, feature decomposition, monosemanticity",
+    "**Circuits**: attention heads, MLP neurons, composition",
+    "**LLM internals**: fact recall, reasoning, deception",
+    "**Interpretability and safety**: using it for auditing and alignment"
+  ],
+  "prereq": "Deep learning/LLM basics; probability and linear algebra; having read about Transformers helps.",
+  "assess": "Assignments plus a project/paper reproduction; research- and discussion-oriented. Check the current syllabus for details.",
+  "who": "People who want to do interpretability, AI safety, or model auditing; researchers who want to understand LLM internals.",
+  "tips": "Read Anthropic's 'Towards Monosemanticity' and 'Scaling Monosemanticity' first, plus the causal-abstraction papers.",
+  "tags": ["Interpretability", "LLM", "Safety", "Research"],
+  "note": ""
+}

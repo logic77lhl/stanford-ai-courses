@@ -1,0 +1,22 @@
+{
+  "slug": "cs231n-deep-learning-for-computer-vision",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "The best-known deep-learning course in computer vision: from kNN to Transformers, with assignments that make you hand-write backpropagation and train CNNs.",
+  "pos": "CS 231N is the standard entry point to visual recognition and emphasizes the full implement–train–debug loop. Its assignment design (A1–A3 plus a final project) has been borrowed by many courses, and for many people it is the first place a neural network actually runs.",
+  "topics": [
+    "**Image classification**: kNN, linear classifiers, losses and optimization",
+    "**Neural networks**: backpropagation, multilayer networks, activations",
+    "**CNN architectures**: AlexNet, VGG, ResNet, efficient networks",
+    "**Training engineering**: initialization, normalization, regularization, learning rates, data augmentation",
+    "**Visualization and interpretability**: saliency maps, feature visualization, adversarial examples",
+    "**Detection and segmentation**: R-CNN family, YOLO, semantic/instance segmentation",
+    "**Frontier topics**: video, generative models, multimodality, Transformers",
+    "**Final project**: usually a real vision task"
+  ],
+  "prereq": "Fluency in Python/NumPy; calculus and linear algebra (MATH 19/51); basic probability and statistics (CS 109 level).",
+  "assess": "Three programming assignments plus a final project; the workload is heavy but worth it. Check the current syllabus for details.",
+  "who": "People aiming at CV, multimodality, robot perception, or autonomous driving; engineers who want the low-level implementation skills behind deep learning; prospective vision PhD students.",
+  "tips": "Hand-write BatchNorm in A2 and the Transformer in A3 instead of copying. For the final project, don't just chase SOTA — a small, well-explained error analysis is more convincing.",
+  "tags": ["CV", "DL", "Vision", "Project"]
+}

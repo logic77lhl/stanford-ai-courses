@@ -1,0 +1,21 @@
+{
+  "slug": "mse203-building-and-evaluating-ai-products",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Build an AI product and agent from 0 to 1: AI fit, latency/quality/cost, evaluation, and Demo Day.",
+  "pos": "MS&E 203 is a project-based course where students build a real AI product in one quarter. It requires justifying why AI is needed, handling latency/quality/cost trade-offs, rigorously evaluating the system, and presenting at Demo Day. Before enrolling, students complete self-study modules on git, AI coding tools, eval frameworks, and APIs.",
+  "topics": [
+    "**AI fit**: what problems suit AI/agents",
+    "**Product definition**: users, scenarios, value",
+    "**Latency/quality/cost**: engineering trade-offs",
+    "**Evaluation**: offline/online metrics, LLM-as-judge",
+    "**Team build**: from individual mechanisms to a team product",
+    "**Demo Day**: presentation and review"
+  ],
+  "prereq": "Upper-level undergraduates/master's students; programming ability; capacity about 48 students (12 teams × 4).",
+  "assess": "Mainly a project plus Demo Day; individual/team assignments may be included. Check the current syllabus for details.",
+  "who": "People who want to start a company or build AI products; MS&E, CS, SymSys, EE backgrounds; anyone who needs a portfolio.",
+  "tips": "Build a complementary team (engineering + design + business). Don't pick too large a problem; evaluation matters more than the demo.",
+  "tags": ["Product", "Agent", "Eval", "Startups"],
+  "note": ""
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cs277-foundation-models-for-healthcare",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Foundation models for healthcare: training, evaluating, and deploying NLP/CV/multimodal FMs.",
+  "pos": "CS 277 discusses how generative AI and self-supervised foundation models are changing healthcare. It covers NLP, CV, and multimodal models, both adapting general models to healthcare and building healthcare-specific FMs, with attention to evaluation, deployment, and real clinical needs.",
+  "topics": [
+    "**Self-supervised FMs**: pre-training, representation learning",
+    "**Clinical NLP**: clinical text, QA, summarization",
+    "**Medical imaging**: classification, segmentation, report generation",
+    "**Multimodality**: imaging + text + omics",
+    "**Evaluation and deployment**: clinical metrics, regulation, bias",
+    "**Ethics and privacy**",
+    "**Project**"
+  ],
+  "prereq": "CS 229/231N/224N-level ML background.",
+  "assess": "Assignments plus a project/paper discussion. Check the current syllabus for details.",
+  "who": "Medical AI, clinical data science, and medical imaging; engineers/researchers entering healthcare FMs.",
+  "tips": "Take CS 231N or CS 224N first. Pay attention to privacy and regulatory constraints on clinical data.",
+  "tags": ["Healthcare", "Foundation models", "Multimodality"],
+  "note": ""
+}

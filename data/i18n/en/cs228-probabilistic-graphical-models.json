@@ -1,0 +1,22 @@
+{
+  "slug": "cs228-probabilistic-graphical-models",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "A systematic course on probabilistic graphical models: representation, inference, and learning — the foundation for Bayesian methods and structured prediction.",
+  "pos": "CS 228 is the classic PGM course, covering Bayesian and Markov networks, HMMs, exact and approximate inference, and parameter/structure learning. Its way of encoding uncertainty with graph structure has long-term value for NLP, computational biology, causal inference, and robotics.",
+  "topics": [
+    "**Representation**: Bayesian networks, Markov networks, factor graphs",
+    "**Exact inference**: variable elimination, belief propagation, junction trees",
+    "**Approximate inference**: variational inference, MCMC, importance sampling",
+    "**Parameter learning**: MLE, EM, latent-variable models",
+    "**Structure learning**: score-based search, constraint-based methods",
+    "**Temporal models**: HMMs, dynamic Bayesian networks",
+    "**Applications**: speech, biology, medical diagnosis, vision, robot planning"
+  ],
+  "prereq": "Basic probability; algorithm design and analysis.",
+  "assess": "Assignments plus a midterm and a project; a mix of math and implementation. Check the current syllabus for details.",
+  "who": "People working on probabilistic modeling, causality, or Bayesian deep learning; researchers in NLP, computational biology, or robotics who need to handle uncertainty.",
+  "tips": "It complements CS 229: 229 is prediction-oriented, 228 is about structured uncertainty. Derive variable elimination and VI by hand once.",
+  "tags": ["Probability", "Graphical models", "Bayesian"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

@@ -246,7 +246,7 @@ def bili_report_url(cid: str, links: list[list[str]]) -> str:
 
 
 
-def header(base: str = "", active: str = "") -> str:
+def header(base: str = "", active: str = "", en_href: str = "en/index.html") -> str:
     def cls(key: str) -> str:
         return " class=\"on\"" if active == key else ""
 
@@ -262,6 +262,7 @@ def header(base: str = "", active: str = "") -> str:
       <a href="{base}bilibili.html"{cls("bili")}>B站</a>
       <a href="{base}index.html#about"{cls("about")}>关于</a>
     </nav>
+    <a class="lang" href="{base}{en_href}">EN</a>
     <a class="gh" href="https://github.com/logic77lhl/stanford-ai-courses" target="_blank" rel="noopener">GitHub ↗</a>
     <button class="menu" id="menuBtn" aria-label="菜单">☰</button>
   </div>
@@ -287,7 +288,15 @@ def footer(base: str = "") -> str:
 </footer>"""
 
 
-def shell(title: str, desc: str, body: str, base: str = "", active: str = "", extra_scripts: str = "") -> str:
+def shell(
+    title: str,
+    desc: str,
+    body: str,
+    base: str = "",
+    active: str = "",
+    extra_scripts: str = "",
+    en_href: str = "en/index.html",
+) -> str:
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -303,7 +312,7 @@ def shell(title: str, desc: str, body: str, base: str = "", active: str = "", ex
 <link rel="stylesheet" href="{base}assets/style.css">
 </head>
 <body>
-{header(base, active)}
+{header(base, active, en_href)}
 <main>
 {body}
 </main>
@@ -584,7 +593,7 @@ def course_page(c: dict, all_courses: list[dict], resources: dict, lectures: dic
 
   <div class="pagerrow">{pager}</div>
 </div>"""
-    return shell(f"{c['id']} · {c['zh']} | Stanford AI 课程地图", c["one"], body, base="../", active="courses")
+    return shell(f"{c['id']} · {c['zh']} | Stanford AI 课程地图", c["one"], body, base="../", active="courses", en_href=f"en/courses/{c['slug']}.html")
 
 
 def bili_card(c: dict, lectures: dict) -> str:
@@ -717,7 +726,7 @@ def index_page(courses: list[dict], resources: dict, lectures: dict) -> str:
     </div>
   </div>
 </section>"""
-    return shell("Stanford AI / ML / Agent 课程地图", "Stanford 2026–27 AI/ML/Agent 课程地图：55 门核心课深度速览、70 门延伸课、6 条学习路径。", body, active="map", extra_scripts='<script src="assets/courses.js"></script>')
+    return shell("Stanford AI / ML / Agent 课程地图", "Stanford 2026–27 AI/ML/Agent 课程地图：55 门核心课深度速览、70 门延伸课、6 条学习路径。", body, active="map", extra_scripts='<script src="assets/courses.js"></script>', en_href="en/index.html")
 
 
 def paths_page(courses: list[dict]) -> str:
@@ -750,7 +759,7 @@ def paths_page(courses: list[dict]) -> str:
   </section>
   {''.join(blocks)}
 </div>"""
-    return shell("学习路径 | Stanford AI 课程地图", "六条 Stanford AI/ML/Agent 学习路径：LLM/Agent、ML 研究、CV/生成、机器人、MLSys、AI4Science。", body, active="paths")
+    return shell("学习路径 | Stanford AI 课程地图", "六条 Stanford AI/ML/Agent 学习路径：LLM/Agent、ML 研究、CV/生成、机器人、MLSys、AI4Science。", body, active="paths", en_href="en/paths.html")
 
 
 def bilibili_page(courses: list[dict], lectures: dict) -> str:
@@ -785,7 +794,7 @@ def bilibili_page(courses: list[dict], lectures: dict) -> str:
   </section>
   {''.join(groups)}
 </div>"""
-    return shell("B站资源 | Stanford AI 课程地图", "Stanford AI/ML/Agent 课程的 B 站搬运与中配资源汇总。", body, active="bili")
+    return shell("B站资源 | Stanford AI 课程地图", "Stanford AI/ML/Agent 课程的 B 站搬运与中配资源汇总。", body, active="bili", en_href="en/bilibili.html")
 
 
 def semester_page(courses: list[dict]) -> str:
@@ -841,7 +850,7 @@ def semester_page(courses: list[dict]) -> str:
   </section>
   {''.join(blocks)}
 </div>"""
-    return shell("按学期选课 | Stanford AI 课程地图", "Stanford 2026–27 AI/ML/Agent 课程按学期（秋/冬/春/夏）整理的选课清单。", body, active="semester")
+    return shell("按学期选课 | Stanford AI 课程地图", "Stanford 2026–27 AI/ML/Agent 课程按学期（秋/冬/春/夏）整理的选课清单。", body, active="semester", en_href="en/semester.html")
 
 
 def prereq_svg(courses: list[dict], prereqs: dict) -> str:
@@ -926,12 +935,12 @@ def prereqs_page(courses: list[dict], prereqs: dict) -> str:
     <div class="prereq-grid">{items}</div>
   </section>
 </div>"""
-    return shell("先修关系图 | Stanford AI 课程地图", "Stanford AI/ML/Agent 核心课的先修关系图与先修要求汇总。", body, active="prereqs")
+    return shell("先修关系图 | Stanford AI 课程地图", "Stanford AI/ML/Agent 核心课的先修关系图与先修要求汇总。", body, active="prereqs", en_href="en/prereqs.html")
 
 
 def not_found() -> str:
     body = """<div class="wrap"><section class="page-hero"><p class="kicker">404</p><h1>这门课不在地图上</h1><p>链接可能变了。回到 <a href="index.html">课程地图</a> 重新找。</p></section></div>"""
-    return shell("404 | Stanford AI 课程地图", "页面不存在", body)
+    return shell("404 | Stanford AI 课程地图", "页面不存在", body, en_href="en/index.html")
 
 
 def main() -> None:

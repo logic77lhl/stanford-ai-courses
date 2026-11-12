@@ -1,0 +1,20 @@
+{
+  "slug": "cs229-machine-learning",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Stanford's flagship ML course: a single probabilistic and statistical frame that connects supervised learning, unsupervised learning, and learning theory.",
+  "pos": "CS 229 is one of Stanford's most classic and influential machine-learning courses, and it goes noticeably deeper than CS 230. It is less about how to call a model and more about the assumptions, losses, optimization, and generalization behind it — the foundation for research or a PhD.",
+  "topics": [
+    "**Supervised learning**: linear/logistic regression, GLMs, SVMs, kernels, trees and ensembles",
+    "**Learning theory**: bias-variance, regularization, feature selection, generalization and model selection",
+    "**Unsupervised learning**: k-means, GMMs, EM, PCA, ICA, density estimation",
+    "**Deep learning basics**: neural networks, backpropagation, training techniques",
+    "**Reinforcement learning**: MDPs, value iteration, policy search, adaptive control",
+    "**Course project**: usually an open-ended ML research or application project"
+  ],
+  "prereq": "Python/NumPy programming (CS 106A/B level); probability (CS 109/MATH 151/STATS 116); multivariable calculus and linear algebra (MATH 51/CS 205).",
+  "assess": "Typically 4–5 problem sets plus a midterm and a final project; about 10–15 hours per week. Check the current syllabus for exact weights.",
+  "who": "People who want to understand the math behind ML and later do research or a PhD; engineers who already use scikit-learn but want the derivations and theory; interview candidates who want more than memorized answers.",
+  "tips": "Write the problem-set derivations yourself, especially GLMs, the SVM dual, and EM. Pair it with CS 229M or STATS 315A to fill in the theory side.",
+  "tags": ["ML", "Foundations", "Math", "Statistics"]
+}

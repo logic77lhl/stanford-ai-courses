@@ -1,0 +1,23 @@
+{
+  "slug": "cs448i-computational-imaging",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Computational imaging: from convolution/denoising to inverse problems, wave optics, and end-to-end optics-algorithm co-design.",
+  "pos": "CS 448I (EE 367) is taught by Gordon Wetzstein and is a core course in computational photography/imaging. It combines classical image processing, convex optimization, and modern AI, covering denoising, deconvolution, single-pixel imaging, ToF, wave optics, and end-to-end joint optimization of optics and algorithms.",
+  "topics": [
+    "**Image processing basics**: convolution, filtering, denoising",
+    "**Inverse problems**: deconvolution, regularization, proximal gradient",
+    "**CNNs for imaging**: image restoration, learned priors",
+    "**Single-pixel imaging**: coded apertures, compressed sensing",
+    "**Wave optics**: diffraction, holography, phase retrieval",
+    "**ToF imaging**: depth measurement, multipath",
+    "**End-to-end optimization**: joint optics + algorithm design",
+    "**Project**"
+  ],
+  "prereq": "Signal/image processing/optimization basics; Python programming.",
+  "assess": "Assignments plus a term project, emphasizing implementation. Check the current syllabus for details.",
+  "who": "Computational photography, imaging systems, AR/VR, and microscopy/medical imaging.",
+  "tips": "Brush up on linear algebra and signals & systems first. Pair with EE 367.",
+  "tags": ["Imaging", "Inverse problems", "Optics", "CV"],
+  "note": "Offered in Winter 2026–27; no stable course-site link found."
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cs468-topics-in-geometric-computing",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "A special-topics course in geometric computing, recently focused on 3D/4D foundation models.",
+  "pos": "CS 468 is a topics course whose content changes each offering; past years covered geometric matching, surface reconstruction, collision detection, computational topology, computer differential geometry, data-driven shape analysis, and non-Euclidean machine learning. Recent offerings shifted to 3D/4D foundation models; it suits graduate students with a geometry/graphics background.",
+  "topics": [
+    "**Geometric matching**: rigid/non-rigid registration",
+    "**Surface reconstruction**: point clouds to meshes, implicit representations",
+    "**Collision detection**: spatial data structures",
+    "**Computational topology**: persistent homology, topological data analysis",
+    "**Differential geometry**: discrete surfaces, curvature",
+    "**3D/4D foundation models**: multimodal 3D representations, dynamic scenes",
+    "**Paper reading and project**"
+  ],
+  "prereq": "Graphics/geometry/vision background; programming and mathematical maturity.",
+  "assess": "Paper discussion plus a project/reproduction. Check the current syllabus for details.",
+  "who": "Graduate students in 3D vision, graphics, or geometry processing; people interested in 3D foundation models.",
+  "tips": "Take CS 148/CS 231A first. Topics change every year; read the current syllabus before enrolling.",
+  "tags": ["Geometry", "3D", "Graphics", "Topics"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

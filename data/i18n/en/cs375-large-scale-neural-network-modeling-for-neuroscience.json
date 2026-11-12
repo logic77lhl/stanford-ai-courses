@@ -1,0 +1,23 @@
+{
+  "slug": "cs375-large-scale-neural-network-modeling-for-neuroscience",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Model the brain with large-scale neural networks: vision, audition, motor control, language, and decision-making as convergent evolution.",
+  "pos": "Taught by Dan Yamins, CS 375 (PSYCH 249) is a core course at the intersection of computational neuroscience and AI. It discusses how the internal components of artificial networks correspond to real brain structure, covering feedforward perception, recurrent dynamics, attention/memory/navigation, language Transformers, self-supervision, and deep RL, and teaches how to quantitatively compare models with neural data.",
+  "topics": [
+    "**Feedforward perception models**: vision, audition, somatosensation",
+    "**Recurrent networks**: dynamics, motor control",
+    "**Attention/memory/navigation**: integrated models",
+    "**Language and Transformers**: modeling language areas",
+    "**Self-supervised learning**: comparison with brain learning",
+    "**Deep RL**: decision-making and planning",
+    "**Model-neural data comparison**: RSA, encoding models, metrics",
+    "**Project**"
+  ],
+  "prereq": "Modern neural network background (one of CS 229/230/231N/234/236/330); no cognitive science/neuroscience background required.",
+  "assess": "Paper discussion plus a project. Check the current syllabus for details.",
+  "who": "NeuroAI, computational neuroscience, and AI interpretability; people who want to use AI to understand the brain.",
+  "tips": "Take CS 231N or CS 224N first. Pair with CS 322/EE 292R for a broader view.",
+  "tags": ["NeuroAI", "Computational neuroscience", "AI4Science"],
+  "note": ""
+}

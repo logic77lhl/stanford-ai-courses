@@ -1,0 +1,21 @@
+{
+  "slug": "cs349f-fabric-architectures-for-ai-systems",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "The network fabric of AI clusters: fat trees, congestion control, and scheduling, aiming for ultra-low latency and near-100% goodput.",
+  "pos": "CS 349F focuses on the interconnect networks of large GPU/CPU clusters and on time-sensitive systems such as financial trading and multiplayer games. It covers data-center fabric architectures, transport protocols, congestion control, load balancing, and scheduling, with industry experts discussing real cluster design and operations.",
+  "topics": [
+    "**Data-center fabric**: fat trees, leaf-spine, topologies",
+    "**Transport protocols**: RDMA, RoCE, congestion control",
+    "**Load balancing**: ECMP, packet spraying",
+    "**Scheduling**: job scheduling, fabric scheduling, interaction",
+    "**Edge vs network-centric**: two high-performance paths",
+    "**Industry cases**: GPU clusters, trading systems"
+  ],
+  "prereq": "CS 144/CS 140 or distributed-systems basics; EE 178 helps.",
+  "assess": "2 units, S/NC; discussion plus a project/case study. Check the current syllabus for details.",
+  "who": "Networking, clusters, and data centers; anyone working on AI infrastructure.",
+  "tips": "Read it with CS 349D/E to get the full single-machine, cluster, and network picture.",
+  "tags": ["Networking", "Clusters", "Data centers", "Systems"],
+  "note": "Offered in Autumn 2026–27; the official site is restricted, so only the ExploreCourses link is provided."
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cs281-ethics-of-artificial-intelligence",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "The technical side of AI ethics: fairness, interpretability, privacy, and the formal limits of these methods.",
+  "pos": "CS 281 is not pure philosophical discussion; it uses ML methods to address fairness, bias, transparency, and privacy. The course identifies unfair or untruthful problems through cases, applies detection and mitigation techniques, and discusses the formal limits and real trade-offs of these techniques.",
+  "topics": [
+    "**Fairness**: group/individual fairness, definitions and conflicts",
+    "**Bias detection**: data bias, model bias, auditing",
+    "**Mitigation**: pre-processing, regularization, post-processing",
+    "**Interpretability**: attribution, counterfactuals, intrinsic interpretability",
+    "**Privacy**: differential privacy, membership inference",
+    "**Formal limits**: impossibility results, trade-offs",
+    "**Cases and project**"
+  ],
+  "prereq": "CS 229 or equivalent ML background.",
+  "assess": "Assignments plus a project/paper. Check the current syllabus for details.",
+  "who": "People who want responsible AI, AI auditing, or policy technology; anyone who wants a hands-on ethics course.",
+  "tips": "Pair with CS 139 for the human perspective and CS 221M for model internals.",
+  "tags": ["Ethics", "Fairness", "Interpretability", "Privacy"],
+  "note": "Not offered in the 2026–27 ExploreCourses listing."
+}

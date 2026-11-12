@@ -1,0 +1,22 @@
+{
+  "slug": "cs139-human-centered-ai",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Norvig's human-centered AI: user mental models, trustworthy design, fairness, and ethics.",
+  "pos": "Taught by Peter Norvig, CS 139 discusses how AI systems are understood and used by people. It focuses on users' mental models of AI, how trust forms, explainability, fairness and justice, and AI's impact on the economy and daily life; it is not a model-training course but a course on making AI useful and acceptable to people.",
+  "topics": [
+    "**User models**: how people understand AI, how expectations form",
+    "**Trustworthy design**: explainable, predictable, correctable",
+    "**Fairness and justice**: bias, distributive justice, procedural justice",
+    "**Economic and social impact**: jobs, power, the information ecosystem",
+    "**Ethical frameworks**: respect for persons, beneficence, fairness",
+    "**Design principles**: turning principles into products",
+    "**Case discussions**"
+  ],
+  "prereq": "No strong technical prerequisites; interest in AI products/policy/ethics.",
+  "assess": "Reading/discussion plus a paper/project. Check the current syllabus for details.",
+  "who": "Product managers, designers, and policy/law backgrounds; technical people who want the human dimension.",
+  "tips": "Pair with CS 281 for technical fairness/interpretability and CS 247A for design practice.",
+  "tags": ["Human-centered AI", "Ethics", "Product", "Interpretability"],
+  "note": "Offered in Winter 2026–27; no stable course-site link found."
+}

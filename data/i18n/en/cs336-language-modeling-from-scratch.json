@@ -1,0 +1,23 @@
+{
+  "slug": "cs336-language-modeling-from-scratch",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Build a language model from scratch: data cleaning, tokenizer, Transformer, training, scaling, evaluation, and deployment.",
+  "pos": "CS 336 is one of the most hard-core LLM courses, taught by Percy Liang and Tatsunori Hashimoto. Inspired by 'build an OS from scratch', it walks through the full language-model lifecycle; the assignments need substantial GPU compute, and enrollment requires an application.",
+  "topics": [
+    "**Data**: collection, cleaning, deduplication, filtering, mixing",
+    "**Tokenization**: BPE, vocabulary design, multilingual issues",
+    "**Model**: Transformer architecture, attention variants, positional encoding",
+    "**Training**: initialization, optimizers, learning rates, mixed precision, distributed training",
+    "**Scaling**: scaling laws, compute-optimal configurations",
+    "**Evaluation**: perplexity, benchmarks, contamination, alignment evaluation",
+    "**Deployment**: inference, quantization, serving",
+    "**Safety and ethics**: data copyright, bias, misuse"
+  ],
+  "prereq": "Strong programming; deep learning background (CS 224N/CS 231N/CS 230 level); application required, GPU resources recommended.",
+  "assess": "Typically about five programming assignments that build the LM step by step, plus a project; compute-heavy. Check the current syllabus for details.",
+  "who": "People who want to understand the full LLM stack and later work on pre-training/inference/systems; founders building models.",
+  "tips": "Take CS 224N or CS 231N first. Without GPUs you can run small models, but the assignment experience will be limited.",
+  "tags": ["LLM", "Pre-training", "Systems", "Hard-core"],
+  "note": ""
+}

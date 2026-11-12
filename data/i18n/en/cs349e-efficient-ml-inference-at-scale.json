@@ -1,0 +1,22 @@
+{
+  "slug": "cs349e-efficient-ml-inference-at-scale",
+  "status": "draft",
+  "updated": "2026-11-12",
+  "one": "Efficient inference at scale: model optimization, distributed serving, AI hardware, kernels, and compilers.",
+  "pos": "CS 349E (EE 339) is taught by Mark Horowitz, Fredrik Kjolstad, and others — a hard-core mix of systems, algorithms, and hardware. It discusses how to serve large models on heterogeneous machines with low latency, high throughput, and low cost, covering quantization, distributed serving, performance modeling, kernel programming, and AI compilers.",
+  "topics": [
+    "**Model optimization**: quantization, pruning, distillation, speculative decoding",
+    "**Distributed serving**: tensor parallelism, pipelines, prefill/decode disaggregation",
+    "**AI hardware**: GPUs/TPUs/accelerators, the memory wall",
+    "**Performance modeling**: roofline, bandwidth/compute/latency",
+    "**Kernel programming**: CUDA/Triton, fusion, tiling",
+    "**AI compilers**: graph optimization, operator selection, code generation",
+    "**Project**: end-to-end inference optimization"
+  ],
+  "prereq": "Computer architecture, operating systems, ML basics; strong programming.",
+  "assess": "Assignments plus a project, focused on implementation and measurement. Check the current syllabus for details.",
+  "who": "Graduate students/engineers working on inference performance, AI chips, or compilers; systems people going deeper into ML.",
+  "tips": "Brush up on CS 217/CS 149 first. Be ready to run benchmarks, not just read paper numbers.",
+  "tags": ["Inference", "Performance", "Hardware", "Compilers"],
+  "note": ""
+}
